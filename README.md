@@ -6,6 +6,7 @@ Ce dépôt regroupe les documents et références auparavant placés dans le dos
 | --- | --- |
 | [Interface M2.4](ui-m24.md) | Description technique de l'interface |
 | [Performances du rendu](renderer-performance.md) | Mesures et fonctionnement du cache de rendu |
+| [Colons 3D et apparence](colonist-models.md) | Recettes partagées, variantes Blender, rendu, cache et interactions |
 | [Références graphiques](reference/README.md) | Mockups, concepts, intentions visuelles et plans |
 | [Planche ASCII](golden-sheet/README.md) | Référence visuelle historique du rendu ASCII |
 

@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "startedAtUtc": "2026-09-10T13:12:22.4423482+00:00",
+  "completedAtUtc": "2026-09-10T13:12:40.078543+00:00",
+  "visualWarmupSeconds": 0.4,
+  "benchmarkWarmupSeconds": 1,
+  "benchmarkMeasurementSeconds": 3,
+  "maximumPercentileSamples": 200000,
+  "timing": {
+    "source": "MonoGame GameTime.ElapsedGameTime supplied once per rendered frame",
+    "scope": "Observed frame cadence including CPU work and any presentation/driver waits; not GPU execution time",
+    "excluded": "No Core simulation, AI, pathfinding workload, or production-world integration",
+    "sampling": "Whole positive frame intervals after warmup; final interval may extend past the three-second window",
+    "percentiles": "Linear interpolation of sorted frame times; if capped, the first 200000 samples are used and flagged",
+    "meanFps": "Observed frame count divided by the sum of measured frame intervals",
+    "captureCost": "PNG encoding and readback happen after each measurement window, outside measured samples"
+  },
+  "captures": [
+    {
+      "scenario": {
+        "name": "01-front-long-ecru",
+        "count": 1,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": false,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "01-front-long-ecru.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 15
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "02-walk-long-ecru",
+        "count": 1,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": true,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "02-walk-long-ecru.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 15
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "03-back-long-ecru",
+        "count": 1,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 3.1415927,
+        "walking": false,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "03-back-long-ecru.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 15
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "04-short-moustache-technical",
+        "count": 1,
+        "hair": "short",
+        "beard": "moustache",
+        "clothing": "technical",
+        "facing": 0,
+        "walking": false,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "04-short-moustache-technical.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 15
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "05-behind-wall",
+        "count": 1,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": false,
+        "position": {
+          "x": 20,
+          "y": 12.7
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "05-behind-wall.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 12.7
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "06-front-wall",
+        "count": 1,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": false,
+        "position": {
+          "x": 20,
+          "y": 14.5
+        },
+        "benchmark": false,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "06-front-wall.png",
+      "width": 1360,
+      "height": 900,
+      "performance": null,
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 1,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 48,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 20,
+          "y": 14.5
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "07-crowd-25",
+        "count": 25,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": true,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": true,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "07-crowd-25.png",
+      "width": 1360,
+      "height": 900,
+      "performance": {
+        "observedFrames": 1776,
+        "observedSeconds": 3.0005710999999975,
+        "meanFrameMilliseconds": 1.6895107545045032,
+        "p50FrameMilliseconds": 1.5896000000000001,
+        "p95FrameMilliseconds": 2.42125,
+        "meanFps": 591.8873243830154,
+        "percentileSampleCount": 1776,
+        "percentileSamplesCapped": false
+      },
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 25,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 32,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 21.566326,
+          "y": 15.571859
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "08-crowd-100",
+        "count": 100,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": true,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": true,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "08-crowd-100.png",
+      "width": 1360,
+      "height": 900,
+      "performance": {
+        "observedFrames": 609,
+        "observedSeconds": 3.001167200000002,
+        "meanFrameMilliseconds": 4.9280249589491,
+        "p50FrameMilliseconds": 4.7786,
+        "p95FrameMilliseconds": 5.591480000000001,
+        "meanFps": 202.9210501834085,
+        "percentileSampleCount": 609,
+        "percentileSamplesCapped": false
+      },
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 100,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 32,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 16.89979,
+          "y": 14.099239
+        },
+        "cryopodOrbitCorners": null
+      }
+    },
+    {
+      "scenario": {
+        "name": "09-crowd-250",
+        "count": 250,
+        "hair": "long",
+        "beard": "long",
+        "clothing": "diagonal",
+        "facing": 0,
+        "walking": true,
+        "position": {
+          "x": 20,
+          "y": 15
+        },
+        "benchmark": true,
+        "objectQuarterTurns": 0,
+        "objectOpening": 0,
+        "visualSeconds": 0.4,
+        "outline": false
+      },
+      "image": "09-crowd-250.png",
+      "width": 1360,
+      "height": 900,
+      "performance": {
+        "observedFrames": 244,
+        "observedSeconds": 3.006533499999999,
+        "meanFrameMilliseconds": 12.321858606557372,
+        "p50FrameMilliseconds": 11.989449999999998,
+        "p95FrameMilliseconds": 14.06996,
+        "meanFps": 81.15658781117858,
+        "percentileSampleCount": 244,
+        "percentileSamplesCapped": false
+      },
+      "statistics": {
+        "graphics": "NVIDIA GeForce RTX 4080 SUPER/PCIe/SSE2",
+        "count": 250,
+        "meshBankVertices": 192667,
+        "meshBankTriangles": 365326,
+        "bones": 53,
+        "shadows": true,
+        "outline": false,
+        "viewport": {
+          "width": 1360,
+          "height": 900
+        },
+        "cameraCellSize": 24,
+        "objectMode": false,
+        "cryopodOpening": null,
+        "cryopodQuarterTurns": null,
+        "cryopodBones": null,
+        "actorPosition": {
+          "x": 12.800975,
+          "y": 9.776857
+        },
+        "cryopodOrbitCorners": null
+      }
+    }
+  ]
+}
