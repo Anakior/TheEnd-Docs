@@ -201,6 +201,16 @@ Les captures de cas ciblés utilisent les mêmes widgets et les mêmes projectio
   puis sortie ;
 - `THEEND_SHOT_INITIAL=1` : capture du premier composite jouable, avant tout tick de simulation ;
 - `THEEND_SHOT_HOME=1` : cadrage de la baie de réveil ;
+- `THEEND_SHOT_FEATURE=Rubble|HeavyDebris|WeldedSeal` : cadrage d'un obstacle ou sceau
+  réellement présent. Le harnais choisit un pont qui en contient ; avec `THEEND_SHOT_HOME=1`,
+  il reste sur le pont de départ. Ce réglage ne crée aucun obstacle et conserve son état ;
+- `THEEND_SEAL_STUDY=plate|bars|seam` : étude de la porte condamnée, à associer à la capture
+  `WeldedSeal`. Les traverses (`bars`) ont été retenues ; les trois premiers corps de porte
+  de l'[étude 3D](reference/door-3d-study/comparison.png) ont été rejetés avec leur décor.
+  La [recherche suivante](reference/door-3d-study/direction-dans-vaisseau.md) est une proposition
+  graphique générée à partir de la capture réelle et de la matière choisie, à examiner.
+  Ces variantes restent désactivées par défaut. La [première planche comparative](reference/sealed-door-study/comparison.png)
+  conserve les captures du jeu ; les études et concepts sont séparés de ces captures ;
 - `THEEND_SHOT_SELECT=1` : sélection d'une personne visible ;
 - `THEEND_SHOT_DOSSIER=1` : ouverture du vrai dossier, avec centrage si le personnage est hors cadre ;
 - `THEEND_SHOT_FIXTURE=1` : sélection d'un objet réel via le hit-test du monde ;

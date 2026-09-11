@@ -81,15 +81,18 @@ du créateur ; ajouter un choix impose de compléter son raccord.
 ## Positions, animation et interactions
 
 La position affichée vient de `ActorWorldPosition`, déjà utilisé par le clic et la simulation.
+À **1×**, un colon parcourt **3 cases par seconde** sur un axe, en sprite comme en vectoriel.
+`ColonistMoveSystem.TicksPerStep` vaut 20 à 60 ticks/s ; une diagonale prend 28 ticks.
+Ce réglage réduit la vitesse de déplacement de 40 % par rapport aux 5 cases/s précédentes,
+sans ralentir l'horloge du monde. Les portes conservent leur durée liée au pas : un pas
+pour une porte ordinaire, deux pour une porte pressurisée.
+
 Le cycle de marche avance selon la distance réellement parcourue et le `stride` du clip,
-avec un coefficient visuel de **0,5** dans `ActorMotion`. À vitesse de jeu normale, le
-déplacement horizontal couvre cinq cases par seconde : le clip décrit alors environ
-1,93 cycle par seconde, contre 3,87 sans réduction. Le précédent essai à 0,25 donnait une
-marche trop lente par rapport au déplacement, avec une forte impression de glisse.
-Ce point médian double sa cadence tout en restant à la moitié du premier essai. Il ne
-change ni les déplacements de la simulation ni le fichier Blender. La distance projetée
-tient compte de l'axe vertical. Ce réglage reste une calibration visuelle à juger en jeu ;
-il réduit le décalage mais ne verrouille pas physiquement les appuis au sol.
+avec un coefficient visuel de **0,5** dans `ActorMotion`. Sur un déplacement horizontal
+à 1×, le clip actuel décrit environ **1,16 cycle par seconde**. Ralentir le déplacement
+ralentit donc les jambes dans la même proportion, sans modifier le fichier Blender.
+La distance projetée tient compte de l'axe vertical. Ce réglage reste une calibration
+visuelle à juger en jeu ; les appuis ne sont pas physiquement verrouillés au sol.
 Redessiner la même position ou mettre en pause n'avance pas les jambes. La phase ne repart
 pas à zéro à chaque case. Un changement de monde ou de pont réinitialise l'historique local.
 
