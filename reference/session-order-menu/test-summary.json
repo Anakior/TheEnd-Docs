@@ -1,0 +1,32 @@
+{
+  "Date": "2026-09-13",
+  "DebugTargeted": {
+    "Skipped": 0,
+    "Passed": 702,
+    "Failed": 0
+  },
+  "ReleaseFull": {
+    "Skipped": 0,
+    "Passed": 5403,
+    "Failed": 0
+  },
+  "DebugClientSHA256": "D82A4C0A501ACECE6A734A669C99AF16FBBDE4E6EDAE875CFA24FEF91003DF5A",
+  "ReleaseClientSHA256": "D04CAFD319448E620BD4EAB0AAC53C389C5354C3498CD3C2C41342C2E01F4CE9",
+  "Build": "Debug and Release; no compiler warning or error",
+  "Formatting": "19 changed/new C# files checked with CSharpier; TheEndGame line endings corrected and rechecked",
+  "Commands": [
+    "dotnet test TheEnd.sln -c Release",
+    "dotnet test TheEnd.Tests/TheEnd.Tests.csproj -c Debug --filter \"FullyQualifiedName~TheEnd.Tests.UI|FullyQualifiedName~TheEnd.Tests.Input|FullyQualifiedName~TheEnd.Tests.Localization|FullyQualifiedName~TheEnd.Tests.Systems.InputSystemTests|FullyQualifiedName~TheEnd.Tests.Pathfinding\""
+  ],
+  "InitialFailure": "One new harness test expected right-click inside the menu to keep it open. Existing cancellation behavior is intentional. Corrected test asserts left-click body retains menu, right-click dismisses without forwarding; product input unchanged.",
+  "LatestDebugClientSHA256": "E3D13117AD5F0E432AEC3A2460957773E508EAF6F17B5C30EFE1C649CF48E30C",
+  "BinaryNote": "D82A4C0A was captured at 100%. A subsequent Debug rebuild after CSharpier line-ending normalization produced E3D13117; functional source is unchanged. Native manifests retain exact hashes for each run.",
+  "ContextRefinement": {
+    "Description": "User requested no X, no Orders/With labels; name alone in the header. Menu and actions move up by30px.",
+    "DebugPassed": 702,
+    "ReleasePassed": 700,
+    "Failures": 0,
+    "DebugClientSHA256": "5ACA57D013E161EB52380BB5AE33E6A3C999790B40BEEF29A0224BC48AD4DEF1",
+    "ReleaseClientSHA256": "88BFB74D801A1821167B547AC79B05BA1F9D0B3019F3E3916EFA0EF33BBD1045"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "Passed": false,
+  "Failure": "Capture proof invalid: THEEND_BACKEND=sprite overrode the input flag, so 04-order-vector.png still used sprites. Behavioral observations passed. Rerun required without backend environment override.",
+  "ElapsedSeconds": 39.4424135,
+  "WorkingDirectory": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\isolated-world-683a5dc189ef4a8b99886112695c3fbd",
+  "SavePath": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\isolated-world-683a5dc189ef4a8b99886112695c3fbd\\world.json",
+  "IsolatedSaveExists": true,
+  "SaveSha256": "FEC8B04E103970031AA9E7E36E14D5D4E7329AC222BAD0E05E0148B62D5E2EE7",
+  "ClientDll": "C:\\workspace\\TheEnd\\.artifacts\\session-menu\\native\\bin\\Debug\\net9.0\\TheEnd.Client.dll",
+  "ClientSha256": "D82A4C0A501ACECE6A734A669C99AF16FBBDE4E6EDAE875CFA24FEF91003DF5A",
+  "StartupOnly": false,
+  "MenusOnly": false,
+  "InputMethod": "Process-local synthetic MonoGame keyboard for TheEndGame.Update Escape; SessionMenuScreen.Update and GameInput.Update for clicks. No OS input injection.",
+  "SaveScope": "Fresh per-run working directory. Existing player world.json is neither read nor written. UI preferences are only read; no settings actions are invoked.",
+  "DataProofScope": "Continue compares the exact tick, all colonist Soul/name/cell facts and fixture count. This is a bounded native restoration check, not byte identity of every world component.",
+  "Environment": {
+    "THEEND_HEIGHT": "720",
+    "THEEND_LANGUAGE": "fr",
+    "THEEND_BACKEND": "sprite",
+    "THEEND_WALL_VOLUME": "1",
+    "THEEND_WIDTH": "1280",
+    "THEEND_UI_SCALE": "1"
+  },
+  "Captures": [
+    {
+      "Name": "01-startup.png",
+      "Path": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\01-startup.png",
+      "Sha256": "E5C44C68CA489FB5496C89F4C534FE9AD3DBE7060A45419A0785E480D92DD188",
+      "Width": 1280,
+      "Height": 720,
+      "Page": "Home",
+      "Notice": null,
+      "Tick": null,
+      "RuntimePresent": false,
+      "LoadingTaskPresent": false,
+      "Backend": null,
+      "UiScale": "1",
+      "MenuPanel": {
+        "X": 380,
+        "Y": 210,
+        "Width": 520,
+        "Height": 300
+      },
+      "OrderPanel": null
+    },
+    {
+      "Name": "02-session-saved.png",
+      "Path": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\02-session-saved.png",
+      "Sha256": "E58B1C0DF183BFDAD34B541AAC1728093738776692F6A440EDB4DBAF22423D08",
+      "Width": 1280,
+      "Height": 720,
+      "Page": "Session",
+      "Notice": "ui.session.saved",
+      "Tick": 12402,
+      "RuntimePresent": true,
+      "LoadingTaskPresent": true,
+      "Backend": "sprite",
+      "UiScale": "1",
+      "MenuPanel": {
+        "X": 380,
+        "Y": 132,
+        "Width": 520,
+        "Height": 456
+      },
+      "OrderPanel": null
+    },
+    {
+      "Name": "03-order-sprite.png",
+      "Path": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\03-order-sprite.png",
+      "Sha256": "AD098C0DB50F307462F68266B537BB1B0121A49E4A11267CC1CED8F49D3BA353",
+      "Width": 1280,
+      "Height": 720,
+      "Page": "Hidden",
+      "Notice": "ui.session.loaded",
+      "Tick": 12405,
+      "RuntimePresent": true,
+      "LoadingTaskPresent": true,
+      "Backend": "sprite",
+      "UiScale": "1",
+      "MenuPanel": null,
+      "OrderPanel": {
+        "X": 736,
+        "Y": 272,
+        "Width": 400,
+        "Height": 150
+      }
+    },
+    {
+      "Name": "04-order-vector.png",
+      "Path": "C:\\workspace\\TheEnd-Docs\\reference\\session-order-menu\\native-100\\04-order-vector.png",
+      "Sha256": "AD098C0DB50F307462F68266B537BB1B0121A49E4A11267CC1CED8F49D3BA353",
+      "Width": 1280,
+      "Height": 720,
+      "Page": "Hidden",
+      "Notice": "ui.session.loaded",
+      "Tick": 12405,
+      "RuntimePresent": true,
+      "LoadingTaskPresent": true,
+      "Backend": "vector",
+      "UiScale": "1",
+      "MenuPanel": null,
+      "OrderPanel": {
+        "X": 736,
+        "Y": 272,
+        "Width": 400,
+        "Height": 150
+      }
+    }
+  ],
+  "Observations": [
+    {
+      "Name": "Startup",
+      "Facts": {
+        "Runtime": false,
+        "LoadingTask": false,
+        "ExistingSave": false
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "NewGame",
+        "Dispatched": "NewGame",
+        "Bounds": {
+          "X": 404,
+          "Y": 334,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Hidden",
+        "Tick": null
+      }
+    },
+    {
+      "Name": "Escape",
+      "Facts": {
+        "Route": "TheEndGame.Update",
+        "ProcessLocalKeyboard": true,
+        "TemporaryActiveWindow": true,
+        "Tick": 12402,
+        "RequestedSpeed": 3,
+        "IsPaused": false
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Save",
+        "Dispatched": "Save",
+        "Bounds": {
+          "X": 404,
+          "Y": 288,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Session",
+        "Tick": 12402
+      }
+    },
+    {
+      "Name": "SessionPaused",
+      "Facts": {
+        "StartTick": 12402,
+        "EndTick": 12402,
+        "ObservedFrames": 40,
+        "IsPaused": false,
+        "RequestedSpeed": 3,
+        "NoticeKey": "ui.session.saved"
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Resume",
+        "Dispatched": "Resume",
+        "Bounds": {
+          "X": 404,
+          "Y": 210,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Hidden",
+        "Tick": 12402
+      }
+    },
+    {
+      "Name": "Resume",
+      "Facts": {
+        "BeforeTick": 12402,
+        "AfterTick": 12405,
+        "RequestedSpeed": 3,
+        "IsPaused": false
+      }
+    },
+    {
+      "Name": "Escape",
+      "Facts": {
+        "Route": "TheEndGame.Update",
+        "ProcessLocalKeyboard": true,
+        "TemporaryActiveWindow": true,
+        "Tick": 12405,
+        "RequestedSpeed": 3,
+        "IsPaused": false
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Save",
+        "Dispatched": "Save",
+        "Bounds": {
+          "X": 404,
+          "Y": 288,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Session",
+        "Tick": 12405
+      }
+    },
+    {
+      "Name": "SavedWorld",
+      "Facts": {
+        "Tick": 12405,
+        "Facts": "{\"Tick\":12405,\"Colonists\":[{\"Soul\":1,\"Name\":\"Hale Esker\",\"Position\":{\"DeckId\":0,\"X\":208,\"Y\":168}},{\"Soul\":2,\"Name\":\"Sabine Bale\",\"Position\":{\"DeckId\":1,\"X\":183,\"Y\":51}},{\"Soul\":3,\"Name\":\"Sel Ilyan\",\"Position\":{\"DeckId\":2,\"X\":49,\"Y\":162}},{\"Soul\":4,\"Name\":\"Sabine Voss\",\"Position\":{\"DeckId\":3,\"X\":192,\"Y\":48}},{\"Soul\":5,\"Name\":\"Corin Pryce\",\"Position\":{\"DeckId\":4,\"X\":179,\"Y\":57}},{\"Soul\":6,\"Name\":\"Ondine Dorne\",\"Position\":{\"DeckId\":5,\"X\":85,\"Y\":177}},{\"Soul\":7,\"Name\":\"Ludo Vale\",\"Position\":{\"DeckId\":0,\"X\":50,\"Y\":49}},{\"Soul\":8,\"Name\":\"Sophie Vale\",\"Position\":{\"DeckId\":0,\"X\":51,\"Y\":47}},{\"Soul\":9,\"Name\":\"Kaelyne Vale\",\"Position\":{\"DeckId\":0,\"X\":54,\"Y\":47}},{\"Soul\":10,\"Name\":\"Kaeron Vale\",\"Position\":{\"DeckId\":0,\"X\":55,\"Y\":47}},{\"Soul\":11,\"Name\":\"Nyx Ilyan\",\"Position\":{\"DeckId\":0,\"X\":57,\"Y\":47}},{\"Soul\":12,\"Name\":\"Hale Marek\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":57}},{\"Soul\":13,\"Name\":\"Elska Pryce\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":58}},{\"Soul\":14,\"Name\":\"Sel Jory\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":60}},{\"Soul\":15,\"Name\":\"Kael Rhyne\",\"Position\":{\"DeckId\":0,\"X\":87,\"Y\":61}},{\"Soul\":16,\"Name\":\"Perrin Saye\",\"Position\":{\"DeckId\":0,\"X\":55,\"Y\":63}},{\"Soul\":17,\"Name\":\"Dagen Corven\",\"Position\":{\"DeckId\":0,\"X\":57,\"Y\":63}},{\"Soul\":18,\"Name\":\"Noor Marek\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":76}},{\"Soul\":19,\"Name\":\"Nyx Ulric\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":78}},{\"Soul\":20,\"Name\":\"Wren Jory\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":78}},{\"Soul\":21,\"Name\":\"Iris Kade\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":80}},{\"Soul\":22,\"Name\":\"Oren Saye\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":81}},{\"Soul\":23,\"Name\":\"Oren Marek\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":83}},{\"Soul\":24,\"Name\":\"Silas Ilyan\",\"Position\":{\"DeckId\":0,\"X\":113,\"Y\":189}},{\"Soul\":25,\"Name\":\"Nyx Ulric\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":190}},{\"Soul\":26,\"Name\":\"Cassian Marek\",\"Position\":{\"DeckId\":0,\"X\":86,\"Y\":191}},{\"Soul\":27,\"Name\":\"Vane Aster\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":193}},{\"Soul\":28,\"Name\":\"Corin Lorne\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":195}},{\"Soul\":29,\"Name\":\"Kael Gale\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":199}},{\"Soul\":30,\"Name\":\"Iris Ilyan\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":199}},{\"Soul\":31,\"Name\":\"Cassian Lorne\",\"Position\":{\"DeckId\":0,\"X\":107,\"Y\":199}},{\"Soul\":32,\"Name\":\"Perrin Corven\",\"Position\":{\"DeckId\":0,\"X\":69,\"Y\":201}},{\"Soul\":33,\"Name\":\"Ivo Ward\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":207}},{\"Soul\":34,\"Name\":\"Yara Neris\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":208}},{\"Soul\":35,\"Name\":\"Aleks Yarrow\",\"Position\":{\"DeckId\":4,\"X\":190,\"Y\":191}},{\"Soul\":36,\"Name\":\"Corin Ilyan\",\"Position\":{\"DeckId\":4,\"X\":194,\"Y\":192}}],\"Fixtures\":1284}",
+        "SaveSha256": "FEC8B04E103970031AA9E7E36E14D5D4E7329AC222BAD0E05E0148B62D5E2EE7"
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Home",
+        "Dispatched": "None",
+        "Bounds": {
+          "X": 404,
+          "Y": 394,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Confirmation",
+        "Tick": 12405
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Confirm",
+        "Dispatched": "Home",
+        "Bounds": {
+          "X": 404,
+          "Y": 384,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Home",
+        "Tick": null
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Continue",
+        "Dispatched": "Continue",
+        "Bounds": {
+          "X": 404,
+          "Y": 288,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Hidden",
+        "Tick": null
+      }
+    },
+    {
+      "Name": "Continued",
+      "Facts": {
+        "Tick": 12405,
+        "Facts": "{\"Tick\":12405,\"Colonists\":[{\"Soul\":1,\"Name\":\"Hale Esker\",\"Position\":{\"DeckId\":0,\"X\":208,\"Y\":168}},{\"Soul\":2,\"Name\":\"Sabine Bale\",\"Position\":{\"DeckId\":1,\"X\":183,\"Y\":51}},{\"Soul\":3,\"Name\":\"Sel Ilyan\",\"Position\":{\"DeckId\":2,\"X\":49,\"Y\":162}},{\"Soul\":4,\"Name\":\"Sabine Voss\",\"Position\":{\"DeckId\":3,\"X\":192,\"Y\":48}},{\"Soul\":5,\"Name\":\"Corin Pryce\",\"Position\":{\"DeckId\":4,\"X\":179,\"Y\":57}},{\"Soul\":6,\"Name\":\"Ondine Dorne\",\"Position\":{\"DeckId\":5,\"X\":85,\"Y\":177}},{\"Soul\":7,\"Name\":\"Ludo Vale\",\"Position\":{\"DeckId\":0,\"X\":50,\"Y\":49}},{\"Soul\":8,\"Name\":\"Sophie Vale\",\"Position\":{\"DeckId\":0,\"X\":51,\"Y\":47}},{\"Soul\":9,\"Name\":\"Kaelyne Vale\",\"Position\":{\"DeckId\":0,\"X\":54,\"Y\":47}},{\"Soul\":10,\"Name\":\"Kaeron Vale\",\"Position\":{\"DeckId\":0,\"X\":55,\"Y\":47}},{\"Soul\":11,\"Name\":\"Nyx Ilyan\",\"Position\":{\"DeckId\":0,\"X\":57,\"Y\":47}},{\"Soul\":12,\"Name\":\"Hale Marek\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":57}},{\"Soul\":13,\"Name\":\"Elska Pryce\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":58}},{\"Soul\":14,\"Name\":\"Sel Jory\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":60}},{\"Soul\":15,\"Name\":\"Kael Rhyne\",\"Position\":{\"DeckId\":0,\"X\":87,\"Y\":61}},{\"Soul\":16,\"Name\":\"Perrin Saye\",\"Position\":{\"DeckId\":0,\"X\":55,\"Y\":63}},{\"Soul\":17,\"Name\":\"Dagen Corven\",\"Position\":{\"DeckId\":0,\"X\":57,\"Y\":63}},{\"Soul\":18,\"Name\":\"Noor Marek\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":76}},{\"Soul\":19,\"Name\":\"Nyx Ulric\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":78}},{\"Soul\":20,\"Name\":\"Wren Jory\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":78}},{\"Soul\":21,\"Name\":\"Iris Kade\",\"Position\":{\"DeckId\":0,\"X\":209,\"Y\":80}},{\"Soul\":22,\"Name\":\"Oren Saye\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":81}},{\"Soul\":23,\"Name\":\"Oren Marek\",\"Position\":{\"DeckId\":0,\"X\":193,\"Y\":83}},{\"Soul\":24,\"Name\":\"Silas Ilyan\",\"Position\":{\"DeckId\":0,\"X\":113,\"Y\":189}},{\"Soul\":25,\"Name\":\"Nyx Ulric\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":190}},{\"Soul\":26,\"Name\":\"Cassian Marek\",\"Position\":{\"DeckId\":0,\"X\":86,\"Y\":191}},{\"Soul\":27,\"Name\":\"Vane Aster\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":193}},{\"Soul\":28,\"Name\":\"Corin Lorne\",\"Position\":{\"DeckId\":0,\"X\":52,\"Y\":195}},{\"Soul\":29,\"Name\":\"Kael Gale\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":199}},{\"Soul\":30,\"Name\":\"Iris Ilyan\",\"Position\":{\"DeckId\":0,\"X\":102,\"Y\":199}},{\"Soul\":31,\"Name\":\"Cassian Lorne\",\"Position\":{\"DeckId\":0,\"X\":107,\"Y\":199}},{\"Soul\":32,\"Name\":\"Perrin Corven\",\"Position\":{\"DeckId\":0,\"X\":69,\"Y\":201}},{\"Soul\":33,\"Name\":\"Ivo Ward\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":207}},{\"Soul\":34,\"Name\":\"Yara Neris\",\"Position\":{\"DeckId\":0,\"X\":90,\"Y\":208}},{\"Soul\":35,\"Name\":\"Aleks Yarrow\",\"Position\":{\"DeckId\":4,\"X\":190,\"Y\":191}},{\"Soul\":36,\"Name\":\"Corin Ilyan\",\"Position\":{\"DeckId\":4,\"X\":194,\"Y\":192}}],\"Fixtures\":1284}",
+        "NewRuntime": true,
+        "WarmFrames": 40,
+        "RequestedSpeed": 1,
+        "IsPaused": false
+      }
+    },
+    {
+      "Name": "SessionClick",
+      "Facts": {
+        "Requested": "Resume",
+        "Dispatched": "Resume",
+        "Bounds": {
+          "X": 404,
+          "Y": 210,
+          "Width": 472,
+          "Height": 38
+        },
+        "Page": "Hidden",
+        "Tick": 12405
+      }
+    },
+    {
+      "Name": "OrderRightClick",
+      "Facts": {
+        "Soul": 8,
+        "Actor": "Entity(1291, Gen=0)",
+        "Target": {
+          "DeckId": 0,
+          "X": 53,
+          "Y": 47
+        },
+        "Pointer": {
+          "X": 736,
+          "Y": 272
+        },
+        "BeforeCommands": 0,
+        "AfterCommands": 0
+      }
+    },
+    {
+      "Name": "AllerIci",
+      "Facts": {
+        "Soul": 8,
+        "Actor": "Entity(1291, Gen=0)",
+        "Target": {
+          "DeckId": 0,
+          "X": 53,
+          "Y": 47
+        },
+        "BeforeCommands": 0,
+        "AfterCommands": 1,
+        "WorldTick": 12405
+      }
+    },
+    {
+      "Name": "MoveArrived",
+      "Facts": {
+        "Soul": 8,
+        "Tick": 12526,
+        "Target": {
+          "DeckId": 0,
+          "X": 53,
+          "Y": 47
+        }
+      }
+    }
+  ],
+  "SaveRelocatedAfterRun": "C:\\workspace\\TheEnd\\.artifacts\\session-menu\\worlds\\initial-683a5dc189ef4a8b99886112695c3fbd"
+}
