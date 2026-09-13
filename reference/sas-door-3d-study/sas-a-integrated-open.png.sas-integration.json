@@ -1,0 +1,43 @@
+{
+  "Capture": "Normal game renderer; no external sas model or presentation override",
+  "Pose": "open",
+  "DoorMapStagedForCapture": true,
+  "Bank": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets/models/sas-door/manifest.json",
+  "Provenance": {
+    "source": {
+      "file": "objects/sas-door/sas-door-a.blend",
+      "sha256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "DeckId": 0,
+  "SasId": 1,
+  "Band": "A",
+  "Axis": "Vertical",
+  "CentreX": 119.5,
+  "CentreY": 74.5,
+  "DeclaredBandsOnDeck": 8,
+  "Doors": [
+    {
+      "Id": 32,
+      "State": "Open",
+      "Ticks": 40,
+      "Openness": 1
+    },
+    {
+      "Id": 33,
+      "State": "Open",
+      "Ticks": 40,
+      "Openness": 1
+    },
+    {
+      "Id": 34,
+      "State": "Open",
+      "Ticks": 40,
+      "Openness": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Scope": "Native production SpriteFloorSkin only, real generated deck3 cells, identical frozen textures, supersampling1; per-cell versus global organic batching. Not the full game composite.",
+  "Views": [
+    {
+      "View": "boundary32",
+      "Width": 1920,
+      "Height": 1080,
+      "ChangedPixels": 0,
+      "MaximumChannelDifference": 0,
+      "MeanAbsoluteChannelDifference": 0.0,
+      "NonTransparentPixels": 2073600
+    },
+    {
+      "View": "boundary48",
+      "Width": 1920,
+      "Height": 1080,
+      "ChangedPixels": 0,
+      "MaximumChannelDifference": 0,
+      "MeanAbsoluteChannelDifference": 0.0,
+      "NonTransparentPixels": 2073600
+    },
+    {
+      "View": "grass32",
+      "Width": 1920,
+      "Height": 1080,
+      "ChangedPixels": 0,
+      "MaximumChannelDifference": 0,
+      "MeanAbsoluteChannelDifference": 0.0,
+      "NonTransparentPixels": 2058870
+    },
+    {
+      "View": "seam32",
+      "Width": 1920,
+      "Height": 1080,
+      "ChangedPixels": 0,
+      "MaximumChannelDifference": 0,
+      "MeanAbsoluteChannelDifference": 0.0,
+      "NonTransparentPixels": 1395102
+    }
+  ]
+}

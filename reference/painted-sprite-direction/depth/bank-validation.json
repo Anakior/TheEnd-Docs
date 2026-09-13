@@ -1,0 +1,56 @@
+{
+  "scope": "External painted depth prototypes; geometry and native presentation review, no production install.",
+  "banks": [
+    {
+      "name": "common-furniture-depth",
+      "source": {
+        "file": "objects/common-furniture/common-furniture-depth.blend",
+        "sha256": "782536448013144ade76cb7e43a49bd3899c03df03f999c714236aaf4e3b91c9"
+      },
+      "manifestSha256": "1203886d9a7dc27a6eb1e78a4fb0ee9494a27f692f427a0e557002e42e4717f0",
+      "passed": true,
+      "maximumSkinErrorMetres": 0,
+      "parts": {
+        "bench": [
+          "short-sealed"
+        ],
+        "table": [
+          "short-sealed"
+        ]
+      },
+      "meshCount": 8,
+      "materialCount": 4,
+      "texturedVertices": 11618,
+      "uvOutsideUnitSquare": 0
+    },
+    {
+      "name": "utility-furniture-depth",
+      "source": {
+        "file": "objects/utility-furniture/utility-furniture-depth.blend",
+        "sha256": "95593b1d5cc296f57b387010c7ce51ae17800fc5d15cbafa2e7a2f7fd8f1a9a9"
+      },
+      "manifestSha256": "0947525efb6626997152a15ef5920ff06851b448740ba9a32a56179bf5806d7d",
+      "passed": true,
+      "maximumSkinErrorMetres": 0,
+      "parts": {
+        "console-2": [
+          "dalle-sealed"
+        ],
+        "rack-2": [
+          "sealed"
+        ]
+      },
+      "meshCount": 16,
+      "materialCount": 10,
+      "texturedVertices": 12114,
+      "uvOutsideUnitSquare": 0
+    }
+  ],
+  "preservedReferences": {
+    "objects/common-furniture/common-furniture-detail.blend": "732edcef277389f7b2f8a4044bf8946f1ea7787dcddf3ce55a30749ea3297c8d",
+    "objects/utility-furniture/utility-furniture-detail.blend": "c18ac45bcf826beb15f303da347c7a8a43c6587e070b058ce7613ad65381cdb9",
+    "sprite-render/painted-materials-v1/painted-metal-atlas-v2.png": "6350270192f5130366f647a3199b9ce2b278a20c1a6d30e0412b540ff7f14733"
+  },
+  "clientDllSha256": "b947e7f7b3c1450014739d578ab4206f81c4d88e5d487b275a2cf03fa479d13d",
+  "passed": true
+}

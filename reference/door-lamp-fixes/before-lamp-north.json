@@ -1,0 +1,18 @@
+{
+  "DeckId": 0,
+  "CentreX": 61.5,
+  "CentreY": 48.5,
+  "CameraCellSize": 48,
+  "CameraPanX": -1992,
+  "CameraPanY": -1888,
+  "SourceDoor": {
+    "Kind": "WallLamp",
+    "CellX": 61,
+    "CellY": 48,
+    "Facing": "North",
+    "Condition": "Sealed",
+    "Seed": 190
+  },
+  "SimulationTick": 12407,
+  "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+}

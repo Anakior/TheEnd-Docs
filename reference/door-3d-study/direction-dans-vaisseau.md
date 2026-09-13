@@ -1,41 +1,109 @@
 # Recherche de porte dans le vaisseau
 
-## Dessin peint approuvé, contrôle natif en mouvement à juger
+## Porte intégrée au jeu le 11 septembre 2026
+
+Après la validation visuelle du corps peint, Ludovic autorise son intégration :
+« Tu peux même l'intégrer dans le jeu hein ». La banque est installée dans
+`TheEnd.Client/Assets/models/door/manifest.json`. Le jeu et le diagnostic
+`DoorModelStudy` réutilisent le même `DoorModelRenderer`, avec la caméra,
+la lumière, la profondeur et les ombres déjà partagées par les modèles 3D.
+
+`DoorModelPresentation` remplace les portes `Ordinary` de span 1 dans le rendu
+sprite avec murs en volume. Le placement suit leur centre et leur axe, avec
+priorité à la tangente déclarée du mur. Les traitements spéciaux, les autres
+spans et les autres modes de rendu gardent leurs présentations existantes.
+Le corps `body/painted` conserve la course validée de 0,48 et les clips
+`closed` / `open`, sur une durée d'ouverture de 1/3 de seconde.
+
+La retouche courante du sceau utilise `seal/weld` : un cordon irrégulier de métal
+refroidi au joint X=0, en deux segments autour du verrou, avec des traces de
+chauffe et de peinture brûlée bronze/bleutée. Les traverses de la première
+intégration sont retirées. `lock/base` reste le verrou central indépendant ;
+le corps, le verrou, le rig et la course validée de 0,48 sont conservés. Le vrai départ cumule
+`DoorState.Locked` et `FeatureKind.WeldedSeal` : les deux ensembles sont donc
+visibles ensemble. Le sceau 3D remplace le dessin 2D correspondant pour les
+portes converties. Le rendu suit les états publiés ; les règles de simulation
+restent inchangées.
+
+Source éditable : `C:\workspace\TheEnd-Art\objects\door\door-painted-study.blend`.
+SHA-256 de la source sauvegardée :
+`b26b3faf66221e25c9bea9e03ebf3aefcc5a0ce5feb8cf8a57beca668eb66286`.
+Les empreintes du corps, du verrou, des courbes, clips et os sont inchangées ;
+la comparaison binaire retrouve 48 fichiers de banque identiques pour le corps,
+le verrou, les clips et les textures. L'export de `seal/weld` est validé avec
+trois os et une erreur maximale de 3,72529 × 10⁻⁸ m. Les **53 tests ciblés Debug
+passent**, sans avertissement ni erreur de compilation. La **première intégration**,
+avec `seal/bars`, avait aussi passé les **4 466 tests Release** ; ce total reste
+celui de l'intégration précédente.
+
+La [capture de la soudure](door-welded.png) et la [planche des états intégrés](door-game-states.png)
+montrent cette retouche dans le moteur : cordon gris/bruni présent au joint,
+verrou conservé et traverses absentes. La planche présente le vrai départ
+capturé nativement avec son sceau et son verrou, puis les poses de diagnostic
+verrou seul, fermée et ouverte. Ces poses de diagnostic agissent sur des copies
+de la présentation. **Ludovic valide ensuite l'ensemble le 11 septembre :
+« Oui c'est nickel . On peut intégrer tout ça ».** Le corps, l'ouverture,
+le verrou et le sceau soudé sont retenus et intégrés au jeu dans le périmètre
+décrit ci-dessus. Les contrôles techniques et
+ces poses ne constituent pas une validation de navigation ou de collision.
+
+**Retour du 11 septembre sur le sceau de la première intégration :**
+« Scellé je ne suis pas convaincu. Faudrait plus quelque chose comme si cela
+avait été soudé ». Les deux traverses fixes `seal/bars` sont écartées dans cette
+passe au profit d'une soudure directe sur la rencontre des vantaux. Le corps
+validé et le verrou sont conservés. Cette correction ne réécrit pas les choix
+historiques des études archivées plus bas.
+
+## Dessin peint approuvé et corps validé visuellement le 11 septembre 2026
 
 Ludovic a **approuvé le dessin de la [planche peinte fermée / ouverte](door-painted-study.png)**,
 avec une réserve sur les pieds du colon par rapport au mur dans l'image générée.
-Il demande de voir le mouvement. La nouvelle source éditable est
+Il a ensuite demandé de voir le mouvement. La source éditable est
 `C:\workspace\TheEnd-Art\objects\door\door-painted-study.blend` ; son export
-`body/painted` est validé et reste chargé uniquement par le diagnostic.
-Le modèle et son rendu natif attendent le retour utilisateur.
+`body/painted` était alors chargé uniquement par le diagnostic, avant
+l'intégration décrite ci-dessus.
+Le 11 septembre, Ludovic valide le prototype montré : « oui là c'est bon cela
+fait porte etc ». La course de 0,48 laisse l'extrémité mobile visible au bout du
+carter et permet de lire l'ensemble comme une porte dans cet essai.
 
 Le premier mouvement a révélé deux défauts signalés par Ludovic : du seuil gris
 restait visible de chaque côté des vantaux trop étroits, et le joint de pleine
-hauteur produisait une grande face noire mobile. La vidéo actuelle reprend des
+hauteur produisait une grande face noire mobile. La première reprise utilisait des
 vantaux élargis à 0,94, sans cette plaque noire, avec une fente de rangement et
-un retrait suffisant pour que le mur les masque une fois ouverts. Il s'agit de
+un retrait suffisant pour que le mur les masque une fois ouverts. Il s'agissait de
 corrections du modèle Blender ; le moteur et la cadence sont inchangés.
 
-Ludovic trouve ensuite l'ouverture meilleure, mais repère un rectangle en haut
-et demande plus de détails. La version actuelle retire les seuils clairs des
+Ludovic a ensuite trouvé l'ouverture meilleure, mais repéré un rectangle en haut
+et demandé plus de détails. La reprise a retiré les seuils clairs des
 logements et la répétition de dalles à rivets dans le passage ; leurs chants
 reprennent le métal sombre du mur. Les vantaux reçoivent des panneaux
 chanfreinés, des fixations et des raidisseurs, dans la même silhouette et avec
-la même course. Ces détails restent éditables dans le `.blend`. La vidéo
-ci-dessous montre la reprise décrite ci-après, qui attend son appréciation.
+la course de cette passe. Ces détails restent éditables dans le `.blend`. La vidéo
+ci-dessous montre la reprise décrite ci-après, depuis validée visuellement.
 
-Ludovic précise ensuite que le logement doit être un élément mécanique dans
-lequel rentre la porte, et que l'ensemble manque de volume. La version actuelle
-donne à chaque entrée un carter avec capot saillant, joues épaisses et guides
+Ludovic a ensuite précisé que le logement devait être un élément mécanique dans
+lequel rentre la porte, et que l'ensemble manquait de volume. La reprise a
+donné à chaque entrée un carter avec capot saillant, joues épaisses et guides
 visibles. Le graphite du mécanisme remplace le sol dans les poches ; le passage
 piéton reste distinct. Les accessoires du carter montent à 0,825, les murs
 restant à 0,6. Les vantaux détaillés, leur largeur et leur mouvement sont conservés.
 
-Cette base est jugée meilleure. Ludovic demande ensuite que le bord lu sur le
+Cette base a été jugée meilleure. Ludovic a ensuite demandé que le bord lu sur le
 mur appartienne visuellement au vantail mobile : le liseré clair du nez du
 carter est rendu plus discret, et le chant plié déjà lié au vantail est
-renforcé. La vidéo actuelle contrôle cette distinction entre pièce mobile et
+renforcé. Cette première retouche contrôlait la distinction entre pièce mobile et
 logement fixe, sans ajouter de composant ni modifier la course.
+
+**Reprise et validation du 11 septembre :** Ludovic a désigné le rectangle avec les
+deux traits sous le récepteur. Cette zone montrait le plancher graphite et les
+guides fixes, car le vantail disparaissait trop loin sous le mur. La course
+actuelle est ramenée de 0,94 à 0,48 : le nez mobile s'arrête à |X|=0,486,
+devant la bouche du carter à 0,49. Sa tranche reste visible à cet endroit à
+pleine ouverture. Le capot et les guides restent fixes ; meshes, UV, matières,
+cadence et code du moteur sont conservés. Export validé contre Blender
+(erreur maximale ≈3,73×10⁻⁸). Après examen du GIF natif, Ludovic confirme :
+« oui là c'est bon cela fait porte etc ». Cette extrémité visible est retenue
+comme base du corps ensuite intégré au jeu.
 
 La [vidéo native](door-motion.mp4) et son [aperçu GIF](door-motion.gif) montrent
 six secondes à 30 images/s : deux passages à trois cases/s, aller au centre puis
@@ -47,12 +115,21 @@ personnage n'est pas redimensionné séparément.
 
 La simulation est figée pendant l'enregistrement ; le sceau est masqué et les
 positions sont mises en scène dans des copies de la présentation. Ce n'est pas
-une validation du pathfinding ou des collisions. Aucun modèle n'est installé
-dans les assets ordinaires.
+une validation du pathfinding ou des collisions. La validation visuelle porte
+sur la baie et l'orientation montrées. Cet enregistrement précède
+l'installation dans les assets ordinaires décrite ci-dessus.
 [Source, export et reproduction du diagnostic](../../../TheEnd-Art/objects/door/README.md).
 [Provenance de l'image approuvée et prompts](door-painted-study.md).
 
-## Essai rejeté : silhouette dans la coupe du mur
+## Archive au 11 septembre 2026 : essais antérieurs écartés
+
+Les sections suivantes conservent les recherches et contrôles antérieurs à
+l'intégration. Les mentions d'absence d'asset de production décrivent leur
+situation à cette étape ; elles ne s'appliquent pas à la porte peinte désormais
+installée. Les essais marqués rejetés restent rejetés. La date précise de chacun
+de ces retours n'est pas établie ici.
+
+### Essai rejeté : silhouette dans la coupe du mur
 
 **Retour de Ludovic : « Non mais ça ressemble à rien surtout encore ».**
 La planche et sa source Blender sont rejetées à leur tour. Aucun dessin ni
@@ -94,7 +171,7 @@ Reproduction : mêmes réglages de capture ci-dessous, avec
 `THEEND_DOOR_STUDY_BANK=C:\workspace\TheEnd-Art\exports\door-silhouette-study`.
 Le script local `TheEnd/.artifacts/door-clearance/capture.ps1` accepte `-Bank`.
 
-## Retour sur la porte entière rejetée
+### Retour sur la porte entière rejetée
 
 Essai précédent **rejeté** : [porte entière retravaillée](door-refined.png).
 La source éditable est `C:\workspace\TheEnd-Art\objects\door\door-cutaway-study.blend`.
@@ -108,7 +185,7 @@ pas sa silhouette. Piste de travail proposée, sans décision produit acquise :
 juger d'abord une géométrie simple fermée et ouverte avec la caméra du jeu, les
 vrais murs et le colon, avant de détailler à nouveau le modèle.
 
-## Reprise du cadre et de la matière
+### Reprise du cadre et de la matière
 
 Ludovic a rejeté les trois dessins de la [comparaison précédente](cutaway-native.png).
 Il considère seulement la porte entière comme la proposition de volume la plus
@@ -140,7 +217,7 @@ et les logements masquent encore une partie du colon, et la lecture du raccord
 aux murs coupés reste à améliorer. Le détail de la vue Blender ne résout pas à
 lui seul cette limite du rendu en jeu.
 
-## Historique de la proposition générée
+### Historique de la proposition générée
 
 Statut : **propositions écartées pour leur orientation et leurs proportions**, après retour de Ludovic. Les trois précédents modèles Blender avaient déjà été rejetés, ainsi que leur décor de murs simplifié. Cette recherche produite avec l'outil imagegen intégré ne constitue ni un modèle 3D ni une capture de modification du jeu. Elle ne doit pas servir de référence dimensionnelle.
 
@@ -150,7 +227,7 @@ Références : la capture native `TheEnd/.artifacts/obstacle-sprites/WeldedSeal-
 
 Le premier résultat avait inversé le sens mécanique des vantaux et des traverses. Une seconde passe a demandé un joint horizontal et des traverses verticales, puisque les vantaux coulissent nord/sud dans ce passage orienté est/ouest. Cette consigne n'a pas suffi : la porte reste représentée comme une face posée à plat au lieu d'un volume vu presque de profil dans ce mur. Les prompts ci-dessous conservent la provenance, pas une correction validée.
 
-## Contrôle de l'orientation et du passage
+### Contrôle de l'orientation et du passage
 
 [Planche de contrôle native](controle-passage.png) : comparaison avant/après de la découpe du dessus du mur, avec le même colon dans la même pose fixe. Le dessin de porte reste celui du rendu courant ; ce n'est pas une proposition de nouvelle porte. Les recadrages sont agrandis ×2 sans retouche, décor et personnage ensemble.
 
@@ -177,7 +254,7 @@ La correction du rendu en volume découpe le dessus après les peintures structu
 
 Vérification : compilation Debug et **46 tests ciblés réussis** (volume mural, occlusion, caméra des acteurs et présentation de la porte de départ), puis captures natives ouverte et fermée contrôlées visuellement. Les fichiers bruts et les scripts restent dans `TheEnd/.artifacts/door-clearance/`, ignoré par Git. Aucun nouveau modèle de porte n'est installé ; la modification de production porte sur la découpe du mur.
 
-## Essai natif précédent : hauteur de la porte
+### Essai natif précédent : hauteur de la porte
 
 La planche `cutaway-native.png` compare trois variantes du même modèle et du même
 mécanisme, fermées puis ouvertes. Les vrais murs restent en place, le colon garde
@@ -222,7 +299,7 @@ avertissement ni erreur. Captures natives fermée/ouverte de chaque variante à
 examiner dans la planche. Les poses restent fixes et ne constituent pas un test
 de navigation, de collisions, de construction ou de modding.
 
-## Prompt initial de la proposition générée écartée
+### Prompt initial de la proposition générée écartée
 
 ```text
 Use case: precise-object-edit / stylized-concept.
@@ -246,7 +323,7 @@ The viewer must immediately recognize the REAL GAME WALLS. Preserve their thin l
 Polished dark hand-painted industrial science fiction matching the supplied references, readable material planes, modest contrast.
 ```
 
-## Correction de l'axe
+### Correction de l'axe
 
 ```text
 Edit this exact comparison image. Preserve ALL surrounding game walls, floors, debris, lighting, crop, labels A/B and overall art style exactly. Correct ONLY the MECHANICAL AXIS inside each small door footprint; it currently has the wrong direction for the actual game passage.

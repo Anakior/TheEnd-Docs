@@ -1,0 +1,322 @@
+{
+  "passed": true,
+  "scope": "Two native sprite/vector/sprite cycles in actual TheEndGame, paused deck0, centre95.5/89,48 pixels/cell,1920x1080; final rendering unchanged.",
+  "beforeClientSha256": "558222C90043ED03AEE2614AC2E2CCC7A30A782F25C099B3E153A131BEBB57C5",
+  "afterClientSha256": "F5DF1BFAC16528FF97CA36C1A08ED14D8070EC50A36532164CF2BE5785836EC0",
+  "beforeNativeReport": "native-before/backend-switch-validation.json",
+  "afterNativeReport": "native-after/backend-switch-validation.json",
+  "backendOverrideAbsentBothRuns": true,
+  "captureInputSuppressedBothRuns": true,
+  "simulationPausedBothRuns": true,
+  "worldTickBothRuns": [
+    12000,
+    12000
+  ],
+  "initialCameraIdentical": true,
+  "installedManifestHashesIdentical": true,
+  "gpuAndBankInstancesUnchangedWithinEachRun": [
+    true,
+    true
+  ],
+  "spriteOwnedTextureCountBothRuns": [
+    47,
+    47
+  ],
+  "loadedBankCountBothRuns": [
+    11,
+    11
+  ],
+  "materialLoadLogs": {
+    "before": {
+      "loadEventCount": 8,
+      "countsByMaterialFilename": {
+        "wall-armor-painted.png": 1,
+        "wall-rail-painted.png": 1,
+        "wall-channel-painted.png": 1,
+        "grass-painted.png": 1,
+        "water-painted.png": 1,
+        "earth-painted.png": 1,
+        "sand-painted.png": 1,
+        "fungal-painted.png": 1
+      },
+      "everyMaterialLoadedOnce": true
+    },
+    "after": {
+      "loadEventCount": 8,
+      "countsByMaterialFilename": {
+        "wall-armor-painted.png": 1,
+        "wall-rail-painted.png": 1,
+        "wall-channel-painted.png": 1,
+        "grass-painted.png": 1,
+        "water-painted.png": 1,
+        "earth-painted.png": 1,
+        "sand-painted.png": 1,
+        "fungal-painted.png": 1
+      },
+      "everyMaterialLoadedOnce": true
+    }
+  },
+  "measurements": [
+    {
+      "index": 1,
+      "from": "sprite",
+      "to": "vector",
+      "cacheStateAfterFix": "first vector presentation (cold)",
+      "beforeUnavailableDrawFrames": 91,
+      "afterUnavailableDrawFrames": 8,
+      "beforeSwitchToFirstReadyMilliseconds": 1548.7693999999974,
+      "afterSwitchToFirstReadyMilliseconds": 139.10580000000118,
+      "beforeObservedUnavailableWindowMilliseconds": 1544.9651999999987,
+      "afterObservedUnavailableWindowMilliseconds": 133.23040000000037,
+      "beforeMaximumObservedDrawGapMilliseconds": 75.96659999999974,
+      "afterMaximumObservedDrawGapMilliseconds": 32.67580000000089
+    },
+    {
+      "index": 2,
+      "from": "vector",
+      "to": "sprite",
+      "cacheStateAfterFix": "previously prepared presentation (warm)",
+      "beforeUnavailableDrawFrames": 78,
+      "afterUnavailableDrawFrames": 0,
+      "beforeSwitchToFirstReadyMilliseconds": 1410.1576999999997,
+      "afterSwitchToFirstReadyMilliseconds": 12.626400000001013,
+      "beforeObservedUnavailableWindowMilliseconds": 1407.4726999999984,
+      "afterObservedUnavailableWindowMilliseconds": 0,
+      "beforeMaximumObservedDrawGapMilliseconds": 89.6127000000015,
+      "afterMaximumObservedDrawGapMilliseconds": 42.16290000000299
+    },
+    {
+      "index": 3,
+      "from": "sprite",
+      "to": "vector",
+      "cacheStateAfterFix": "previously prepared presentation (warm)",
+      "beforeUnavailableDrawFrames": 81,
+      "afterUnavailableDrawFrames": 0,
+      "beforeSwitchToFirstReadyMilliseconds": 1417.9337999999989,
+      "afterSwitchToFirstReadyMilliseconds": 3.9157999999988533,
+      "beforeObservedUnavailableWindowMilliseconds": 1396.9542000000001,
+      "afterObservedUnavailableWindowMilliseconds": 0,
+      "beforeMaximumObservedDrawGapMilliseconds": 63.93449999999939,
+      "afterMaximumObservedDrawGapMilliseconds": 30.36330000000089
+    },
+    {
+      "index": 4,
+      "from": "vector",
+      "to": "sprite",
+      "cacheStateAfterFix": "previously prepared presentation (warm)",
+      "beforeUnavailableDrawFrames": 77,
+      "afterUnavailableDrawFrames": 0,
+      "beforeSwitchToFirstReadyMilliseconds": 1415.1732999999986,
+      "afterSwitchToFirstReadyMilliseconds": 15.225499999996828,
+      "beforeObservedUnavailableWindowMilliseconds": 1412.4506000000001,
+      "afterObservedUnavailableWindowMilliseconds": 0,
+      "beforeMaximumObservedDrawGapMilliseconds": 105.57140000000072,
+      "afterMaximumObservedDrawGapMilliseconds": 38.15220000000045
+    }
+  ],
+  "captures": [
+    {
+      "file": "00-sprite-before.png",
+      "backend": "sprite",
+      "beforeSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "afterSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "pngBytesStrictlyIdentical": true,
+      "beforeMetadataHashMatches": true,
+      "afterMetadataHashMatches": true,
+      "cameraIdentical": true,
+      "worldTickIdentical": true,
+      "effectiveBackendIdentical": true
+    },
+    {
+      "file": "01-vector.png",
+      "backend": "vector",
+      "beforeSha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "afterSha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "pngBytesStrictlyIdentical": true,
+      "beforeMetadataHashMatches": true,
+      "afterMetadataHashMatches": true,
+      "cameraIdentical": true,
+      "worldTickIdentical": true,
+      "effectiveBackendIdentical": true
+    },
+    {
+      "file": "02-sprite.png",
+      "backend": "sprite",
+      "beforeSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "afterSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "pngBytesStrictlyIdentical": true,
+      "beforeMetadataHashMatches": true,
+      "afterMetadataHashMatches": true,
+      "cameraIdentical": true,
+      "worldTickIdentical": true,
+      "effectiveBackendIdentical": true
+    },
+    {
+      "file": "03-vector.png",
+      "backend": "vector",
+      "beforeSha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "afterSha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "pngBytesStrictlyIdentical": true,
+      "beforeMetadataHashMatches": true,
+      "afterMetadataHashMatches": true,
+      "cameraIdentical": true,
+      "worldTickIdentical": true,
+      "effectiveBackendIdentical": true
+    },
+    {
+      "file": "04-sprite-after.png",
+      "backend": "sprite",
+      "beforeSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "afterSha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "pngBytesStrictlyIdentical": true,
+      "beforeMetadataHashMatches": true,
+      "afterMetadataHashMatches": true,
+      "cameraIdentical": true,
+      "worldTickIdentical": true,
+      "effectiveBackendIdentical": true
+    }
+  ],
+  "cacheEvidence": {
+    "beforeWorldRevisionRemainedSame": true,
+    "beforeEverySwitchClearedDeckAndGeometry": true,
+    "beforeStableDeckIds": [
+      113,
+      123,
+      133,
+      143
+    ],
+    "beforeFurnitureRevisions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "afterAllTrackedDeckReferencesRetainedAcrossAllSwitches": true,
+    "afterStaticReferenceChangeEvents": 1,
+    "afterInitialDeckReferences": {
+      "_deck": 1,
+      "_cells": 2,
+      "_wallLayout": 3,
+      "_foundation": 4,
+      "_decorCoarse": 5,
+      "_structure": 6,
+      "_sasHardware": 7,
+      "_revisionLifecycle": 8,
+      "_visibleStructure": 0
+    },
+    "afterSpriteFixtureSourceAndSelectedVariantRetained": true,
+    "afterSpriteFixtureSourceId": 111,
+    "afterSpriteFixtureSelectedId": 112,
+    "afterVectorFixtureSourceAndSelectedVariantRetainedAfterColdPreparation": true,
+    "afterVectorFixtureSourceId": 113,
+    "afterVectorFixtureSelectedId": 115,
+    "afterFurnitureRevisions": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "referenceIdentityScope": "Numeric reference IDs are process-local; only continuity within one run is compared. Before/after IDs are not interpreted as the same objects."
+  },
+  "publishedFiles": [
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\00-sprite-before.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\00-sprite-before.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\01-vector.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\01-vector.png",
+      "sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\02-sprite.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\02-sprite.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\03-vector.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\03-vector.png",
+      "sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\04-sprite-after.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\04-sprite-after.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\backend-switch-validation.json",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\backend-switch-validation.json",
+      "sha256": "6BC512FE2F4B178EE0BED72DB739E511739CB0489037F123DD1CEB0E7AB45E99"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\capture.log",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\capture.log",
+      "sha256": "A7F36AEF55F4B88EC96606036DA8C6FBC5A486A2D67A4ED4E87D5F6466DFBD79"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\before-switches\\helper-build.log",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-before\\helper-build.log",
+      "sha256": "F941BD3D88CB7D04000A74B725A24B9205E95489909D7D6F227DF11C98379ED4"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\00-sprite-before.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\00-sprite-before.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\01-vector.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\01-vector.png",
+      "sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\02-sprite.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\02-sprite.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\03-vector.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\03-vector.png",
+      "sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\04-sprite-after.png",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\04-sprite-after.png",
+      "sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\backend-switch-validation.json",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\backend-switch-validation.json",
+      "sha256": "7977AE92B65337BE0FB4FF1B118339F7AE8610A69011FB145DEC8FD32A07E1C9"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\capture.log",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\capture.log",
+      "sha256": "C39B9441451976E8C926E3F2C206032C877B9BFD01704761618194FBFB983989"
+    },
+    {
+      "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\after-switches\\helper-build.log",
+      "destination": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\navigation-backend-review\\native-after\\helper-build.log",
+      "sha256": "F7AD45299A896A0331C3A085572BB3933BCBA61354390F5DB92E6702BFBCA2B6"
+    }
+  ],
+  "helper": {
+    "source": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\Program.cs",
+    "sourceSha256AfterChildCacheInstrumentation": "7358A1BC2B0067B4873BE1172DFE2AC87D48BDA51BC78DF2C803F2853BA59FAD",
+    "runner": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\run.ps1",
+    "project": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\BackendSwitchProbe.csproj",
+    "buildScope": "Direct references to frozen Client DLLs; no Client build/test launched by this helper.",
+    "afterInstrumentationDifference": "Only FixtureSnapshot additionally records the child sprite cache. Switch schedule, ready-frame count, stopwatch boundaries, camera, pause and actual readiness observation are unchanged."
+  },
+  "limitations": [
+    "Two cycles in one room on one machine; the numbers describe switch preparation, not general FPS or every possible camera/deck.",
+    "The first vector presentation still requires a short cold preparation:8 unavailable Draw callbacks and139.1ms in this run. The three warm returns have zero unavailable callbacks.",
+    "Unavailable callbacks and wall-clock time are distinct: synchronous CPU/GPU work can delay a ready frame without showing a loading frame.",
+    "Identical PNG bytes establish unchanged captures in this view. No image transforms, re-alignment, replacements or clock substitutions were applied.",
+    "The presentation clock remained natural while world simulation was paused.",
+    "An earlier helper attempt failed before switching because its texture-dictionary instrumentation used the wrong enumerator. That log remains at .artifacts/backend-switch/before/capture.log and is excluded from the native baseline.",
+    "This helper does not measure deck-navigation return caches, which are validated separately."
+  ]
+}

@@ -1,0 +1,13 @@
+# Caméra au clavier
+
+Maintenir **Z/Q/S/D** déplace la vue vers le haut, la gauche, le bas et la droite. Le mouvement continu suit le temps réel, même lorsque la simulation est en pause ; les diagonales gardent la même vitesse. La vitesse de 18 cases/seconde suit celle du défilement de bord et reste constante en cases à chaque zoom. Les fractions de pixel sont conservées, avec un déplacement maximal de 0,1 seconde après une frame longue.
+
+La molette garde son zoom et le clic-molette son déplacement manuel. Le pan clavier prend priorité sur le défilement automatique au bord de la fenêtre, et cède au clic-molette.
+
+**Ctrl+S** sauvegarde ; **S** seul descend la vue. **L** conserve le chargement. Dans une compilation Debug, **F2** ouvre le mode d'édition de murs et **D** sélectionne l'outil ligne uniquement dans ce mode. **C** (cercle) et **P** (porte) gardent leurs raccourcis de sélection existants, disponibles aussi avant l'ouverture du mode F2. Le pan clavier est suspendu pendant ce mode. **R** conserve le changement de moteur de rendu, y compris lorsqu'un contrôle HUD non modal possède le focus.
+
+Le pan clavier est suspendu si un contrôle HUD possède le focus clavier, si un panneau modal est ouvert (préférences ou cryopod), pendant une capture de pointeur par l'interface et lorsque Ctrl, Alt, Shift ou Windows est maintenu. Cliquer dans le monde rend le focus à la vue. Une alerte critique est actuellement un panneau non modal : elle bloque le pan quand un de ses contrôles possède le focus ou capture le pointeur, sans interdire d'examiner le vaisseau lorsqu'elle est simplement visible.
+
+L'atelier d'avatars, les captures automatiques, une fenêtre inactive et les écrans de chargement utilisent déjà la synchronisation des entrées sans actions ; le reste sous-pixel du clavier y est désormais effacé également. Aucun nouveau champ de texte n'est ajouté ; les contrôles qui possèdent le clavier restent prioritaires. Il n'existait pas de légende globale S/D affichée dans le HUD à modifier ; les commandes des bancs d'essai séparés restent propres à ces bancs.
+
+La logique est dans `TheEnd.Client/Input/KeyboardCameraPan.cs`, raccordée à `GameInput`. `Camera` conserve son API et ses positions entières. Les contrôles recommandés couvrent les quatre directions, l'égalité des diagonales, les fréquences de frame, les fractions de pixel, les modificateurs, les touches opposées, la pause, le focus/modal/capture HUD, le clic-molette et le conflit entre S et sauvegarde. Les tests concernés sont `KeyboardCameraPanTests`, `NarrativeGameInputTests`, `CharacterHudInputTests`, puis les régressions `CameraTests`, `EdgeScrollTests` et `DeckCameraMemoryTests`.

@@ -1,0 +1,551 @@
+{
+  "Study": "External native sas appearance study; no installation or simulation changes",
+  "SourceBank": "C:\\workspace\\TheEnd-Art\\exports\\sas-door-a\\manifest.json",
+  "Provenance": {
+    "source": {
+      "file": "objects/sas-door/sas-door-a.blend",
+      "sha256": "ac9619d3b8c567571bc7f498e6b259bfa6ac8170c6ef5082ccda94577edc89dc"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "Variant": "faceted",
+  "Mode": "motion",
+  "DeckId": 0,
+  "SasId": 1,
+  "Band": "A",
+  "DoorIds": [
+    32,
+    33,
+    34
+  ],
+  "Door": {
+    "AnchorDoorId": 33,
+    "CellX": 119,
+    "CellY": 74,
+    "CentreX": 119.5,
+    "CentreY": 74.5,
+    "Axis": "Vertical",
+    "Span": 3,
+    "Openness": 0
+  },
+  "World": [
+    0,
+    -1.4142135,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    119.5,
+    -105.35891,
+    0,
+    1
+  ],
+  "VisualBounds": {
+    "Left": 118.842,
+    "Top": 71.00687,
+    "Right": 120.158,
+    "Bottom": 77.542,
+    "Width": 1.3159943,
+    "Height": 6.5351334,
+    "TopCenter": {}
+  },
+  "SourceScale": "Native three-cell source; no span multiplier; grid Y projection only",
+  "Replaced": "Selected band only: retained niche/body/hardware and moving leaves",
+  "SimulationUnchanged": true,
+  "Motion": {
+    "FramesPerSecond": 30,
+    "FrameCount": 120,
+    "SimulationFrozenDuringCapture": true,
+    "Timeline": [
+      {
+        "Frame": 0,
+        "Openness": 0
+      },
+      {
+        "Frame": 1,
+        "Openness": 0
+      },
+      {
+        "Frame": 2,
+        "Openness": 0
+      },
+      {
+        "Frame": 3,
+        "Openness": 0
+      },
+      {
+        "Frame": 4,
+        "Openness": 0
+      },
+      {
+        "Frame": 5,
+        "Openness": 0
+      },
+      {
+        "Frame": 6,
+        "Openness": 0
+      },
+      {
+        "Frame": 7,
+        "Openness": 0
+      },
+      {
+        "Frame": 8,
+        "Openness": 0
+      },
+      {
+        "Frame": 9,
+        "Openness": 0
+      },
+      {
+        "Frame": 10,
+        "Openness": 0
+      },
+      {
+        "Frame": 11,
+        "Openness": 0
+      },
+      {
+        "Frame": 12,
+        "Openness": 0
+      },
+      {
+        "Frame": 13,
+        "Openness": 0
+      },
+      {
+        "Frame": 14,
+        "Openness": 0
+      },
+      {
+        "Frame": 15,
+        "Openness": 0
+      },
+      {
+        "Frame": 16,
+        "Openness": 0.05
+      },
+      {
+        "Frame": 17,
+        "Openness": 0.1
+      },
+      {
+        "Frame": 18,
+        "Openness": 0.15
+      },
+      {
+        "Frame": 19,
+        "Openness": 0.2
+      },
+      {
+        "Frame": 20,
+        "Openness": 0.25
+      },
+      {
+        "Frame": 21,
+        "Openness": 0.3
+      },
+      {
+        "Frame": 22,
+        "Openness": 0.35
+      },
+      {
+        "Frame": 23,
+        "Openness": 0.4
+      },
+      {
+        "Frame": 24,
+        "Openness": 0.45
+      },
+      {
+        "Frame": 25,
+        "Openness": 0.5
+      },
+      {
+        "Frame": 26,
+        "Openness": 0.55
+      },
+      {
+        "Frame": 27,
+        "Openness": 0.6
+      },
+      {
+        "Frame": 28,
+        "Openness": 0.65
+      },
+      {
+        "Frame": 29,
+        "Openness": 0.7
+      },
+      {
+        "Frame": 30,
+        "Openness": 0.75
+      },
+      {
+        "Frame": 31,
+        "Openness": 0.8
+      },
+      {
+        "Frame": 32,
+        "Openness": 0.85
+      },
+      {
+        "Frame": 33,
+        "Openness": 0.9
+      },
+      {
+        "Frame": 34,
+        "Openness": 0.95
+      },
+      {
+        "Frame": 35,
+        "Openness": 1
+      },
+      {
+        "Frame": 36,
+        "Openness": 1
+      },
+      {
+        "Frame": 37,
+        "Openness": 1
+      },
+      {
+        "Frame": 38,
+        "Openness": 1
+      },
+      {
+        "Frame": 39,
+        "Openness": 1
+      },
+      {
+        "Frame": 40,
+        "Openness": 1
+      },
+      {
+        "Frame": 41,
+        "Openness": 1
+      },
+      {
+        "Frame": 42,
+        "Openness": 1
+      },
+      {
+        "Frame": 43,
+        "Openness": 1
+      },
+      {
+        "Frame": 44,
+        "Openness": 1
+      },
+      {
+        "Frame": 45,
+        "Openness": 1
+      },
+      {
+        "Frame": 46,
+        "Openness": 1
+      },
+      {
+        "Frame": 47,
+        "Openness": 1
+      },
+      {
+        "Frame": 48,
+        "Openness": 1
+      },
+      {
+        "Frame": 49,
+        "Openness": 1
+      },
+      {
+        "Frame": 50,
+        "Openness": 1
+      },
+      {
+        "Frame": 51,
+        "Openness": 1
+      },
+      {
+        "Frame": 52,
+        "Openness": 1
+      },
+      {
+        "Frame": 53,
+        "Openness": 1
+      },
+      {
+        "Frame": 54,
+        "Openness": 1
+      },
+      {
+        "Frame": 55,
+        "Openness": 1
+      },
+      {
+        "Frame": 56,
+        "Openness": 1
+      },
+      {
+        "Frame": 57,
+        "Openness": 1
+      },
+      {
+        "Frame": 58,
+        "Openness": 1
+      },
+      {
+        "Frame": 59,
+        "Openness": 1
+      },
+      {
+        "Frame": 60,
+        "Openness": 1
+      },
+      {
+        "Frame": 61,
+        "Openness": 1
+      },
+      {
+        "Frame": 62,
+        "Openness": 1
+      },
+      {
+        "Frame": 63,
+        "Openness": 1
+      },
+      {
+        "Frame": 64,
+        "Openness": 1
+      },
+      {
+        "Frame": 65,
+        "Openness": 1
+      },
+      {
+        "Frame": 66,
+        "Openness": 0.95
+      },
+      {
+        "Frame": 67,
+        "Openness": 0.9
+      },
+      {
+        "Frame": 68,
+        "Openness": 0.85
+      },
+      {
+        "Frame": 69,
+        "Openness": 0.8
+      },
+      {
+        "Frame": 70,
+        "Openness": 0.75
+      },
+      {
+        "Frame": 71,
+        "Openness": 0.7
+      },
+      {
+        "Frame": 72,
+        "Openness": 0.65
+      },
+      {
+        "Frame": 73,
+        "Openness": 0.6
+      },
+      {
+        "Frame": 74,
+        "Openness": 0.55
+      },
+      {
+        "Frame": 75,
+        "Openness": 0.5
+      },
+      {
+        "Frame": 76,
+        "Openness": 0.45
+      },
+      {
+        "Frame": 77,
+        "Openness": 0.39999998
+      },
+      {
+        "Frame": 78,
+        "Openness": 0.35000002
+      },
+      {
+        "Frame": 79,
+        "Openness": 0.3
+      },
+      {
+        "Frame": 80,
+        "Openness": 0.25
+      },
+      {
+        "Frame": 81,
+        "Openness": 0.19999999
+      },
+      {
+        "Frame": 82,
+        "Openness": 0.14999998
+      },
+      {
+        "Frame": 83,
+        "Openness": 0.100000024
+      },
+      {
+        "Frame": 84,
+        "Openness": 0.050000012
+      },
+      {
+        "Frame": 85,
+        "Openness": 0
+      },
+      {
+        "Frame": 86,
+        "Openness": 0
+      },
+      {
+        "Frame": 87,
+        "Openness": 0
+      },
+      {
+        "Frame": 88,
+        "Openness": 0
+      },
+      {
+        "Frame": 89,
+        "Openness": 0
+      },
+      {
+        "Frame": 90,
+        "Openness": 0
+      },
+      {
+        "Frame": 91,
+        "Openness": 0
+      },
+      {
+        "Frame": 92,
+        "Openness": 0
+      },
+      {
+        "Frame": 93,
+        "Openness": 0
+      },
+      {
+        "Frame": 94,
+        "Openness": 0
+      },
+      {
+        "Frame": 95,
+        "Openness": 0
+      },
+      {
+        "Frame": 96,
+        "Openness": 0
+      },
+      {
+        "Frame": 97,
+        "Openness": 0
+      },
+      {
+        "Frame": 98,
+        "Openness": 0
+      },
+      {
+        "Frame": 99,
+        "Openness": 0
+      },
+      {
+        "Frame": 100,
+        "Openness": 0
+      },
+      {
+        "Frame": 101,
+        "Openness": 0
+      },
+      {
+        "Frame": 102,
+        "Openness": 0
+      },
+      {
+        "Frame": 103,
+        "Openness": 0
+      },
+      {
+        "Frame": 104,
+        "Openness": 0
+      },
+      {
+        "Frame": 105,
+        "Openness": 0
+      },
+      {
+        "Frame": 106,
+        "Openness": 0
+      },
+      {
+        "Frame": 107,
+        "Openness": 0
+      },
+      {
+        "Frame": 108,
+        "Openness": 0
+      },
+      {
+        "Frame": 109,
+        "Openness": 0
+      },
+      {
+        "Frame": 110,
+        "Openness": 0
+      },
+      {
+        "Frame": 111,
+        "Openness": 0
+      },
+      {
+        "Frame": 112,
+        "Openness": 0
+      },
+      {
+        "Frame": 113,
+        "Openness": 0
+      },
+      {
+        "Frame": 114,
+        "Openness": 0
+      },
+      {
+        "Frame": 115,
+        "Openness": 0
+      },
+      {
+        "Frame": 116,
+        "Openness": 0
+      },
+      {
+        "Frame": 117,
+        "Openness": 0
+      },
+      {
+        "Frame": 118,
+        "Openness": 0
+      },
+      {
+        "Frame": 119,
+        "Openness": 0
+      }
+    ]
+  }
+}

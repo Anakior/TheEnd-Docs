@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 1,
+  "subject": "Service ladder progressive depth shadow",
+  "status": "Passed: canonical installation, native depth-fade review at 48 and 96px/cell, and grouped tests",
+  "canonicalInstallationPassed": true,
+  "source": "C:\\workspace\\TheEnd-Art\\objects\\service-ladder\\service-ladder.blend",
+  "sourceSHA256": "8C3A5394B4E34BBEECD899BC11463A0B1C0E6FEAD4ED52073FAB6F8426AD195F",
+  "previousSource": "C:\\workspace\\TheEnd-Art\\objects\\service-ladder\\history\\service-ladder-before-depth-fade.blend",
+  "previousSourceSHA256": "659AAB523434F48482026EB8C01AA359134FE264026F67EE5CF81804D8498338",
+  "manifest": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\service-ladder\\manifest.json",
+  "manifestSHA256": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+  "canonicalValidation": "C:\\workspace\\TheEnd-Art\\exports\\service-ladder\\validation-report.json",
+  "exportLog": "C:\\workspace\\TheEnd-Art\\objects\\service-ladder\\depth-fade-export-install.log",
+  "preview": "C:\\workspace\\TheEnd-Art\\objects\\service-ladder\\previews\\service-ladder-depth-fade-source.png",
+  "retouchAudit": "C:\\workspace\\TheEnd-Art\\objects\\service-ladder\\depth-fade-audit.json",
+  "geometryPreserved": true,
+  "shapeHashes": {
+    "Service ladder - descent - broken": "1853929ad7281e15c1dc13c024b414afc691a02e50cc9cd4716ee490dd0d4bad",
+    "Service ladder - descent - ready": "b04389ba026eb45dab45f54261ff819fa664807ef3208fdf9bffe18e9d4a367e",
+    "Service ladder - rim - broken": "b4598201933ce2d8266eb9c56c0fe4a252871101e470012e999be7e287f7a166",
+    "Service ladder - rim - ready": "72adc3bde1cc3635f4bd8f67b35abb73869d7995ecf88c6a60322cf2ba9b3bf8"
+  },
+  "changedDescentUvs": 7808,
+  "calmedRimFaces": 130,
+  "change": "UV V follows actual negative Z and samples one canonically baked painted fade. Entry and handles remain legible; three outer rim rails sample the approved midtone paint. Bottom closure is RGB 1/2/3. No texture pixels were painted or rewritten by a Python image operation.",
+  "depthRange": {
+    "startZ": 0.02,
+    "span": 1.12
+  },
+  "perceptualGainProfile": [
+    [
+      0,
+      0.85
+    ],
+    [
+      0.12,
+      0.66
+    ],
+    [
+      0.28,
+      0.44
+    ],
+    [
+      0.46,
+      0.24
+    ],
+    [
+      0.65,
+      0.095
+    ],
+    [
+      0.84,
+      0.024
+    ],
+    [
+      1,
+      0.008
+    ]
+  ],
+  "bottomSrgb": [
+    1,
+    2,
+    3
+  ],
+  "textureCount": 2,
+  "runtimeFileCount": 24,
+  "runtimeBytes": 3384443,
+  "meshCount": 15,
+  "maximumSkinErrorMetres": 0.0,
+  "bakedTexture": {
+    "file": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-depth-fade.png",
+    "sha256": "F3678ADD2B967DB6AB37715A866E8AB2331B04728194B52C59610A048DE668AA",
+    "size": [
+      1024,
+      1024
+    ],
+    "alphaRange": [
+      255,
+      255
+    ],
+    "rowMeasurements": [
+      {
+        "depth": 0,
+        "y": 1021,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              99.855,
+              105.517,
+              100.332
+            ],
+            "meanSrgbLuma": 103.939
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              60.315,
+              71.119,
+              73.357
+            ],
+            "meanSrgbLuma": 68.984
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              40.699,
+              49.041,
+              58.371
+            ],
+            "meanSrgbLuma": 47.941
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              123.926,
+              121.001,
+              108.522
+            ],
+            "meanSrgbLuma": 120.722
+          }
+        ]
+      },
+      {
+        "depth": 0.12,
+        "y": 900,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              71.278,
+              76.954,
+              73.821
+            ],
+            "meanSrgbLuma": 75.521
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              45.698,
+              54.046,
+              55.379
+            ],
+            "meanSrgbLuma": 52.367
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              28.577,
+              35.62,
+              42.56
+            ],
+            "meanSrgbLuma": 34.624
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              91.568,
+              89.808,
+              80.515
+            ],
+            "meanSrgbLuma": 89.511
+          }
+        ]
+      },
+      {
+        "depth": 0.28,
+        "y": 737,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              38.525,
+              44.149,
+              43.756
+            ],
+            "meanSrgbLuma": 42.925
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              26.129,
+              31.73,
+              32.458
+            ],
+            "meanSrgbLuma": 30.592
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              13.448,
+              18.475,
+              22.756
+            ],
+            "meanSrgbLuma": 17.715
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              53.02,
+              53.003,
+              48.256
+            ],
+            "meanSrgbLuma": 52.664
+          }
+        ]
+      },
+      {
+        "depth": 0.46,
+        "y": 552,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              15.945,
+              19.124,
+              18.923
+            ],
+            "meanSrgbLuma": 18.434
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              7.499,
+              10.342,
+              10.966
+            ],
+            "meanSrgbLuma": 9.783
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              3.336,
+              5.144,
+              6.843
+            ],
+            "meanSrgbLuma": 4.882
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              23.593,
+              23.619,
+              20.974
+            ],
+            "meanSrgbLuma": 23.423
+          }
+        ]
+      },
+      {
+        "depth": 0.65,
+        "y": 358,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              1.945,
+              2.243,
+              2.332
+            ],
+            "meanSrgbLuma": 2.186
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              1.0,
+              1.122,
+              1.213
+            ],
+            "meanSrgbLuma": 1.102
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              0.01,
+              0.984,
+              1.0
+            ],
+            "meanSrgbLuma": 0.778
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              3.547,
+              3.509,
+              3.005
+            ],
+            "meanSrgbLuma": 3.481
+          }
+        ]
+      },
+      {
+        "depth": 0.84,
+        "y": 164,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "y": 2,
+        "roles": [
+          {
+            "role": 0,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 1,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 2,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          },
+          {
+            "role": 3,
+            "meanRgb": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "meanSrgbLuma": 0.0
+          }
+        ]
+      }
+    ],
+    "measurementMeaning": "Mean stored sRGB values from 5px depth rows and inner columns of each semantic paint strip; not native lighting measurements."
+  },
+  "semanticStates": [
+    "ready",
+    "broken"
+  ],
+  "runtimeApiChanged": false,
+  "testChange": "Only the unique-texture count changes from 1 to 2, documenting one original rim atlas and one shared depth-fade image; all geometry, UV-boundary and state tests are retained.",
+  "nativeReview": {
+    "passed": true,
+    "screenshot": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\game-final\\game-11-ServiceLadder.png",
+    "screenshotSHA256": "3A39CCA2774E552231FE0A691424C4FBE50D6DDE77AD22AD61B7688ACA3E7C8D",
+    "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\game-final\\native-game-validation.json",
+    "runLog": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\game-final-run.log",
+    "clientSHA256": "558222C90043ED03AEE2614AC2E2CCC7A30A782F25C099B3E153A131BEBB57C5",
+    "installedAssets": true,
+    "assetOverrideEnvironment": {},
+    "capturedBank": {
+      "Variable": "",
+      "Name": "service-ladder",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\manifest.json",
+      "Sha256": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+      "Source": "InstalledAssets"
+    },
+    "capturedBankMatchesCanonical": true,
+    "deck": 0,
+    "centre": [
+      61.5,
+      217.5
+    ],
+    "cameraCellSize": 48,
+    "inspectionZoomOverride": false,
+    "simulationTick": 12000,
+    "replacedCells": 9,
+    "stableFrames": 35,
+    "ladderRevision": 4,
+    "groupedCaptureCount": 17,
+    "visualFindings": [
+      "At the ordinary 48px-per-cell scale, the first rungs and exit handles remain identifiable while the deeper rungs disappear into darkness.",
+      "The rear lining loses contrast progressively below the upper rim; no bright small rectangular bottom remains visible.",
+      "The three outer rim rails are quieter than the previous source, while the entry threshold is preserved.",
+      "The surrounding wall correctly occludes the front lip; no visible geometry spill or old vector ladder overlays the model."
+    ],
+    "detail96Status": "Passed",
+    "detail96": {
+      "passed": true,
+      "screenshot": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\ladder-inspection\\game-11-ServiceLadder.png",
+      "screenshotSHA256": "4FF05E5CAD2ED0C47826AADB06BA392B20C3F7D7BDF66D7C211310D9C8508315",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\ladder-inspection\\native-game-validation.json",
+      "runLog": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\ladder-inspection-run.log",
+      "clientSHA256": "558222C90043ED03AEE2614AC2E2CCC7A30A782F25C099B3E153A131BEBB57C5",
+      "capturedBank": {
+        "Variable": "",
+        "Name": "service-ladder",
+        "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\manifest.json",
+        "Sha256": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+        "Source": "InstalledAssets"
+      },
+      "installedAssets": true,
+      "assetOverrideEnvironment": {},
+      "cameraCellSize": 96,
+      "inspectionZoomOverride": true,
+      "deck": 0,
+      "centre": [
+        61.5,
+        217.5
+      ],
+      "simulationTick": 12000,
+      "replacedCells": 9,
+      "stableFrames": 35,
+      "ladderRevision": 1,
+      "findings": [
+        "The close native view confirms a continuous fade of shaft walls and deeper rungs into near-black darkness.",
+        "Entry rungs, threshold and handles remain readable; the bottom no longer appears as a bright hard rectangle.",
+        "No geometry spill or vector overlay is visible, and front-wall occlusion remains correct."
+      ],
+      "sameClientAndBankAs48": true
+    }
+  },
+  "groupedTests": {
+    "status": "Passed",
+    "trx": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\interior-review-v3.trx",
+    "log": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\tests-final.log",
+    "total": 160,
+    "passed": 160,
+    "failed": 0,
+    "scopedCount": 15,
+    "scopedPassed": 15,
+    "scopedResults": [
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.BreakAndRepairUpdateWithoutChangingTheFeatureVersion",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.AnExtendedFeatureComponentRemainsEntirelyVectorial(x: 4, y: 2)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.AnExtendedFeatureComponentRemainsEntirelyVectorial(x: 2, y: 0)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.UnknownSizesAndInvalidLandingsRetainTheirFallback(side: 2, x: 1, y: 1)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.PlacementUsesTheSharedModelProjectionAndRetainsUnchangedFrames",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.AnExtendedFeatureComponentRemainsEntirelyVectorial(x: 0, y: 2)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.OtherRouteKindsNeverSuppressTheirVectorFeature(kind: DomeCage)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.IncompleteFootprintOrAReplacementGridReleasesTheWholeMask",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.AnExtendedFeatureComponentRemainsEntirelyVectorial(x: 2, y: 4)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.MissingModelsAndDeckChangesReleaseTheMask",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.OtherRouteKindsNeverSuppressTheirVectorFeature(kind: Elevator)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.UnknownSizesAndInvalidLandingsRetainTheirFallback(side: 3, x: 3, y: 1)",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderBankTests.InstalledWellKeepsBothRealDepthAndAllProjectedVerticesInsideItsLanding",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.ManualLandingIsAvailableWithoutCurrentAndPowerDoesNotChangeItsPresentation",
+        "outcome": "Passed"
+      },
+      {
+        "name": "TheEnd.Tests.Renderer.SpriteServiceLadderPresentationTests.UnknownSizesAndInvalidLandingsRetainTheirFallback(side: 3, x: -1, y: 1)",
+        "outcome": "Passed"
+      }
+    ]
+  },
+  "files": [
+    {
+      "file": "animations/idle.bin",
+      "bytes": 64,
+      "sha256": "5998E9D1DD9BF48AF6AF87A1EF8C7783B818AC8329637ADA08CC5FB329042376",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "manifest.json",
+      "bytes": 18167,
+      "sha256": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/0030e0cebc277dab.indices.bin",
+      "bytes": 9504,
+      "sha256": "8BA60CF41AF9700ABDF604B35BE4BC458DA65C463F7A00CE18350A20798F633C",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/0030e0cebc277dab.vertices.bin",
+      "bytes": 84032,
+      "sha256": "C168765498F4A8504A02669825DB96C4A285E99CA414510DF093860C1ED677FC",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/126365e69c29c8dd.indices.bin",
+      "bytes": 336,
+      "sha256": "121B0AC2CA47B6B4F4D57ACC1A9A6283CF7A41775AFB19D564D86D1736F5A84E",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/126365e69c29c8dd.vertices.bin",
+      "bytes": 2496,
+      "sha256": "DA28F29B2DC4143F25092F78E15DEA605D67FD2806ACF7ECECFEEFCCD3F17DF1",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/139312ad5b3189ec.indices.bin",
+      "bytes": 12120,
+      "sha256": "FE3463AA1FB0827369272546C3F45DE8A1AF009DD8ACE89BD7AE62775765BAFF",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/139312ad5b3189ec.vertices.bin",
+      "bytes": 102336,
+      "sha256": "ADE03FB4008612AB47E1D3EF96DFA7164913BAAB331895471920A63985ACA1B5",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/36251a32747cf4fd.indices.bin",
+      "bytes": 11016,
+      "sha256": "879FA7FB0C494EF0ED5BE3130BDC9CA31E3D17CEF609E48F54FB4E5F50849031",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/36251a32747cf4fd.vertices.bin",
+      "bytes": 92352,
+      "sha256": "658D2AC160BEDAA7A6985C8E89046065C5B3DA6CFE21E0F9A3E9273265C61462",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/40a5e46ac6cde44d.indices.bin",
+      "bytes": 1104,
+      "sha256": "3E5E67DDE14C2D7C1AD12263F5D256B45E67158AE27EF1B08BC52DFFEDE9F5A3",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/40a5e46ac6cde44d.vertices.bin",
+      "bytes": 9984,
+      "sha256": "F513758E0069B8F0CA6DDFDEDA64CC8063B13D1AF0FD6C654DC9D1B644FAFB28",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/61eae56f91c56d16.indices.bin",
+      "bytes": 6288,
+      "sha256": "7D9781D45D8388A408A741C64E6FB61D5CD001497E9DD150CFAEAB1C68087083",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/61eae56f91c56d16.vertices.bin",
+      "bytes": 52416,
+      "sha256": "485EBE36A57FCA9B0170386E75368EA1A040C12716DD214D6E74F1291A4828EB",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/6600409b8d8b212f.indices.bin",
+      "bytes": 21216,
+      "sha256": "1B31BF79ED9369B3EF9E9C3782DE93C8A0E3E3B5950B9D2C84BDF69FB087E3B8",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/6600409b8d8b212f.vertices.bin",
+      "bytes": 200512,
+      "sha256": "5865CA494F76ED79C82E4165484CF40C8EEFEB8918FD22D4EA21DEF5274D8713",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/8e375c311dc60f56.indices.bin",
+      "bytes": 2952,
+      "sha256": "BBD68534DF7709B00DA320ABCEFEA113BC1372AF0F8E9C4E980335A925C8CD93",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/8e375c311dc60f56.vertices.bin",
+      "bytes": 23296,
+      "sha256": "0D6F2381A097225CA1110DC500958C00C8C491F6E68A173E041E37B1D8C1F287",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/c2ccec3a6001ded2.indices.bin",
+      "bytes": 4416,
+      "sha256": "5FC455D05557B72DF7B96DB7EC29075587EB9F8DA529191CAD047AE4E91C9E2B",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/c2ccec3a6001ded2.vertices.bin",
+      "bytes": 39936,
+      "sha256": "11BDE7029C2FF3C54608DE76F9FD991234EB29F58BC36EDFCB316B1FA52623AF",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/e0cf161503fc82d7.indices.bin",
+      "bytes": 21744,
+      "sha256": "A9649C4B0E9C6950C677CF52E7DB2DEAFEBF426BD3C74184AD52FD72D30813A4",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "meshes/e0cf161503fc82d7.vertices.bin",
+      "bytes": 205504,
+      "sha256": "0DAB210B784BC840177BFD19D4D2C6DCA44350287E72E43D5B5801EF870B582F",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "textures/service-ladder-painted-depth-fade.png",
+      "bytes": 506583,
+      "sha256": "F3678ADD2B967DB6AB37715A866E8AB2331B04728194B52C59610A048DE668AA",
+      "matchesExport": true,
+      "matchesValidation": true
+    },
+    {
+      "file": "textures/service-ladder-painted-upper-metal.png",
+      "bytes": 1956069,
+      "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+      "matchesExport": true,
+      "matchesValidation": true
+    }
+  ],
+  "limits": [
+    "Native visual review covers the intact ladder at one real landing at both ordinary 48px/cell and inspection 96px/cell, using the same Client DLL and service-ladder bank.",
+    "The broken state is inspected in Blender and covered by the state/geometry tests; no native broken-state capture is claimed.",
+    "The native metadata declares 17 captures globally passed; this report visually inspects only the service-ladder image.",
+    "Stored texture row measurements are not native illumination measurements; no FPS conclusion is drawn."
+  ],
+  "build": {
+    "status": "Passed",
+    "warnings": 0,
+    "errors": 0,
+    "log": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\build-final.log"
+  }
+}

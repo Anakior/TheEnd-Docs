@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 1,
+  "scope": "V3 three-role painted wall material and matched native dome measurement; does not certify subjective artistic approval or global lighting.",
+  "createdUtc": "2026-09-12T17:14:25.987391+00:00",
+  "method": {
+    "colourSpace": "Encoded PNG RGB 0..255; luma proxy = 0.2126 R + 0.7152 G + 0.0722 B, without sRGB linearization. These are display-value comparisons, not radiometric luminance or HDR light-buffer measurements.",
+    "standardDeviation": "Population standard deviation of encoded luma within the stated region; this measures local value spread, not a perceptual contrast index.",
+    "coordinates": "Zero-based image coordinates [x0,y0,x1,y1]; right and bottom exclusive.",
+    "textureGain": "Installed armor quiet uses floor(channel*1.11), armor worn floor(channel*1.22), capped255; other four materials gain1. External paint bypasses these gains.",
+    "resize": "External1254-square texture is imported256-square. Report approximates the GPU LinearClamp four-texel bilinear resize in memory at target pixel centers, with output rounding. No image is edited or written; these are not GPU readback values.",
+    "centralBands": "DrawTexturedStrip selects y=floor((256-windowHeight)/2), windowHeight=max(1,floor(widthCells*48)). Relevant widths: armor18, rail2, channel5 pixels. Additional8-pixel band retained for comparison with initial audit.",
+    "nativeMethod": "Read the existing final composite PNGs at exactly the same named coordinates. No build, new rendering, simulation edit or image edit performed by this audit."
+  },
+  "materials": [
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-armor-painted.png",
+        "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+        "bytes": 2059508
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          48.4121,
+          53.2363,
+          57.2946
+        ],
+        "lumaMean": 52.5037,
+        "lumaStdDev": 4.2752,
+        "lumaP05": 46.298,
+        "lumaP95": 60.0854,
+        "pixelCount": 1572516
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          48.4043,
+          53.2275,
+          57.2893
+        ],
+        "lumaMean": 52.4954,
+        "lumaStdDev": 3.8966,
+        "lumaP05": 46.651,
+        "lumaP95": 59.298,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              47.9707,
+              52.7793,
+              56.8066
+            ],
+            "lumaMean": 52.0478,
+            "lumaStdDev": 3.8583,
+            "lumaP05": 45.8329,
+            "lumaP95": 58.7043,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              48.1945,
+              52.9867,
+              57.0039
+            ],
+            "lumaMean": 52.2579,
+            "lumaStdDev": 3.903,
+            "lumaP05": 46.4384,
+            "lumaP95": 59.0816,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              48.186,
+              52.9941,
+              57.0132
+            ],
+            "lumaMean": 52.2621,
+            "lumaStdDev": 3.7868,
+            "lumaP05": 46.5106,
+            "lumaP95": 59.084,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              48.3158,
+              53.1415,
+              57.1623
+            ],
+            "lumaMean": 52.4058,
+            "lumaStdDev": 3.8002,
+            "lumaP05": 46.5106,
+            "lumaP95": 59.1536,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": true,
+      "role": "armor",
+      "relevantBandHeight": 18
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-rail-painted.png",
+        "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+        "bytes": 1801379
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          64.5438,
+          65.9701,
+          67.9511
+        ],
+        "lumaMean": 65.8099,
+        "lumaStdDev": 4.3681,
+        "lumaP05": 59.7192,
+        "lumaP95": 73.7874,
+        "pixelCount": 1572516
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          64.5439,
+          65.9723,
+          67.9488
+        ],
+        "lumaMean": 65.8113,
+        "lumaStdDev": 4.2092,
+        "lumaP05": 59.9318,
+        "lumaP95": 73.647,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              64.0059,
+              65.3633,
+              67.3184
+            ],
+            "lumaMean": 65.2159,
+            "lumaStdDev": 4.148,
+            "lumaP05": 59.6542,
+            "lumaP95": 72.9968,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              64.2844,
+              65.6445,
+              67.5602
+            ],
+            "lumaMean": 65.4937,
+            "lumaStdDev": 4.3763,
+            "lumaP05": 59.7192,
+            "lumaP95": 73.647,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              64.2925,
+              65.6523,
+              67.5806
+            ],
+            "lumaMean": 65.5025,
+            "lumaStdDev": 4.3522,
+            "lumaP05": 59.7192,
+            "lumaP95": 73.6939,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              64.3381,
+              65.7096,
+              67.6979
+            ],
+            "lumaMean": 65.5616,
+            "lumaStdDev": 4.3125,
+            "lumaP05": 59.6723,
+            "lumaP95": 73.647,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": true,
+      "role": "rail",
+      "relevantBandHeight": 2
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-channel-painted.png",
+        "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+        "bytes": 1851219
+      },
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          26.771,
+          28.3211,
+          29.5937
+        ],
+        "lumaMean": 28.0834,
+        "lumaStdDev": 3.3765,
+        "lumaP05": 23.4344,
+        "lumaP95": 34.29,
+        "pixelCount": 1572516
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          26.7585,
+          28.3035,
+          29.577
+        ],
+        "lumaMean": 28.067,
+        "lumaStdDev": 3.1264,
+        "lumaP05": 23.7192,
+        "lumaP95": 33.7874,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              26.5996,
+              28.1602,
+              29.3301
+            ],
+            "lumaMean": 27.9129,
+            "lumaStdDev": 3.3768,
+            "lumaP05": 23.6145,
+            "lumaP95": 33.8596,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              26.6312,
+              28.1906,
+              29.3898
+            ],
+            "lumaMean": 27.9457,
+            "lumaStdDev": 3.3237,
+            "lumaP05": 23.647,
+            "lumaP95": 33.8632,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              26.627,
+              28.2114,
+              29.4268
+            ],
+            "lumaMean": 27.9623,
+            "lumaStdDev": 3.2763,
+            "lumaP05": 23.647,
+            "lumaP95": 33.8596,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              26.6558,
+              28.252,
+              29.4937
+            ],
+            "lumaMean": 28.0023,
+            "lumaStdDev": 3.2254,
+            "lumaP05": 23.647,
+            "lumaP95": 33.8596,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": true,
+      "role": "channel",
+      "relevantBandHeight": 5
+    }
+  ],
+  "v3Aliases": {
+    "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\aliases.json",
+    "sha256": "BD7CD6480855463EFEA1EA13AFF28BC6320A730683B5878F54FE2687E1CD7C30",
+    "bytes": 1173
+  },
+  "generationProvenance": {
+    "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-generation-provenance.json",
+    "sha256": "2D0019B65A7BD75CFFBF2B00207E3F6BD2B4A899FE40FDBF86CFD3B286AC9898",
+    "bytes": 5618
+  },
+  "captures": {
+    "installed": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\game-7-Dome-Environment.png",
+        "sha256": "38D5E0746717C83D651BA4DB022296BCD4FE90AA2462DD6425DC658D8234B9E2",
+        "bytes": 4096806
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\native-game-validation.json",
+        "sha256": "A32AF45DBB2CD0E2FFCE482C087DDD30A41401E270EAF63DD5AEE9B360EE4DA0",
+        "bytes": 6721
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-7-Dome-Environment.png",
+        "Deck": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "DomeEnvironment",
+        "Condition": null,
+        "Fixture": null,
+        "StableRevision": 4,
+        "ModelCount": 108,
+        "VectorCount": 1
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": null,
+      "spriteMaterialFiles": null
+    },
+    "v2": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-dome-final-paint\\game-7-Dome-Environment.png",
+        "sha256": "74C716492CF265A4F4ACB69051D3629D0431F1DC0FDF8FF9AA0979C11951131F",
+        "bytes": 3595276
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-dome-final-paint\\native-game-validation.json",
+        "sha256": "27D4372AA7698DF93EB6DFB37D608708440EC47E13594A09068CAA1AC19D2E28",
+        "bytes": 2752
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-7-Dome-Environment.png",
+        "Deck": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "DomeEnvironment",
+        "Condition": null,
+        "Fixture": null,
+        "StableRevision": 1,
+        "ModelCount": 108,
+        "VectorCount": 1
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2",
+      "spriteMaterialFiles": [
+        {
+          "File": "aliases.json",
+          "Sha256": "A94116D7B5972E1D149923AAB7D757C8A98FA485C87C765F5E25EF7FA08E2743"
+        },
+        {
+          "File": "earth-painted.png",
+          "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "File": "floor-tile-painted-a.png",
+          "Sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00"
+        },
+        {
+          "File": "fungal-painted.png",
+          "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+        },
+        {
+          "File": "grass-painted.png",
+          "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "File": "sand-painted.png",
+          "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+        },
+        {
+          "File": "wall-metal-painted.png",
+          "Sha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4"
+        },
+        {
+          "File": "water-painted.png",
+          "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        }
+      ]
+    },
+    "v3": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\wall-contrast-review\\game-dome\\game-7-Dome-Environment.png",
+        "sha256": "69875C8347CFDF96BB25D52442452DC10FFA42B03DF72E0F239149FD02A31CC8",
+        "bytes": 3615457
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\wall-contrast-review\\game-dome\\native-game-validation.json",
+        "sha256": "B6585BF770571EA19831F925212AD1959C4F9F7D97B3C48373041332BD82CF27",
+        "bytes": 3033
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-7-Dome-Environment.png",
+        "Deck": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "DomeEnvironment",
+        "Condition": null,
+        "Fixture": null,
+        "StableRevision": 1,
+        "ModelCount": 108,
+        "VectorCount": 1
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3",
+      "spriteMaterialFiles": [
+        {
+          "File": "aliases.json",
+          "Sha256": "BD7CD6480855463EFEA1EA13AFF28BC6320A730683B5878F54FE2687E1CD7C30"
+        },
+        {
+          "File": "earth-painted.png",
+          "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "File": "floor-tile-painted-a.png",
+          "Sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00"
+        },
+        {
+          "File": "fungal-painted.png",
+          "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+        },
+        {
+          "File": "grass-painted.png",
+          "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "File": "sand-painted.png",
+          "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+        },
+        {
+          "File": "wall-armor-painted.png",
+          "Sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+        },
+        {
+          "File": "wall-channel-painted.png",
+          "Sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+        },
+        {
+          "File": "wall-rail-painted.png",
+          "Sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+        },
+        {
+          "File": "water-painted.png",
+          "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        }
+      ]
+    }
+  },
+  "controls": {
+    "Deck": true,
+    "CentreX": true,
+    "CentreY": true,
+    "CameraCellSize": true,
+    "SimulationTick": true,
+    "ModelCount": true,
+    "VectorCount": true,
+    "sameClientSha256": true,
+    "sameFurnitureBanks": true
+  },
+  "externalCaptureFileChecks": [
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\aliases.json",
+      "recordedSha256": "A94116D7B5972E1D149923AAB7D757C8A98FA485C87C765F5E25EF7FA08E2743",
+      "actualSha256": "A94116D7B5972E1D149923AAB7D757C8A98FA485C87C765F5E25EF7FA08E2743",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\earth-painted.png",
+      "recordedSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+      "actualSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\floor-tile-painted-a.png",
+      "recordedSha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00",
+      "actualSha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\fungal-painted.png",
+      "recordedSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+      "actualSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\grass-painted.png",
+      "recordedSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+      "actualSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\sand-painted.png",
+      "recordedSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+      "actualSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\wall-metal-painted.png",
+      "recordedSha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4",
+      "actualSha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4",
+      "matches": true
+    },
+    {
+      "cohort": "v2",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\water-painted.png",
+      "recordedSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+      "actualSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\aliases.json",
+      "recordedSha256": "BD7CD6480855463EFEA1EA13AFF28BC6320A730683B5878F54FE2687E1CD7C30",
+      "actualSha256": "BD7CD6480855463EFEA1EA13AFF28BC6320A730683B5878F54FE2687E1CD7C30",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\earth-painted.png",
+      "recordedSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+      "actualSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\floor-tile-painted-a.png",
+      "recordedSha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00",
+      "actualSha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\fungal-painted.png",
+      "recordedSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+      "actualSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\grass-painted.png",
+      "recordedSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+      "actualSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\sand-painted.png",
+      "recordedSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+      "actualSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-armor-painted.png",
+      "recordedSha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+      "actualSha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-channel-painted.png",
+      "recordedSha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+      "actualSha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-rail-painted.png",
+      "recordedSha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+      "actualSha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+      "matches": true
+    },
+    {
+      "cohort": "v3",
+      "file": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\water-painted.png",
+      "recordedSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+      "actualSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+      "matches": true
+    }
+  ],
+  "regions": [
+    {
+      "name": "wallTopHorizontal",
+      "xyxy": [
+        1390,
+        181,
+        1670,
+        227
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            39.481,
+            42.6359,
+            44.9241
+          ],
+          "lumaMean": 42.1303,
+          "lumaStdDev": 15.4368,
+          "lumaP05": 16.0,
+          "lumaP95": 71.5791,
+          "pixelCount": 12880
+        },
+        "v2": {
+          "rgbMean": [
+            45.351,
+            46.1212,
+            46.3499
+          ],
+          "lumaMean": 45.974,
+          "lumaStdDev": 12.9671,
+          "lumaP05": 32.0,
+          "lumaP95": 73.643,
+          "pixelCount": 12880
+        },
+        "v3": {
+          "rgbMean": [
+            40.5367,
+            43.9077,
+            46.3897
+          ],
+          "lumaMean": 43.3702,
+          "lumaStdDev": 15.188,
+          "lumaP05": 17.8596,
+          "lumaP95": 72.0814,
+          "pixelCount": 12880
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.005901,
+        "meanAbsoluteRgbDifference": 5.590114
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.005668,
+        "meanAbsoluteRgbDifference": 4.473447
+      }
+    },
+    {
+      "name": "wallSideHorizontal",
+      "xyxy": [
+        1390,
+        230,
+        1670,
+        245
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            20.8926,
+            24.2524,
+            26.3705
+          ],
+          "lumaMean": 23.691,
+          "lumaStdDev": 1.7641,
+          "lumaP05": 21.294,
+          "lumaP95": 26.5066,
+          "pixelCount": 4200
+        },
+        "v2": {
+          "rgbMean": [
+            24.2836,
+            25.7586,
+            26.0176
+          ],
+          "lumaMean": 25.4637,
+          "lumaStdDev": 1.3327,
+          "lumaP05": 23.5748,
+          "lumaP95": 27.5748,
+          "pixelCount": 4200
+        },
+        "v3": {
+          "rgbMean": [
+            21.7731,
+            25.4338,
+            27.6964
+          ],
+          "lumaMean": 24.8189,
+          "lumaStdDev": 1.4542,
+          "lumaP05": 22.5066,
+          "lumaP95": 27.294,
+          "pixelCount": 4200
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 2.486825
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 2.02881
+      }
+    },
+    {
+      "name": "channelCoreHorizontal",
+      "xyxy": [
+        1400,
+        202,
+        1650,
+        205
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            16.916,
+            17.3227,
+            17.2547
+          ],
+          "lumaMean": 17.2313,
+          "lumaStdDev": 2.2626,
+          "lumaP05": 14.0722,
+          "lumaP95": 21.0772,
+          "pixelCount": 750
+        },
+        "v2": {
+          "rgbMean": [
+            36.1653,
+            36.0813,
+            35.9347
+          ],
+          "lumaMean": 36.0886,
+          "lumaStdDev": 2.1454,
+          "lumaP05": 32.9278,
+          "lumaP95": 39.9278,
+          "pixelCount": 750
+        },
+        "v3": {
+          "rgbMean": [
+            18.032,
+            19.112,
+            19.8693
+          ],
+          "lumaMean": 18.9371,
+          "lumaStdDev": 2.0656,
+          "lumaP05": 15.8596,
+          "lumaP95": 22.647,
+          "pixelCount": 750
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 18.896
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 17.056
+      }
+    },
+    {
+      "name": "upperRailHorizontal",
+      "xyxy": [
+        1400,
+        193,
+        1650,
+        197
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            63.911,
+            68.267,
+            70.048
+          ],
+          "lumaMean": 67.4695,
+          "lumaStdDev": 8.7262,
+          "lumaP05": 53.0814,
+          "lumaP95": 83.29,
+          "pixelCount": 1000
+        },
+        "v2": {
+          "rgbMean": [
+            69.405,
+            70.435,
+            69.215
+          ],
+          "lumaMean": 70.1279,
+          "lumaStdDev": 7.8888,
+          "lumaP05": 56.5026,
+          "lumaP95": 83.643,
+          "pixelCount": 1000
+        },
+        "v3": {
+          "rgbMean": [
+            65.703,
+            70.136,
+            71.796
+          ],
+          "lumaMean": 69.3134,
+          "lumaStdDev": 7.9028,
+          "lumaP05": 55.294,
+          "lumaP95": 84.2178,
+          "pixelCount": 1000
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 4.746333
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 3.105333
+      }
+    },
+    {
+      "name": "upperArmorHorizontal",
+      "xyxy": [
+        1400,
+        181,
+        1650,
+        191
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            37.7348,
+            41.484,
+            44.8668
+          ],
+          "lumaMean": 40.9312,
+          "lumaStdDev": 4.4259,
+          "lumaP05": 34.1374,
+          "lumaP95": 47.7232,
+          "pixelCount": 2500
+        },
+        "v2": {
+          "rgbMean": [
+            41.4692,
+            42.3704,
+            43.1948
+          ],
+          "lumaMean": 42.2383,
+          "lumaStdDev": 3.1259,
+          "lumaP05": 37.0722,
+          "lumaP95": 47.5026,
+          "pixelCount": 2500
+        },
+        "v3": {
+          "rgbMean": [
+            38.0068,
+            42.0852,
+            45.6356
+          ],
+          "lumaMean": 41.4745,
+          "lumaStdDev": 3.3627,
+          "lumaP05": 36.3626,
+          "lumaP95": 46.3662,
+          "pixelCount": 2500
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 3.882933
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 2.9844
+      }
+    },
+    {
+      "name": "wallTopLeft",
+      "xyxy": [
+        490,
+        468,
+        620,
+        514
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            37.7987,
+            40.7716,
+            43.0142
+          ],
+          "lumaMean": 40.3015,
+          "lumaStdDev": 14.717,
+          "lumaP05": 15.7874,
+          "lumaP95": 69.1536,
+          "pixelCount": 5980
+        },
+        "v2": {
+          "rgbMean": [
+            45.1505,
+            45.9114,
+            46.1669
+          ],
+          "lumaMean": 45.7681,
+          "lumaStdDev": 12.531,
+          "lumaP05": 33.0,
+          "lumaP95": 73.643,
+          "pixelCount": 5980
+        },
+        "v3": {
+          "rgbMean": [
+            40.0067,
+            43.3329,
+            45.8426
+          ],
+          "lumaMean": 42.807,
+          "lumaStdDev": 14.6243,
+          "lumaP05": 18.784,
+          "lumaP95": 71.0814,
+          "pixelCount": 5980
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 6.127035
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 4.529543
+      }
+    },
+    {
+      "name": "sandAway",
+      "xyxy": [
+        450,
+        60,
+        900,
+        260
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            88.3723,
+            74.0476,
+            58.5179
+          ],
+          "lumaMean": 75.9718,
+          "lumaStdDev": 8.8314,
+          "lumaP05": 61.8974,
+          "lumaP95": 90.5284,
+          "pixelCount": 90000
+        },
+        "v2": {
+          "rgbMean": [
+            110.7683,
+            90.7184,
+            66.993
+          ],
+          "lumaMean": 93.268,
+          "lumaStdDev": 6.0267,
+          "lumaP05": 85.098,
+          "lumaP95": 103.6556,
+          "pixelCount": 90000
+        },
+        "v3": {
+          "rgbMean": [
+            110.7683,
+            90.7184,
+            66.993
+          ],
+          "lumaMean": 93.268,
+          "lumaStdDev": 6.0267,
+          "lumaP05": 85.098,
+          "lumaP95": 103.6556,
+          "pixelCount": 90000
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 16.494144
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      }
+    },
+    {
+      "name": "grassAway",
+      "xyxy": [
+        1340,
+        390,
+        1760,
+        700
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            82.9051,
+            86.197,
+            49.6939
+          ],
+          "lumaMean": 82.8616,
+          "lumaStdDev": 11.6341,
+          "lumaP05": 64.41,
+          "lumaP95": 102.6198,
+          "pixelCount": 130200
+        },
+        "v2": {
+          "rgbMean": [
+            61.7169,
+            65.5749,
+            32.1716
+          ],
+          "lumaMean": 62.343,
+          "lumaStdDev": 6.838,
+          "lumaP05": 52.4902,
+          "lumaP95": 74.7602,
+          "pixelCount": 130200
+        },
+        "v3": {
+          "rgbMean": [
+            61.7169,
+            65.5749,
+            32.1716
+          ],
+          "lumaMean": 62.343,
+          "lumaStdDev": 6.838,
+          "lumaP05": 52.4902,
+          "lumaP95": 74.7602,
+          "pixelCount": 130200
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 1.5e-05,
+        "meanAbsoluteRgbDifference": 20.112115
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      }
+    },
+    {
+      "name": "uiCharacter",
+      "xyxy": [
+        38,
+        818,
+        101,
+        889
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            72.3454,
+            54.171,
+            35.5898
+          ],
+          "lumaMean": 56.6933,
+          "lumaStdDev": 37.8277,
+          "lumaP05": 15.7742,
+          "lumaP95": 127.6506,
+          "pixelCount": 4473
+        },
+        "v2": {
+          "rgbMean": [
+            72.3454,
+            54.171,
+            35.5898
+          ],
+          "lumaMean": 56.6933,
+          "lumaStdDev": 37.8277,
+          "lumaP05": 15.7742,
+          "lumaP95": 127.6506,
+          "pixelCount": 4473
+        },
+        "v3": {
+          "rgbMean": [
+            72.3454,
+            54.171,
+            35.5898
+          ],
+          "lumaMean": 56.6933,
+          "lumaStdDev": 37.8277,
+          "lumaP05": 15.7742,
+          "lumaP95": 127.6506,
+          "pixelCount": 4473
+        }
+      },
+      "installedToV2": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      },
+      "v2ToV3": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      }
+    }
+  ],
+  "railChannelSeparation": {
+    "installed": {
+      "railMinusChannel": 50.2382,
+      "railToChannelRatio": 3.9155
+    },
+    "v2": {
+      "railMinusChannel": 34.0393,
+      "railToChannelRatio": 1.9432
+    },
+    "v3": {
+      "railMinusChannel": 50.3763,
+      "railToChannelRatio": 3.6602
+    }
+  },
+  "checks": {
+    "wholeTextureHierarchyRailArmorChannel": true,
+    "sampledCentralBandHierarchyRailArmorChannel": true,
+    "sameCameraTickDllAndBanks": true,
+    "allExternalFileHashesMatchCaptures": true,
+    "nativeRecessCloserToInstalled": true
+  },
+  "assessment": [
+    "Three functional value roles are restored both across each texture and in the narrow central strips actually sampled by the wall renderer.",
+    "Native recess value returns from36.09 inV2 to18.94 inV3, near the installed17.23. Rail is69.31 compared with installed67.47.",
+    "Native wall top value standard deviation returns to15.19, close to installed15.44 after the V2 reduction to12.97. This supports restored relief without a global lighting change.",
+    "Armor52.50 and rail65.81 luma are slightly brighter than the midpoint targets; channel28.08 is close. No inverted hierarchy or unexpected amplification observed.",
+    "Visual inspection of the V3 composite shows a distinct dark groove and cool raised metal planes, consistent with the measured restoration. Final preference remains the user visual review."
+  ],
+  "limitations": [
+    "No global lighting change is inferred. This is a material/colour contrast audit, not a validation of every scene light or lighting condition.",
+    "The opaque model control region is identical in the matched interior comparison; camera, tick, DLL and furniture banks match. This supports the material explanation but does not measure the light buffer independently.",
+    "Current installed texture hashes are recorded; the original before-capture metadata did not embed production material hashes. External texture hashes can be checked against their capture metadata.",
+    "The initial indoor comparison uses external material V1; its shared wall PNG is byte-identical to V2, while V2 additionally paints sand and fungal ground.",
+    "Quiet and worn now share one PNG per material role. This study restores the three value roles but does not introduce six separately weathered textures.",
+    "Single camera and tick; the selected clean horizontal run does not cover every wall orientation, dynamic light or all damage details.",
+    "Luma figures are encoded RGB proxies. Bilinear import statistics are a CPU approximation; final native PNG measurements include the actual game GPU pipeline."
+  ],
+  "measurementChecksPassed": true
+}

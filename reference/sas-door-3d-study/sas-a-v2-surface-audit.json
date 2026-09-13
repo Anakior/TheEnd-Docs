@@ -1,0 +1,51 @@
+{
+  "version": "v4-final",
+  "sourceSha256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+  "mechanicalAuditPassed": true,
+  "coplanarAuditPassed": true,
+  "exactOverlappingTrianglePairs": 0,
+  "previousFixedCoplanarPairsRemoved": 206,
+  "byBone": {
+    "Root": {
+      "exactPairs": 0,
+      "nearPairs": 52,
+      "minimumGap": 0.001000046730041504
+    },
+    "LeafLeft": {
+      "exactPairs": 0,
+      "nearPairs": 25,
+      "minimumGap": 0.0019999993965029716
+    },
+    "LeafRight": {
+      "exactPairs": 0,
+      "nearPairs": 21,
+      "minimumGap": 0.0019999993965029716
+    }
+  },
+  "remainingNearSurfaces": "Pressure gaskets have a 0.002 separation from the nose. Fixed near pairs are downward-facing under-covers at 0.001 and lateral returns at 0.0015; they are not the coincident terminal planes responsible for the rejected motion.",
+  "geometry": {
+    "meshes": 31,
+    "exportedVertices": 8189,
+    "triangles": 4450,
+    "matrixLinearTravelMaxError": 1.9645690918501657e-07,
+    "clipBoundsMaxError": 0.0,
+    "steelNosePassageWidth": 2.980000037699938,
+    "passageWidthIncludingGasket": 2.976000038906932,
+    "fixedFacesIntersectingLeafSweep": 0
+  },
+  "boundsChangeSinceV3": {
+    "leafBoundsUnchanged": true,
+    "rootXYBoundsUnchanged": true,
+    "rootMaximumZ": 0.6579999923706055,
+    "previousRootMaximumZ": 0.65,
+    "description": "Receiver relief increased to 0.658; deep pocket cover remains below the wall. This is recorded rather than described as an entirely unchanged envelope."
+  },
+  "nativeVisualValidation": "Latest-source captures are being reviewed by root. Geometry checks do not replace final visual or artistic review; v3 native measurements already confirmed removal of the original terminal flicker.",
+  "scope": "Binary matrices, weights, clip bounds, authored leaf envelope, swept clearance, and same-facing near-parallel triangle intersections with positive projected area >1e-8. Exact means all sampled triangle vertices within 1e-7 of the other plane. Shared edges without area are excluded. Normal grouping tolerance is recorded in the overlap report.",
+  "reports": [
+    "sas-a-independent-audit-v4-final.json",
+    "sas-a-overlaps-v4-final.json",
+    "sas-a-overlaps-v3-wall.json",
+    "sas-a-overlaps-v2.json"
+  ]
+}

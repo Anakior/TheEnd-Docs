@@ -1,0 +1,145 @@
+{
+  "status": "Canonical export and installation validated; final native game views at 48 and 96 inspected",
+  "passed": true,
+  "source": {
+    "source": "C:\\workspace\\TheEnd-Art\\objects\\sealed-shaft\\sealed-shaft.blend",
+    "sourceSha256": "787752FA4900EA5E8C7EBF93F2571A234C96DE4A0DF309E24E59A4FB7D8BB4A4",
+    "atlasSource": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-materials-v1\\painted-metal-atlas-v2.png",
+    "atlasSha256": "6350270192F5130366F647A3199B9CE2B278A20C1A6D30E0412B540FF7F14733",
+    "packedImages": [
+      "painted-metal-atlas-v2.png"
+    ],
+    "part": "sealed-shaft",
+    "style": "sealed",
+    "bounds": [
+      [
+        -1.4900000095367432,
+        -1.4900000095367432,
+        0.0
+      ],
+      [
+        1.4900000095367432,
+        1.4900000095367432,
+        0.7020000219345093
+      ]
+    ],
+    "nominalCells": [
+      3,
+      3
+    ],
+    "physicalEnvelopeScaleXY": 0.9939960283185294,
+    "vertices": 1648,
+    "triangles": 3096,
+    "uvMinimum": 0.03610000014305115,
+    "uvMaximum": 0.9501000046730042,
+    "preservedSources": {
+      "elevator": "BA7FF35BD57C2E3706F7DE9A6207A75F3BFD6475E2237B167B3519C0B0CC84A8",
+      "service-ladder": "8C3A5394B4E34BBEECD899BC11463A0B1C0E6FEAD4ED52073FAB6F8426AD195F"
+    },
+    "materialCount": 4,
+    "emissive": false
+  },
+  "manifestSha256": "42558820CA7CFCD99C3964D6DDFE5938CBF2D216DB878A7D742FBBEA56519067",
+  "exportReport": "C:/workspace/TheEnd-Art/exports/sealed-shaft/export-report.json",
+  "validationReport": "C:/workspace/TheEnd-Art/exports/sealed-shaft/validation-report.json",
+  "validationPassed": true,
+  "maximumSkinErrorMetres": 0.0,
+  "bankRoot": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\sealed-shaft",
+  "runtimeFileCount": 11,
+  "runtimeBytes": 2321648.0,
+  "meshGroups": 4,
+  "exportedTriangles": 3096.0,
+  "textureFiles": [
+    "textures/sealed-shaft-painted-armor.png"
+  ],
+  "clips": [
+    {
+      "id": "idle",
+      "frameCount": 1,
+      "fps": 60,
+      "loop": false
+    }
+  ],
+  "bones": [
+    {
+      "name": "Root",
+      "parent": -1
+    }
+  ],
+  "allMaterialsOpaqueNoEmission": true,
+  "files": [
+    {
+      "file": "manifest.json",
+      "bytes": 6379,
+      "sha256": "42558820CA7CFCD99C3964D6DDFE5938CBF2D216DB878A7D742FBBEA56519067",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "animations/idle.bin",
+      "bytes": 64,
+      "sha256": "5998E9D1DD9BF48AF6AF87A1EF8C7783B818AC8329637ADA08CC5FB329042376",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/27ffb56c0ceb5d31.indices.bin",
+      "bytes": 16200,
+      "sha256": "6A4DFD808BF26B7BFB2007ECCFAB202F60710F84290A9D4432D4AB01B4AC88D7",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/27ffb56c0ceb5d31.vertices.bin",
+      "bytes": 148096,
+      "sha256": "6BBB22EE30FBACCE5AD53471BFD1D6A1DC3C673522A59A6DC4DBF1219008401C",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/a9c736930622ea95.indices.bin",
+      "bytes": 13032,
+      "sha256": "A0D3BD9895472917380088749B9325622BAA38AF9C5F2D67EDA88469B751C1B5",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/a9c736930622ea95.vertices.bin",
+      "bytes": 103168,
+      "sha256": "CD566834529703026D5D002B15E7B90F490FB4DAB4438B17AFCBA9C841A9E043",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/cbeb773f429175e4.indices.bin",
+      "bytes": 6480,
+      "sha256": "34FE19BA0ECADE2A5C0280D44D80242C93D70F9DCC7E5141BC04320D9AE7A216",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/cbeb773f429175e4.vertices.bin",
+      "bytes": 57408,
+      "sha256": "D85F73DB541E8A526CE2AA505D73351D033EAF2C744C4DEF18E6E2B706EB5948",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/edc99932f88a1397.indices.bin",
+      "bytes": 1440,
+      "sha256": "3234F79ACD0124E2E518D58479E9341F3F3ADD39E991C8417326ECE1B115AB03",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "meshes/edc99932f88a1397.vertices.bin",
+      "bytes": 13312,
+      "sha256": "E40C2BEC66646C36D3B613B22D7DF914409CDA21280D09F974F8EAFD26A4B614",
+      "matchesCanonicalValidation": true
+    },
+    {
+      "file": "textures/sealed-shaft-painted-armor.png",
+      "bytes": 1956069,
+      "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+      "matchesCanonicalValidation": true
+    }
+  ],
+  "previewProvenance": "Blender source renders after saving; preview camera and lights are not exported. PNGs copied strictly without image editing.",
+  "nativeGameValidation": "Pending root integration/capture; no Client build or tests run by model author.",
+  "nativeFinalProofs": [
+    "native-final48/native-game-validation.json",
+    "native-final96/native-game-validation.json",
+    "native-pixel-comparison.json"
+  ]
+}

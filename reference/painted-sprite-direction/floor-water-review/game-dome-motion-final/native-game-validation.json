@@ -1,0 +1,244 @@
+{
+  "Scope": "Real TheEndGame with complete external furniture banks; only pause, active deck and camera selected; no fixture state or world edits.",
+  "Passed": true,
+  "DomeOnly": true,
+  "RoomOnly": false,
+  "Captures": [
+    {
+      "Name": "game-7-Dome-Environment-t0000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 0,
+      "WaterClock": {
+        "RequestedVisualTick": 12000,
+        "RenderedVisualTick": 12000,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t1000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 1,
+      "WaterClock": {
+        "RequestedVisualTick": 12060,
+        "RenderedVisualTick": 12060,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t2000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 2,
+      "WaterClock": {
+        "RequestedVisualTick": 12120,
+        "RenderedVisualTick": 12120,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t3000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 3,
+      "WaterClock": {
+        "RequestedVisualTick": 12180,
+        "RenderedVisualTick": 12180,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t4000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 4,
+      "WaterClock": {
+        "RequestedVisualTick": 12240,
+        "RenderedVisualTick": 12240,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t5000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 5,
+      "WaterClock": {
+        "RequestedVisualTick": 12300,
+        "RenderedVisualTick": 12300,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    },
+    {
+      "Name": "game-7-Dome-Environment-t6000ms.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "VisualTimeSeconds": 6,
+      "WaterClock": {
+        "RequestedVisualTick": 12360,
+        "RenderedVisualTick": 12360,
+        "WaterGeometryVersion": 17179874847,
+        "WaterSurfaceIdentity": 4755217,
+        "WaterBuffersIdentity": 61817822,
+        "PublicationCount": 1,
+        "CacheMatchesFirstSample": true
+      },
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    }
+  ],
+  "WaterMotion": true,
+  "FixedVisualTick": 12000,
+  "VisualSequence": {
+    "StartTick": 12000,
+    "TicksPerSecond": 60,
+    "DurationSeconds": 6,
+    "Samples": 7,
+    "WorldTick": 12000,
+    "Scope": "Seven exact visual times across six seconds; timeline sampling, not wall-clock or FPS measurement."
+  },
+  "ClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+  "Banks": [
+    {
+      "Variable": "THEEND_COMMON_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+      "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+    },
+    {
+      "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+      "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+    },
+    {
+      "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+      "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+    }
+  ],
+  "SpriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4",
+  "SpriteMaterialFiles": [
+    {
+      "File": "aliases.json",
+      "Sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C"
+    },
+    {
+      "File": "earth-painted.png",
+      "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+    },
+    {
+      "File": "fungal-painted.png",
+      "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+    },
+    {
+      "File": "grass-painted.png",
+      "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+    },
+    {
+      "File": "sand-painted.png",
+      "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+    },
+    {
+      "File": "wall-armor-painted.png",
+      "Sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+    },
+    {
+      "File": "wall-channel-painted.png",
+      "Sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+    },
+    {
+      "File": "wall-rail-painted.png",
+      "Sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+    },
+    {
+      "File": "water-painted.png",
+      "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+    }
+  ],
+  "DomeViewReference": ".artifacts/environment-improvements/before-partitions-water/final.png.probe.json"
+}

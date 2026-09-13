@@ -1,0 +1,83 @@
+{
+  "Scope": "Real TheEndGame with complete external furniture banks; only pause, active deck and camera selected; no fixture state or world edits.",
+  "Passed": true,
+  "DomeOnly": true,
+  "Captures": [
+    {
+      "Name": "game-7-Dome-Environment.png",
+      "Deck": 3,
+      "CentreX": 124,
+      "CentreY": 146,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "Kind": "DomeEnvironment",
+      "Condition": null,
+      "Fixture": null,
+      "StableRevision": 1,
+      "ModelCount": 108,
+      "VectorCount": 1
+    }
+  ],
+  "ClientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+  "Banks": [
+    {
+      "Variable": "THEEND_COMMON_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+      "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+    },
+    {
+      "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+      "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+    },
+    {
+      "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+      "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+    }
+  ],
+  "SpriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3",
+  "SpriteMaterialFiles": [
+    {
+      "File": "aliases.json",
+      "Sha256": "BD7CD6480855463EFEA1EA13AFF28BC6320A730683B5878F54FE2687E1CD7C30"
+    },
+    {
+      "File": "earth-painted.png",
+      "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+    },
+    {
+      "File": "floor-tile-painted-a.png",
+      "Sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00"
+    },
+    {
+      "File": "fungal-painted.png",
+      "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+    },
+    {
+      "File": "grass-painted.png",
+      "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+    },
+    {
+      "File": "sand-painted.png",
+      "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+    },
+    {
+      "File": "wall-armor-painted.png",
+      "Sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+    },
+    {
+      "File": "wall-channel-painted.png",
+      "Sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+    },
+    {
+      "File": "wall-rail-painted.png",
+      "Sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+    },
+    {
+      "File": "water-painted.png",
+      "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+    }
+  ],
+  "DomeViewReference": ".artifacts/environment-improvements/before-partitions-water/final.png.probe.json"
+}

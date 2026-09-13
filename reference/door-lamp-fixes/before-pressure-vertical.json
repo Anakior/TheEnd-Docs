@@ -1,0 +1,21 @@
+{
+  "DeckId": 0,
+  "CentreX": 72.5,
+  "CentreY": 161.5,
+  "CameraCellSize": 48,
+  "CameraPanX": -2520,
+  "CameraPanY": -7312,
+  "SourceDoor": {
+    "Id": 4,
+    "X": 72,
+    "Y": 161,
+    "Horizontal": false,
+    "Kind": "Pressure",
+    "State": "Closed",
+    "Openness": 0,
+    "GridStructure": "Door",
+    "SasId": -1
+  },
+  "SimulationTick": 12402,
+  "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+}

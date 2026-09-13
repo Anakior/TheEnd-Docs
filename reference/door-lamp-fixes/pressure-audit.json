@@ -1,0 +1,931 @@
+[
+  {
+    "DeckId": 0,
+    "LiveDoorCount": 50,
+    "SasCount": 4,
+    "SasBandDoorCount": 24,
+    "OrdinaryCount": 19,
+    "FreePressureCount": 7,
+    "FreePressure": [
+      {
+        "Id": 3,
+        "X": 95,
+        "Y": 68,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "dortoir-de-stase"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 4,
+        "X": 72,
+        "Y": 161,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "banque-de-semences-cassee"
+        ],
+        "Neighbourhood": [
+          "..W##W.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          "..W##WW"
+        ]
+      },
+      {
+        "Id": 7,
+        "X": 55,
+        "Y": 189,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "caissons-de-cryo-conservation"
+        ],
+        "Neighbourhood": [
+          "..W##W.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          "..W##WW"
+        ]
+      },
+      {
+        "Id": 16,
+        "X": 174,
+        "Y": 182,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": false,
+        "NearbyRooms": [
+          "circulation",
+          "passerelle-de-commandement-scellee"
+        ],
+        "Neighbourhood": [
+          ".......",
+          "WWW.WWW",
+          "##W.W##",
+          "##WDW##",
+          "BWW.WWW",
+          ".......",
+          "......."
+        ]
+      },
+      {
+        "Id": 17,
+        "X": 204,
+        "Y": 175,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": false,
+        "NearbyRooms": [
+          "circulation",
+          "caissons-de-cryo-conservation"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......W"
+        ]
+      },
+      {
+        "Id": 23,
+        "X": 153,
+        "Y": 171,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "chambre-forte"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 24,
+        "X": 159,
+        "Y": 45,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "puits-d-ascenseur"
+        ],
+        "Neighbourhood": [
+          "#W...W#",
+          "#B...W#",
+          "#W...W#",
+          "WWBDBWW",
+          "......W",
+          "......W",
+          "......W"
+        ]
+      }
+    ],
+    "DomeSeamDoors": [],
+    "GridOrphans": []
+  },
+  {
+    "DeckId": 1,
+    "LiveDoorCount": 62,
+    "SasCount": 4,
+    "SasBandDoorCount": 24,
+    "OrdinaryCount": 30,
+    "FreePressureCount": 8,
+    "FreePressure": [
+      {
+        "Id": 1,
+        "X": 62,
+        "Y": 66,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "mess"
+        ],
+        "Neighbourhood": [
+          "..W##W.",
+          "..W##B.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          "..W##WW"
+        ]
+      },
+      {
+        "Id": 7,
+        "X": 111,
+        "Y": 59,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "citerne-communale"
+        ],
+        "Neighbourhood": [
+          "......W",
+          "W....WW",
+          "WWW.WW#",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 15,
+        "X": 108,
+        "Y": 156,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "cabine-privee"
+        ],
+        "Neighbourhood": [
+          ".......",
+          "......W",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "BWW.WWW",
+          "......W"
+        ]
+      },
+      {
+        "Id": 16,
+        "X": 153,
+        "Y": 84,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "infirmerie"
+        ],
+        "Neighbourhood": [
+          "......W",
+          "WWW.WWW",
+          "##W.W##",
+          "##WDW##",
+          "WWW.WWW",
+          "W.....W",
+          "......."
+        ]
+      },
+      {
+        "Id": 18,
+        "X": 195,
+        "Y": 85,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "quartier-familial"
+        ],
+        "Neighbourhood": [
+          ".W##W..",
+          ".W##W..",
+          ".WWWW..",
+          "...D...",
+          ".WWWW..",
+          ".W##W..",
+          "WW##WW."
+        ]
+      },
+      {
+        "Id": 25,
+        "X": 182,
+        "Y": 58,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": false,
+        "NearbyRooms": [
+          "circulation",
+          "salle-blanche"
+        ],
+        "Neighbourhood": [
+          "W.....W",
+          "WW...WW",
+          "#WW.WW#",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......W"
+        ]
+      },
+      {
+        "Id": 29,
+        "X": 146,
+        "Y": 176,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "quartiers-d-officier"
+        ],
+        "Neighbourhood": [
+          "......W",
+          "WWW.WWW",
+          "##W.W##",
+          "##WDW##",
+          "WWW.WWW",
+          ".......",
+          "......."
+        ]
+      },
+      {
+        "Id": 37,
+        "X": 53,
+        "Y": 214,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "vertical-access"
+        ],
+        "Neighbourhood": [
+          "......W",
+          "......W",
+          "......W",
+          "WWWDWWW",
+          "#W...W#",
+          "#W...W#",
+          "#W...W#"
+        ]
+      }
+    ],
+    "DomeSeamDoors": [],
+    "GridOrphans": []
+  },
+  {
+    "DeckId": 2,
+    "LiveDoorCount": 57,
+    "SasCount": 4,
+    "SasBandDoorCount": 24,
+    "OrdinaryCount": 27,
+    "FreePressureCount": 6,
+    "FreePressure": [
+      {
+        "Id": 0,
+        "X": 73,
+        "Y": 93,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "place-communale"
+        ],
+        "Neighbourhood": [
+          ".W##W..",
+          ".W##W..",
+          ".WWWW..",
+          "...D...",
+          ".WWWW..",
+          ".W##W..",
+          ".W##W.."
+        ]
+      },
+      {
+        "Id": 1,
+        "X": 61,
+        "Y": 60,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "mess-commun"
+        ],
+        "Neighbourhood": [
+          "..W##B.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..B##W.",
+          "..W##W."
+        ]
+      },
+      {
+        "Id": 10,
+        "X": 47,
+        "Y": 172,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "marche-de-troc"
+        ],
+        "Neighbourhood": [
+          ".......",
+          "W.....W",
+          "WWW.WWW",
+          "##WDB##",
+          "##W.W##",
+          "WWW.WBW",
+          "......."
+        ]
+      },
+      {
+        "Id": 14,
+        "X": 154,
+        "Y": 72,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "salle-de-loisirs"
+        ],
+        "Neighbourhood": [
+          "..W##W.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          "..W##W."
+        ]
+      },
+      {
+        "Id": 22,
+        "X": 157,
+        "Y": 162,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "marche-de-troc"
+        ],
+        "Neighbourhood": [
+          "..B##W.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          ".WW##W."
+        ]
+      },
+      {
+        "Id": 24,
+        "X": 176,
+        "Y": 159,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "colombarium"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      }
+    ],
+    "DomeSeamDoors": [],
+    "GridOrphans": []
+  },
+  {
+    "DeckId": 3,
+    "LiveDoorCount": 59,
+    "SasCount": 0,
+    "SasBandDoorCount": 0,
+    "OrdinaryCount": 58,
+    "FreePressureCount": 1,
+    "FreePressure": [
+      {
+        "Id": 12,
+        "X": 192,
+        "Y": 49,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": false,
+        "NearbyRooms": [
+          "anneau-technique",
+          "poste-vannes"
+        ],
+        "Neighbourhood": [
+          "W......",
+          "W......",
+          "W......",
+          "WWWDWWB",
+          ".......",
+          ".......",
+          "......."
+        ]
+      }
+    ],
+    "DomeSeamDoors": [
+      {
+        "Id": 2,
+        "X": 128,
+        "Y": 33,
+        "Kind": "Ordinary"
+      }
+    ],
+    "GridOrphans": []
+  },
+  {
+    "DeckId": 4,
+    "LiveDoorCount": 60,
+    "SasCount": 4,
+    "SasBandDoorCount": 24,
+    "OrdinaryCount": 29,
+    "FreePressureCount": 7,
+    "FreePressure": [
+      {
+        "Id": 9,
+        "X": 114,
+        "Y": 83,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "salle-blanche"
+        ],
+        "Neighbourhood": [
+          ".......",
+          "WWW.WWW",
+          "##W.W##",
+          "##WDW##",
+          "WWW.WWW",
+          ".......",
+          "......."
+        ]
+      },
+      {
+        "Id": 10,
+        "X": 90,
+        "Y": 176,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "serre-experimentale"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 20,
+        "X": 197,
+        "Y": 43,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "archives-medicales-scientifiques"
+        ],
+        "Neighbourhood": [
+          ".B##W..",
+          ".W##W..",
+          ".WWWW..",
+          "...D...",
+          ".WWWW..",
+          ".W##W..",
+          "WW##WW."
+        ]
+      },
+      {
+        "Id": 21,
+        "X": 177,
+        "Y": 66,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "xeno-labo"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WBW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......W"
+        ]
+      },
+      {
+        "Id": 29,
+        "X": 194,
+        "Y": 156,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "archives-medicales-scientifiques"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 31,
+        "X": 147,
+        "Y": 200,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "confinement-biologique"
+        ],
+        "Neighbourhood": [
+          "......W",
+          "WBW.WWW",
+          "##W.W##",
+          "##WDW##",
+          "WWW.WWW",
+          ".......",
+          "......."
+        ]
+      },
+      {
+        "Id": 35,
+        "X": 66,
+        "Y": 213,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "puits-vertical"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "......W",
+          "WWWDWWW",
+          "#W...W#",
+          "#W...W#",
+          "#W...W#"
+        ]
+      }
+    ],
+    "DomeSeamDoors": [],
+    "GridOrphans": []
+  },
+  {
+    "DeckId": 5,
+    "LiveDoorCount": 53,
+    "SasCount": 4,
+    "SasBandDoorCount": 24,
+    "OrdinaryCount": 24,
+    "FreePressureCount": 5,
+    "FreePressure": [
+      {
+        "Id": 3,
+        "X": 82,
+        "Y": 99,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "noeud-de-distribution"
+        ],
+        "Neighbourhood": [
+          ".W##W..",
+          ".B##W..",
+          ".WWWW..",
+          "...D...",
+          ".WWWW..",
+          ".W##W..",
+          ".W##W.."
+        ]
+      },
+      {
+        "Id": 9,
+        "X": 82,
+        "Y": 179,
+        "Horizontal": true,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "salle-des-turbines"
+        ],
+        "Neighbourhood": [
+          ".......",
+          ".......",
+          "WWW.WWW",
+          "##WDW##",
+          "##W.W##",
+          "WWW.WWW",
+          "......."
+        ]
+      },
+      {
+        "Id": 19,
+        "X": 200,
+        "Y": 94,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "galerie-de-cables"
+        ],
+        "Neighbourhood": [
+          ".W##W..",
+          ".W##W..",
+          ".WWBW..",
+          "...D...",
+          ".WWWW..",
+          ".B##W..",
+          "WW##W.."
+        ]
+      },
+      {
+        "Id": 20,
+        "X": 198,
+        "Y": 53,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "boucle-de-liquide"
+        ],
+        "Neighbourhood": [
+          ".W##W..",
+          ".W##W..",
+          ".WWWW..",
+          "...D...",
+          ".WWWW..",
+          ".W##W..",
+          "BW##W.."
+        ]
+      },
+      {
+        "Id": 24,
+        "X": 175,
+        "Y": 168,
+        "Horizontal": false,
+        "Kind": "Pressure",
+        "State": "Closed",
+        "GridStructure": "Door",
+        "GridLookupMatches": true,
+        "Feature": "None",
+        "RegisteredInternalGateway": true,
+        "NearbyRooms": [
+          "circulation",
+          "salle-des-transformateurs"
+        ],
+        "Neighbourhood": [
+          "..W##W.",
+          "..W##W.",
+          "..WWWW.",
+          "...D...",
+          "..WWWW.",
+          "..W##W.",
+          "..W##W."
+        ]
+      }
+    ],
+    "DomeSeamDoors": [],
+    "GridOrphans": []
+  }
+]

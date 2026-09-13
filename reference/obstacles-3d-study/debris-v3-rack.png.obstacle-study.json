@@ -1,0 +1,496 @@
+{
+  "Study": "Native obstacle appearance study; no installation, collision or gameplay change",
+  "Feature": "HeavyDebris",
+  "DeckId": 0,
+  "SourceBank": "C:\\workspace\\TheEnd-Art\\exports\\debris-study",
+  "Provenance": {
+    "source": {
+      "file": "objects/debris/debris-study.blend",
+      "sha256": "19561aa99c31cb35d26ea378871295c4752a9bec9d9d917a37f23463a909af12"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "VariantOverride": "rack",
+  "Seed": {
+    "X": 203,
+    "Y": 191
+  },
+  "Grid": {
+    "Width": 256,
+    "Height": 256
+  },
+  "Cells": [
+    {
+      "X": 203,
+      "Y": 191
+    },
+    {
+      "X": 202,
+      "Y": 192
+    },
+    {
+      "X": 203,
+      "Y": 192
+    },
+    {
+      "X": 201,
+      "Y": 193
+    },
+    {
+      "X": 202,
+      "Y": 193
+    },
+    {
+      "X": 203,
+      "Y": 193
+    },
+    {
+      "X": 204,
+      "Y": 193
+    },
+    {
+      "X": 202,
+      "Y": 194
+    },
+    {
+      "X": 203,
+      "Y": 194
+    }
+  ],
+  "Bounds": {
+    "MinX": 201,
+    "MinY": 191,
+    "MaxX": 204,
+    "MaxY": 194,
+    "Width": 4,
+    "Height": 4
+  },
+  "Patches": [
+    {
+      "Variant": "rack",
+      "NaturalVariant": "furniture",
+      "Rotation": -0.07094681,
+      "Cells": [
+        {
+          "X": 203,
+          "Y": 191
+        },
+        {
+          "X": 202,
+          "Y": 192
+        },
+        {
+          "X": 203,
+          "Y": 192
+        },
+        {
+          "X": 202,
+          "Y": 193
+        },
+        {
+          "X": 203,
+          "Y": 193
+        },
+        {
+          "X": 204,
+          "Y": 193
+        }
+      ],
+      "Bounds": {
+        "MinX": 202,
+        "MinY": 191,
+        "MaxX": 204,
+        "MaxY": 193,
+        "Width": 3,
+        "Height": 3
+      },
+      "ScaleX": 2,
+      "ScaleY": 2,
+      "HeightScale": 2,
+      "PlanarFit": 1,
+      "Poses": [
+        {
+          "Part": "body",
+          "Style": "rack",
+          "NaturalStyle": "furniture",
+          "CentreX": 203.5,
+          "CentreY": 192.5,
+          "Rotation": -0.07094681,
+          "Scale": 2,
+          "HeightScale": 2,
+          "PlanarFit": 1,
+          "SourceHalfExtent": 0.46,
+          "World": [
+            1.9949687,
+            -0.2004996,
+            0,
+            0,
+            0.14177462,
+            2.8213117,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            203.5,
+            -272.2361,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 202.60605,
+            "Top": 191.25168,
+            "Right": 204.39395,
+            "Bottom": 193.32567,
+            "Width": 1.7879028,
+            "Height": 2.0739899,
+            "TopCenter": {}
+          }
+        },
+        {
+          "Part": "scrap",
+          "Style": "beam",
+          "NaturalStyle": "beam",
+          "CentreX": 202.5,
+          "CentreY": 193.5,
+          "Rotation": -5.2120495,
+          "Scale": 1,
+          "HeightScale": 1,
+          "PlanarFit": 1,
+          "SourceHalfExtent": 0.25,
+          "World": [
+            0.4791276,
+            1.2413193,
+            0,
+            0,
+            -0.8777453,
+            0.6775887,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            202.5,
+            -273.65033,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 202.36124,
+            "Top": 193.24086,
+            "Right": 202.63876,
+            "Bottom": 193.7038,
+            "Width": 0.27752686,
+            "Height": 0.4629364,
+            "TopCenter": {}
+          }
+        },
+        {
+          "Part": "scrap",
+          "Style": "beam",
+          "NaturalStyle": "beam",
+          "CentreX": 204.5,
+          "CentreY": 193.5,
+          "Rotation": -3.3114042,
+          "Scale": 1,
+          "HeightScale": 1,
+          "PlanarFit": 1,
+          "SourceHalfExtent": 0.25,
+          "World": [
+            -0.9856166,
+            0.23899733,
+            0,
+            0,
+            -0.16899663,
+            -1.3938724,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            204.5,
+            -273.65033,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 204.28763,
+            "Top": 193.36552,
+            "Right": 204.71237,
+            "Bottom": 193.57913,
+            "Width": 0.42474365,
+            "Height": 0.21360779,
+            "TopCenter": {}
+          }
+        }
+      ],
+      "World": [
+        1.9949687,
+        -0.2004996,
+        0,
+        0,
+        0.14177462,
+        2.8213117,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        203.5,
+        -272.2361,
+        0,
+        1
+      ],
+      "BodyVisualBounds": {
+        "Left": 202.60605,
+        "Top": 191.25168,
+        "Right": 204.39395,
+        "Bottom": 193.32567,
+        "Width": 1.7879028,
+        "Height": 2.0739899,
+        "TopCenter": {}
+      }
+    },
+    {
+      "Variant": "rack",
+      "NaturalVariant": "rack",
+      "Rotation": -0.11176779,
+      "Cells": [
+        {
+          "X": 201,
+          "Y": 193
+        }
+      ],
+      "Bounds": {
+        "MinX": 201,
+        "MinY": 193,
+        "MaxX": 201,
+        "MaxY": 193,
+        "Width": 1,
+        "Height": 1
+      },
+      "ScaleX": 1,
+      "ScaleY": 1,
+      "HeightScale": 1,
+      "PlanarFit": 0.9834079,
+      "Poses": [
+        {
+          "Part": "body",
+          "Style": "rack",
+          "NaturalStyle": "rack",
+          "CentreX": 201.5,
+          "CentreY": 193.5,
+          "Rotation": -0.11176779,
+          "Scale": 1,
+          "HeightScale": 1,
+          "PlanarFit": 0.9834079,
+          "SourceHalfExtent": 0.46,
+          "World": [
+            0.9772719,
+            -0.1551175,
+            0,
+            0,
+            0.10968463,
+            1.3820711,
+            0,
+            0,
+            0,
+            0,
+            0.9834079,
+            0,
+            201.5,
+            -273.65033,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 201.04663,
+            "Top": 192.87077,
+            "Right": 201.95337,
+            "Bottom": 193.9214,
+            "Width": 0.9067383,
+            "Height": 1.0506287,
+            "TopCenter": {}
+          }
+        }
+      ],
+      "World": [
+        0.9772719,
+        -0.1551175,
+        0,
+        0,
+        0.10968463,
+        1.3820711,
+        0,
+        0,
+        0,
+        0,
+        0.9834079,
+        0,
+        201.5,
+        -273.65033,
+        0,
+        1
+      ],
+      "BodyVisualBounds": {
+        "Left": 201.04663,
+        "Top": 192.87077,
+        "Right": 201.95337,
+        "Bottom": 193.9214,
+        "Width": 0.9067383,
+        "Height": 1.0506287,
+        "TopCenter": {}
+      }
+    },
+    {
+      "Variant": "rack",
+      "NaturalVariant": "rack",
+      "Rotation": 0.0049983026,
+      "Cells": [
+        {
+          "X": 202,
+          "Y": 194
+        },
+        {
+          "X": 203,
+          "Y": 194
+        }
+      ],
+      "Bounds": {
+        "MinX": 202,
+        "MinY": 194,
+        "MaxX": 203,
+        "MaxY": 194,
+        "Width": 2,
+        "Height": 1
+      },
+      "ScaleX": 1,
+      "ScaleY": 1,
+      "HeightScale": 1,
+      "PlanarFit": 1,
+      "Poses": [
+        {
+          "Part": "body",
+          "Style": "rack",
+          "NaturalStyle": "rack",
+          "CentreX": 202.5,
+          "CentreY": 194.5,
+          "Rotation": 0.0049983026,
+          "Scale": 1,
+          "HeightScale": 1,
+          "PlanarFit": 1,
+          "SourceHalfExtent": 0.46,
+          "World": [
+            0.9999875,
+            0.0070686373,
+            0,
+            0,
+            -0.0049982816,
+            1.4141959,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            202.5,
+            -275.06454,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 202.07727,
+            "Top": 193.90259,
+            "Right": 202.92273,
+            "Bottom": 194.88608,
+            "Width": 0.845459,
+            "Height": 0.98349,
+            "TopCenter": {}
+          }
+        },
+        {
+          "Part": "scrap",
+          "Style": "panel",
+          "NaturalStyle": "panel",
+          "CentreX": 203.5,
+          "CentreY": 194.5,
+          "Rotation": -4.8660994,
+          "Scale": 1,
+          "HeightScale": 1,
+          "PlanarFit": 1,
+          "SourceHalfExtent": 0.25,
+          "World": [
+            0.15310581,
+            1.3975396,
+            0,
+            0,
+            -0.9882098,
+            0.2165243,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            203.5,
+            -275.06454,
+            0,
+            1
+          ],
+          "VisualBounds": {
+            "Left": 203.36903,
+            "Top": 194.28577,
+            "Right": 203.63097,
+            "Bottom": 194.65393,
+            "Width": 0.26193237,
+            "Height": 0.36816406,
+            "TopCenter": {}
+          }
+        }
+      ],
+      "World": [
+        0.9999875,
+        0.0070686373,
+        0,
+        0,
+        -0.0049982816,
+        1.4141959,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        202.5,
+        -275.06454,
+        0,
+        1
+      ],
+      "BodyVisualBounds": {
+        "Left": 202.07727,
+        "Top": 193.90259,
+        "Right": 202.92273,
+        "Bottom": 194.88608,
+        "Width": 0.845459,
+        "Height": 0.98349,
+        "TopCenter": {}
+      }
+    }
+  ],
+  "Assumptions": {
+    "Selection": "First row-major feature cell; replace its entire cardinal component. Rubble keeps one model; heavy debris uses the existing connected 3x3 partition",
+    "Footprint": "Rubble keeps its established footprint. HeavyDebris composes one body and up to two separate fragments per connected patch; fragment centres stay on occupied cells. Irregular occupied cells remain the gameplay footprint",
+    "GroundScale": "HeavyDebris scales each body or fragment uniformly in XYZ, including PlanarFit, then applies its rotation and the grid Y stretch of sqrt(2). Long and large patches are composed from separate pieces instead of stretching one object",
+    "Variety": "Stable spatial anchor chooses the body variant and turn; heavy debris retains the existing furniture/console/rack/canopy families. VariantOverride only stages an explicit visual comparison",
+    "Height": "Rubble: established source Z multiplied by min(2, XY scale). HeavyDebris: same scale as source X and Y before the grid stretch",
+    "Clip": "idle at zero seconds",
+    "SimulationUnchanged": true
+  }
+}

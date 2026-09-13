@@ -1,0 +1,156 @@
+{
+  "Study": "Native obstacle appearance study; no installation, collision or gameplay change",
+  "Feature": "Rubble",
+  "DeckId": 0,
+  "SourceBank": "C:\\workspace\\TheEnd-Art\\exports\\rock-study",
+  "Provenance": {
+    "source": {
+      "file": "objects/rock/rock-study.blend",
+      "sha256": "a5a9320d7d61a2e7ab720408db8fdcd63aa49ec97959f32dbd38663ede62b12e"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "VariantOverride": "rounded",
+  "Seed": {
+    "X": 92,
+    "Y": 71
+  },
+  "Grid": {
+    "Width": 256,
+    "Height": 256
+  },
+  "Cells": [
+    {
+      "X": 92,
+      "Y": 71
+    },
+    {
+      "X": 93,
+      "Y": 71
+    },
+    {
+      "X": 94,
+      "Y": 71
+    },
+    {
+      "X": 92,
+      "Y": 72
+    },
+    {
+      "X": 93,
+      "Y": 72
+    },
+    {
+      "X": 94,
+      "Y": 72
+    },
+    {
+      "X": 95,
+      "Y": 72
+    },
+    {
+      "X": 93,
+      "Y": 73
+    }
+  ],
+  "Bounds": {
+    "MinX": 92,
+    "MinY": 71,
+    "MaxX": 95,
+    "MaxY": 73,
+    "Width": 4,
+    "Height": 3
+  },
+  "Patches": [
+    {
+      "Variant": "rounded",
+      "NaturalVariant": "rounded",
+      "Rotation": -0.19000424,
+      "Cells": [
+        {
+          "X": 92,
+          "Y": 71
+        },
+        {
+          "X": 93,
+          "Y": 71
+        },
+        {
+          "X": 94,
+          "Y": 71
+        },
+        {
+          "X": 92,
+          "Y": 72
+        },
+        {
+          "X": 93,
+          "Y": 72
+        },
+        {
+          "X": 94,
+          "Y": 72
+        },
+        {
+          "X": 95,
+          "Y": 72
+        },
+        {
+          "X": 93,
+          "Y": 73
+        }
+      ],
+      "Bounds": {
+        "MinX": 92,
+        "MinY": 71,
+        "MaxX": 95,
+        "MaxY": 73,
+        "Width": 4,
+        "Height": 3
+      },
+      "ScaleX": 1.5318419,
+      "ScaleY": 1.5318419,
+      "HeightScale": 1.5318419,
+      "PlanarFit": 1,
+      "World": [
+        1.504274,
+        -0.4091438,
+        0,
+        0,
+        0.28930837,
+        2.1273646,
+        0,
+        0,
+        0,
+        0,
+        1.5318419,
+        0,
+        94,
+        -102.53048,
+        0,
+        1
+      ],
+      "VisualBounds": {
+        "Left": 93.31381,
+        "Top": 71.401184,
+        "Right": 94.68619,
+        "Bottom": 73.181786,
+        "Width": 1.3723755,
+        "Height": 1.7806015,
+        "TopCenter": {}
+      }
+    }
+  ],
+  "Assumptions": {
+    "Selection": "First row-major feature cell; replace its entire cardinal component. Rubble keeps one model; heavy debris uses the existing connected 3x3 partition",
+    "Footprint": "Source nominal XY 1x1. Rubble keeps uniform XY scale from component cell count; heavy debris follows the patch long axis. Irregular occupied cells remain the gameplay footprint",
+    "GroundScale": "Rubble X=Y=1.6*(0.42\u002B0.19*sqrt(component cell count)). HeavyDebris scales source X along the long patch axis, source Y along the short axis, fits the rotated \u002B/-0.46 source envelope using PlanarFit, then applies the stable rotation. The game then stretches grid Y by sqrt(2)",
+    "Variety": "Stable spatial anchor chooses the body variant and turn; heavy debris retains the existing furniture/console/rack/canopy families. VariantOverride only stages an explicit visual comparison",
+    "Height": "Rubble: source Z multiplied by min(2, uniform XY scale). HeavyDebris: source Z unchanged",
+    "Clip": "idle at zero seconds",
+    "SimulationUnchanged": true
+  }
+}

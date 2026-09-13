@@ -1,0 +1,82 @@
+{
+  "Scope": "Standalone native model study; actual production model renderers and lighting, no colony simulation or save mutation.",
+  "Page": "stations",
+  "GroupOffset": 0,
+  "RotationQuarterTurns": 0,
+  "Zoom": 1,
+  "Occupied": false,
+  "Width": 1920,
+  "Height": 1080,
+  "Banks": [
+    {
+      "Name": "cryopod",
+      "Manifest": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets/models/cryopod/manifest.json",
+      "Sha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66"
+    },
+    {
+      "Name": "cryopod-damaged",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged\\manifest.json",
+      "Sha256": "E600EAD6C959BB63EB443808B5B484BB74BAAA163B2D9CD85A804A4FF2E64BDC"
+    },
+    {
+      "Name": "THEEND_COMMON_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture\\manifest.json",
+      "Sha256": "CDA227C1D4DBD30B1EEB99D781E30127C9CE6A7B2B60BAA3CFEE9BE96D96981B"
+    },
+    {
+      "Name": "THEEND_UTILITY_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture\\manifest.json",
+      "Sha256": "E68A8541714F3BF9F2D4622F8EA7122E97C7CB813A5E32636A1CAE2724FB1273"
+    }
+  ],
+  "Cards": [
+    {
+      "Part": "station-3x2",
+      "Style": "dalle-sealed",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-3x2",
+      "Style": "dalle-open",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-3x2",
+      "Style": "dalle-stripped",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-3x2",
+      "Style": "dalle-collapsed",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-4x3",
+      "Style": "dalle-sealed",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-4x3",
+      "Style": "dalle-open",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-4x3",
+      "Style": "dalle-stripped",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "station-4x3",
+      "Style": "dalle-collapsed",
+      "GameScale": false,
+      "Available": true
+    }
+  ]
+}

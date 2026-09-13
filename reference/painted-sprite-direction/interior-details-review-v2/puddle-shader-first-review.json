@@ -1,0 +1,38 @@
+{
+  "Scope": "First candidate of floor puddle design review v2; shader only; native artistic review pending at publication",
+  "FilesChanged": [
+    "TheEnd.Client/Assets/shaders/sprite-water.fx",
+    "TheEnd.Client/Assets/shaders/sprite-water.mgfxo"
+  ],
+  "LakeShaderPrefixIdentical": true,
+  "LakeShaderPrefixSha256": "10256E8A605B71CA67E3C117CC9638B857A46AD734BE54A334071D7CFCCB4F50",
+  "BeforeFxSha256": "7A74297B22EDF323A460DF2AC27432BA9FF5B974770F4C6CC7F49745DBCEB879",
+  "CandidateFxSha256": "912D2EDD9846B4597538AEB24EFBBA0BF7E86B154B9C612D5A1784BC6CDAFCCD",
+  "CandidateMgfxoSha256": "5F9A33027D32D89267E6109E361363B914F14C2F01200B491D093C3CF5E7871C",
+  "RuntimeMgfxoSha256": "5F9A33027D32D89267E6109E361363B914F14C2F01200B491D093C3CF5E7871C",
+  "ShaderBuild": {
+    "Profile": "OpenGL",
+    "ExitCode": 0,
+    "Command": "./scripts/build-water-shader.ps1",
+    "Output": "Compiled 'C:/workspace/TheEnd/TheEnd.Client/Assets/shaders/sprite-water.fx' to 'C:/workspace/TheEnd/TheEnd.Client/Assets/shaders/sprite-water.mgfxo'."
+  },
+  "CSharpAndVertexLayoutChanged": false,
+  "TextureAssetsChanged": false,
+  "ClassificationAndCachesChanged": false,
+  "IndependentReview": {
+    "Result": "No concrete blocker",
+    "Findings": [
+      "Premultiplied optical layers coherent and alpha bounded",
+      "Edge depends only on static world position and shore distance",
+      "Tremor restricted to tiny highlights",
+      "Puddle technique samples no lake texture"
+    ],
+    "Reviewer": "mesh_practice_review"
+  },
+  "NativeValidation": "Parent agent owns coordinated first capture, final tests and production proof",
+  "Limits": [
+    "Existing component contour remains the outer limit; shader only erodes inward",
+    "Most floor remains visible under a darkening film; localized highlights transmit less floor",
+    "No global performance benchmark claimed"
+  ]
+}

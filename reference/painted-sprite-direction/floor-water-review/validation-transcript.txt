@@ -1,0 +1,88 @@
+Painted water renderer: captured command output, 2026-09-12.
+This transcript preserves the tool outputs from the completed validation; commands were not rerun to create it.
+No TRX logger was requested for this test run.
+
+COMMAND: ./scripts/build-water-shader.ps1
+Compiled 'C:/workspace/TheEnd/TheEnd.Client/Assets/shaders/sprite-water.fx' to 'C:/workspace/TheEnd/TheEnd.Client/Assets/shaders/sprite-water.mgfxo'.
+Exit code: 0
+
+COMMAND: dotnet build TheEnd.Client/TheEnd.Client.csproj --no-restore -v minimal
+  TheEnd.Core -> C:\workspace\TheEnd\TheEnd.Core\bin\Debug\net9.0\TheEnd.Core.dll
+  TheEnd.Client -> C:\workspace\TheEnd\TheEnd.Client\bin\Debug\net9.0\TheEnd.Client.dll
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+Temps écoulé 00:00:04.62
+Exit code: 0
+
+COMMAND: dotnet test TheEnd.Tests/TheEnd.Tests.csproj --no-restore -p:BuildProjectReferences=false --filter "FullyQualifiedName~SpriteWater|FullyQualifiedName~WaterPresentationClock|FullyQualifiedName~WaterSkinTests|FullyQualifiedName~SpriteMaterialResolverTests" -v minimal
+  TheEnd.Tests -> C:\workspace\TheEnd\TheEnd.Tests\bin\Debug\net9.0\TheEnd.Tests.dll
+Série de tests pour C:\workspace\TheEnd\TheEnd.Tests\bin\Debug\net9.0\TheEnd.Tests.dll (.NETCoreApp,Version=v9.0)
+Version de VSTest 17.14.1 (x64)
+
+Démarrage de l'exécution de tests, patientez...
+Au total, 1 fichiers de test ont correspondu au modèle spécifié.
+Réussi! - échec : 0, réussite : 46, ignorée(s) : 0, total : 46, durée : 118 ms - TheEnd.Tests.dll (net9.0)
+Exit code: 0
+
+Artifacts SHA256:
+TheEnd.Client/bin/Debug/net9.0/TheEnd.Client.dll
+62EEED2D42A7672AF92841410F630CBFD9BC9C6367150389BC748D842447EF5C
+TheEnd.Client/Assets/shaders/sprite-water.mgfxo
+856EABBCA36457DA58B68D55B88567F9BF109C5BD2B8BF12F088D7CE353360DD
+
+Source formatting validation: git diff --check on modified water files and shared wiring exited 0.
+No renderer or shader changes were made after the Client build for the native review.
+
+FINAL HARNESS WIRING (after the first native review):
+TheEndGame now supplies Context.TickCount to ObservePresentationTime only while the
+built-in FrameCaptureHarness.Enabled is true. That temporary capture tick is distinct
+from the persistent FixedWaterVisualTick used by external helpers. Resolution order:
+explicit helper override, native capture tick, painted presentation time / installed simulation time.
+The shader, gradient, geometry and cache logic did not change in this final delta.
+
+COMMAND: dotnet build TheEnd.Client/TheEnd.Client.csproj --no-restore -v minimal
+Final build succeeded: 0 warnings, 0 errors; elapsed 00:00:06.15.
+Actual console log: build-final.log (same directory).
+
+COMMAND: dotnet test TheEnd.Tests/TheEnd.Tests.csproj --no-restore -p:BuildProjectReferences=false --filter "FullyQualifiedName~WaterPresentationClockTests" --logger "trx;LogFileName=water-clock-final.trx" --results-directory .artifacts/painted-water-renderer-validation -v minimal
+Final targeted clock tests: passed 4, failed 0, skipped 0, duration 7 ms.
+Actual console log: tests-clock-final.log (same directory).
+Machine-readable test result: water-clock-final.trx (same directory).
+The earlier 46-test water/geometry/cache/material run remains the broader validation;
+only the clock tests were repeated after the bounded native-capture wiring change.
+
+FINAL artifacts SHA256:
+TheEnd.Client/bin/Debug/net9.0/TheEnd.Client.dll
+C639BEFC1B0ECFDE744252DA2975634545D028E2F196499D6AF924B34040EB93
+TheEnd.Client/Assets/shaders/sprite-water.fx
+738818BDEE28108730484F55640CE78049CCFC6015CB6A9AA06E2F6422F52D06
+TheEnd.Client/Assets/shaders/sprite-water.mgfxo (unchanged from first review)
+856EABBCA36457DA58B68D55B88567F9BF109C5BD2B8BF12F088D7CE353360DD
+
+Implementation bounds:
+- Painted profile only when the external water texture actually loaded, not on fallback.
+- Source PNGs are unchanged. Texture wrap/period and the existing crossed waves are unchanged.
+- Shore opacity smoothstep over 1 cell; turquoise-to-depth gains smoothstep over 4 cells.
+- Alpha is premultiplied: SpriteAssets premultiplies input, GPU AlphaBlend receives RGB
+  and alpha both scaled by shoreline opacity.
+- No per-frame texture load, contour rebuild or vertex upload. One retained shore-distance
+  float adds 4 bytes per GPU vertex (40 to 44) and 4 bytes per CPU vertex distance array.
+- The painted pixel branch adds a small fixed amount of arithmetic; no new performance
+  benchmark was run in this visual correction, so no timing claim is made.
+- Ponds narrower than the shallow range naturally remain partly transparent.
+
+ROOT FINAL INPUT GUARD AND NATIVE VALIDATION:
+TheEndGame.CaptureInputSuppressed defaults to false. Only the noninteractive external
+helper sets it true to use the existing Input.Synchronize gate; interactive reviews
+remain fully controllable. This resolves live HUD input affecting the first timeline.
+dotnet build TheEnd.Client/TheEnd.Client.csproj -c Debug --no-restore --nologo --verbosity minimal
+Build succeeded: 0 warnings, 0 errors, elapsed 00:00:02.25.
+dotnet build .artifacts/fixture-complete/native/FixtureProbe.csproj -c Debug --nologo --verbosity minimal
+Helper build succeeded: 0 warnings, 0 errors, elapsed 00:00:00.86.
+Final Client SHA256: F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6.
+Shader unchanged: 856EABBCA36457DA58B68D55B88567F9BF109C5BD2B8BF12F088D7CE353360DD.
+Native final: game-dome-motion-final/native-game-validation.json.
+Image analysis: water-motion-validation.json; seven frames with stable dry scene and moving water.
+No additional unit tests were added or repeated for this input guard.

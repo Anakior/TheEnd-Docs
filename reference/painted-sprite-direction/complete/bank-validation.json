@@ -1,0 +1,169 @@
+{
+  "scope": "Painted furniture banks, external study only; source/export and UV validation.",
+  "banks": [
+    {
+      "name": "common-furniture-painted",
+      "source": {
+        "file": "objects/common-furniture/common-furniture-painted.blend",
+        "sha256": "c3a1f1445085810924eee03e98ea0737a7b716a3d19db1341f1a9fc50afd3232"
+      },
+      "manifestSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+      "variantCount": 16,
+      "parts": {
+        "bench": [
+          "long-collapsed",
+          "long-open",
+          "long-sealed",
+          "long-stripped",
+          "short-collapsed",
+          "short-open",
+          "short-sealed",
+          "short-stripped"
+        ],
+        "table": [
+          "long-collapsed",
+          "long-open",
+          "long-sealed",
+          "long-stripped",
+          "short-collapsed",
+          "short-open",
+          "short-sealed",
+          "short-stripped"
+        ]
+      },
+      "meshCount": 64,
+      "materialCount": 4,
+      "boneCount": 1,
+      "texturedVertices": 89296,
+      "uvOutsideUnitSquare": 0,
+      "maximumSkinErrorMetres": 0,
+      "passed": true
+    },
+    {
+      "name": "utility-furniture-complete-painted",
+      "source": {
+        "file": "objects/utility-furniture/utility-furniture-complete-painted.blend",
+        "sha256": "d0c3e8c690c18750e94d2f633aa0c9142eea282ff09b1a32785b87d4cdbe7889"
+      },
+      "manifestSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+      "variantCount": 52,
+      "parts": {
+        "console-2": [
+          "dalle-collapsed",
+          "dalle-open",
+          "dalle-sealed",
+          "dalle-stripped",
+          "peigne-collapsed",
+          "peigne-open",
+          "peigne-sealed",
+          "peigne-stripped",
+          "visiere-collapsed",
+          "visiere-open",
+          "visiere-sealed",
+          "visiere-stripped"
+        ],
+        "console-3": [
+          "dalle-collapsed",
+          "dalle-open",
+          "dalle-sealed",
+          "dalle-stripped",
+          "peigne-collapsed",
+          "peigne-open",
+          "peigne-sealed",
+          "peigne-stripped",
+          "visiere-collapsed",
+          "visiere-open",
+          "visiere-sealed",
+          "visiere-stripped"
+        ],
+        "rack-1": [
+          "collapsed",
+          "open",
+          "sealed",
+          "stripped"
+        ],
+        "rack-2": [
+          "collapsed",
+          "open",
+          "sealed",
+          "stripped"
+        ],
+        "rack-3": [
+          "collapsed",
+          "open",
+          "sealed",
+          "stripped"
+        ],
+        "station-3x2": [
+          "dalle-collapsed",
+          "dalle-open",
+          "dalle-sealed",
+          "dalle-stripped",
+          "peigne-collapsed",
+          "peigne-open",
+          "peigne-sealed",
+          "peigne-stripped"
+        ],
+        "station-4x3": [
+          "dalle-collapsed",
+          "dalle-open",
+          "dalle-sealed",
+          "dalle-stripped",
+          "peigne-collapsed",
+          "peigne-open",
+          "peigne-sealed",
+          "peigne-stripped"
+        ]
+      },
+      "meshCount": 386,
+      "materialCount": 10,
+      "boneCount": 1,
+      "texturedVertices": 337262,
+      "uvOutsideUnitSquare": 0,
+      "maximumSkinErrorMetres": 0,
+      "passed": true
+    },
+    {
+      "name": "cryopod-damaged-painted",
+      "source": {
+        "file": "objects/cryopod/cryopod-damaged-painted.blend",
+        "sha256": "b1e1463a14bd5a9d4f499b35b2803fced14ca085544d1890feb30dcaca84dd98"
+      },
+      "manifestSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+      "variantCount": 2,
+      "parts": {
+        "body": [
+          "collapsed",
+          "stripped"
+        ],
+        "canopy": [
+          "collapsed",
+          "stripped"
+        ],
+        "interior": [
+          "collapsed",
+          "stripped"
+        ],
+        "occupant": [
+          "collapsed",
+          "stripped"
+        ]
+      },
+      "meshCount": 139,
+      "materialCount": 12,
+      "boneCount": 2,
+      "texturedVertices": 36204,
+      "uvOutsideUnitSquare": 0,
+      "maximumSkinErrorMetres": 0,
+      "passed": true
+    }
+  ],
+  "variantCount": 70,
+  "preservedReferences": {
+    "objects/common-furniture/common-furniture-depth.blend": "782536448013144ade76cb7e43a49bd3899c03df03f999c714236aaf4e3b91c9",
+    "objects/utility-furniture/utility-furniture-depth.blend": "95593b1d5cc296f57b387010c7ce51ae17800fc5d15cbafa2e7a2f7fd8f1a9a9",
+    "objects/utility-furniture/utility-furniture-painted.blend": "ef1f51ad18bf5c8499517c05e1a85f0773d491dd439dcf64bcc45848f9c697e9",
+    "sprite-render/painted-materials-v1/painted-metal-atlas-v2.png": "6350270192f5130366f647a3199b9ce2b278a20c1a6d30e0412b540ff7f14733"
+  },
+  "passed": true
+}

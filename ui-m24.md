@@ -6,6 +6,11 @@ les surfaces déjà présentes des évolutions conçues ; il ne modifie pas le s
 
 ## Direction visuelle
 
+Les [écrans de chargement](reference/loading-screen/README.md) utilisent depuis
+le 12 septembre 2026 un fond noir, un libellé discret en bas à droite et un petit
+anneau animé, à la demande de Ludovic. Le même composant couvre le vaisseau,
+le pont et les portraits ; il respecte l'échelle UI et le mouvement réduit.
+
 L'arbitrage de reprise de Ludovic prend **`reference/ui-jeu-etude-b.png` comme cible finale de
 composition et de matière de l'UI**. Pour les bulles, la référence est **`reference/ui-jeu-fusion.png`** :
 parole en cadre fin avec queue, pensée en italique sans cadre avec une traînée de points.

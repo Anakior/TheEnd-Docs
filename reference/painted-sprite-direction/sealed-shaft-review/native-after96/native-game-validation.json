@@ -1,0 +1,698 @@
+{
+  "Scope": "Real TheEndGame with installed production assets and no bank/material overrides; only pause, active deck and camera selected; no fixture state or world edits.",
+  "Passed": true,
+  "DomeOnly": false,
+  "RoomOnly": false,
+  "InteriorDetails": true,
+  "Captures": [
+    {
+      "Name": "game-SealedShaft.png",
+      "Deck": 3,
+      "CentreX": 159.5,
+      "CentreY": 43.5,
+      "CameraCellSize": 96,
+      "SimulationTick": 12000,
+      "InspectionZoomOverride": true,
+      "WorldSafeArea": {
+        "Left": 24,
+        "Right": 1896,
+        "Top": 118,
+        "Bottom": 762,
+        "IsEmpty": false,
+        "Location": {},
+        "Size": {},
+        "Center": {}
+      },
+      "CameraView": {
+        "CellSize": 96,
+        "FocusX": 159.5,
+        "FocusY": 43.5
+      },
+      "Kind": "SealedShaft",
+      "Condition": null,
+      "Fixture": null,
+      "SubjectEvidence": {
+        "Provenance": "Read-only reconstruction of the non-persisted VerticalCrossing from the real Ship elevator route and current dome grid. No planner rerun or world edits.",
+        "Dome": {
+          "Id": 3,
+          "Depth": 3,
+          "Family": "Dome",
+          "Width": 256,
+          "Height": 256,
+          "GridRevision": 110125,
+          "GridVersion": 4295077421
+        },
+        "Route": {
+          "Id": 0,
+          "Kind": "Elevator",
+          "Side": 3,
+          "Working": false,
+          "Powered": false,
+          "Landings": [
+            {
+              "DeckId": 0,
+              "Depth": 0,
+              "X": 158,
+              "Y": 42
+            },
+            {
+              "DeckId": 1,
+              "Depth": 1,
+              "X": 158,
+              "Y": 42
+            },
+            {
+              "DeckId": 2,
+              "Depth": 2,
+              "X": 158,
+              "Y": 42
+            },
+            {
+              "DeckId": 4,
+              "Depth": 4,
+              "X": 158,
+              "Y": 42
+            },
+            {
+              "DeckId": 5,
+              "Depth": 5,
+              "X": 158,
+              "Y": 42
+            }
+          ]
+        },
+        "HasDomeLanding": false,
+        "AlignedLandings": true,
+        "SpansDome": true,
+        "SealedCurrentGrid": true,
+        "Footprint": {
+          "X": 158,
+          "Y": 42,
+          "Side": 3
+        },
+        "Cells": [
+          {
+            "X": 158,
+            "Y": 42,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 159,
+            "Y": 42,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 160,
+            "Y": 42,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 158,
+            "Y": 43,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 159,
+            "Y": 43,
+            "Perimeter": false,
+            "Ground": "Mass",
+            "Structure": "None",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 160,
+            "Y": 43,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 158,
+            "Y": 44,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 159,
+            "Y": 44,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          },
+          {
+            "X": 160,
+            "Y": 44,
+            "Perimeter": true,
+            "Ground": "Metal",
+            "Structure": "Wall",
+            "Feature": "None",
+            "Walkable": false
+          }
+        ]
+      },
+      "InteriorCaches": {
+        "IceUploads": 1,
+        "IceVertices": 1920,
+        "CableUploads": 1,
+        "ElevatorRevision": 1,
+        "ReplacedElevatorCells": 9,
+        "BedsLoaded": true,
+        "ElevatorsLoaded": true,
+        "LadderRevision": 1,
+        "ReplacedLadderCells": 9,
+        "LaddersLoaded": true,
+        "StationEquipmentLoaded": true
+      },
+      "InteriorCacheStableFrames": 35,
+      "SealedShaftCache": {
+        "Available": true,
+        "ModelCount": 1,
+        "VisibleCount": 1,
+        "Revision": 1,
+        "ObservedFrames": 36,
+        "StableFrameIntervals": 35,
+        "SameRendererBankPresentationAndLists": true,
+        "RendererIdentity": 8413484,
+        "GpuBankIdentity": 42266433,
+        "PresentationIdentity": 12592726,
+        "ModelsIdentity": 29487712,
+        "VisibleListIdentity": 47795936,
+        "BankType": "TheEnd.Client.Renderer.FixtureModelRenderer",
+        "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\sealed-shaft\\manifest.json",
+        "ManifestSha256": "42558820CA7CFCD99C3964D6DDFE5938CBF2D216DB878A7D742FBBEA56519067"
+      },
+      "VisualTimeSeconds": null,
+      "WaterClock": null,
+      "WaterClockObservation": {
+        "Status": "NoWaterInViewport",
+        "RequestedVisualTick": 12000,
+        "LastReportedVisualTick": 12000,
+        "ActiveChunkCount": 132,
+        "VisibleChunkCount": 0
+      },
+      "StableRevision": 1,
+      "ModelCount": 109,
+      "VectorCount": 0
+    }
+  ],
+  "DetailCellSize": 96,
+  "DetailTarget": "SealedShaft",
+  "DomeReferenceComparison": null,
+  "InstalledAssets": true,
+  "AssetOverrideEnvironment": {},
+  "CaptureInputSuppressed": true,
+  "LoadedInstalledBanks": [
+    {
+      "Name": "common-furniture",
+      "LoadedModelName": "common-furniture",
+      "VariantCount": 16,
+      "StyleCount": 8,
+      "MeshCount": 64,
+      "VertexCount": 89296,
+      "TriangleCount": 45752,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\textures\\painted-common-lit-upper-metal.png"
+      ]
+    },
+    {
+      "Name": "utility-furniture",
+      "LoadedModelName": "utility-furniture",
+      "VariantCount": 52,
+      "StyleCount": 16,
+      "MeshCount": 386,
+      "VertexCount": 385294,
+      "TriangleCount": 201408,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\textures\\painted-utility-final-0.png"
+      ]
+    },
+    {
+      "Name": "cryopod-damaged",
+      "LoadedModelName": "cryopod-damaged",
+      "VariantCount": 8,
+      "StyleCount": 2,
+      "MeshCount": 139,
+      "VertexCount": 49999,
+      "TriangleCount": 33808,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cryopod-painted-blue-recessed-structure.png",
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cushion-weave.png"
+      ]
+    },
+    {
+      "Name": "bed",
+      "LoadedModelName": "bed",
+      "VariantCount": 12,
+      "StyleCount": 4,
+      "MeshCount": 21,
+      "VertexCount": 43586,
+      "TriangleCount": 24608,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\approved-painted-slate-metal-v2.png",
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\painted-bedding-textile.png"
+      ]
+    },
+    {
+      "Name": "station-equipment",
+      "LoadedModelName": "station-equipment",
+      "VariantCount": 20,
+      "StyleCount": 4,
+      "MeshCount": 52,
+      "VertexCount": 129078,
+      "TriangleCount": 65744,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\station-equipment\\textures\\station-equipment-approved-painted-slate-v2.png"
+      ]
+    },
+    {
+      "Name": "elevator",
+      "LoadedModelName": "elevator",
+      "VariantCount": 3,
+      "StyleCount": 3,
+      "MeshCount": 20,
+      "VertexCount": 45192,
+      "TriangleCount": 22048,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\elevator\\textures\\elevator-painted-plate.png"
+      ]
+    },
+    {
+      "Name": "service-ladder",
+      "LoadedModelName": "service-ladder",
+      "VariantCount": 4,
+      "StyleCount": 2,
+      "MeshCount": 15,
+      "VertexCount": 19520,
+      "TriangleCount": 9516,
+      "LoadedTexturePaths": [
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-depth-fade.png",
+        "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-upper-metal.png"
+      ]
+    }
+  ],
+  "WaterMotion": false,
+  "FixedVisualTick": 12000,
+  "VisualSequence": null,
+  "ClientSha256": "8A6CC5AB77AE0C2B5C344FF8745FF084F317DDCAF013F25A2F3DBF06D0385C22",
+  "WaterShaderSha256": "DF5011EE7B24E90325A2A05FAEECFAD60F6660EEF12F34328CAB7E1B6DEC5BED",
+  "Banks": [
+    {
+      "Variable": "THEEND_COMMON_FURNITURE_BANK",
+      "Name": "common-furniture",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\manifest.json",
+      "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+      "Name": "utility-furniture",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\manifest.json",
+      "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+      "Name": "cryopod-damaged",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\manifest.json",
+      "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "THEEND_BED_BANK",
+      "Name": "bed",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\manifest.json",
+      "Sha256": "968F52862CEA812F9945BDC299E3F77C45BB37B72F4A4DFEC032B14AFB9CD854",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "THEEND_STATION_EQUIPMENT_BANK",
+      "Name": "station-equipment",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\station-equipment\\manifest.json",
+      "Sha256": "B2781CDF6597844E284E9B458958CCED4079E157C997A044F2A2CF6EA3F442D5",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "",
+      "Name": "elevator",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\elevator\\manifest.json",
+      "Sha256": "EC49BC4BDF1D47830EE6070395E059088C608577BFB50BEC436E5D11D6692DD6",
+      "Source": "InstalledAssets"
+    },
+    {
+      "Variable": "",
+      "Name": "service-ladder",
+      "Manifest": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\manifest.json",
+      "Sha256": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+      "Source": "InstalledAssets"
+    }
+  ],
+  "SpriteMaterialsDirectory": null,
+  "InstalledSpriteMaterialsDirectory": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites",
+  "SpriteMaterialFiles": [
+    {
+      "File": "breach-decals\\breach-decals.atlas.png",
+      "Sha256": "B92571C7018196DF5F54BD43DAE09A6E0F458C61D67C37A49B4BD5272A95F788"
+    },
+    {
+      "File": "brokenwall\\brokenwall.atlas.png",
+      "Sha256": "887061B1412AEBB9433AD0E2C8707D32AC646696958163B314A0CEAAAC329D10"
+    },
+    {
+      "File": "interior-details-v1\\ice-frost-painted.png",
+      "Sha256": "BF68A9E38A0312778D72C3A31E87609B8216A0669E7E826C891A2DFB77CC175B"
+    },
+    {
+      "File": "materials\\dome-envelope-band.png",
+      "Sha256": "D62D080721BB6EFF1AAEB7576270A492ACE7E150F2F848B0F30314DA60006173"
+    },
+    {
+      "File": "materials\\dome-terrace-band.png",
+      "Sha256": "786123E0791BF281A4D98BB2467A15654427454C13C77629C9F20E2DEAA05B69"
+    },
+    {
+      "File": "materials\\envelope-glass.png",
+      "Sha256": "31FE164164FBEDF1475636C9A42E95484D63ECBF67DC96E9901281FAB85B586E"
+    },
+    {
+      "File": "materials\\envelope-groove.png",
+      "Sha256": "C9BFD2048C792BD9A5B601D7B5C232F0B2660288331C93175B43CDD53D4D8D04"
+    },
+    {
+      "File": "materials\\envelope-rail-inner.png",
+      "Sha256": "9AE325D0A5B657E743729BC2B3DEAB46E36BDE065DD40B862369344B0C426138"
+    },
+    {
+      "File": "materials\\envelope-rail.png",
+      "Sha256": "60D0660F94E21EE2A6562DBD866B877E87D95D0207C2986F624D975BE55FF98F"
+    },
+    {
+      "File": "materials\\floor-cold-steel.png",
+      "Sha256": "9CB65F1AECA7C35A0EAC38654A3B84FBA0284A7F7D80EF3E09B9A786B7D9363E"
+    },
+    {
+      "File": "materials\\floor-fracture-concept.png",
+      "Sha256": "5C0D2A1FEE62C9DC0C01AFC66AC9C614F74AEEF0E04F450BB4275A130FD51906"
+    },
+    {
+      "File": "materials\\floor-frosted-steel.png",
+      "Sha256": "D160526CDDCAB6298EB3AE788E54337911A6BD5B728C842E8A4321C83A115B15"
+    },
+    {
+      "File": "materials\\floor-metal-aged.png",
+      "Sha256": "A70BA5FE831651BBF4CB06836FA5CFBF9FE104B19F6DA69B3AF7916B9F1D75A9"
+    },
+    {
+      "File": "materials\\floor-metal-heat-aged.png",
+      "Sha256": "F3D7F017CBA1C669070B67E4584189653144BD57045D1A3A157583F1F7ECD70F"
+    },
+    {
+      "File": "materials\\floor-metal-oxidized.png",
+      "Sha256": "0A5FCD8C88218B67EAAAD8618C8C5EBE6BBA7230D9903F397FF988DD7A774793"
+    },
+    {
+      "File": "materials\\floor-metal-replacement.png",
+      "Sha256": "8A92E387B463BACA8C682B15D3D12D34F4E7F3C0188FAD7895FF4FB9E2C923AC"
+    },
+    {
+      "File": "materials\\floor-metal-standard.png",
+      "Sha256": "0EA2074D295F622398DF8AE078F08F04F78D64651CF332BC72E30287E71B6189"
+    },
+    {
+      "File": "materials\\floor-metal-traffic-worn.png",
+      "Sha256": "0ABF97FE5FDF9E0EDF718C4C7FF74E0019698ADD02072A01EB6E2472C6C52127"
+    },
+    {
+      "File": "materials\\floor-oxidized-steel.png",
+      "Sha256": "1EDA747FF0220F7221DA7EE652191353DFC67EAAFE06DD23E386309BD945DC7C"
+    },
+    {
+      "File": "materials\\floor-stone-intact-a.png",
+      "Sha256": "3B04171387AA26651C089194C331B41677A525A2DFC08EC864335655C84D1272"
+    },
+    {
+      "File": "materials\\floor-stone-intact-b.png",
+      "Sha256": "ACB0FE5E70A6E7AAC4EED9F5C82CBB68B6B81708F622E013D63F90F8EB5E0EC0"
+    },
+    {
+      "File": "materials\\floor-stone-intact-c.png",
+      "Sha256": "0F55F06E62E73D92A4952437CB06A0086D2F201E152C22CE9771601DF00E1EF3"
+    },
+    {
+      "File": "materials\\floor-stone-intact-d.png",
+      "Sha256": "C7A6665C7C2F2F2DA0BBA7311B39C31AF6310C289CF631EAB688E567624E747B"
+    },
+    {
+      "File": "materials\\floor-stone-intact-e.png",
+      "Sha256": "8DE22FE02F1463B962445FBA970B2526B1F6DC1BF100C66710B7CE94549C341D"
+    },
+    {
+      "File": "materials\\floor-stone-intact-f.png",
+      "Sha256": "F7035F806EC9D761BB7A8ECB022D4C30E77E5CAC69C0940B0E28B75B23DAB26E"
+    },
+    {
+      "File": "materials\\floor-stone-intact-g.png",
+      "Sha256": "0E1210CC5FAF4CF1BA54E1E90D417783DD543C5EF055C0312646FDB27CC27AF2"
+    },
+    {
+      "File": "materials\\floor-stone-intact-h.png",
+      "Sha256": "BC6320D4C3D7E280E7576A692A686F475420B8A59B4BC067D9DBE209C9A99A41"
+    },
+    {
+      "File": "materials\\floor-tile-aged-a.png",
+      "Sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885"
+    },
+    {
+      "File": "materials\\floor-tile-aged-b.png",
+      "Sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054"
+    },
+    {
+      "File": "materials\\floor-tile-aged-c.png",
+      "Sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6"
+    },
+    {
+      "File": "materials\\floor-tile-aged-d.png",
+      "Sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12"
+    },
+    {
+      "File": "materials\\floor-tile-aged-e.png",
+      "Sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9"
+    },
+    {
+      "File": "materials\\floor-tile-aged-f.png",
+      "Sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7"
+    },
+    {
+      "File": "materials\\floor-tile-heat-aged-a.png",
+      "Sha256": "2184485FBFC11812B5EFE87109983FB6885C6CD64D4C240CAD7B67992A0716C7"
+    },
+    {
+      "File": "materials\\floor-tile-heat-aged-b.png",
+      "Sha256": "C8025FA7079FE764DEB138372812617127B20B7852F21542124A931558356B74"
+    },
+    {
+      "File": "materials\\floor-tile-oxidized-b.png",
+      "Sha256": "A4D9E09DC5BA5E6E5430ACCF7924A68775D7C16AAD214378D35128AD47899011"
+    },
+    {
+      "File": "materials\\floor-tile-oxidized.png",
+      "Sha256": "951F4B82D089A0843E9E0D1614E38C22D46C93D7DEB55F4FBD9F6775538DDE21"
+    },
+    {
+      "File": "materials\\floor-tile-replacement.png",
+      "Sha256": "4E94EE49A92578340A4752DA69D317C39BAD7F3D29745F1522685F4724BF5FEE"
+    },
+    {
+      "File": "materials\\floor-tile-standard-a.png",
+      "Sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79"
+    },
+    {
+      "File": "materials\\floor-tile-standard-b.png",
+      "Sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A"
+    },
+    {
+      "File": "materials\\floor-tile-standard-c.png",
+      "Sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484"
+    },
+    {
+      "File": "materials\\floor-tile-standard-d.png",
+      "Sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE"
+    },
+    {
+      "File": "materials\\floor-tile-traffic-worn.png",
+      "Sha256": "4CD7C743DE1BD1C9E46A0F73F6125EA5D4ACEEE123A2941E64C03F2BB928D487"
+    },
+    {
+      "File": "materials\\grass-short-v3.png",
+      "Sha256": "A4DF972B8B6318750CD3BE5C74C1597EF65FE64448E9B7F72FC154704FC88FF9"
+    },
+    {
+      "File": "materials\\hull-armor-worn.png",
+      "Sha256": "EA30394E6D4FAB35E204F197A06D9D0AF01894FF6DF697F87CC41CCB725DDDE9"
+    },
+    {
+      "File": "materials\\hull-armor.png",
+      "Sha256": "FFE5BA085CDE37DACF7153B351FA8107CA701C81845D5805B527F4BCD1A5B7EA"
+    },
+    {
+      "File": "materials\\hull-band-quiet.png",
+      "Sha256": "A41ED086B9FBAFEF73A5CE9C5B1BB91026A61238AF730218DF9BCBC2763449D3"
+    },
+    {
+      "File": "materials\\hull-band-worn.png",
+      "Sha256": "1E2DA500972277D071D51B55B8198B2327A347A855227FC26D3425B51E508829"
+    },
+    {
+      "File": "materials\\hull-fringe.png",
+      "Sha256": "D2DFD054BAE9EE3E10192821150A85ED384CFE1A6A4C11877925EF8452BE7464"
+    },
+    {
+      "File": "materials\\hull-inner.png",
+      "Sha256": "AB209DB3DC5E2B80E848FA09166683627FC1EF474826C2E5E1F8B08E03125D48"
+    },
+    {
+      "File": "materials\\organic-dirt.png",
+      "Sha256": "0764FE2BF1F9E5FA6D6FF64091DF950EFEA231C11AAD8B0CFB0E9D484D4DFB68"
+    },
+    {
+      "File": "materials\\organic-fungal.png",
+      "Sha256": "6678A8E7AFF9BFCFABCE2BDCA605A35D02C0BF13D24DB423344E4DC9A5693639"
+    },
+    {
+      "File": "materials\\organic-grass.png",
+      "Sha256": "3A0972FC6957ED5F03889F04D754CC21898FEFAE3DF8ABE298F727EC709C5A87"
+    },
+    {
+      "File": "materials\\organic-sand.png",
+      "Sha256": "7136761A8F3ED0197A2A0205C099A411848CC60374A38E34FFFB036D715A9299"
+    },
+    {
+      "File": "materials\\underdeck-pit-service.png",
+      "Sha256": "E5749F0A21C426AFD702D1F0468661E15F0973621E20CC9ED65FAAE9A17B13B2"
+    },
+    {
+      "File": "materials\\underdeck-pit-structure.png",
+      "Sha256": "AAD610EBA36006F2D17349C12ED15F2F0EB62B839DEF9B6E754DC93FBB58EE94"
+    },
+    {
+      "File": "materials\\underdeck-pit-void.png",
+      "Sha256": "67753D08D2459215420AEADCCC631647BB661790E30E782CFC8E9E70CE7BC5CF"
+    },
+    {
+      "File": "materials\\underdeck-shelf-scorched.png",
+      "Sha256": "BF40284132E3F7B2445CB9BF391AFF5341B4B075F2816513E4D35526A7D1E7CA"
+    },
+    {
+      "File": "materials\\underdeck-shelf-service.png",
+      "Sha256": "4A57BEBA667268F2BE2035003BDA7C5F24AB673699441513598CAED26D5FB4D6"
+    },
+    {
+      "File": "materials\\underdeck-shelf-structure.png",
+      "Sha256": "6ABB97A5192CC537362C8547139D8729060B2E36848EBA4610A5634A434AAE8B"
+    },
+    {
+      "File": "materials\\wall-armor-quiet.png",
+      "Sha256": "AFF24F79D2C1C9AEC74772785DED1C747B6D8986B743BCEF59803C8CBCC99B63"
+    },
+    {
+      "File": "materials\\wall-armor-worn.png",
+      "Sha256": "1DBC3EA9E000277EC6FD1540CA04AB8A60AE1E859329ECEF848554697F99838C"
+    },
+    {
+      "File": "materials\\wall-armor.png",
+      "Sha256": "27ADC9ED032880B985D72450669363E7E0871B285716C469A123720A7912628F"
+    },
+    {
+      "File": "materials\\wall-channel-quiet.png",
+      "Sha256": "DF09A3FE029FBA3AB5F930C84D764A2BE795B446060FE9D01D1B6FFC1D2DB78E"
+    },
+    {
+      "File": "materials\\wall-channel-worn.png",
+      "Sha256": "A28D4A769B408FB6DAAEAEA0A3CB7F4A0A9677DFE530D2BD0D7792D072472E38"
+    },
+    {
+      "File": "materials\\wall-channel.png",
+      "Sha256": "1BD16DDA65D07BB7432E7EFC2665CEEB95351E154B9E2B98282B2A524DBE8EFE"
+    },
+    {
+      "File": "materials\\wall-rail-quiet.png",
+      "Sha256": "64B45E3C2A657F198636A82B9812B2234017833E424314D7690E9B6A43D1020A"
+    },
+    {
+      "File": "materials\\wall-rail-worn.png",
+      "Sha256": "0228CF824C655E5592EE7D0DBBE423386AC34C5749DE8C4F7589B718A86BB369"
+    },
+    {
+      "File": "materials\\wall-rail.png",
+      "Sha256": "BBCC8E298E8C900AB436146EFA020675AE37456D14CA0DC4D4B4524B76CDB4CD"
+    },
+    {
+      "File": "materials\\water-surface-v1.png",
+      "Sha256": "F9E7AF5E9BF1BADA4A215EA59041ABCCA7CE1AE025204A50760C437C3770AC24"
+    },
+    {
+      "File": "painted-world-v4\\aliases.json",
+      "Sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C"
+    },
+    {
+      "File": "painted-world-v4\\earth-painted.png",
+      "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+    },
+    {
+      "File": "painted-world-v4\\fungal-painted.png",
+      "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+    },
+    {
+      "File": "painted-world-v4\\grass-painted.png",
+      "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+    },
+    {
+      "File": "painted-world-v4\\sand-painted.png",
+      "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+    },
+    {
+      "File": "painted-world-v4\\wall-armor-painted.png",
+      "Sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+    },
+    {
+      "File": "painted-world-v4\\wall-channel-painted.png",
+      "Sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+    },
+    {
+      "File": "painted-world-v4\\wall-rail-painted.png",
+      "Sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+    },
+    {
+      "File": "painted-world-v4\\water-painted.png",
+      "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+    },
+    {
+      "File": "space\\painted-space-v1.png",
+      "Sha256": "FDA0CD21CFC0C7C64301117CC86C54B14B20172DED417BAD1EAD69AB80FDDA2A"
+    }
+  ],
+  "DomeViewReference": ".artifacts/environment-improvements/before-partitions-water/final.png.probe.json"
+}

@@ -1,0 +1,95 @@
+{
+  "RecordedAt": "2026-09-12T13:07:06.9975577+02:00",
+  "NativeValidationSucceeded": true,
+  "SourceChangesDuringValidation": false,
+  "Scope": "TheEndGame normal renderer, camera and deck selection only; same real door and lamps as before",
+  "TestOutcome": "Completed",
+  "Tests": {
+    "Total": 610,
+    "Executed": 610,
+    "Passed": 610,
+    "Failed": 0,
+    "NotExecuted": 0,
+    "Trx": "C:\\workspace\\TheEnd\\.artifacts\\door-lamp-fix\\tests\\door-lamp-fixes.trx"
+  },
+  "Captures": [
+    {
+      "Name": "after-pressure-vertical",
+      "Image": "after-pressure-vertical.png",
+      "Metadata": "after-pressure-vertical.json",
+      "SHA256": "F4EAACF91D52634961394EEC98D69877C755636C1B37643F61B8C1CEF60C1386",
+      "NativeExitCode": 0,
+      "Source": {
+        "DeckId": 0,
+        "CentreX": 72.5,
+        "CentreY": 161.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -2520,
+        "CameraPanY": -7312,
+        "SourceDoor": {
+          "Id": 4,
+          "X": 72,
+          "Y": 161,
+          "Horizontal": false,
+          "Kind": "Pressure",
+          "State": "Closed",
+          "Openness": 0,
+          "GridStructure": "Door",
+          "SasId": -1
+        },
+        "SimulationTick": 12402,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    },
+    {
+      "Name": "after-lamp-north",
+      "Image": "after-lamp-north.png",
+      "Metadata": "after-lamp-north.json",
+      "SHA256": "B5402E7C1C493604AA6BE80C5D4A43119EDF8A6436904E73CB2F1E6C2BF357AA",
+      "NativeExitCode": 0,
+      "Source": {
+        "DeckId": 0,
+        "CentreX": 61.5,
+        "CentreY": 48.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -1992,
+        "CameraPanY": -1888,
+        "SourceDoor": {
+          "Kind": "WallLamp",
+          "CellX": 61,
+          "CellY": 48,
+          "Facing": "North",
+          "Condition": "Sealed",
+          "Seed": 190
+        },
+        "SimulationTick": 12392,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    },
+    {
+      "Name": "after-lamp-south",
+      "Image": "after-lamp-south.png",
+      "Metadata": "after-lamp-south.json",
+      "SHA256": "99425C220A66CD7F97F6B03A0790550F597067667251D57CBBFA787858B2DB7E",
+      "NativeExitCode": 0,
+      "Source": {
+        "DeckId": 0,
+        "CentreX": 47.5,
+        "CentreY": 88.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -1320,
+        "CameraPanY": -3808,
+        "SourceDoor": {
+          "Kind": "WallLamp",
+          "CellX": 47,
+          "CellY": 88,
+          "Facing": "South",
+          "Condition": "Sealed",
+          "Seed": 186
+        },
+        "SimulationTick": 12411,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    }
+  ]
+}

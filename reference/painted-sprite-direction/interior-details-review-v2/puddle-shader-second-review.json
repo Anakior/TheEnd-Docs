@@ -1,0 +1,73 @@
+{
+  "Scope": "Second candidate after first native review rejected the repeated reflection stripes",
+  "FilesChanged": [
+    "TheEnd.Client/Composition/SpriteWaterSkin.cs",
+    "TheEnd.Client/Composition/SpriteWaterGpu.cs",
+    "TheEnd.Client/Assets/shaders/sprite-water.fx",
+    "TheEnd.Client/Assets/shaders/sprite-water.mgfxo",
+    "TheEnd.Tests/Renderer/SpriteWaterPuddleTests.cs"
+  ],
+  "LakeShaderPrefixIdentical": true,
+  "FxSha256": "E461DE44D2A94BD7A8BCDD1703AB4B1CF97D56FFF45F41911A9AD761BB13AEF0",
+  "MgfxoSha256": "DF5011EE7B24E90325A2A05FAEECFAD60F6660EEF12F34328CAB7E1B6DEC5BED",
+  "ShaderBuild": {
+    "ExitCode": 0,
+    "Profile": "OpenGL",
+    "Command": "./scripts/build-water-shader.ps1"
+  },
+  "Design": [
+    "Three asymmetric luminaire fragments concentrated on one side of each component",
+    "Sharp and diffuse reflection layers, without repeated stripes or full-surface gray veil",
+    "Static inward contour erosion scaled down on small puddles",
+    "Thin interrupted directional meniscus",
+    "Wet floor remains visible under most of the puddle"
+  ],
+  "GeometryAndCache": {
+    "ContoursUnchanged": true,
+    "ClassificationUnchanged": true,
+    "NewCpuData": "One Vector4 per puddle vertex, computed during Build: local position and component half-size",
+    "VerticesPositionsUnchanged": true,
+    "NaturalWaterWaveSlotsChanged": false,
+    "PerFrameGeometryOrUploadAdded": false,
+    "GpuVertexStrideBytes": 44,
+    "NaturalWaterHasPuddleDomains": false
+  },
+  "TestsAdded": [
+    "DisconnectedPuddlesInOneChunkKeepTheirOwnStationaryReflectionDomains",
+    "NaturalWaterKeepsItsOriginalGpuWavesAndHasNoPuddleDomain"
+  ],
+  "ExpectedPuddleTestCases": 14,
+  "TestsStatus": "Parent owns coordinated Client build and test run",
+  "NativeStatus": "Second 96 px/cell native capture passed; retained internally for final 48 px/cell and dome checks, user approval pending",
+  "Limits": [
+    "Fragments clipped by the actual water outline; narrow or hollow shapes can hide some fragments",
+    "No global FPS benchmark claimed",
+    "Optical alpha and artistic appearance require final native review"
+  ],
+  "IndependentReview": {
+    "Reviewer": "mesh_practice_review",
+    "Result": "No concrete blocker",
+    "Findings": [
+      "Per-component domains appended in vertex order",
+      "WaveA/B repurposed only when PuddleDomains exists",
+      "Natural water attributes and shader preserved",
+      "Local sizes nonzero for cell contours; fragments masked by static edge",
+      "Premultiplied optical composition coherent"
+    ]
+  },
+  "Native96Report": "puddle-second-retry/native-game-validation.json",
+  "SourceHashesAfterFormat": [
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteWaterSkin.cs",
+      "Hash": "9C02AB968A1A7FBC2F3F2626DE4CF31D4610E8C92C9FEB82D553AC3F2AAF272C"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteWaterGpu.cs",
+      "Hash": "7F3A4CBA91CCD10A0115B2DEB94DBBE41BA53619884D746E76085616C468C10C"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Tests\\Renderer\\SpriteWaterPuddleTests.cs",
+      "Hash": "EE5D1674A38C1335D9C8B3FFF8E7E311DB442AABC7DE8AE326DE5D186610C7E5"
+    }
+  ]
+}

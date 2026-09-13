@@ -1,0 +1,1180 @@
+{
+  "scope": "Existing standalone native fixture captures: 16 common variants, 52 utility variants and two damaged cryopod styles. No simulation or art approval inferred.",
+  "bankValidation": {
+    "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\bank-validation.json",
+    "sha256": "7b3663f533327867f78ff10474d1c3197ce33a70e1b028c3c29407c6434f3ba1",
+    "passed": true
+  },
+  "binaryProvenance": {
+    "currentClient": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\TheEnd.Client.dll",
+    "currentSha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+    "expectedFinalSha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+    "allCapturesUseSameDll": false,
+    "notes": "Common and cryopod captures predate the sprite-material override. Their relevant model banks are identical to the validated final assets. Only the drawn family is validated per page; unrelated loaded bank versions are ignored."
+  },
+  "summary": {
+    "captureCount": 15,
+    "totalCards": 116,
+    "availableCards": 116,
+    "expectedUniqueVariants": 70,
+    "observedUniqueVariants": 70,
+    "allCardsAvailable": true,
+    "allUsefulBankHashesMatch": true
+  },
+  "banks": [
+    {
+      "family": "common",
+      "name": "common-furniture-painted",
+      "manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+      "sha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+      "expectedVariantCount": 16,
+      "manifestMatchesBankValidation": true,
+      "manifestVariantsMatchBankValidation": true,
+      "passed": true
+    },
+    {
+      "family": "utility",
+      "name": "utility-furniture-complete-painted",
+      "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+      "sha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+      "expectedVariantCount": 52,
+      "manifestMatchesBankValidation": true,
+      "manifestVariantsMatchBankValidation": true,
+      "passed": true
+    },
+    {
+      "family": "cryopod",
+      "name": "cryopod-damaged-painted",
+      "manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+      "sha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+      "expectedVariantCount": 2,
+      "manifestMatchesBankValidation": true,
+      "manifestVariantsMatchBankValidation": true,
+      "passed": true
+    }
+  ],
+  "coverage": [
+    {
+      "family": "common",
+      "bank": "common-furniture-painted",
+      "expectedVariantCount": 16,
+      "observedVariantCount": 16,
+      "missingVariants": [],
+      "variants": [
+        {
+          "part": "bench",
+          "style": "long-collapsed",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "long-open",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "long-sealed",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "long-stripped",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "short-collapsed",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "short-open",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "short-sealed",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "bench",
+          "style": "short-stripped",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "long-collapsed",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "long-open",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "long-sealed",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "long-stripped",
+          "captures": [
+            "common-long.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "short-collapsed",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "short-open",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "short-sealed",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        },
+        {
+          "part": "table",
+          "style": "short-stripped",
+          "captures": [
+            "common-short-west.png",
+            "common-short.png"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "family": "utility",
+      "bank": "utility-furniture-complete-painted",
+      "expectedVariantCount": 52,
+      "observedVariantCount": 52,
+      "missingVariants": [],
+      "variants": [
+        {
+          "part": "console-2",
+          "style": "dalle-collapsed",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "dalle-open",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "dalle-sealed",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "dalle-stripped",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "peigne-collapsed",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "peigne-open",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "peigne-sealed",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "peigne-stripped",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "visiere-collapsed",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "visiere-open",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "visiere-sealed",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-2",
+          "style": "visiere-stripped",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "dalle-collapsed",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "dalle-open",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "dalle-sealed",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "dalle-stripped",
+          "captures": [
+            "utility-consoles-g0-north.png",
+            "utility-consoles-g0-west.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "peigne-collapsed",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "peigne-open",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "peigne-sealed",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "peigne-stripped",
+          "captures": [
+            "utility-consoles-g2-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "visiere-collapsed",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "visiere-open",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "visiere-sealed",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "console-3",
+          "style": "visiere-stripped",
+          "captures": [
+            "utility-consoles-g4-north.png"
+          ]
+        },
+        {
+          "part": "rack-1",
+          "style": "collapsed",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-1",
+          "style": "open",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-1",
+          "style": "sealed",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-1",
+          "style": "stripped",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-2",
+          "style": "collapsed",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-2",
+          "style": "open",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-2",
+          "style": "sealed",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-2",
+          "style": "stripped",
+          "captures": [
+            "utility-racks-g0-north.png"
+          ]
+        },
+        {
+          "part": "rack-3",
+          "style": "collapsed",
+          "captures": [
+            "utility-racks-g2-north.png"
+          ]
+        },
+        {
+          "part": "rack-3",
+          "style": "open",
+          "captures": [
+            "utility-racks-g2-north.png"
+          ]
+        },
+        {
+          "part": "rack-3",
+          "style": "sealed",
+          "captures": [
+            "utility-racks-g2-north.png"
+          ]
+        },
+        {
+          "part": "rack-3",
+          "style": "stripped",
+          "captures": [
+            "utility-racks-g2-north.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "dalle-collapsed",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "dalle-open",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "dalle-sealed",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "dalle-stripped",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "peigne-collapsed",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "peigne-open",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "peigne-sealed",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-3x2",
+          "style": "peigne-stripped",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "dalle-collapsed",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "dalle-open",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "dalle-sealed",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "dalle-stripped",
+          "captures": [
+            "stations-dalle-west.png",
+            "stations-dalle.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "peigne-collapsed",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "peigne-open",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "peigne-sealed",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        },
+        {
+          "part": "station-4x3",
+          "style": "peigne-stripped",
+          "captures": [
+            "stations-peigne.png"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "family": "cryopod",
+      "bank": "cryopod-damaged-painted",
+      "expectedVariantCount": 2,
+      "observedVariantCount": 2,
+      "missingVariants": [],
+      "variants": [
+        {
+          "part": "cryopod",
+          "style": "collapsed",
+          "captures": [
+            "cryopods-occupied.png",
+            "cryopods-west.png",
+            "cryopods.png"
+          ]
+        },
+        {
+          "part": "cryopod",
+          "style": "stripped",
+          "captures": [
+            "cryopods-occupied.png",
+            "cryopods-west.png",
+            "cryopods.png"
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "captures": [
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-long.png",
+      "pngSha256": "c0be8a472777546031c40fad969f12f4488a32c495bd13f15213d91694a64849",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-long.png.json",
+      "metadataSha256": "5dbcddbd2f74f417ea90b40bdf43deb5dde87a11490af811f80d6c30c6abef21",
+      "page": "table-bench",
+      "family": "common",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_COMMON_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+        "recordedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "expectedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "currentFileSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-short-west.png",
+      "pngSha256": "634d3db25f5f61fc179658ca303f5a8b81b4bf1671c256e5ad68bb3969707fe5",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-short-west.png.json",
+      "metadataSha256": "2aa3b9c8b397e35afce00428ebff4b39ea44b49eecf25dbadfbb2bb5187703b1",
+      "page": "table-bench",
+      "family": "common",
+      "groupOffset": 2,
+      "rotationQuarterTurns": 1,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_COMMON_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+        "recordedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "expectedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "currentFileSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-short.png",
+      "pngSha256": "a409abc695529b95976c36f412b1242f26c607089868a86addab242e734eab75",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\common-short.png.json",
+      "metadataSha256": "3bd309f40161369fa08ba239d4a698fc57d4206a5b3a8e9cb5b346206f7de38d",
+      "page": "table-bench",
+      "family": "common",
+      "groupOffset": 2,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_COMMON_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+        "recordedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "expectedSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "currentFileSha256": "f1b960d6abbad1f4531bcd5aed28ca58036969aa90619b93b222174358f1ee31",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods-occupied.png",
+      "pngSha256": "1f005d776e33d4b27de55506e1f1783e981e7030bd9f59d54613a3e35702c907",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods-occupied.png.json",
+      "metadataSha256": "f1bcd7e0603c479b7bef7a5aa42ddb083a4cca8564b44ff2f09c39b70b4937d9",
+      "page": "cryopods",
+      "family": "cryopod",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": true,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "cryopod-damaged",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+        "recordedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "expectedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "currentFileSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [
+        {
+          "name": "cryopod",
+          "purpose": "Existing sealed/open cards",
+          "sha256": "dda232f5753afae6cb8fb1f2a8df6c7a986a0b63ea065503d4cba901ba6c7d66",
+          "passed": true
+        }
+      ],
+      "ignoredLoadedBanks": [
+        "THEEND_COMMON_FURNITURE_BANK",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods-west.png",
+      "pngSha256": "c17f1c67c0e75d1408e902d99693bba2823cda542f8b1f2e74b41203663b696f",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods-west.png.json",
+      "metadataSha256": "3ec655d19078f1f133af11000aa5d27e5c0c65e6b602cb8fb3a91a5abc160909",
+      "page": "cryopods",
+      "family": "cryopod",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 1,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "cryopod-damaged",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+        "recordedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "expectedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "currentFileSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [
+        {
+          "name": "cryopod",
+          "purpose": "Existing sealed/open cards",
+          "sha256": "dda232f5753afae6cb8fb1f2a8df6c7a986a0b63ea065503d4cba901ba6c7d66",
+          "passed": true
+        }
+      ],
+      "ignoredLoadedBanks": [
+        "THEEND_COMMON_FURNITURE_BANK",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods.png",
+      "pngSha256": "3cb57c9eaa916981e0f8d000710eae29f06b5fe7ecb2c5298a4adbf84cac49d5",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\cryopods.png.json",
+      "metadataSha256": "74b78470bd82b72a849ee619553f3612e6320c8142951b19fedf58ca8c727a5b",
+      "page": "cryopods",
+      "family": "cryopod",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "cryopod-damaged",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+        "recordedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "expectedSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "currentFileSha256": "8d0c9e14399970e390af71b727533fb4b230d3fa7bb3a2f6bd9aa2ab8faebea9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [
+        {
+          "name": "cryopod",
+          "purpose": "Existing sealed/open cards",
+          "sha256": "dda232f5753afae6cb8fb1f2a8df6c7a986a0b63ea065503d4cba901ba6c7d66",
+          "passed": true
+        }
+      ],
+      "ignoredLoadedBanks": [
+        "THEEND_COMMON_FURNITURE_BANK",
+        "THEEND_UTILITY_FURNITURE_BANK"
+      ],
+      "binaryCohort": "earlier-before-material-override",
+      "captureBinarySha256": null,
+      "binaryProvenance": "Exact earlier DLL hash was not embedded in capture metadata; same drawn asset bank verified above.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-dalle-west.png",
+      "pngSha256": "8a539276b956c5d9ab077a60b7e626dc7c42af620f5113d4d3a4da506ac7c782",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-dalle-west.png.json",
+      "metadataSha256": "b083cbabfbdb883230e1c9185aef71ae005f3a40821cc360f7010fe120a0b45a",
+      "page": "stations",
+      "family": "utility",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 1,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-dalle.png",
+      "pngSha256": "25d8b7f4e68d22c7a2e9ee1c8c1be23b07e09eee6a2624dad1f9e2ec9ac310ea",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-dalle.png.json",
+      "metadataSha256": "90f77a1079ab3a2549e824043fe8275a9f288570cd38d1abc337a819477061ee",
+      "page": "stations",
+      "family": "utility",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-peigne.png",
+      "pngSha256": "1bb401782d59976776e9211d4b9e74462a2b117368cea13f5a14c0c6f7a32fca",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\stations-peigne.png.json",
+      "metadataSha256": "94e5fed916392dcea28b664a8322a8c25c8bdf3d91f213205f0952444797c5eb",
+      "page": "stations",
+      "family": "utility",
+      "groupOffset": 2,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g0-north.png",
+      "pngSha256": "a5588c343ea6222da4c25d5a86d0b57f935943e59ae9bf6b3b512bc95588c5fb",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g0-north.png.json",
+      "metadataSha256": "ba5a2df7cc750d2d9507a56def9db3ee7097da39736c79e02b3a16da025e9ebd",
+      "page": "consoles",
+      "family": "utility",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g0-west.png",
+      "pngSha256": "1a49de1319ba47e1eb2d85cac62373d31cf7e0fe20ecaff490ead5a065d561ec",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g0-west.png.json",
+      "metadataSha256": "c01d49c2d078e2099eba54b06bb52f0d27823d51fd3b4acb545ed4cc374e5adc",
+      "page": "consoles",
+      "family": "utility",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 1,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g2-north.png",
+      "pngSha256": "e2cd92e6173a175d1490f7b36b62f6ba09c1d5a64e98993442ed804da1e9c941",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g2-north.png.json",
+      "metadataSha256": "a203ae093d13cc78f6679f460d4b7067737a5ccafee2a54e6422294f849e0217",
+      "page": "consoles",
+      "family": "utility",
+      "groupOffset": 2,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g4-north.png",
+      "pngSha256": "541f762b548159ff03fcf7c8b90211b09e711ddb483a5758b4231713f0fd8ae5",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-consoles-g4-north.png.json",
+      "metadataSha256": "c579e4ddd70c9fc1d524ad70c8cdbb81d6f9e220753770d8c53332d1fd746790",
+      "page": "consoles",
+      "family": "utility",
+      "groupOffset": 4,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-racks-g0-north.png",
+      "pngSha256": "eb003a18f0cffd256850b7f5e1520ee3122c29fad29174b30d63010a5ce3dcc5",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-racks-g0-north.png.json",
+      "metadataSha256": "633b2948b4106d2f1c758ab03f24ef0a7d4f254294f212fd256301074bc36b97",
+      "page": "racks",
+      "family": "utility",
+      "groupOffset": 0,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 8,
+      "availableCardCount": 8,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    },
+    {
+      "file": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-racks-g2-north.png",
+      "pngSha256": "e7f2afacb127681f274dd543b8fcb139e7282c50da2746872e455d59af83798e",
+      "metadata": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\utility-racks-g2-north.png.json",
+      "metadataSha256": "b0df2caa727622e618134519568a4a67c1b5c6786415516219fca25772bf6bcf",
+      "page": "racks",
+      "family": "utility",
+      "groupOffset": 2,
+      "rotationQuarterTurns": 0,
+      "occupied": false,
+      "width": 1920,
+      "height": 1080,
+      "dimensionsMatch": true,
+      "cardCount": 4,
+      "availableCardCount": 4,
+      "unavailableCards": [],
+      "unexpectedVariants": [],
+      "usefulBank": {
+        "name": "THEEND_UTILITY_FURNITURE_BANK",
+        "manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+        "recordedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "expectedSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "currentFileSha256": "0a951259f7cab0304e530e6d1748c34dfa1a15b4f2f239f3b13fdd4010d770d9",
+        "passed": true
+      },
+      "auxiliaryDrawnBanks": [],
+      "ignoredLoadedBanks": [
+        "cryopod",
+        "cryopod-damaged",
+        "THEEND_COMMON_FURNITURE_BANK"
+      ],
+      "binaryCohort": "final-material-override-build",
+      "captureBinarySha256": "fbaa2c887f44b744a677bed8be3a5abf890c82ccf85e25a2b9cb14e897cf8e2e",
+      "binaryProvenance": "Final DLL identity supplied by capture coordinator; original capture metadata records model banks, not the DLL.",
+      "passed": true
+    }
+  ],
+  "resolverTests": {
+    "suite": "TheEnd.Tests.Renderer.SpriteMaterialResolverTests",
+    "passed": 10,
+    "failed": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "command": "dotnet test TheEnd.Tests/TheEnd.Tests.csproj -c Debug --no-build --nologo --filter FullyQualifiedName~SpriteMaterialResolverTests --logger 'console;verbosity=normal'",
+    "log": "C:\\workspace\\TheEnd\\.artifacts\\painted-materials-tests\\resolver-console.log",
+    "logSha256": "6dca0b8001b4d777f61a362f81ad9ac2013fe555d800ea7e2945dd219a9bc6f0",
+    "logKind": "Preserved transcription of actual console output; not a TRX and not a rerun.",
+    "rerunForThisAudit": false
+  },
+  "errors": [],
+  "passed": true
+}

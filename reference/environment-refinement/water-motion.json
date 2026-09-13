@@ -1,0 +1,814 @@
+{
+  "Width": 1920,
+  "Height": 1080,
+  "DeckId": 3,
+  "X": 128,
+  "Y": 100,
+  "RequestedSeconds": 6,
+  "SamplingFps": 15,
+  "Complete": true,
+  "FrameCount": 80,
+  "Scope": "Real TheEndGame final composite after normal capture warm-up. Camera/deck only; no edited display frames, forced ticks, simulation speed or pause changes. Variable sample durations preserve naturally rendered game time.",
+  "Samples": [
+    {
+      "Index": 0,
+      "GameSeconds": 0,
+      "WallSeconds": 0.007681300000001556,
+      "Tick": 12420,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 1,
+      "GameSeconds": 0.4833342999999992,
+      "WallSeconds": 0.21221849999999876,
+      "Tick": 12449,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 2,
+      "GameSeconds": 0.7000014000000014,
+      "WallSeconds": 0.2715278000000012,
+      "Tick": 12462,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 3,
+      "GameSeconds": 0.766668199999998,
+      "WallSeconds": 0.3288335000000018,
+      "Tick": 12466,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 4,
+      "GameSeconds": 0.8333349999999982,
+      "WallSeconds": 0.38304740000000237,
+      "Tick": 12470,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 5,
+      "GameSeconds": 0.9000017999999983,
+      "WallSeconds": 0.4436068999999989,
+      "Tick": 12474,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 6,
+      "GameSeconds": 0.9666685999999984,
+      "WallSeconds": 0.5095264999999998,
+      "Tick": 12478,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 7,
+      "GameSeconds": 1.1000021999999987,
+      "WallSeconds": 0.6480670999999987,
+      "Tick": 12486,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 8,
+      "GameSeconds": 1.1666689999999988,
+      "WallSeconds": 0.715698500000002,
+      "Tick": 12490,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 9,
+      "GameSeconds": 1.233335799999999,
+      "WallSeconds": 0.7827902000000009,
+      "Tick": 12494,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 10,
+      "GameSeconds": 1.3000025999999991,
+      "WallSeconds": 0.8527556000000018,
+      "Tick": 12498,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 11,
+      "GameSeconds": 1.383336100000001,
+      "WallSeconds": 0.9319457,
+      "Tick": 12503,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 12,
+      "GameSeconds": 1.4500029000000012,
+      "WallSeconds": 1.0041021999999984,
+      "Tick": 12507,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 13,
+      "GameSeconds": 1.5166697000000013,
+      "WallSeconds": 1.0713195000000013,
+      "Tick": 12511,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 14,
+      "GameSeconds": 1.5833365000000015,
+      "WallSeconds": 1.1369491000000025,
+      "Tick": 12515,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 15,
+      "GameSeconds": 1.650003299999998,
+      "WallSeconds": 1.1934352000000032,
+      "Tick": 12519,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 16,
+      "GameSeconds": 1.7166700999999982,
+      "WallSeconds": 1.2588478999999992,
+      "Tick": 12523,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 17,
+      "GameSeconds": 1.7833368999999983,
+      "WallSeconds": 1.3298665000000014,
+      "Tick": 12527,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 18,
+      "GameSeconds": 1.8500036999999985,
+      "WallSeconds": 1.3961602999999982,
+      "Tick": 12531,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 19,
+      "GameSeconds": 1.9166704999999986,
+      "WallSeconds": 1.4624126000000004,
+      "Tick": 12535,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 20,
+      "GameSeconds": 1.9833372999999987,
+      "WallSeconds": 1.5379302999999993,
+      "Tick": 12539,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 21,
+      "GameSeconds": 2.0666708000000007,
+      "WallSeconds": 1.6057508000000027,
+      "Tick": 12544,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 22,
+      "GameSeconds": 2.133337600000001,
+      "WallSeconds": 1.6729176999999993,
+      "Tick": 12548,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 23,
+      "GameSeconds": 2.200004400000001,
+      "WallSeconds": 1.7495052000000015,
+      "Tick": 12552,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 24,
+      "GameSeconds": 2.266671200000001,
+      "WallSeconds": 1.8142856000000052,
+      "Tick": 12556,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 25,
+      "GameSeconds": 2.3333380000000012,
+      "WallSeconds": 1.8832378000000034,
+      "Tick": 12560,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 26,
+      "GameSeconds": 2.4166714999999996,
+      "WallSeconds": 1.9634981000000025,
+      "Tick": 12565,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 27,
+      "GameSeconds": 2.4833382999999998,
+      "WallSeconds": 2.0318121000000033,
+      "Tick": 12569,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 28,
+      "GameSeconds": 2.5500051,
+      "WallSeconds": 2.110461900000004,
+      "Tick": 12573,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 29,
+      "GameSeconds": 2.6166719,
+      "WallSeconds": 2.163549500000002,
+      "Tick": 12577,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 30,
+      "GameSeconds": 2.6833387,
+      "WallSeconds": 2.2300328000000036,
+      "Tick": 12581,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 31,
+      "GameSeconds": 2.7500055000000003,
+      "WallSeconds": 2.3074206000000004,
+      "Tick": 12585,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 32,
+      "GameSeconds": 2.8166723000000005,
+      "WallSeconds": 2.365766300000004,
+      "Tick": 12589,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 33,
+      "GameSeconds": 2.8833391000000006,
+      "WallSeconds": 2.433731100000003,
+      "Tick": 12593,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 34,
+      "GameSeconds": 2.9500059000000007,
+      "WallSeconds": 2.5059587000000008,
+      "Tick": 12597,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 35,
+      "GameSeconds": 3.016672700000001,
+      "WallSeconds": 2.570728899999999,
+      "Tick": 12601,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 36,
+      "GameSeconds": 3.083339500000001,
+      "WallSeconds": 2.6276226000000023,
+      "Tick": 12605,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 37,
+      "GameSeconds": 3.150006300000001,
+      "WallSeconds": 2.7066428000000045,
+      "Tick": 12609,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 38,
+      "GameSeconds": 3.2166731000000013,
+      "WallSeconds": 2.7664793000000003,
+      "Tick": 12613,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 39,
+      "GameSeconds": 3.2833399000000014,
+      "WallSeconds": 2.840340099999999,
+      "Tick": 12617,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 40,
+      "GameSeconds": 3.350006699999998,
+      "WallSeconds": 2.8993865999999997,
+      "Tick": 12621,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 41,
+      "GameSeconds": 3.416673499999998,
+      "WallSeconds": 2.971262700000004,
+      "Tick": 12625,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 42,
+      "GameSeconds": 3.4833402999999983,
+      "WallSeconds": 3.0287086000000016,
+      "Tick": 12629,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 43,
+      "GameSeconds": 3.5500070999999984,
+      "WallSeconds": 3.104032100000005,
+      "Tick": 12633,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 44,
+      "GameSeconds": 3.6166738999999986,
+      "WallSeconds": 3.1615169000000023,
+      "Tick": 12637,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 45,
+      "GameSeconds": 3.6833406999999987,
+      "WallSeconds": 3.236237100000004,
+      "Tick": 12641,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 46,
+      "GameSeconds": 3.750007499999999,
+      "WallSeconds": 3.3130139000000014,
+      "Tick": 12645,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 47,
+      "GameSeconds": 3.816674299999999,
+      "WallSeconds": 3.370912099999998,
+      "Tick": 12649,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 48,
+      "GameSeconds": 3.883341099999999,
+      "WallSeconds": 3.4386949000000016,
+      "Tick": 12653,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 49,
+      "GameSeconds": 3.9500078999999992,
+      "WallSeconds": 3.5075166000000024,
+      "Tick": 12657,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 50,
+      "GameSeconds": 4.016674699999999,
+      "WallSeconds": 3.5766656999999995,
+      "Tick": 12661,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 51,
+      "GameSeconds": 4.0833414999999995,
+      "WallSeconds": 3.632259000000005,
+      "Tick": 12665,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 52,
+      "GameSeconds": 4.1500083,
+      "WallSeconds": 3.7013257999999993,
+      "Tick": 12669,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 53,
+      "GameSeconds": 4.233341799999998,
+      "WallSeconds": 3.7805317000000045,
+      "Tick": 12674,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 54,
+      "GameSeconds": 4.300008599999998,
+      "WallSeconds": 3.852946000000003,
+      "Tick": 12678,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 55,
+      "GameSeconds": 4.366675399999998,
+      "WallSeconds": 3.9310091000000043,
+      "Tick": 12682,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 56,
+      "GameSeconds": 4.4333421999999985,
+      "WallSeconds": 3.9929710000000043,
+      "Tick": 12686,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 57,
+      "GameSeconds": 4.500008999999999,
+      "WallSeconds": 4.049291000000004,
+      "Tick": 12690,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 58,
+      "GameSeconds": 4.566675799999999,
+      "WallSeconds": 4.123825799999999,
+      "Tick": 12694,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 59,
+      "GameSeconds": 4.633342599999999,
+      "WallSeconds": 4.1836357000000035,
+      "Tick": 12698,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 60,
+      "GameSeconds": 4.700009399999999,
+      "WallSeconds": 4.2552898,
+      "Tick": 12702,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 61,
+      "GameSeconds": 4.766676199999999,
+      "WallSeconds": 4.3255646,
+      "Tick": 12706,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 62,
+      "GameSeconds": 4.833342999999999,
+      "WallSeconds": 4.381274699999999,
+      "Tick": 12710,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 63,
+      "GameSeconds": 4.900009799999999,
+      "WallSeconds": 4.451906800000003,
+      "Tick": 12714,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 64,
+      "GameSeconds": 4.9666765999999996,
+      "WallSeconds": 4.519666800000003,
+      "Tick": 12718,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 65,
+      "GameSeconds": 5.0500101000000015,
+      "WallSeconds": 4.604363800000002,
+      "Tick": 12723,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 66,
+      "GameSeconds": 5.116676899999998,
+      "WallSeconds": 4.679317099999999,
+      "Tick": 12727,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 67,
+      "GameSeconds": 5.183343699999998,
+      "WallSeconds": 4.739612000000001,
+      "Tick": 12731,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 68,
+      "GameSeconds": 5.250010499999998,
+      "WallSeconds": 4.801882300000003,
+      "Tick": 12735,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 69,
+      "GameSeconds": 5.3166772999999985,
+      "WallSeconds": 4.874659600000001,
+      "Tick": 12739,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 70,
+      "GameSeconds": 5.383344099999999,
+      "WallSeconds": 4.936237200000001,
+      "Tick": 12743,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 71,
+      "GameSeconds": 5.466677600000001,
+      "WallSeconds": 5.0198522000000025,
+      "Tick": 12748,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 72,
+      "GameSeconds": 5.533344400000001,
+      "WallSeconds": 5.094362199999999,
+      "Tick": 12752,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 73,
+      "GameSeconds": 5.600011200000001,
+      "WallSeconds": 5.155434400000004,
+      "Tick": 12756,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 74,
+      "GameSeconds": 5.666678000000001,
+      "WallSeconds": 5.225408000000002,
+      "Tick": 12760,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 75,
+      "GameSeconds": 5.733344800000001,
+      "WallSeconds": 5.285322300000004,
+      "Tick": 12764,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 76,
+      "GameSeconds": 5.800011600000001,
+      "WallSeconds": 5.3591494,
+      "Tick": 12768,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 77,
+      "GameSeconds": 5.866678400000001,
+      "WallSeconds": 5.427188700000002,
+      "Tick": 12772,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 78,
+      "GameSeconds": 5.933345199999998,
+      "WallSeconds": 5.483610400000003,
+      "Tick": 12776,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    },
+    {
+      "Index": 79,
+      "GameSeconds": 6.000011999999998,
+      "WallSeconds": 5.5615478,
+      "Tick": 12780,
+      "PanX": -5184,
+      "PanY": -4360,
+      "CellSize": 48,
+      "WaterVersion": 4294972959
+    }
+  ]
+}

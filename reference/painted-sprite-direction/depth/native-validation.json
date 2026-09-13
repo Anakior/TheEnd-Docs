@@ -1,0 +1,145 @@
+{
+  "comparisons": [
+    {
+      "file": "consoles-rotation-0.png.json",
+      "page": "consoles",
+      "rotation": 0,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    },
+    {
+      "file": "consoles-rotation-1.png.json",
+      "page": "consoles",
+      "rotation": 1,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    },
+    {
+      "file": "consoles-rotation-2.png.json",
+      "page": "consoles",
+      "rotation": 2,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    },
+    {
+      "file": "consoles-rotation-3.png.json",
+      "page": "consoles",
+      "rotation": 3,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    },
+    {
+      "file": "table-bench-rotation-0.png.json",
+      "page": "table-bench",
+      "rotation": 0,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    },
+    {
+      "file": "table-bench-rotation-1.png.json",
+      "page": "table-bench",
+      "rotation": 1,
+      "cards": 8,
+      "labels": [
+        "Forme actuelle",
+        "Relief retravaillé"
+      ]
+    }
+  ],
+  "nativeGame": {
+    "Scope": "Real TheEndGame with external painted prototype banks; only pause, active deck and camera selected; four intact examples, other states retain their current fallback; no fixture state or world edits.",
+    "Passed": true,
+    "Captures": [
+      {
+        "Name": "game-0-Table-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "table-commune",
+        "Kind": "Table",
+        "Condition": "Sealed",
+        "Facing": "East",
+        "CellX": 95,
+        "CellY": 88,
+        "CentreX": 95.5,
+        "CentreY": 89,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 27,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-1-Bench-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "banc-commun",
+        "Kind": "Bench",
+        "Condition": "Sealed",
+        "Facing": "North",
+        "CellX": 96,
+        "CellY": 88,
+        "CentreX": 96.5,
+        "CentreY": 89,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 28,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-2-Console-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "console",
+        "Kind": "Console",
+        "Condition": "Sealed",
+        "Facing": "East",
+        "CellX": 184,
+        "CellY": 202,
+        "CentreX": 184.5,
+        "CentreY": 203,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 148,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-3-Rack-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "rack-standard",
+        "Kind": "Rack",
+        "Condition": "Sealed",
+        "Facing": "West",
+        "CellX": 46,
+        "CellY": 74,
+        "CentreX": 46.5,
+        "CentreY": 75,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 12,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      }
+    ]
+  },
+  "clientAndHelperBuild": "Passed, 0 errors, 0 warnings",
+  "installed": false,
+  "coreAndProductionRendererChangesThisPass": false
+}

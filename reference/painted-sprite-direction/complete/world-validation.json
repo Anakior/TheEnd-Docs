@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "scope": "Same-camera real-game visual/material proof, not an FPS benchmark.",
+  "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+  "pairedCaptures": 8,
+  "sameObjectsCameraAndTick": true,
+  "domeFinalRecapture": true,
+  "unchangedFirstFivePaintings": true,
+  "aliasCount": 22,
+  "uniqueExternalTexturesLoaded": 7,
+  "loadEvents": [
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\floor-tile-painted-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\wall-metal-painted.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\grass-painted.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\water-painted.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\earth-painted.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\sand-painted.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\fungal-painted.png",
+      "width": 1254,
+      "height": 1254
+    }
+  ],
+  "fixtureCacheCheck": "Revision stable between prepared frames 10 and 35, asserted by the native helper.",
+  "noWorldOrFixtureStateEdits": true,
+  "proofFolders": [
+    "game-before-world-paint",
+    "game-with-world-paint",
+    "game-dome-final-paint"
+  ]
+}

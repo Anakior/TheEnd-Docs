@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-12",
+  "scope": "Four intact painted prototypes and native comparison; no production bank installed; no Core or production rendering change in this painting pass.",
+  "banks": [
+    {
+      "name": "common-furniture-detail",
+      "source": {
+        "file": "objects/common-furniture/common-furniture-detail.blend",
+        "sha256": "732edcef277389f7b2f8a4044bf8946f1ea7787dcddf3ce55a30749ea3297c8d"
+      },
+      "manifestSha256": "99BB12E4D8DFD3D5F5F6E660F32C0436A139E7CDDB20D36B2436A79756993A71",
+      "passed": true,
+      "maximumSkinErrorMetres": 0.0,
+      "parts": {
+        "bench": [
+          "short-sealed"
+        ],
+        "table": [
+          "short-sealed"
+        ]
+      },
+      "materialCount": 4,
+      "meshCount": 8
+    },
+    {
+      "name": "utility-furniture-detail",
+      "source": {
+        "file": "objects/utility-furniture/utility-furniture-detail.blend",
+        "sha256": "c18ac45bcf826beb15f303da347c7a8a43c6587e070b058ce7613ad65381cdb9"
+      },
+      "manifestSha256": "DC2C1CA8C8CA48D26D26D5D1AD5F7864F9CA5A1CE0FA39ECBFDA53FDC3DF708A",
+      "passed": true,
+      "maximumSkinErrorMetres": 0.0,
+      "parts": {
+        "console-2": [
+          "dalle-sealed"
+        ],
+        "rack-2": [
+          "sealed"
+        ]
+      },
+      "materialCount": 10,
+      "meshCount": 16
+    },
+    {
+      "name": "common-furniture-detail-v1-paint",
+      "source": {
+        "file": ".cache/common-furniture/common-furniture-detail-v1-paint.blend",
+        "sha256": "9f46109812c53aaf0f005aea77ac0fef177c85078296960ca5ee107c153f28cf"
+      },
+      "manifestSha256": "BCCCEC7CCBE862DBD7F4F21168957D5655A9A639A2CFF99F389EBE09C5C53643",
+      "passed": true,
+      "maximumSkinErrorMetres": 0.0,
+      "parts": {
+        "bench": [
+          "short-sealed"
+        ],
+        "table": [
+          "short-sealed"
+        ]
+      },
+      "materialCount": 3,
+      "meshCount": 6
+    }
+  ],
+  "atlas": {
+    "path": "sprite-render/painted-materials-v1/painted-metal-atlas-v2.png",
+    "sha256": "6350270192F5130366F647A3199B9CE2B278A20C1A6D30E0412B540FF7F14733",
+    "tool": "Built-in imagegen, edit of v1 with colonist shirt paint reference",
+    "prompt": "sprite-render/painted-materials-v1/prompt-v2.txt"
+  },
+  "clientDllSha256": "3A11756BED6C5311E05FB1E43AC6A9C6A002A21F08A95A177D632634FAEBD854",
+  "currentBuilds": "Client and native helper passed, 0 errors, 0 warnings; previous 1810 tests not rerun in this painting pass.",
+  "texturedVertexUvAudit": [
+    {
+      "outsideUnitSquare": 14934,
+      "vertices": 43076,
+      "bank": "common-furniture"
+    },
+    {
+      "outsideUnitSquare": 8286,
+      "vertices": 45698,
+      "bank": "utility-furniture"
+    },
+    {
+      "outsideUnitSquare": 0,
+      "vertices": 11260,
+      "bank": "common-furniture-detail"
+    },
+    {
+      "outsideUnitSquare": 0,
+      "vertices": 13384,
+      "bank": "utility-furniture-detail"
+    }
+  ],
+  "comparisons": [
+    "common-paint-comparison.png",
+    "utility-paint-comparison.png",
+    "utility-paint-comparison-west.png"
+  ],
+  "nativeGame": {
+    "Scope": "Real TheEndGame with external painted prototype banks; only pause, active deck and camera selected; four intact examples, other states retain their current fallback; no fixture state or world edits.",
+    "Passed": true,
+    "Captures": [
+      {
+        "Name": "game-0-Table-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "table-commune",
+        "Kind": "Table",
+        "Condition": "Sealed",
+        "Facing": "East",
+        "CellX": 95,
+        "CellY": 88,
+        "CentreX": 95.5,
+        "CentreY": 89,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 27,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-1-Bench-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "banc-commun",
+        "Kind": "Bench",
+        "Condition": "Sealed",
+        "Facing": "North",
+        "CellX": 96,
+        "CellY": 88,
+        "CentreX": 96.5,
+        "CentreY": 89,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 28,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-2-Console-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "console",
+        "Kind": "Console",
+        "Condition": "Sealed",
+        "Facing": "East",
+        "CellX": 184,
+        "CellY": 202,
+        "CentreX": 184.5,
+        "CentreY": 203,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 148,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      },
+      {
+        "Name": "game-3-Rack-Sealed.png",
+        "Deck": 0,
+        "DefinitionId": "rack-standard",
+        "Kind": "Rack",
+        "Condition": "Sealed",
+        "Facing": "West",
+        "CellX": 46,
+        "CellY": 74,
+        "CentreX": 46.5,
+        "CentreY": 75,
+        "Width": 1,
+        "Height": 2,
+        "Seed": 12,
+        "StableRevision": 1,
+        "ModelCount": 35,
+        "VectorCount": 166
+      }
+    ]
+  },
+  "performanceScope": "Stationary fixture cache revision stable for 25 checked frames per example; no FPS benchmark."
+}

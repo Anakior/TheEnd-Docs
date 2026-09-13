@@ -1,0 +1,8 @@
+{
+  "ClientDllPath": "C:/workspace/TheEnd/.artifacts/door-lamp-fix/native/bin/Debug/net9.0/TheEnd.Client.dll",
+  "ClientDllSHA256": "bc96414665d07b2c4a135ac34b18cd044ee46a0ca33a4f4929b7d6a4959c4a4c",
+  "CoreDllSHA256": "54043cde997bedee1b8eee40344ad064a3848d59a2aab46de20e944b5e71e320",
+  "CaptureVariant": "Before door and wall-lamp fixes",
+  "World": "NewGame.Development 256x256 seed12345",
+  "Host": "Temporary GameComponent chooses only camera and active deck"
+}

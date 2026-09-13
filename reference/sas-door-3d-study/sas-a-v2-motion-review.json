@@ -1,0 +1,130 @@
+{
+  "SourceSHA256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+  "Capture": "motion-v4-final",
+  "FrameCount": 120,
+  "FramesPerSecond": 30,
+  "SamePosePairsChecked": 24,
+  "DifferentSamePosePairs": [],
+  "NoseFrames19to22": [
+    {
+      "Frame": 19,
+      "ROI": [
+        948,
+        413,
+        972,
+        420
+      ],
+      "MeanRGB": [
+        38.6786,
+        45.0476,
+        47.4524
+      ],
+      "StdRGB": [
+        2.6193,
+        2.4049,
+        2.1789
+      ]
+    },
+    {
+      "Frame": 20,
+      "ROI": [
+        948,
+        409,
+        972,
+        416
+      ],
+      "MeanRGB": [
+        38.881,
+        45.1845,
+        47.5714
+      ],
+      "StdRGB": [
+        2.6565,
+        2.5015,
+        2.3416
+      ]
+    },
+    {
+      "Frame": 21,
+      "ROI": [
+        948,
+        405,
+        972,
+        412
+      ],
+      "MeanRGB": [
+        38.7679,
+        45.1964,
+        47.6667
+      ],
+      "StdRGB": [
+        2.2964,
+        2.2527,
+        2.0692
+      ]
+    },
+    {
+      "Frame": 22,
+      "ROI": [
+        948,
+        402,
+        972,
+        409
+      ],
+      "MeanRGB": [
+        38.6905,
+        45.0179,
+        47.4643
+      ],
+      "StdRGB": [
+        2.7211,
+        2.5738,
+        2.2806
+      ]
+    }
+  ],
+  "Nose19to35MeanChannelRange": [
+    0.5715,
+    0.4167,
+    0.4226
+  ],
+  "FixedMouth120Frames": {
+    "UpperFixedMouth": {
+      "ROI": [
+        930,
+        315,
+        990,
+        348
+      ],
+      "MaximumChannelVariation": 0,
+      "ChangedPixels": 0,
+      "RowsWithChanges": []
+    },
+    "LowerFixedMouth": {
+      "ROI": [
+        930,
+        493,
+        990,
+        522
+      ],
+      "MaximumChannelVariation": 0,
+      "ChangedPixels": 0,
+      "RowsWithChanges": []
+    }
+  },
+  "AllMeasuredChecksPassed": true,
+  "Measurement": "Nose interior follows the unchanged rigid translation; fixed mouth rectangles are checked over all 120 native frames. Full PNG hashes compare 24 matched poses. Values use 0..255 RGB.",
+  "Comparison": "sas-v4-motion-review-19-22.png",
+  "Crop": {
+    "Rectangle": [
+      930,
+      310,
+      990,
+      525
+    ],
+    "Scale": 4,
+    "Filter": "nearest",
+    "Retouch": false
+  },
+  "Scope": "Native motion/depth verification of this exact source. Artistic approval and broader gameplay are separate."
+}

@@ -1,0 +1,116 @@
+{
+  "Date": "2026-09-12",
+  "Source": "TheEnd-Art/objects/sas-door/sas-door-a.blend",
+  "SourceSha256": "ac9619d3b8c567571bc7f498e6b259bfa6ac8170c6ef5082ccda94577edc89dc",
+  "ExternalBank": "TheEnd-Art/exports/sas-door-a",
+  "Installed": false,
+  "ExportValidated": true,
+  "IndependentAuditPassed": true,
+  "LeafTravel": 1.48,
+  "SteelPassageWidth": 2.980000037699938,
+  "GasketPassageWidth": 2.976000038906932,
+  "Tests": {
+    "Skipped": 0,
+    "Scope": "Renderer, Development, Display, Sas",
+    "Duration": "2m35s",
+    "Failed": 0,
+    "Passed": 1739,
+    "Configuration": "Debug"
+  },
+  "OrdinaryGameCapture": {
+    "ByteIdentical": true,
+    "SHA256": "548e3efdae00d5e279bbd1bf2694a3fc7971a6d1aa95d879627a8ec2709715f7",
+    "Reference": "reference/obstacles-3d-study/integration-debris.png"
+  },
+  "Motion": {
+    "OutputWidth": 1200,
+    "Codec": "H.264",
+    "Crop": {
+      "Y": 220,
+      "X": 760,
+      "Width": 400,
+      "Height": 400
+    },
+    "Fps": 30,
+    "Frames": 120,
+    "KeyframesIdenticalToStills": {
+      "Frame0": "closed",
+      "Frame119": "closed",
+      "Frame45": "open"
+    },
+    "Sampling": "nearest-neighbour",
+    "Scale": 3,
+    "DurationSeconds": 4,
+    "OutputHeight": 1200
+  },
+  "Neighbourhood": {
+    "Vertical": 20,
+    "AllCentrePocketCellsTerrainMass": true,
+    "Horizontal": 20,
+    "CentrePocketOffsets": [
+      -3,
+      -2,
+      2,
+      3
+    ],
+    "Seed": 12345,
+    "Bands": 40
+  },
+  "Files": [
+    {
+      "Path": "sas-a-closed-native.json",
+      "Bytes": 1430,
+      "SHA256": "e1a5af919851c50d81b08e6d1b80b80bfa4b535a2f13bad26827358836bc7ecc"
+    },
+    {
+      "Path": "sas-a-closed-native.png",
+      "Bytes": 1719419,
+      "SHA256": "e2c02d90e0ac12a9c6efc537db1d2a118f917ab377078694f0d579feb86b3e93"
+    },
+    {
+      "Path": "sas-a-horizontal-closed-native.json",
+      "Bytes": 1434,
+      "SHA256": "62839acae298eb6a7713891f63d8f3d73268b1c30a24a885b0b93c29dd6c5311"
+    },
+    {
+      "Path": "sas-a-horizontal-closed-native.png",
+      "Bytes": 1268703,
+      "SHA256": "8057eb25e5a77d759c15ab1999ec3b93f0ec38dd345b60a9c95c5fc14b460418"
+    },
+    {
+      "Path": "sas-a-horizontal-open-native.json",
+      "Bytes": 1432,
+      "SHA256": "9e8b8ad0700a11088106caef6c5e7718b8b3782d9d6b5a83dea384c2d98b32b5"
+    },
+    {
+      "Path": "sas-a-horizontal-open-native.png",
+      "Bytes": 1268619,
+      "SHA256": "4d18b21537d7b518e5149ed453f20904c1907519392efe8a76fbb0d3cd6d7570"
+    },
+    {
+      "Path": "sas-a-model-audit.json",
+      "Bytes": 2588,
+      "SHA256": "d830f1045233152768c23229655886af7a5ce5f8a9be9148eae2854a9123ac1c"
+    },
+    {
+      "Path": "sas-a-motion-native.json",
+      "Bytes": 9380,
+      "SHA256": "89db501f42b0821b58463db41dc0c16e07b2f97b714a9c833135db3019c0d0f4"
+    },
+    {
+      "Path": "sas-a-motion-native.mp4",
+      "Bytes": 267270,
+      "SHA256": "c6fed71bb5b9af8aff4a4278b581a219eeb1d9af19399cf1808d4da73fd81ea9"
+    },
+    {
+      "Path": "sas-a-open-native.json",
+      "Bytes": 1428,
+      "SHA256": "154ac0db4f0450d5ee67e073481d63d54cc08fb232b3125ca0e545a4475a05d4"
+    },
+    {
+      "Path": "sas-a-open-native.png",
+      "Bytes": 1714976,
+      "SHA256": "a83569366e83b0369fec0456e0674dab6c5d235c328ad5df649957c1307cc3fb"
+    }
+  ]
+}

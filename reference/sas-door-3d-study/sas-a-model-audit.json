@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "sourceSha256": "ac9619d3b8c567571bc7f498e6b259bfa6ac8170c6ef5082ccda94577edc89dc",
+  "manifestSha256": "f48cac1dd46a8529dd3cc25d46b63f8f366293d3b48bd7c2b8ff81a426ec28a8",
+  "bank": "C:\\workspace\\TheEnd-Art\\exports\\sas-door-a",
+  "meshes": 26,
+  "exportedVertices": 12230,
+  "triangles": 6062,
+  "rigidVerticesByBone": {
+    "Root": 7168,
+    "LeafLeft": 2531,
+    "LeafRight": 2531
+  },
+  "matrixLinearTravelMaxError": 1.9645690918501657e-07,
+  "clipBoundsMaxError": 0.0,
+  "closed": {
+    "Root": {
+      "min": [
+        -3.0420000553131104,
+        -0.6579999923706055,
+        0.0
+      ],
+      "max": [
+        3.0420000553131104,
+        0.6579999923706055,
+        0.6380000114440918
+      ]
+    },
+    "LeafLeft": {
+      "min": [
+        -1.4859999418258667,
+        -0.4699999988079071,
+        0.017999999225139618
+      ],
+      "max": [
+        -0.00800000037997961,
+        0.4699999988079071,
+        0.5879999995231628
+      ]
+    },
+    "LeafRight": {
+      "min": [
+        0.00800000037997961,
+        -0.4699999988079071,
+        0.017999999225139618
+      ],
+      "max": [
+        1.4859999418258667,
+        0.4699999988079071,
+        0.5879999995231628
+      ]
+    }
+  },
+  "opened": {
+    "Root": {
+      "min": [
+        -3.0420000553131104,
+        -0.6579999923706055,
+        0.0
+      ],
+      "max": [
+        3.0420000553131104,
+        0.6579999923706055,
+        0.6380000114440918
+      ]
+    },
+    "LeafLeft": {
+      "min": [
+        -2.965999960899353,
+        -0.4699999988079071,
+        0.017999999225139618
+      ],
+      "max": [
+        -1.488000019453466,
+        0.4699999988079071,
+        0.5879999995231628
+      ]
+    },
+    "LeafRight": {
+      "min": [
+        1.488000019453466,
+        -0.4699999988079071,
+        0.017999999225139618
+      ],
+      "max": [
+        2.965999960899353,
+        0.4699999988079071,
+        0.5879999995231628
+      ]
+    }
+  },
+  "passageWidthIncludingGasket": 2.976000038906932,
+  "steelNosePassageWidth": 2.980000037699938,
+  "fixedTrianglesClippedToOpenBay": {
+    "min": [
+      -1.48999,
+      -0.5,
+      0.0
+    ],
+    "max": [
+      1.48999,
+      0.5,
+      0.009999999776482582
+    ]
+  },
+  "fixedFacesIntersectingLeafSweep": 0,
+  "maximumAllowedThresholdZ": 0.012,
+  "limitations": [
+    "Checks geometry and animation buffers; does not assert artistic approval.",
+    "Wall overlap and visual continuity must be checked in native captures."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Passed": true,
+  "Before": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\sealed-shaft-review\\native-before\\game-SealedShaft.png",
+  "After": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\sealed-shaft-review\\native-final96\\game-SealedShaft.png",
+  "BeforeSha256": "C82D9A2CE56FFEAF1F6525ED2ABF30817560B949334475723DDC9EB15E41B8A3",
+  "AfterSha256": "2C294EB48F4A43AD73A8FEF3C1C50A1DF35168375C7D351050584CDCF2D25BC3",
+  "Dimensions": [
+    1920,
+    1080
+  ],
+  "ChangedPixels": 112325,
+  "ChangedBoundsExclusive": [
+    800,
+    254,
+    1133,
+    600
+  ],
+  "AllowedShaftAndShadowBoundsExclusive": [
+    780,
+    225,
+    1150,
+    615
+  ],
+  "OutsidePixelsCompared": 1929300,
+  "ChangedPixelsOutsideShaftAndShadow": 0,
+  "Method": "Exact RGBA pixel comparison; no image modification or resampling."
+}

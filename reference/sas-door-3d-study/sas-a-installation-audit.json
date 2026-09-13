@@ -1,0 +1,378 @@
+{
+  "SourceSHA256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+  "InstalledPath": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\sas-door",
+  "FileCount": 72,
+  "Bytes": 4963460.0,
+  "Meshes": 31,
+  "Materials": 15,
+  "Clips": 2,
+  "BoneCount": 3,
+  "MaximumSkinErrorMetres": 1.7881393432617188E-07,
+  "ExportPassed": true,
+  "RuntimeMatchesApprovedExport": true,
+  "RuntimeReportsPresent": false,
+  "ManifestSHA256": "b2273f1483be9000b660481ca8af1ef2043276af26dc4bfb8806346a55e1dd87",
+  "SortedFileHashListSHA256": "7a24450022400c17c7f3c601346610ae812d86c32ab5ff1b095ec7aa25176d01",
+  "Files": [
+    {
+      "File": "animations/closed.bin",
+      "SHA256": "cb8bfe8dd0ac1a0a9b5b974d5fa67619ff726bb31c2cf6c590e92d3904128a47",
+      "Bytes": 192
+    },
+    {
+      "File": "animations/open.bin",
+      "SHA256": "e64d720c3283686885d775dd8c5098b83ca420c1c5409ab6e464b7c407230fc9",
+      "Bytes": 7872
+    },
+    {
+      "File": "manifest.json",
+      "SHA256": "b2273f1483be9000b660481ca8af1ef2043276af26dc4bfb8806346a55e1dd87",
+      "Bytes": 46640
+    },
+    {
+      "File": "meshes/26b21a42eaa58d24.indices.bin",
+      "SHA256": "74dd1fb1a09ae39f7e1d424d0447113368b7616f6a2988a56f1e7f42aee37b4c",
+      "Bytes": 3072
+    },
+    {
+      "File": "meshes/26b21a42eaa58d24.vertices.bin",
+      "SHA256": "8f8ed15dcb608c2db3b85cac7841d5772f3c7a2f5d312327fb90667e281a1005",
+      "Bytes": 27872
+    },
+    {
+      "File": "meshes/3a7f5a08636ee528.indices.bin",
+      "SHA256": "63c461a4c77062a5d28e9d0b7523cfd802f70c292035e678b0b9565432f1236b",
+      "Bytes": 1368
+    },
+    {
+      "File": "meshes/3a7f5a08636ee528.vertices.bin",
+      "SHA256": "5274166291f6b406689675b7ae8a987a0d0e3937a38866cbb43001c43108da6d",
+      "Bytes": 11336
+    },
+    {
+      "File": "meshes/3b75f81b3be3ab2e.indices.bin",
+      "SHA256": "7a09044d231e629e22c5ac9f13f8722c210e8db26865ddd05a796336f94825a4",
+      "Bytes": 792
+    },
+    {
+      "File": "meshes/3b75f81b3be3ab2e.vertices.bin",
+      "SHA256": "c22c3bab1aa8bee4b8d4313570b936a38dec7f3c35a97afdd22c90a81c9ca0d0",
+      "Bytes": 6864
+    },
+    {
+      "File": "meshes/3cd9cab9e2eb3987.indices.bin",
+      "SHA256": "5419e7f39c53f22998c52c2d0516ff0f987282b01205e863f38d7f87b5da4802",
+      "Bytes": 1944
+    },
+    {
+      "File": "meshes/3cd9cab9e2eb3987.vertices.bin",
+      "SHA256": "4dd12a1bd2763855f0ca7483cc95534c216bba3635dabe28731f226a00a2e211",
+      "Bytes": 17888
+    },
+    {
+      "File": "meshes/48e1d16289dfa88f.indices.bin",
+      "SHA256": "ed428f07a5fcd3b35fc8f248664fa08c3056801f26a9c5dfa3cc8a11e764750e",
+      "Bytes": 840
+    },
+    {
+      "File": "meshes/48e1d16289dfa88f.vertices.bin",
+      "SHA256": "200ab4e9d320df8437826e2882212c130a6d2a2928a782d51fbcbfbca5a01955",
+      "Bytes": 6968
+    },
+    {
+      "File": "meshes/4d68de828a3ef431.indices.bin",
+      "SHA256": "d8da25d50a2ae7b9f554e6302048a9177f9bb9398d6574c8dfe7d57a63b40383",
+      "Bytes": 288
+    },
+    {
+      "File": "meshes/4d68de828a3ef431.vertices.bin",
+      "SHA256": "bf6ae7bdb9f724b5558ac760f621e2572175551704907dd886d503ee6aa71877",
+      "Bytes": 1664
+    },
+    {
+      "File": "meshes/4f6aa2684d35ba76.indices.bin",
+      "SHA256": "b236e57fede978d4fad43b52be70a9bd424dbe13f10b9b36bdecd84abc041597",
+      "Bytes": 840
+    },
+    {
+      "File": "meshes/4f6aa2684d35ba76.vertices.bin",
+      "SHA256": "6add8e70c64f2e4f411ee4e7eda8d08ef72d9ed8e418b21190103512d6e07438",
+      "Bytes": 7280
+    },
+    {
+      "File": "meshes/5209abae46f1aec4.indices.bin",
+      "SHA256": "68e7d2a9cc73eb8086c5bbf24b3ade3fd4d2c67c6147d15f414fc8f6e4a6b1ad",
+      "Bytes": 528
+    },
+    {
+      "File": "meshes/5209abae46f1aec4.vertices.bin",
+      "SHA256": "ee67c227715a5a08d1cf27b711a36c3da1ea642c7974b119330baab48ceeb5ef",
+      "Bytes": 4160
+    },
+    {
+      "File": "meshes/5d09a424f369af5c.indices.bin",
+      "SHA256": "587f5ea4da7e9971da359f665d776b0c60dff6474793e46d8227a43c9fcc4941",
+      "Bytes": 288
+    },
+    {
+      "File": "meshes/5d09a424f369af5c.vertices.bin",
+      "SHA256": "e3a60bda6860ecc38090f56c4736d75a3f8c11080de8f72c96b0ccbba910e2d9",
+      "Bytes": 2496
+    },
+    {
+      "File": "meshes/5ed8287e8c2bddb8.indices.bin",
+      "SHA256": "6a42f04c78f78c5f3db06eaa95b8dd7bd3e682cbd3806ba30e5b66b105bc7980",
+      "Bytes": 1632
+    },
+    {
+      "File": "meshes/5ed8287e8c2bddb8.vertices.bin",
+      "SHA256": "bfb2f4e9643ffc0cb59705ae082cd30ead96184cee61443ce3360ba4235d5d26",
+      "Bytes": 9672
+    },
+    {
+      "File": "meshes/64733d3aa66a9494.indices.bin",
+      "SHA256": "7003380be39dbbd75296e5c73b3d7b7835394020a2bda075e30890a7e442111b",
+      "Bytes": 1632
+    },
+    {
+      "File": "meshes/64733d3aa66a9494.vertices.bin",
+      "SHA256": "046f9883a0e23d613b56dd1bbd5e62db08b51a8d7efc23ad37455df05d608e48",
+      "Bytes": 9672
+    },
+    {
+      "File": "meshes/7c378731f7ae014c.indices.bin",
+      "SHA256": "5419e7f39c53f22998c52c2d0516ff0f987282b01205e863f38d7f87b5da4802",
+      "Bytes": 1944
+    },
+    {
+      "File": "meshes/7c378731f7ae014c.vertices.bin",
+      "SHA256": "92240cbe6627ce3ed1071c1796bf4b32471f8d5912677ecf5158a0402a50858c",
+      "Bytes": 17888
+    },
+    {
+      "File": "meshes/8a0a038755eda707.indices.bin",
+      "SHA256": "9a19bc4aa48b57d791204f1aca6f206dabb7617f1c2a552c0123bfab594fcb70",
+      "Bytes": 1008
+    },
+    {
+      "File": "meshes/8a0a038755eda707.vertices.bin",
+      "SHA256": "a49fddfdae186fbc17ee6f2dd5e78d9ad64484f2fc955f9b0f45a43730aa246a",
+      "Bytes": 7488
+    },
+    {
+      "File": "meshes/8cac1d552af6aadd.indices.bin",
+      "SHA256": "afb94e2ee970c14c464e4da3fc0d3b8f813ce3b3737ae0c93235699376c31eae",
+      "Bytes": 13728
+    },
+    {
+      "File": "meshes/8cac1d552af6aadd.vertices.bin",
+      "SHA256": "9c7adc3ea460645a36f62361c37788552e1d24abb4c5ae874c3df150f3a90e24",
+      "Bytes": 97396
+    },
+    {
+      "File": "meshes/92e0173044ce4904.indices.bin",
+      "SHA256": "369c31ac43fd7a5c24ef42b7d148fd8906f9e2d0ee0063f99e4da5485a56f4ca",
+      "Bytes": 768
+    },
+    {
+      "File": "meshes/92e0173044ce4904.vertices.bin",
+      "SHA256": "2cc09fd1d700f8b7fa66f2bfe817a0cce879f094eea88e485dd394c332e9e386",
+      "Bytes": 6656
+    },
+    {
+      "File": "meshes/9550bf1798b926bf.indices.bin",
+      "SHA256": "21a7c27b963c31d28c3116f0f6eb1806632f734fbdc494b7272103cd5344bb90",
+      "Bytes": 3264
+    },
+    {
+      "File": "meshes/9550bf1798b926bf.vertices.bin",
+      "SHA256": "37f70ecfa2044f2239d7de15a1d09205eaf0435572b44023319cf2f128d411dd",
+      "Bytes": 28288
+    },
+    {
+      "File": "meshes/98d8c12b65a82945.indices.bin",
+      "SHA256": "7a09044d231e629e22c5ac9f13f8722c210e8db26865ddd05a796336f94825a4",
+      "Bytes": 792
+    },
+    {
+      "File": "meshes/98d8c12b65a82945.vertices.bin",
+      "SHA256": "cdb7afd655554cfed4b5be16fba2ae85f26a7391148bb9b0655cf89c3c14ba24",
+      "Bytes": 6864
+    },
+    {
+      "File": "meshes/9b839a26eb4a731c.indices.bin",
+      "SHA256": "338b5bab2e1e2708d863f2915adaa6c29f22070cafe797e87d88e13ad9e69774",
+      "Bytes": 3888
+    },
+    {
+      "File": "meshes/9b839a26eb4a731c.vertices.bin",
+      "SHA256": "5475eb22d821769268fdd9c0e4b21be39aaaedec83ee277a7f2ce9167da0ec2c",
+      "Bytes": 35776
+    },
+    {
+      "File": "meshes/a6f4b3086d833407.indices.bin",
+      "SHA256": "d39c88db21a6c2255c192b117db86a2dfff3ec7503432a2ddd0ab2ef06f6cd5c",
+      "Bytes": 1368
+    },
+    {
+      "File": "meshes/a6f4b3086d833407.vertices.bin",
+      "SHA256": "4bb10f72c3d0e24561c419b9f289d8a2148c3215b080d6b55b86ede38346e345",
+      "Bytes": 11128
+    },
+    {
+      "File": "meshes/b39f020cb58cdee9.indices.bin",
+      "SHA256": "b7ba83dd3ab1254a0f1a5c97de46f5bf68e4a48abf670e674f7237e0b2ec4968",
+      "Bytes": 360
+    },
+    {
+      "File": "meshes/b39f020cb58cdee9.vertices.bin",
+      "SHA256": "9bd6ad305854d5f9458173b3bba893dc13359cc3b9555a53c0d6311318b3e7ee",
+      "Bytes": 3016
+    },
+    {
+      "File": "meshes/b8ae1cd2192c765f.indices.bin",
+      "SHA256": "dea60ea2bed916b3265f57224f14e3de7a65b11de9a399dba4e33015cfd6f910",
+      "Bytes": 816
+    },
+    {
+      "File": "meshes/b8ae1cd2192c765f.vertices.bin",
+      "SHA256": "2df82016d64f692696aeeed9e45b0eafdc2e206b7bb9b3424e7f241aa29b1d81",
+      "Bytes": 5824
+    },
+    {
+      "File": "meshes/c6886908f00351cf.indices.bin",
+      "SHA256": "1b731584182a284ca4673eafec596efa4a3c6026da513a60a2449536ca70508e",
+      "Bytes": 744
+    },
+    {
+      "File": "meshes/c6886908f00351cf.vertices.bin",
+      "SHA256": "8d7aab4fbc79e05c43e897ebe78dbf007915b1c49b871f406e7beb7e7517b361",
+      "Bytes": 4264
+    },
+    {
+      "File": "meshes/d071207856fb82b9.indices.bin",
+      "SHA256": "9a19bc4aa48b57d791204f1aca6f206dabb7617f1c2a552c0123bfab594fcb70",
+      "Bytes": 1008
+    },
+    {
+      "File": "meshes/d071207856fb82b9.vertices.bin",
+      "SHA256": "59c28b6426a36f49962291038df14b9e00e8fff9415a0d5e11170f9609839681",
+      "Bytes": 7488
+    },
+    {
+      "File": "meshes/d133f40cfc9d29ae.indices.bin",
+      "SHA256": "fe78c65211dd0b56a97024fb61111e686ef1fe054aa132ba58e2891ac496f1ee",
+      "Bytes": 24
+    },
+    {
+      "File": "meshes/d133f40cfc9d29ae.vertices.bin",
+      "SHA256": "242d7e0f3bce4f696d40f2cc059887957d0fffd2b6892e07ce4c9bf258dd2419",
+      "Bytes": 208
+    },
+    {
+      "File": "meshes/d4f4158ba36afc95.indices.bin",
+      "SHA256": "c4c8651c3c20b46815acc89601bef977b441300a27a9294ddf24460e87caa20b",
+      "Bytes": 384
+    },
+    {
+      "File": "meshes/d4f4158ba36afc95.vertices.bin",
+      "SHA256": "ea73440131f6ae8634b0768510df1950128c11aa6c01cd87fe7ee3f366460fbd",
+      "Bytes": 3328
+    },
+    {
+      "File": "meshes/e34b2331bf12ded7.indices.bin",
+      "SHA256": "ef468aed654a4a22c5a4e0c979c5349d4e3f0253c73f322c69bfd14182621529",
+      "Bytes": 480
+    },
+    {
+      "File": "meshes/e34b2331bf12ded7.vertices.bin",
+      "SHA256": "d4e236da0efc51555c5a1b78cbb99300507b591d2856ff1979e1afc4e212a5b5",
+      "Bytes": 4160
+    },
+    {
+      "File": "meshes/e4722c8022943404.indices.bin",
+      "SHA256": "b1e3de2091416a0fe399a11c54f63cd4b040a1c7800463cb285a6480a8aac89f",
+      "Bytes": 1344
+    },
+    {
+      "File": "meshes/e4722c8022943404.vertices.bin",
+      "SHA256": "d94dd421e1bce6aa2b4db015dfdb56119a58e0ece3dd75874fa10a5c29793b46",
+      "Bytes": 8736
+    },
+    {
+      "File": "meshes/e96f7adf907a613c.indices.bin",
+      "SHA256": "961919e9c8e8eab6a580190860786d81006a30ccf4fdf37f8bbace31c8c9a496",
+      "Bytes": 744
+    },
+    {
+      "File": "meshes/e96f7adf907a613c.vertices.bin",
+      "SHA256": "5c7f8c06708050c19ddc28bd40798aa3ab8083242c16f49afdfbc0f16104b617",
+      "Bytes": 4264
+    },
+    {
+      "File": "meshes/eb21ec3835e2ebe0.indices.bin",
+      "SHA256": "376e93f57c82c3e6e0fbf12a4f987420c4b6f3e669f0b96427bfea2e4f1ee58c",
+      "Bytes": 360
+    },
+    {
+      "File": "meshes/eb21ec3835e2ebe0.vertices.bin",
+      "SHA256": "e1968f0e2d4d6fd2dc6026ab8753ac71ec2d113030cc5cebb523a4e94f6afac9",
+      "Bytes": 3120
+    },
+    {
+      "File": "meshes/eed5b00b9c8c9447.indices.bin",
+      "SHA256": "21a7c27b963c31d28c3116f0f6eb1806632f734fbdc494b7272103cd5344bb90",
+      "Bytes": 3264
+    },
+    {
+      "File": "meshes/eed5b00b9c8c9447.vertices.bin",
+      "SHA256": "da57006578f8d5f69c3f93d64f1f8debd7fe3b26c134fcf2ab7509973bdb5a9f",
+      "Bytes": 28288
+    },
+    {
+      "File": "meshes/fc160f114a39cb39.indices.bin",
+      "SHA256": "338b5bab2e1e2708d863f2915adaa6c29f22070cafe797e87d88e13ad9e69774",
+      "Bytes": 3888
+    },
+    {
+      "File": "meshes/fc160f114a39cb39.vertices.bin",
+      "SHA256": "9c06fbbf3257a28cb03e60a1bcb10de5577fff03203da7886252a304b1172c51",
+      "Bytes": 35776
+    },
+    {
+      "File": "textures/sas-a-continuous-existing-floor-metal.png",
+      "SHA256": "7a82be17a8d71902cfe1350cf4452a1b0ae5a122b4b02d481f91497b18cd1aac",
+      "Bytes": 112753
+    },
+    {
+      "File": "textures/sas-a-wall-family-edge-paint-and-exposed-wear.png",
+      "SHA256": "e75310b1a621604eea73e4961123032d7274595533d8e525f7baf6787dacb7a0",
+      "Bytes": 1486543
+    },
+    {
+      "File": "textures/sas-a-wall-family-existing-wall-channel.png",
+      "SHA256": "ff1421d04de9e0db3e46c6f6754fabe1c7b39a928b6ca4ca81b7faa696f9fa14",
+      "Bytes": 90981
+    },
+    {
+      "File": "textures/sas-a-wall-family-existing-wall-rail.png",
+      "SHA256": "7d9adfd98c52e7d9b37732de68e8c1b1cf294c8189feddc5d1bcfc13c63a8cdf",
+      "Bytes": 112247
+    },
+    {
+      "File": "textures/sas-a-wall-family-existing-wall-steel.png",
+      "SHA256": "942f2e675f935e8bf623a573d62ceb66914d79586603abc51497ba5dd683f77c",
+      "Bytes": 100014
+    },
+    {
+      "File": "textures/sas-a-wall-family-recessed-slate-inserts.png",
+      "SHA256": "4e8cfaec33df11da688ac9d4f03786604f6c9515af47eb12611cd87b2bff5752",
+      "Bytes": 1253028
+    },
+    {
+      "File": "textures/sas-a-wall-family-slate-painted-panels.png",
+      "SHA256": "b85c47058a17247be6b6c8f0faea4cfce83b2035de786c86ae1ee6d2bebbf992",
+      "Bytes": 1273962
+    }
+  ]
+}

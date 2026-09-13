@@ -1,0 +1,78 @@
+[
+  {
+    "File": "compact-ship.png",
+    "Width": 640,
+    "Height": 480,
+    "Language": "fr",
+    "UiScale": 2,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 38,
+      "Top": 394,
+      "Right": 599,
+      "Bottom": 433
+    },
+    "NonBlackPixels": 6073,
+    "Sha256": "5448fe49b76cbb5441c666dd880d11737b0e964ce55303805a8ad38b9c283a3e"
+  },
+  {
+    "File": "compact-plan.png",
+    "Width": 640,
+    "Height": 480,
+    "Language": "fr",
+    "UiScale": 2,
+    "Phase": "ui.loading.plan",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 114,
+      "Top": 392,
+      "Right": 599,
+      "Bottom": 433
+    },
+    "NonBlackPixels": 5205,
+    "Sha256": "d456e92c2031ad81e1e420e1589df3ab86ee88194e3109a5ae532ba90a0862b6"
+  },
+  {
+    "File": "compact-portraits.png",
+    "Width": 640,
+    "Height": 480,
+    "Language": "fr",
+    "UiScale": 2,
+    "Phase": "ui.loading.portraits",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 199,
+      "Top": 336,
+      "Right": 599,
+      "Bottom": 428
+    },
+    "NonBlackPixels": 6775,
+    "Sha256": "27ac4714c17aa5e45847ee51a2e7cc5c8fdc2cfa901589e72c5f4d642bf7913a"
+  },
+  {
+    "File": "compact-error-long.png",
+    "Width": 640,
+    "Height": 480,
+    "Language": "fr",
+    "UiScale": 2,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.4,
+    "ReducedMotion": false,
+    "Error": true,
+    "NonBlackBounds": {
+      "Left": 41,
+      "Top": 56,
+      "Right": 590,
+      "Bottom": 437
+    },
+    "NonBlackPixels": 29927,
+    "Sha256": "f78004028837800d948b446bfbaa9ca3244052801ce8248d3969c0fa90847902"
+  }
+]

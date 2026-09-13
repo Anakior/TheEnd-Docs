@@ -1,0 +1,226 @@
+{
+  "scope": "Read-only comparison of existing native captures. No image, game code, world or capture changes.",
+  "passed": true,
+  "before": {
+    "image": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v2\\game-final\\game-01-Elevator.png",
+    "sha256": "eb8b31e174985e5175f5d4649562a8a8c9343bccc4d0a5c06c7a30cfdf892f49",
+    "camera": {
+      "Deck": 0,
+      "CentreX": 159.5,
+      "CentreY": 43.5,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "CameraView": {
+        "CellSize": 48,
+        "FocusX": 159.5,
+        "FocusY": 43.5
+      }
+    }
+  },
+  "after": {
+    "image": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\game-final\\game-01-Elevator.png",
+    "sha256": "8701a813d10c388ae84752b1fc666acfb430929be9b76ed2736b7859a52d7807",
+    "camera": {
+      "Deck": 0,
+      "CentreX": 159.5,
+      "CentreY": 43.5,
+      "CameraCellSize": 48,
+      "SimulationTick": 12000,
+      "CameraView": {
+        "CellSize": 48,
+        "FocusX": 159.5,
+        "FocusY": 43.5
+      }
+    }
+  },
+  "sameCaptureCameraAndTick": true,
+  "imageWidth": 1920,
+  "imageHeight": 1080,
+  "coordinateConvention": "Image origin top-left; rectangles x0,y0,x1,y1 with exclusive right/bottom.",
+  "metric": "Exact decoded RGBA byte comparison; absolute RGB delta in 0-255 channel units. No alignment, resizing, filtering, or colour conversion beyond decoding to RGBA.",
+  "wholeFrame": {
+    "pixelCount": 2073600,
+    "changedPixels": 659671,
+    "maxAbsoluteChannelDelta": 239,
+    "meanAbsoluteRgbDelta": 2.2571108217592593,
+    "changedAlphaPixels": 0,
+    "exactlyEqual": false
+  },
+  "regions": [
+    {
+      "name": "right-room-floor",
+      "rectangleXYXYExclusive": [
+        1490,
+        520,
+        1880,
+        925
+      ],
+      "selectionReason": "Opaque metal room floor, excluding the left racks/wall and bottom clock HUD.",
+      "expectation": "identical",
+      "pixelCount": 157950,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "elevator-platform-and-door",
+      "rectangleXYXYExclusive": [
+        880,
+        350,
+        1040,
+        555
+      ],
+      "selectionReason": "Central elevator platform and its solid access door; inside the surrounding frame.",
+      "expectation": "identical",
+      "pixelCount": 32800,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "lower-centre-room-floor",
+      "rectangleXYXYExclusive": [
+        808,
+        580,
+        1060,
+        763
+      ],
+      "selectionReason": "Opaque room tiles below the elevator; above the crew/filter HUD.",
+      "expectation": "identical",
+      "pixelCount": 46116,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "interior-wall-shadow-mass",
+      "rectangleXYXYExclusive": [
+        700,
+        180,
+        1250,
+        300
+      ],
+      "selectionReason": "Dark structural fill inside the outer hull, above the elevator.",
+      "expectation": "identical",
+      "pixelCount": 66000,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "upper-opaque-hull-rail",
+      "rectangleXYXYExclusive": [
+        710,
+        120,
+        1300,
+        145
+      ],
+      "selectionReason": "Inner portion of the top hull rail, away from the silhouette edge.",
+      "expectation": "identical",
+      "pixelCount": 14750,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "left-opaque-hull-rail",
+      "rectangleXYXYExclusive": [
+        568,
+        365,
+        589,
+        748
+      ],
+      "selectionReason": "Inner portion of the left vertical hull wall, excluding the outside antialiased rim.",
+      "expectation": "identical",
+      "pixelCount": 8043,
+      "changedPixels": 0,
+      "maxAbsoluteChannelDelta": 0,
+      "meanAbsoluteRgbDelta": 0.0,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": true
+    },
+    {
+      "name": "exterior-space",
+      "rectangleXYXYExclusive": [
+        40,
+        130,
+        500,
+        760
+      ],
+      "selectionReason": "Exterior void left of the hull, below deck HUD and above crew HUD.",
+      "expectation": "changed",
+      "pixelCount": 289800,
+      "changedPixels": 289458,
+      "maxAbsoluteChannelDelta": 239,
+      "meanAbsoluteRgbDelta": 9.929968944099379,
+      "changedAlphaPixels": 0,
+      "exactlyEqual": false
+    }
+  ],
+  "widerInteriorCoverage": {
+    "rectanglesXYXYExclusive": [
+      [
+        700,
+        165,
+        1900,
+        270
+      ],
+      [
+        610,
+        360,
+        1350,
+        750
+      ],
+      [
+        1260,
+        300,
+        1890,
+        920
+      ]
+    ],
+    "selectionReason": "Conservative hull interior inset from the silhouette; includes dark structural mass, elevator, floors and furniture, excluding translucent HUD.",
+    "pixelCount": 770100,
+    "changedPixels": 0,
+    "maxAbsoluteChannelDelta": 0,
+    "meanAbsoluteRgbDelta": 0.0,
+    "changedAlphaPixels": 0,
+    "exactlyEqual": true
+  },
+  "uniqueInteriorCoverage": {
+    "pixelCount": 816219,
+    "changedPixels": 0,
+    "maxAbsoluteChannelDelta": 0,
+    "meanAbsoluteRgbDelta": 0.0,
+    "changedAlphaPixels": 0,
+    "exactlyEqual": true
+  },
+  "nativeAssetEvidence": {
+    "report": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\interior-details-review-v3\\game-final\\native-game-validation.json",
+    "nativePassed": true,
+    "installedAssets": true,
+    "entry": {
+      "File": "space\\painted-space-v1.png",
+      "Sha256": "FDA0CD21CFC0C7C64301117CC86C54B14B20172DED417BAD1EAD69AB80FDDA2A"
+    },
+    "listedHashMatches": true,
+    "installedFileSha256": "FDA0CD21CFC0C7C64301117CC86C54B14B20172DED417BAD1EAD69AB80FDDA2A",
+    "installedFileMatches": true
+  },
+  "limitations": [
+    "Evidence is limited to this deck0 elevator view at 48px/cell and simulation tick12000; it is not an all-decks or all-zoom proof.",
+    "Opaque surfaces are inferred from the visible existing ship geometry and its draw order; the PNG does not carry an object/material ID buffer.",
+    "Exterior contour antialiasing and translucent interface panels are intentionally excluded from the identical-interior claim: their composited pixels may depend on the changed background.",
+    "The two builds also contain the textile/ladder revisions. Those objects are outside the selected comparison areas; the unchanged pixels do not isolate every change in the whole build.",
+    "This capture contains no natural lake comparison region; this report does not certify lake/shore pixels. Separate dome comparisons are required for that claim."
+  ]
+}

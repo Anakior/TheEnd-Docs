@@ -1,0 +1,21 @@
+{
+  "TheEndEnvironmentVariables": [],
+  "ProcessId": 38776,
+  "Executable": "C:/workspace/TheEnd/TheEnd.Client/bin/Debug/net9.0/TheEnd.Client.exe",
+  "Arguments": [],
+  "ClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+  "WorkingDirectory": "C:/workspace/TheEnd/TheEnd.Client/bin/Debug/net9.0",
+  "StartedAt": "2026-09-12T20:19:23.4447076+02:00",
+  "ReadyObservedAt": "2026-09-12T20:20:10+02:00",
+  "ReadyEvidence": "The End window observed; all eight BundledPaint textures loaded; normal simulation running in normal-game.log.",
+  "LastObservedAt": "2026-09-12T20:23:14+02:00",
+  "RunningAtLastObservation": false,
+  "ExitReason": "Not established; normal simulation logged through 20:20:59. No relaunch requested.",
+  "EarlierLaunchAttempt": {
+    "ProcessId": 46892,
+    "StartedAt": "2026-09-12T20:16:18.6686263+02:00",
+    "WorkingDirectory": "C:/workspace/TheEnd",
+    "ReadyObserved": false,
+    "ExitReason": "Not established; stderr not captured. Successful launch used executable output directory."
+  }
+}

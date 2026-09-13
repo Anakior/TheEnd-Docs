@@ -1,0 +1,302 @@
+{
+  "Date": "2026-09-12",
+  "SourceSHA256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+  "ExportPassed": true,
+  "MaximumExportErrorMetres": 1.7881393432617188E-07,
+  "Geometry": {
+    "version": "v4-final",
+    "sourceSha256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+    "mechanicalAuditPassed": true,
+    "coplanarAuditPassed": true,
+    "exactOverlappingTrianglePairs": 0,
+    "previousFixedCoplanarPairsRemoved": 206,
+    "byBone": {
+      "Root": {
+        "exactPairs": 0,
+        "nearPairs": 52,
+        "minimumGap": 0.001000046730041504
+      },
+      "LeafLeft": {
+        "exactPairs": 0,
+        "nearPairs": 25,
+        "minimumGap": 0.0019999993965029716
+      },
+      "LeafRight": {
+        "exactPairs": 0,
+        "nearPairs": 21,
+        "minimumGap": 0.0019999993965029716
+      }
+    },
+    "remainingNearSurfaces": "Pressure gaskets have a 0.002 separation from the nose. Fixed near pairs are downward-facing under-covers at 0.001 and lateral returns at 0.0015; they are not the coincident terminal planes responsible for the rejected motion.",
+    "geometry": {
+      "meshes": 31,
+      "exportedVertices": 8189,
+      "triangles": 4450,
+      "matrixLinearTravelMaxError": 1.9645690918501657E-07,
+      "clipBoundsMaxError": 0.0,
+      "steelNosePassageWidth": 2.980000037699938,
+      "passageWidthIncludingGasket": 2.976000038906932,
+      "fixedFacesIntersectingLeafSweep": 0
+    },
+    "boundsChangeSinceV3": {
+      "leafBoundsUnchanged": true,
+      "rootXYBoundsUnchanged": true,
+      "rootMaximumZ": 0.6579999923706055,
+      "previousRootMaximumZ": 0.65,
+      "description": "Receiver relief increased to 0.658; deep pocket cover remains below the wall. This is recorded rather than described as an entirely unchanged envelope."
+    },
+    "nativeVisualValidation": "Latest-source captures are being reviewed by root. Geometry checks do not replace final visual or artistic review; v3 native measurements already confirmed removal of the original terminal flicker.",
+    "scope": "Binary matrices, weights, clip bounds, authored leaf envelope, swept clearance, and same-facing near-parallel triangle intersections with positive projected area >1e-8. Exact means all sampled triangle vertices within 1e-7 of the other plane. Shared edges without area are excluded. Normal grouping tolerance is recorded in the overlap report.",
+    "reports": [
+      "sas-a-independent-audit-v4-final.json",
+      "sas-a-overlaps-v4-final.json",
+      "sas-a-overlaps-v3-wall.json",
+      "sas-a-overlaps-v2.json"
+    ]
+  },
+  "Motion": {
+    "SourceSHA256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+    "Capture": "motion-v4-final",
+    "FrameCount": 120,
+    "FramesPerSecond": 30,
+    "SamePosePairsChecked": 24,
+    "DifferentSamePosePairs": [],
+    "NoseFrames19to22": [
+      {
+        "Frame": 19,
+        "ROI": [
+          948,
+          413,
+          972,
+          420
+        ],
+        "MeanRGB": [
+          38.6786,
+          45.0476,
+          47.4524
+        ],
+        "StdRGB": [
+          2.6193,
+          2.4049,
+          2.1789
+        ]
+      },
+      {
+        "Frame": 20,
+        "ROI": [
+          948,
+          409,
+          972,
+          416
+        ],
+        "MeanRGB": [
+          38.881,
+          45.1845,
+          47.5714
+        ],
+        "StdRGB": [
+          2.6565,
+          2.5015,
+          2.3416
+        ]
+      },
+      {
+        "Frame": 21,
+        "ROI": [
+          948,
+          405,
+          972,
+          412
+        ],
+        "MeanRGB": [
+          38.7679,
+          45.1964,
+          47.6667
+        ],
+        "StdRGB": [
+          2.2964,
+          2.2527,
+          2.0692
+        ]
+      },
+      {
+        "Frame": 22,
+        "ROI": [
+          948,
+          402,
+          972,
+          409
+        ],
+        "MeanRGB": [
+          38.6905,
+          45.0179,
+          47.4643
+        ],
+        "StdRGB": [
+          2.7211,
+          2.5738,
+          2.2806
+        ]
+      }
+    ],
+    "Nose19to35MeanChannelRange": [
+      0.5715,
+      0.4167,
+      0.4226
+    ],
+    "FixedMouth120Frames": {
+      "UpperFixedMouth": {
+        "ROI": [
+          930,
+          315,
+          990,
+          348
+        ],
+        "MaximumChannelVariation": 0,
+        "ChangedPixels": 0,
+        "RowsWithChanges": []
+      },
+      "LowerFixedMouth": {
+        "ROI": [
+          930,
+          493,
+          990,
+          522
+        ],
+        "MaximumChannelVariation": 0,
+        "ChangedPixels": 0,
+        "RowsWithChanges": []
+      }
+    },
+    "AllMeasuredChecksPassed": true,
+    "Measurement": "Nose interior follows the unchanged rigid translation; fixed mouth rectangles are checked over all 120 native frames. Full PNG hashes compare 24 matched poses. Values use 0..255 RGB.",
+    "Comparison": "sas-v4-motion-review-19-22.png",
+    "Crop": {
+      "Rectangle": [
+        930,
+        310,
+        990,
+        525
+      ],
+      "Scale": 4,
+      "Filter": "nearest",
+      "Retouch": false
+    },
+    "Scope": "Native motion/depth verification of this exact source. Artistic approval and broader gameplay are separate."
+  },
+  "Endpoints": {
+    "Frame45AndSeparateOpenCaptureIdentical": true,
+    "Frames0And119Identical": true
+  },
+  "PreservedAssets": [
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\door\\door-painted-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\rock\\rock-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\debris\\debris-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\door\\manifest.json",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\rock\\manifest.json",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\debris\\manifest.json",
+      "Unchanged": true
+    }
+  ],
+  "Proofs": [
+    {
+      "File": "sas-a-v2-cause-comparison.png",
+      "Bytes": 48815,
+      "SHA256": "0d2cf2d05a3d940e19b628006bd0b9b2fb4ccd346e0ee51b241472a4afbfaa0e"
+    },
+    {
+      "File": "sas-a-v2-cause.json",
+      "Bytes": 4154,
+      "SHA256": "26a4cdc4618985362e505be77117816b7d15d08298c87b9ee9a7736c26b14666"
+    },
+    {
+      "File": "sas-a-v2-closed-native.png",
+      "Bytes": 1723389,
+      "SHA256": "70cfc110731e525a480845cb6cbabb4597607a69a26f4369b3c27b8b96882254"
+    },
+    {
+      "File": "sas-a-v2-closed-native.png.sas-study.json",
+      "Bytes": 9381,
+      "SHA256": "4cb45a87100dc9f079fb7b98049174935e2c83d83b487e82535deb41d45eba07"
+    },
+    {
+      "File": "sas-a-v2-horizontal-closed-native.png",
+      "Bytes": 1279759,
+      "SHA256": "cdd4efeeefed4a648060c4fe9e8b525e35de6d9a8102c4d2cf77b01a49a414da"
+    },
+    {
+      "File": "sas-a-v2-horizontal-closed-native.png.sas-study.json",
+      "Bytes": 1433,
+      "SHA256": "67ae602af4da24198219dc22c688d1a16a3dc702869cb3b90bf7b84d2d3d5ddd"
+    },
+    {
+      "File": "sas-a-v2-horizontal-open-native.png",
+      "Bytes": 1269224,
+      "SHA256": "6a4fbb5bece734b689361c441292fcf4d6cd50a4dd27b602b2acb521e277b12f"
+    },
+    {
+      "File": "sas-a-v2-horizontal-open-native.png.sas-study.json",
+      "Bytes": 1431,
+      "SHA256": "435d1355687e182fe1b6abab2482e37909171080527b48b40514def60e5a7903"
+    },
+    {
+      "File": "sas-a-v2-model-audit.json",
+      "Bytes": 2657,
+      "SHA256": "7c42a8123fc2c43de49d7c8d5223125b9b5cc76f931d132228286a8925ee5086"
+    },
+    {
+      "File": "sas-a-v2-motion-native.json",
+      "Bytes": 9381,
+      "SHA256": "4cb45a87100dc9f079fb7b98049174935e2c83d83b487e82535deb41d45eba07"
+    },
+    {
+      "File": "sas-a-v2-motion-native.mp4",
+      "Bytes": 316569,
+      "SHA256": "57eb6ce8f6d9ce868d0f1d34927fa1f2ad27de557c4daf355401f11874664698"
+    },
+    {
+      "File": "sas-a-v2-motion-review.json",
+      "Bytes": 2473,
+      "SHA256": "32a55bace5be5afb914a2544aae933a7c695a6f28dd0c9a0873744dc8f7ece5a"
+    },
+    {
+      "File": "sas-a-v2-motion-review.png",
+      "Bytes": 73990,
+      "SHA256": "c535855b4bb917f8bd389d86f6d559b0c1d909d87ac39ca15464d8e1b861de8a"
+    },
+    {
+      "File": "sas-a-v2-open-native.png",
+      "Bytes": 1715479,
+      "SHA256": "6778fa56b13f4f821b0cb2368a0cd846223a2dfa0a3ebd3e983266c54bcf6109"
+    },
+    {
+      "File": "sas-a-v2-open-native.png.sas-study.json",
+      "Bytes": 1429,
+      "SHA256": "c6f32ff6f0e23b74f893bab41d3cd520236d4d003bacf50c77d29d66425b809c"
+    },
+    {
+      "File": "sas-a-v2-surface-audit.json",
+      "Bytes": 2344,
+      "SHA256": "e5f29417307e7a1ceb444f5cf618fd65806dcb84d22540eca2d878febfc86183"
+    }
+  ],
+  "RendererCodeChangedForThisRevision": false,
+  "ArtisticStatus": "2026-09-12: Ludovic approved the revised native appearance and opening animation: « C'est bon ! ». Approved source: 84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535. External study; no installation requested or performed.",
+  "Installed": false
+}

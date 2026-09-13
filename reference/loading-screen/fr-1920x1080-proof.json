@@ -1,0 +1,800 @@
+[
+  {
+    "File": "fr-ship.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "6186784ae9e78249bdfa9866ce92f37acef16bb0c75df3cc7251c4b748589dc2"
+  },
+  {
+    "File": "fr-plan.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.plan",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1636,
+      "Top": 1015,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1244,
+    "Sha256": "319481d6b7e510617926dd12a039a0323a242ee3b7a93fd0d81e570d53a3f41d"
+  },
+  {
+    "File": "fr-portraits.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.portraits",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1574,
+      "Top": 1015,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1628,
+    "Sha256": "d7cc160dcd845393619b2ee4db29363b72d36c65f071a54b3675e95f911ccb2f"
+  },
+  {
+    "File": "motion/frame-000.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "3394b7652fad6d36988a21e4118e46e5db7641086d78f7ee609c5db1e3605bc6"
+  },
+  {
+    "File": "motion/frame-001.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.03333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "c0e0cb70efe4794befc15e7942c726810c303bee4cd07505c34e2d228305c2d3"
+  },
+  {
+    "File": "motion/frame-002.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.06666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "1d8219ceba98c816fc502405571458b075c581da682bfd0841448c6b12feec3f"
+  },
+  {
+    "File": "motion/frame-003.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.1,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "1b290b8ea44cf2bb44227cee474cd09747cf441e63f3ce620d22fde0ec992d0b"
+  },
+  {
+    "File": "motion/frame-004.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.13333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "5a114b1504bd81109d4b1d767614b5852681e77645f87f15783645f9e6031c63"
+  },
+  {
+    "File": "motion/frame-005.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.16666666666666666,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "de840033ac3e6f97a9ac3bfbb45c054204eaac502f7959c7f01bec12d6fd4a2a"
+  },
+  {
+    "File": "motion/frame-006.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.2,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "ca7e3638f632f3ef44472982a6496c1d0470cf1a198e4117a37f9ff27f5beded"
+  },
+  {
+    "File": "motion/frame-007.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.23333333333333334,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "ba16365b72af9076dbb4f9494e2d19c6d1c04cd0629792d384e12f0c03dd0b6e"
+  },
+  {
+    "File": "motion/frame-008.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.26666666666666666,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "50da9f34d26f19e7c5e9b57fa2050edc66c93b1bf01f6b32039e7a5b45098083"
+  },
+  {
+    "File": "motion/frame-009.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "6186784ae9e78249bdfa9866ce92f37acef16bb0c75df3cc7251c4b748589dc2"
+  },
+  {
+    "File": "motion/frame-010.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.3333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "90ba2eb836313e08b9b584d2e8459c1d9a9cd40eaf7c6eaf7778adf87f6c3bea"
+  },
+  {
+    "File": "motion/frame-011.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.36666666666666664,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "2a13aa39c31f5b546dae5110ea7541d843e62f6ba5ea305e329196f2b93142fe"
+  },
+  {
+    "File": "motion/frame-012.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.4,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "db4e0d40b5283e68c4f39579be44e08a394c703a40e02e66a28601baaf6d7327"
+  },
+  {
+    "File": "motion/frame-013.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.43333333333333335,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "66db265714ba546c4b90c993dd86bc100005fca104f35300cc1da9c2fc4b2084"
+  },
+  {
+    "File": "motion/frame-014.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.4666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "2a5201693fb710c64cb1afc7fc152d0f56928d9074bb7c11cc1878ebd13a5668"
+  },
+  {
+    "File": "motion/frame-015.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.5,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "eb39ce5edd4f1f31595a58a8beae16f2f3a02c33b8d73f8d8872822a6ba24e5d"
+  },
+  {
+    "File": "motion/frame-016.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.5333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "b8cce2c2cfbb8b1e5a156a48bc8cc259ea15abfaebc7aa96d0d23daca64bea0d"
+  },
+  {
+    "File": "motion/frame-017.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.5666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "35ec986f6ac3b21fafc4801c523b07a778da5f8c74cf85391c6416c4b848722c"
+  },
+  {
+    "File": "motion/frame-018.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.6,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "9ad01fc38aaec285cf8698d5e752fd19939aafd713321f0cd8d229a9d305f152"
+  },
+  {
+    "File": "motion/frame-019.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.6333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "7f2abc4f170da8bf861a8512ce8e04395b6c1ddb5c60f5351b43fb211301df77"
+  },
+  {
+    "File": "motion/frame-020.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.6666666666666666,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "9a9b4f2d2d99f9ea2e73d7f0b7b5a452c82841733c9d899dfd5f46ae912580da"
+  },
+  {
+    "File": "motion/frame-021.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.7,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "bd8c077ec9cc336f3cb74ea134e6aa2cf6fe92eb50a7fcb4b3edba2afbca1d6d"
+  },
+  {
+    "File": "motion/frame-022.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.7333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "23c688b576f251fafb5b5f66018faec42dde199f35fcb027d028402f4b7f1de3"
+  },
+  {
+    "File": "motion/frame-023.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.7666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "cca44971e55d9c6953d36d35c3d2e04c84d4116154339c49d2eddb4dcb8d0064"
+  },
+  {
+    "File": "motion/frame-024.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.8,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "3b319daf2a17e94fbbdd55f711f19eeda19a90cc6097ddf40dee2f10c6854d42"
+  },
+  {
+    "File": "motion/frame-025.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.8333333333333334,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "d793d2f5720f0477a126bedc3c96b6cdbeb8fd10106da480a82944028eced223"
+  },
+  {
+    "File": "motion/frame-026.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.8666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "c4f5cb2f71d7bce4d51fc7625859fe9551c7a454939222b876bf5079f1bca5f3"
+  },
+  {
+    "File": "motion/frame-027.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.9,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "4ace914be2fd2d56eff1fbc10be09767437eb303ebc03c9968febe78980ad1c5"
+  },
+  {
+    "File": "motion/frame-028.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.9333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "793c46711cd7f79c5d050c9d1f68061a8df442b3277409340b12ecb8260ad99f"
+  },
+  {
+    "File": "motion/frame-029.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.9666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "7ec91e4c5e4bdd627dbcdb8754c41b56573e2fb07999df678dc833157a758c34"
+  },
+  {
+    "File": "motion/frame-030.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "2a2b3573611f6cbd78fbf63f84e6f051f423b6bf0f9f4b9ed45c331c8008c30d"
+  },
+  {
+    "File": "motion/frame-031.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1.0333333333333334,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "83d7f22193c1f1358126d7173aa003a49e70f3b929844c5bdf59a614e7439f47"
+  },
+  {
+    "File": "motion/frame-032.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1.0666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "1662fc03fd1d8121fd227f6e824860359aef030fad6fcdafc5a930d72380492b"
+  },
+  {
+    "File": "motion/frame-033.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1.1,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "47039f55659f2827f0ad7eefac17150dfc732254d1df5ef10c481afe3f779536"
+  },
+  {
+    "File": "motion/frame-034.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1.1333333333333333,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "c872c2eaa0bdfe6ec2d7523cbca6b0e6440610bd073b331db69b9dcfc2a17c58"
+  },
+  {
+    "File": "motion/frame-035.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 1.1666666666666667,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "81cc4356fcc36dee6b5a67bd295f352596d5efa860038721a295ea80cd5e3860"
+  },
+  {
+    "File": "fr-reduced-0.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0,
+    "ReducedMotion": true,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "3394b7652fad6d36988a21e4118e46e5db7641086d78f7ee609c5db1e3605bc6"
+  },
+  {
+    "File": "fr-reduced-1.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.7,
+    "ReducedMotion": true,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1598,
+      "Top": 1016,
+      "Right": 1878,
+      "Bottom": 1035
+    },
+    "NonBlackPixels": 1474,
+    "Sha256": "3394b7652fad6d36988a21e4118e46e5db7641086d78f7ee609c5db1e3605bc6"
+  },
+  {
+    "File": "fr-error-long.png",
+    "Width": 1920,
+    "Height": 1080,
+    "Language": "fr",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.4,
+    "ReducedMotion": false,
+    "Error": true,
+    "NonBlackBounds": {
+      "Left": 1205,
+      "Top": 875,
+      "Right": 1873,
+      "Bottom": 1037
+    },
+    "NonBlackPixels": 13323,
+    "Sha256": "000838201c774cd465a00488c6a6792db1c51768569fc521b2cda7073de2b690"
+  }
+]

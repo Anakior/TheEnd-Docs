@@ -1,0 +1,132 @@
+{
+  "CapturedAt": "2026-09-12T14:21:50.2640860+02:00",
+  "SourceHeight": 0.35,
+  "LandingDepth": 0.8,
+  "BaselineVerticalDLL": "F4E1ED63EA103584414A0D32B7EB2A28095B6EE3CDB7350752AC130BBE626642",
+  "AfterDLL": "0FEA6C06A4D2ACE92B7CC6F7B21D7AD3CE72E89B6F138F16A4FF12531FBAE98B",
+  "Scope": "Raised sprite-volume wall lamps only; physical wall intersections, shared ActorModelCamera, additive DepthRead with no depth writes",
+  "Tests": {
+    "Executed": 68,
+    "Passed": 68,
+    "Failed": 0,
+    "NotExecuted": 0
+  },
+  "Captures": [
+    {
+      "Name": "before-lamp-light-vertical",
+      "SHA256": "A028421E0FF97668E91F3FE067B8ADECDBCA70A527DD19886D02C9390B86A93B",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 105.5,
+        "CentreY": 87.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -4104,
+        "CameraPanY": -3760,
+        "SourceDoor": null,
+        "SimulationTick": 12397,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    },
+    {
+      "Name": "after-lamp-light-vertical",
+      "SHA256": "9748FA0AB0781134D384143E1103933DFA8A0877AE43B3CC5EA72BCA77E4ADFF",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 105.5,
+        "CentreY": 87.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -4104,
+        "CameraPanY": -3760,
+        "SourceDoor": null,
+        "SimulationTick": 12405,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    },
+    {
+      "Name": "before-lamp-light-east",
+      "SHA256": "4B22C1AF59B4161A94BACC170567753CCA6DC0C3D68B1BA51D3644EEBDED42D6",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 67.5,
+        "CentreY": 80.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -2280,
+        "CameraPanY": -3424,
+        "SourceDoor": null,
+        "SimulationTick": 12403,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    },
+    {
+      "Name": "after-lamp-light-east",
+      "SHA256": "C2E00AC138984105DE39C95C6C1A6F90B6D69F23AC33693E825EA92506A6F789",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 67.5,
+        "CentreY": 80.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -2280,
+        "CameraPanY": -3424,
+        "SourceDoor": null,
+        "SimulationTick": 12392,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    },
+    {
+      "Name": "after-lamp-light-north",
+      "SHA256": "61CD25BB8DA3316AAA3D759CA58E6B432C4C010CFD56D1F4F5620B7DD435C616",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 61.5,
+        "CentreY": 48.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -1992,
+        "CameraPanY": -1888,
+        "SourceDoor": {
+          "Kind": "WallLamp",
+          "CellX": 61,
+          "CellY": 48,
+          "Facing": "North",
+          "Condition": "Sealed",
+          "Seed": 190
+        },
+        "SimulationTick": 12410,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    },
+    {
+      "Name": "after-lamp-light-south",
+      "SHA256": "4D7B40C9C439607CEE9081CF5BD3165EF49DEEBDB2222AB066B80E4696F93793",
+      "Metadata": {
+        "DeckId": 0,
+        "CentreX": 47.5,
+        "CentreY": 88.5,
+        "CameraCellSize": 48,
+        "CameraPanX": -1320,
+        "CameraPanY": -3808,
+        "SourceDoor": {
+          "Kind": "WallLamp",
+          "CellX": 47,
+          "CellY": 88,
+          "Facing": "South",
+          "Condition": "Sealed",
+          "Seed": 186
+        },
+        "SimulationTick": 12411,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      },
+      "NativeExitCode": 0,
+      "VisuallyInspected": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "rendererTests": {
+    "passed": 1503,
+    "failed": 0,
+    "executed": 1503,
+    "notExecuted": 0,
+    "report": "environment-performance.trx"
+  },
+  "clientBuild": {
+    "configuration": "Debug",
+    "errors": 0,
+    "warnings": 0
+  },
+  "finalClientSha256": "8BFBFCE530B006E0C26DF1B85426751EEF53737A303E76EBBAFA88209D8CDC5A",
+  "scene": {
+    "beforeDrawMs": 163.2956554166667,
+    "afterDrawMs": 21.879309166666662,
+    "beforeDrawCalls": 23145,
+    "afterDrawCalls": 363,
+    "scope": "Native game, paused, same camera, 32px per cell, supersampling1; isolated benchmark runs"
+  },
+  "waterPublication": {
+    "everyFirstPlayableHasWater": true,
+    "revisitReusesContours": true,
+    "revisitReusesSpriteSurface": true,
+    "contourBuilds": 2,
+    "scope": "Functional proof concurrent with tests; loading times not compared"
+  },
+  "floorRaster": "floor-raster-comparison.json",
+  "ruinJoints": "ruin-joints-comparison.json",
+  "nativeFinalImageInspected": "first-playable-dome.png"
+}

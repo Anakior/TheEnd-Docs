@@ -1,0 +1,69 @@
+{
+  "Date": "2026-09-12",
+  "ClientSHA256": "5725D6402E4E6C0AB631EAF772BA20A2549065EA368D83D6B5C6DE13FCB5A8C5",
+  "ProbeClientSHA256": "5725D6402E4E6C0AB631EAF772BA20A2549065EA368D83D6B5C6DE13FCB5A8C5",
+  "BuildErrors": 0,
+  "BuildWarnings": 0,
+  "Tests": {
+    "Executed": 133,
+    "Passed": 133,
+    "Failed": 0,
+    "NotExecuted": 0
+  },
+  "Captures": [
+    {
+      "File": "after-water.png",
+      "SHA256": "66E80ADA0A53998BB43592A1CF6B9DFA98B9546D15378C051BC0B3133C185845",
+      "NativeExitCode": 0,
+      "VisuallyInspected": true,
+      "Scene": {
+        "DeckId": 3,
+        "CentreX": 128,
+        "CentreY": 100,
+        "CameraCellSize": 48,
+        "CameraPanX": -5184,
+        "CameraPanY": -4360,
+        "SourceDoor": null,
+        "SimulationTick": 12412,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    },
+    {
+      "File": "after-partitions-water.png",
+      "SHA256": "1D307D243D87BB27F796EC8A486B94D7252CAA8DE051A66EA22F56AF3EDEF286",
+      "NativeExitCode": 0,
+      "VisuallyInspected": true,
+      "Scene": {
+        "DeckId": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "CameraPanX": -4992,
+        "CameraPanY": -6568,
+        "SourceDoor": null,
+        "SimulationTick": 12397,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    },
+    {
+      "File": "after-grass.png",
+      "SHA256": "785792D7D77BE19B2813B99B6C517EFF9A5856E70E3F4634FA41C249B3238C18",
+      "NativeExitCode": 0,
+      "VisuallyInspected": true,
+      "Scene": {
+        "DeckId": 3,
+        "CentreX": 184,
+        "CentreY": 82,
+        "CameraCellSize": 48,
+        "CameraPanX": -7872,
+        "CameraPanY": -3496,
+        "SourceDoor": null,
+        "SimulationTick": 12396,
+        "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+      }
+    }
+  ],
+  "UserArtApproval": "Pending review after grass transition and ruin feedback",
+  "NoCoreChanges": true,
+  "CommitsMade": false
+}

@@ -1,0 +1,73 @@
+{
+  "Date": "2026-09-12",
+  "Request": "Implémentes du coup",
+  "Installed": true,
+  "SourceSHA256": "84012115713aa568cb6f888b56c98d648574da4bf0b4d86f5cf1d97e280cc535",
+  "ManifestSHA256": "b2273f1483be9000b660481ca8af1ef2043276af26dc4bfb8806346a55e1dd87",
+  "RuntimeFileCount": 72,
+  "AllRuntimeFilesMatchValidatedExport": true,
+  "CapturedPoses": [
+    {
+      "Capture": "integration-closed",
+      "ApprovedReference": "sas-a-v2-closed-native.png",
+      "ByteIdentical": true,
+      "SHA256": "70cfc110731e525a480845cb6cbabb4597607a69a26f4369b3c27b8b96882254"
+    },
+    {
+      "Capture": "integration-open",
+      "ApprovedReference": "sas-a-v2-open-native.png",
+      "ByteIdentical": true,
+      "SHA256": "6778fa56b13f4f821b0cb2368a0cd846223a2dfa0a3ebd3e983266c54bcf6109"
+    },
+    {
+      "Capture": "integration-horizontal-closed",
+      "ApprovedReference": "sas-a-v2-horizontal-closed-native.png",
+      "ByteIdentical": true,
+      "SHA256": "cdd4efeeefed4a648060c4fe9e8b525e35de6d9a8102c4d2cf77b01a49a414da"
+    },
+    {
+      "Capture": "integration-horizontal-open",
+      "ApprovedReference": "sas-a-v2-horizontal-open-native.png",
+      "ByteIdentical": true,
+      "SHA256": "6a4fbb5bece734b689361c441292fcf4d6cd50a4dd27b602b2acb521e277b12f"
+    }
+  ],
+  "CaptureScope": "Normal game renderer, actual DoorMap state posed for static closed/open screenshots; no external study or DisplayFrame override",
+  "SimulationCycleValidation": "SasModelPresentationTests drives actual DoorSystem and DoorPresenter through an opening and closing cycle",
+  "Tests": {
+    "Failed": 0,
+    "Configuration": "Debug",
+    "Passed": 1755,
+    "Filter": "Renderer|Development|Display|Sas",
+    "Skipped": 0,
+    "Duration": "3m21s"
+  },
+  "PreservedAssets": [
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\door\\door-painted-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\rock\\rock-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd-Art\\objects\\debris\\debris-study.blend",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\door\\manifest.json",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\rock\\manifest.json",
+      "Unchanged": true
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\debris\\manifest.json",
+      "Unchanged": true
+    }
+  ],
+  "NormalObstacleCaptureByteIdentical": true,
+  "CoreModified": false
+}

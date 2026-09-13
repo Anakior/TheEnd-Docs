@@ -1,0 +1,59 @@
+[
+  {
+    "File": "en-ship.png",
+    "Width": 1280,
+    "Height": 720,
+    "Language": "en",
+    "UiScale": 1,
+    "Phase": "ui.loading.ship",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1076,
+      "Top": 656,
+      "Right": 1238,
+      "Bottom": 675
+    },
+    "NonBlackPixels": 802,
+    "Sha256": "be46efb9ae22ef22dd8b88233e44c3bb285ef37118738134337730af452f4981"
+  },
+  {
+    "File": "en-plan.png",
+    "Width": 1280,
+    "Height": 720,
+    "Language": "en",
+    "UiScale": 1,
+    "Phase": "ui.loading.plan",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 1050,
+      "Top": 656,
+      "Right": 1238,
+      "Bottom": 675
+    },
+    "NonBlackPixels": 1039,
+    "Sha256": "4b3583f6d400c04ca752dc5e174cba897236eaa121804805dae2c0292ad99dd2"
+  },
+  {
+    "File": "en-portraits.png",
+    "Width": 1280,
+    "Height": 720,
+    "Language": "en",
+    "UiScale": 1,
+    "Phase": "ui.loading.portraits",
+    "Seconds": 0.3,
+    "ReducedMotion": false,
+    "Error": false,
+    "NonBlackBounds": {
+      "Left": 997,
+      "Top": 656,
+      "Right": 1238,
+      "Bottom": 675
+    },
+    "NonBlackPixels": 1350,
+    "Sha256": "d124b223e0efa7c47698be65c1cdf73587aa8701af6e8cf968b5cebc9cd3bff1"
+  }
+]

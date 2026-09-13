@@ -1,0 +1,1956 @@
+{
+  "schemaVersion": 1,
+  "status": "validated",
+  "createdUtc": "2026-09-12T18:12:06.688644+00:00",
+  "scope": "Independent read-only integration proof: installed/export bytes, preserved originals, existing build/tests,8matched full game views, and7matched approved water timeline samples. Only this report was written.",
+  "client": {
+    "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\TheEnd.Client.dll",
+    "sha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+    "bytes": 3687424
+  },
+  "preCaptureChecks": {
+    "threeBanks": true,
+    "variantCount70": true,
+    "runtimeFileCount956": true,
+    "allModelBytesMatch": true,
+    "sixteenPreservedRecords": true,
+    "allPreservedHashesMatchSourceAndRuntime": true,
+    "twelvePaintAliasesEightTextures": true,
+    "paintedBytesMatchReferenceAndRuntime": true,
+    "noRejectedFloorAliases": true,
+    "expectedClientHash": true,
+    "recordedTests358Passed": true
+  },
+  "modelInstallation": {
+    "coordinatorRecord": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\model-installation.json",
+      "sha256": "3FA4C3ABDD87E853646B8B4B456C3B9451F24EB8601E62B1E4C1E279CE23FD50",
+      "bytes": 164204
+    },
+    "banks": [
+      {
+        "exportDirectory": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted",
+        "installedDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\common-furniture",
+        "runtimeDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture",
+        "variantCount": 16,
+        "runtimeFileCount": 131,
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\objects\\common-furniture\\common-furniture-painted.blend",
+          "sha256": "C3A1F1445085810924EEE03E98EA0737A7B716A3D19DB1341F1A9FC50AFD3232",
+          "bytes": 2830112
+        },
+        "sourceHashMatchesInstallation": true,
+        "validationReport": {
+          "path": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\validation-report.json",
+          "sha256": "5AD572A6BDA4113E1BACDE496FAC98FD2906A546E83B4B946A342694ED7EC931",
+          "bytes": 22382
+        },
+        "validationReportHashMatchesInstallation": true,
+        "manifestSha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+        "allDeclaredFilesMatchAcrossExportSourceAndRuntime": true,
+        "failures": []
+      },
+      {
+        "exportDirectory": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted",
+        "installedDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\utility-furniture",
+        "runtimeDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture",
+        "variantCount": 52,
+        "runtimeFileCount": 543,
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\objects\\utility-furniture\\utility-furniture-complete-painted.blend",
+          "sha256": "D0C3E8C690C18750E94D2F633AA0C9142EEA282FF09B1A32785B87D4CDBE7889",
+          "bytes": 7809044
+        },
+        "sourceHashMatchesInstallation": true,
+        "validationReport": {
+          "path": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\validation-report.json",
+          "sha256": "B09BD12F9812786627D2AB7C440A18A074B47482F551C7E13505C8EE8FECD94B",
+          "bytes": 84315
+        },
+        "validationReportHashMatchesInstallation": true,
+        "manifestSha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+        "allDeclaredFilesMatchAcrossExportSourceAndRuntime": true,
+        "failures": []
+      },
+      {
+        "exportDirectory": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted",
+        "installedDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\cryopod-damaged",
+        "runtimeDirectory": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged",
+        "variantCount": 2,
+        "runtimeFileCount": 282,
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\objects\\cryopod\\cryopod-damaged-painted.blend",
+          "sha256": "B1E1463A14BD5A9D4F499B35B2803FCED14CA085544D1890FEB30DCACA84DD98",
+          "bytes": 4270189
+        },
+        "sourceHashMatchesInstallation": true,
+        "validationReport": {
+          "path": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\validation-report.json",
+          "sha256": "4F4C26CB381D261F6EA9AB27C1E73CEE8E2614BDC6DA17FED8A8BF2B6A44E56C",
+          "bytes": 64973
+        },
+        "validationReportHashMatchesInstallation": true,
+        "manifestSha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+        "allDeclaredFilesMatchAcrossExportSourceAndRuntime": true,
+        "failures": []
+      }
+    ]
+  },
+  "preservedAssets": {
+    "beforeRecord": {
+      "path": "C:\\workspace\\TheEnd\\.artifacts\\painted-production\\preserved-assets-before.json",
+      "sha256": "EBF9404766144D658A5FF1D689B3A983BE900C89375C4AA3E51528D63AEAC350",
+      "bytes": 3102
+    },
+    "records": [
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-a.png",
+          "sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885",
+          "bytes": 20820
+        },
+        "beforeSha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-a.png",
+          "sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885",
+          "bytes": 20820
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-b.png",
+          "sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054",
+          "bytes": 22817
+        },
+        "beforeSha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-b.png",
+          "sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054",
+          "bytes": 22817
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-c.png",
+          "sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6",
+          "bytes": 22326
+        },
+        "beforeSha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-c.png",
+          "sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6",
+          "bytes": 22326
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-d.png",
+          "sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12",
+          "bytes": 21305
+        },
+        "beforeSha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-d.png",
+          "sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12",
+          "bytes": 21305
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-e.png",
+          "sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9",
+          "bytes": 23820
+        },
+        "beforeSha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-e.png",
+          "sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9",
+          "bytes": 23820
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-f.png",
+          "sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7",
+          "bytes": 20817
+        },
+        "beforeSha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-f.png",
+          "sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7",
+          "bytes": 20817
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-a.png",
+          "sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79",
+          "bytes": 20467
+        },
+        "beforeSha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-a.png",
+          "sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79",
+          "bytes": 20467
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-b.png",
+          "sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A",
+          "bytes": 20453
+        },
+        "beforeSha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-b.png",
+          "sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A",
+          "bytes": 20453
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-c.png",
+          "sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484",
+          "bytes": 20243
+        },
+        "beforeSha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-c.png",
+          "sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484",
+          "bytes": 20243
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-d.png",
+          "sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE",
+          "bytes": 20513
+        },
+        "beforeSha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-d.png",
+          "sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE",
+          "bytes": 20513
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\colonist\\manifest.json",
+          "sha256": "68F29D0F4D38D356E1E969626FBDB5DC1AECFD682F761AF1FA8EE2265081F0A2",
+          "bytes": 221883
+        },
+        "beforeSha256": "68F29D0F4D38D356E1E969626FBDB5DC1AECFD682F761AF1FA8EE2265081F0A2",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\colonist\\manifest.json",
+          "sha256": "68F29D0F4D38D356E1E969626FBDB5DC1AECFD682F761AF1FA8EE2265081F0A2",
+          "bytes": 221883
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\cryopod\\manifest.json",
+          "sha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66",
+          "bytes": 52883
+        },
+        "beforeSha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\manifest.json",
+          "sha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66",
+          "bytes": 52883
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\debris\\manifest.json",
+          "sha256": "5C2F751980B31C8CC300405494AACED50C67ECABED127E62E087507AD8981E12",
+          "bytes": 54335
+        },
+        "beforeSha256": "5C2F751980B31C8CC300405494AACED50C67ECABED127E62E087507AD8981E12",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\debris\\manifest.json",
+          "sha256": "5C2F751980B31C8CC300405494AACED50C67ECABED127E62E087507AD8981E12",
+          "bytes": 54335
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\door\\manifest.json",
+          "sha256": "E01AAF98922574EC6EBAABEDC3D17E10FBC4BBF2F0DCAB5660C67E6F1144EA52",
+          "bytes": 40388
+        },
+        "beforeSha256": "E01AAF98922574EC6EBAABEDC3D17E10FBC4BBF2F0DCAB5660C67E6F1144EA52",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\door\\manifest.json",
+          "sha256": "E01AAF98922574EC6EBAABEDC3D17E10FBC4BBF2F0DCAB5660C67E6F1144EA52",
+          "bytes": 40388
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\rock\\manifest.json",
+          "sha256": "307447F39CE8547651DA85214F6DD783DBA7897EDA49DBA643F25FFC460A3514",
+          "bytes": 13059
+        },
+        "beforeSha256": "307447F39CE8547651DA85214F6DD783DBA7897EDA49DBA643F25FFC460A3514",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\rock\\manifest.json",
+          "sha256": "307447F39CE8547651DA85214F6DD783DBA7897EDA49DBA643F25FFC460A3514",
+          "bytes": 13059
+        },
+        "runtimeMatchesBefore": true
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\sas-door\\manifest.json",
+          "sha256": "B2273F1483BE9000B660481CA8AF1EF2043276AF26DC4BFB8806346A55E1DD87",
+          "bytes": 46640
+        },
+        "beforeSha256": "B2273F1483BE9000B660481CA8AF1EF2043276AF26DC4BFB8806346A55E1DD87",
+        "sourceMatchesBefore": true,
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\manifest.json",
+          "sha256": "B2273F1483BE9000B660481CA8AF1EF2043276AF26DC4BFB8806346A55E1DD87",
+          "bytes": 46640
+        },
+        "runtimeMatchesBefore": true
+      }
+    ]
+  },
+  "bundledPaint": {
+    "directory": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4",
+    "aliases": {
+      "wall-armor-quiet.png": "wall-armor-painted.png",
+      "wall-armor-worn.png": "wall-armor-painted.png",
+      "wall-rail-quiet.png": "wall-rail-painted.png",
+      "wall-rail-worn.png": "wall-rail-painted.png",
+      "wall-channel-quiet.png": "wall-channel-painted.png",
+      "wall-channel-worn.png": "wall-channel-painted.png",
+      "organic-dirt.png": "earth-painted.png",
+      "grass-short-v3.png": "grass-painted.png",
+      "organic-grass.png": "grass-painted.png",
+      "water-surface-v1.png": "water-painted.png",
+      "organic-sand.png": "sand-painted.png",
+      "organic-fungal.png": "fungal-painted.png"
+    },
+    "files": [
+      {
+        "file": "aliases.json",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\aliases.json",
+          "sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C",
+          "bytes": 597
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\aliases.json",
+          "sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C",
+          "bytes": 597
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\aliases.json",
+          "sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C",
+          "bytes": 597
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "earth-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "fungal-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "grass-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "sand-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "wall-armor-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "wall-channel-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "wall-rail-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "allHashesEqual": true
+      },
+      {
+        "file": "water-painted.png",
+        "source": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\painted-world-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "runtime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "referenceArt": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "allHashesEqual": true
+      }
+    ]
+  },
+  "existingBuildAndTests": {
+    "buildLog": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\build.log",
+      "sha256": "F007017B9E000A26526B9A0C200F2950DC438CCC75FF11DA7010F5AF7A2888B7",
+      "bytes": 273
+    },
+    "testsLog": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\tests.log",
+      "sha256": "4ACD0C498270FDC423AA38EA52E1279A8354DCFFCC5EAB067CD73ECDEC2C99CD",
+      "bytes": 625
+    },
+    "trx": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\painted-integration.trx",
+      "sha256": "AF681DBA04E75621B4B0C65C4FD7124947FBE205C008FC78737CF1B0101F8D6D",
+      "bytes": 621489
+    },
+    "counters": {
+      "total": 358,
+      "executed": 358,
+      "passed": 358,
+      "failed": 0,
+      "error": 0,
+      "timeout": 0,
+      "aborted": 0,
+      "inconclusive": 0,
+      "passedButRunAborted": 0,
+      "notRunnable": 0,
+      "notExecuted": 0,
+      "disconnected": 0,
+      "warning": 0,
+      "completed": 0,
+      "inProgress": 0,
+      "pending": 0
+    },
+    "testRunPerformedByThisAudit": false
+  },
+  "sceneComparisons": {
+    "status": "passed",
+    "passed": true,
+    "referenceMetadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\native-game-validation.json",
+      "sha256": "5D9133275861BEF4C342886013A8D814C20A369DA5DF005AC9B1891EC2A165D6",
+      "bytes": 12155
+    },
+    "installedMetadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\native-game-validation.json",
+      "sha256": "20A4A1E53538AE6BD8829F6F8BC0F631721A68594258628FC95CB99475BA6D4F",
+      "bytes": 23982
+    },
+    "referenceAssetOverrideEnvironment": {
+      "THEEND_COMMON_FURNITURE_BANK": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted",
+      "THEEND_CRYOPOD_DAMAGED_BANK": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted",
+      "THEEND_SPRITE_MATERIALS_DIR": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4",
+      "THEEND_UTILITY_FURNITURE_BANK": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted"
+    },
+    "installedAssetOverrideEnvironment": {},
+    "checks": {
+      "eightPairedViews": true,
+      "allImagesPixelIdentical": true,
+      "cameraWorldAndFixtureFieldsMatch": true,
+      "nativeBothPassed": true,
+      "sameExpectedClient": true,
+      "fixedVisualTick12000": true,
+      "inputSuppressedForBothCaptures": true,
+      "installedHasNoAssetOverrides": true,
+      "threeInstalledBanksActuallyLoaded": true,
+      "manifestHashesMatchReferenceAndInstallation": true,
+      "semanticVariantsMatch70": true,
+      "loadedTexturesWithinInstalledBanksAndEqualApproved": true,
+      "eightUniqueBundledPaintLoads": true
+    },
+    "views": [
+      {
+        "name": "game-0-CryoPod-Stripped.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-0-CryoPod-Stripped.png",
+          "sha256": "F49A6BFCF379E640E363DCFE0AAAFC6E8C2C3E4ECEB539B0500431E2A52052EE",
+          "bytes": 2536278
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-0-CryoPod-Stripped.png",
+          "sha256": "F49A6BFCF379E640E363DCFE0AAAFC6E8C2C3E4ECEB539B0500431E2A52052EE",
+          "bytes": 2536278
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 88,
+          "CentreY": 57.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "CryoPod",
+          "Condition": "Stripped",
+          "Fixture": {
+            "Kind": 0,
+            "Trim": 0,
+            "CellX": 87,
+            "CellY": 57,
+            "CentreX": 88,
+            "CentreY": 57.5,
+            "Width": 2,
+            "Height": 1,
+            "Facing": 3,
+            "Condition": 1,
+            "Seed": 42,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "cryo-pod"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 88,
+          "CentreY": 57.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "CryoPod",
+          "Condition": "Stripped",
+          "Fixture": {
+            "Kind": 0,
+            "Trim": 0,
+            "CellX": 87,
+            "CellY": 57,
+            "CentreX": 88,
+            "CentreY": 57.5,
+            "Width": 2,
+            "Height": 1,
+            "Facing": 3,
+            "Condition": 1,
+            "Seed": 42,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "cryo-pod"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "EBAEF9A1C6E49E59D6A394BB8D069E9A69405B47740092B1216CD5CAE65F227D",
+          "decodedRgbaSha256Installed": "EBAEF9A1C6E49E59D6A394BB8D069E9A69405B47740092B1216CD5CAE65F227D"
+        }
+      },
+      {
+        "name": "game-1-CryoPod-Collapsed.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-1-CryoPod-Collapsed.png",
+          "sha256": "5B7CF3C49128891F5B9E20F38627E78DE7A48B3867148C5282D07F5E6EB96B28",
+          "bytes": 2208180
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-1-CryoPod-Collapsed.png",
+          "sha256": "5B7CF3C49128891F5B9E20F38627E78DE7A48B3867148C5282D07F5E6EB96B28",
+          "bytes": 2208180
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 103,
+          "CentreY": 62.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "CryoPod",
+          "Condition": "Collapsed",
+          "Fixture": {
+            "Kind": 0,
+            "Trim": 0,
+            "CellX": 102,
+            "CellY": 62,
+            "CentreX": 103,
+            "CentreY": 62.5,
+            "Width": 2,
+            "Height": 1,
+            "Facing": 1,
+            "Condition": 2,
+            "Seed": 48,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "cryo-pod"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 103,
+          "CentreY": 62.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "CryoPod",
+          "Condition": "Collapsed",
+          "Fixture": {
+            "Kind": 0,
+            "Trim": 0,
+            "CellX": 102,
+            "CellY": 62,
+            "CentreX": 103,
+            "CentreY": 62.5,
+            "Width": 2,
+            "Height": 1,
+            "Facing": 1,
+            "Condition": 2,
+            "Seed": 48,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "cryo-pod"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "600B99FA77A10647C3FAC27FF8DC7ECC2B7F379AEABABDC976B3168B2AD4C668",
+          "decodedRgbaSha256Installed": "600B99FA77A10647C3FAC27FF8DC7ECC2B7F379AEABABDC976B3168B2AD4C668"
+        }
+      },
+      {
+        "name": "game-2-Table-Sealed.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-2-Table-Sealed.png",
+          "sha256": "A74AA727465C5D731A99303292BF6EAC634362703419F75AF3F8B3356E9C5CD5",
+          "bytes": 2359696
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-2-Table-Sealed.png",
+          "sha256": "A74AA727465C5D731A99303292BF6EAC634362703419F75AF3F8B3356E9C5CD5",
+          "bytes": 2359696
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 95.5,
+          "CentreY": 89,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Table",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 5,
+            "Trim": 0,
+            "CellX": 95,
+            "CellY": 88,
+            "CentreX": 95.5,
+            "CentreY": 89,
+            "Width": 1,
+            "Height": 2,
+            "Facing": 1,
+            "Condition": 0,
+            "Seed": 27,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "table-commune"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 95.5,
+          "CentreY": 89,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Table",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 5,
+            "Trim": 0,
+            "CellX": 95,
+            "CellY": 88,
+            "CentreX": 95.5,
+            "CentreY": 89,
+            "Width": 1,
+            "Height": 2,
+            "Facing": 1,
+            "Condition": 0,
+            "Seed": 27,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "table-commune"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "1582C297542381BFDA13EF7D55555ED4D8CF7345DB744F13BCEDD4B49FF48DB3",
+          "decodedRgbaSha256Installed": "1582C297542381BFDA13EF7D55555ED4D8CF7345DB744F13BCEDD4B49FF48DB3"
+        }
+      },
+      {
+        "name": "game-3-Bench-Collapsed.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-3-Bench-Collapsed.png",
+          "sha256": "0B3ED5FC3D3415596B9E7249D3992DAAECA661E8CEEE2B75F428678EA86AA480",
+          "bytes": 2358097
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-3-Bench-Collapsed.png",
+          "sha256": "0B3ED5FC3D3415596B9E7249D3992DAAECA661E8CEEE2B75F428678EA86AA480",
+          "bytes": 2358097
+        },
+        "referenceCameraWorld": {
+          "Deck": 1,
+          "CentreX": 54.5,
+          "CentreY": 61.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Bench",
+          "Condition": "Collapsed",
+          "Fixture": {
+            "Kind": 6,
+            "Trim": 0,
+            "CellX": 53,
+            "CellY": 61,
+            "CentreX": 54.5,
+            "CentreY": 61.5,
+            "Width": 3,
+            "Height": 1,
+            "Facing": 1,
+            "Condition": 2,
+            "Seed": 292,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "banc-commun-long"
+          },
+          "ModelCount": 49,
+          "VectorCount": 195
+        },
+        "installedCameraWorld": {
+          "Deck": 1,
+          "CentreX": 54.5,
+          "CentreY": 61.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Bench",
+          "Condition": "Collapsed",
+          "Fixture": {
+            "Kind": 6,
+            "Trim": 0,
+            "CellX": 53,
+            "CellY": 61,
+            "CentreX": 54.5,
+            "CentreY": 61.5,
+            "Width": 3,
+            "Height": 1,
+            "Facing": 1,
+            "Condition": 2,
+            "Seed": 292,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "banc-commun-long"
+          },
+          "ModelCount": 49,
+          "VectorCount": 195
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "4147E3B31D2B9CFEC2E7152E7722F534C35C4427E10DC77686CB1F2069A0ECD8",
+          "decodedRgbaSha256Installed": "4147E3B31D2B9CFEC2E7152E7722F534C35C4427E10DC77686CB1F2069A0ECD8"
+        }
+      },
+      {
+        "name": "game-4-Console-Sealed.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-4-Console-Sealed.png",
+          "sha256": "C638709ADF51AF626508E000052F4DD03933EB5745FB066DC975EBEA0E4EF3AE",
+          "bytes": 1924217
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-4-Console-Sealed.png",
+          "sha256": "C638709ADF51AF626508E000052F4DD03933EB5745FB066DC975EBEA0E4EF3AE",
+          "bytes": 1924217
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 92.5,
+          "CentreY": 99.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Console",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 3,
+            "Trim": 2,
+            "CellX": 91,
+            "CellY": 99,
+            "CentreX": 92.5,
+            "CentreY": 99.5,
+            "Width": 3,
+            "Height": 1,
+            "Facing": 2,
+            "Condition": 0,
+            "Seed": 39,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "comptoir-service"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 92.5,
+          "CentreY": 99.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Console",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 3,
+            "Trim": 2,
+            "CellX": 91,
+            "CellY": 99,
+            "CentreX": 92.5,
+            "CentreY": 99.5,
+            "Width": 3,
+            "Height": 1,
+            "Facing": 2,
+            "Condition": 0,
+            "Seed": 39,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "comptoir-service"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "CDA973D74D5E35A773BADF64AF7313389DEAA876CF5D269699C2A2EAA4EDD3E3",
+          "decodedRgbaSha256Installed": "CDA973D74D5E35A773BADF64AF7313389DEAA876CF5D269699C2A2EAA4EDD3E3"
+        }
+      },
+      {
+        "name": "game-5-Rack-Stripped.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-5-Rack-Stripped.png",
+          "sha256": "C837DE994DBED2D85B56AC82065680771C828F72B1280226A4A7286D3F32A7D0",
+          "bytes": 2353547
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-5-Rack-Stripped.png",
+          "sha256": "C837DE994DBED2D85B56AC82065680771C828F72B1280226A4A7286D3F32A7D0",
+          "bytes": 2353547
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 67.5,
+          "CentreY": 75.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Rack",
+          "Condition": "Stripped",
+          "Fixture": {
+            "Kind": 1,
+            "Trim": 0,
+            "CellX": 67,
+            "CellY": 74,
+            "CentreX": 67.5,
+            "CentreY": 75.5,
+            "Width": 1,
+            "Height": 3,
+            "Facing": 1,
+            "Condition": 1,
+            "Seed": 9,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "rack-long"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 67.5,
+          "CentreY": 75.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Rack",
+          "Condition": "Stripped",
+          "Fixture": {
+            "Kind": 1,
+            "Trim": 0,
+            "CellX": 67,
+            "CellY": 74,
+            "CentreX": 67.5,
+            "CentreY": 75.5,
+            "Width": 1,
+            "Height": 3,
+            "Facing": 1,
+            "Condition": 1,
+            "Seed": 9,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "rack-long"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "D845A3EFFABA867E9FC31D364E9D99D3AD90B24D8244AEFC224F99353799F3A8",
+          "decodedRgbaSha256Installed": "D845A3EFFABA867E9FC31D364E9D99D3AD90B24D8244AEFC224F99353799F3A8"
+        }
+      },
+      {
+        "name": "game-6-Station-Sealed.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-6-Station-Sealed.png",
+          "sha256": "498267AAED19B05369D442537C3CA58B6531CDB3CE054E657FE4D01B73853D16",
+          "bytes": 2510359
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-6-Station-Sealed.png",
+          "sha256": "498267AAED19B05369D442537C3CA58B6531CDB3CE054E657FE4D01B73853D16",
+          "bytes": 2510359
+        },
+        "referenceCameraWorld": {
+          "Deck": 0,
+          "CentreX": 174,
+          "CentreY": 196.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Station",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 4,
+            "Trim": 2,
+            "CellX": 172,
+            "CellY": 195,
+            "CentreX": 174,
+            "CentreY": 196.5,
+            "Width": 4,
+            "Height": 3,
+            "Facing": 2,
+            "Condition": 0,
+            "Seed": 147,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "poste-central"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "installedCameraWorld": {
+          "Deck": 0,
+          "CentreX": 174,
+          "CentreY": 196.5,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "Station",
+          "Condition": "Sealed",
+          "Fixture": {
+            "Kind": 4,
+            "Trim": 2,
+            "CellX": 172,
+            "CellY": 195,
+            "CentreX": 174,
+            "CentreY": 196.5,
+            "Width": 4,
+            "Height": 3,
+            "Facing": 2,
+            "Condition": 0,
+            "Seed": 147,
+            "OccupantFirst": " ",
+            "OccupantSecond": " ",
+            "OccupantCorruption": 0,
+            "DefinitionId": "poste-central"
+          },
+          "ModelCount": 83,
+          "VectorCount": 118
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "3C954E894FB834E9E163C4C3C32CF10CFA63CB277956C4769CCB4C3CD31A9624",
+          "decodedRgbaSha256Installed": "3C954E894FB834E9E163C4C3C32CF10CFA63CB277956C4769CCB4C3CD31A9624"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment.png",
+        "reference": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\reference-v4\\game-7-Dome-Environment.png",
+          "sha256": "35C6EF0D36379EE13177CFAF0C203DD902E22D8D3D99F74378A68C619ACF7A6A",
+          "bytes": 3699396
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\game-7-Dome-Environment.png",
+          "sha256": "35C6EF0D36379EE13177CFAF0C203DD902E22D8D3D99F74378A68C619ACF7A6A",
+          "bytes": 3699396
+        },
+        "referenceCameraWorld": {
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "installedCameraWorld": {
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "cameraWorldAndFixtureFieldsMatch": true,
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "6C922AE24A4E6CE4A06D7678E907F390EEE9FC20AA68E7D1CEC41A6ACE2AA18B",
+          "decodedRgbaSha256Installed": "6C922AE24A4E6CE4A06D7678E907F390EEE9FC20AA68E7D1CEC41A6ACE2AA18B"
+        }
+      }
+    ],
+    "actuallyLoadedBanks": [
+      {
+        "name": "common-furniture",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\manifest.json",
+          "sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+          "bytes": 64845
+        },
+        "recordedSha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "common-furniture",
+        "rawPartStyleCount": 16,
+        "rawStyleCount": 8,
+        "semanticVariantCount": 16,
+        "expectedSemanticVariantCount": 16,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\textures\\painted-common-lit-upper-metal.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\textures\\painted-common-lit-upper-metal.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      },
+      {
+        "name": "utility-furniture",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\manifest.json",
+          "sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+          "bytes": 378580
+        },
+        "recordedSha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "utility-furniture",
+        "rawPartStyleCount": 52,
+        "rawStyleCount": 16,
+        "semanticVariantCount": 52,
+        "expectedSemanticVariantCount": 52,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\textures\\painted-utility-final-0.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\textures\\painted-utility-final-0.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      },
+      {
+        "name": "cryopod-damaged",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\manifest.json",
+          "sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+          "bytes": 142051
+        },
+        "recordedSha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "cryopod-damaged",
+        "rawPartStyleCount": 8,
+        "rawStyleCount": 2,
+        "semanticVariantCount": 2,
+        "expectedSemanticVariantCount": 2,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cryopod-painted-blue-recessed-structure.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\textures\\cryopod-painted-blue-recessed-structure.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          },
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cushion-weave.png",
+              "sha256": "F8397959D7D80854037AF99720D1CEB293B52697AF756C2209E476A5A5C278DB",
+              "bytes": 565416
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\textures\\cushion-weave.png",
+              "sha256": "F8397959D7D80854037AF99720D1CEB293B52697AF756C2209E476A5A5C278DB",
+              "bytes": 565416
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      }
+    ],
+    "paintedMaterialLoads": {
+      "log": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-game\\capture.log",
+        "sha256": "889CF869BC5AA84F52C6044B29FD7A5249877C134CFC9D8874181E43C30BF54A",
+        "bytes": 43251
+      },
+      "events": [
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-armor-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-rail-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-channel-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\grass-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\water-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\earth-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\sand-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\fungal-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+        }
+      ],
+      "exactlyEightLoadEvents": true,
+      "eightUniquePaths": true,
+      "namesMatchApprovedEight": true,
+      "allActualBytesMatchApproved": true,
+      "allBundledPaint": true,
+      "dimensionsMatchContract": true
+    },
+    "notes": [
+      "Cryopod rawVariantCount8 represents4mesh parts times2styles. The semantic count remains2damage conditions, hence total70.",
+      "The captures run actual TheEndGame through the native helper; loaded relativeAssets paths are in that helper output directory. SourceAssets and normalClient/bin copies were separately hash-checked above.",
+      "Coordinator reported redundant PowerShell wrapper exceptions after the first two successful runs due to a nullLASTEXITCODE check. Native process exit0 was verified by the runner and both complete native manifests reportPassed=true. These wrapper exceptions are not treated as engine failures."
+    ]
+  },
+  "waterMotionComparisons": {
+    "status": "passed",
+    "passed": true,
+    "approvedMetadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\native-game-validation.json",
+      "sha256": "6F4D6B187ECE6891E8B8FC089EC1D5C6AB44992D8C3DAFDB634A4933702D74CE",
+      "bytes": 7792
+    },
+    "installedMetadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\native-game-validation.json",
+      "sha256": "FF8D6C70D3E380F6CBA423C97AD4D60693DAB7BD3BC802AE53304640940BA8ED",
+      "bytes": 22070
+    },
+    "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+    "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+    "checks": {
+      "sevenPairedSamples": true,
+      "allImagesPixelIdenticalToApproved": true,
+      "cameraWorldAndVisualTimeMatchApproved": true,
+      "nativePassed": true,
+      "expectedInstalledClient": true,
+      "noAssetOverrides": true,
+      "visualSeconds0Through6": true,
+      "worldTickFixed12000": true,
+      "renderedAndRequestedVisualTicks12000Through12360": true,
+      "surfaceBuffersAndGeometryFixedWithinInstalledRun": true,
+      "singlePublicationWithinInstalledRun": true,
+      "eightUniqueBundledPaintLoads": true,
+      "threeInstalledBanksLoaded": true
+    },
+    "views": [
+      {
+        "name": "game-7-Dome-Environment-t0000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t0000ms.png",
+          "sha256": "35C6EF0D36379EE13177CFAF0C203DD902E22D8D3D99F74378A68C619ACF7A6A",
+          "bytes": 3699396
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t0000ms.png",
+          "sha256": "35C6EF0D36379EE13177CFAF0C203DD902E22D8D3D99F74378A68C619ACF7A6A",
+          "bytes": 3699396
+        },
+        "visualSeconds": 0,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12000,
+          "RenderedVisualTick": 12000,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "6C922AE24A4E6CE4A06D7678E907F390EEE9FC20AA68E7D1CEC41A6ACE2AA18B",
+          "decodedRgbaSha256Installed": "6C922AE24A4E6CE4A06D7678E907F390EEE9FC20AA68E7D1CEC41A6ACE2AA18B"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t1000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t1000ms.png",
+          "sha256": "81C47166277DF680D86ABB417EFBAB7CB6597A82945CC42366C14B191E1DD5B3",
+          "bytes": 3700308
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t1000ms.png",
+          "sha256": "81C47166277DF680D86ABB417EFBAB7CB6597A82945CC42366C14B191E1DD5B3",
+          "bytes": 3700308
+        },
+        "visualSeconds": 1,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12060,
+          "RenderedVisualTick": 12060,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "4537E099DB2DB8E80B6DE93092FCC16FEACA616654F104848C912AE63E56E877",
+          "decodedRgbaSha256Installed": "4537E099DB2DB8E80B6DE93092FCC16FEACA616654F104848C912AE63E56E877"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t2000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t2000ms.png",
+          "sha256": "E35407B8B15EFA63054C34E8F1F001DA1EDCACB8276615C0FDCB0CF3FC9B7841",
+          "bytes": 3699893
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t2000ms.png",
+          "sha256": "E35407B8B15EFA63054C34E8F1F001DA1EDCACB8276615C0FDCB0CF3FC9B7841",
+          "bytes": 3699893
+        },
+        "visualSeconds": 2,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12120,
+          "RenderedVisualTick": 12120,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "317BCEE137AF6EDC43B825D160D7E9033C4EDEBDA4D28E6ED1F5ADC0EB709CC0",
+          "decodedRgbaSha256Installed": "317BCEE137AF6EDC43B825D160D7E9033C4EDEBDA4D28E6ED1F5ADC0EB709CC0"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t3000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t3000ms.png",
+          "sha256": "29AA32830476071E2AA8C2D31BE586E15AB91EB80B4F4915232FEBF4B0DCF377",
+          "bytes": 3700274
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t3000ms.png",
+          "sha256": "29AA32830476071E2AA8C2D31BE586E15AB91EB80B4F4915232FEBF4B0DCF377",
+          "bytes": 3700274
+        },
+        "visualSeconds": 3,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12180,
+          "RenderedVisualTick": 12180,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "CE85F2A335BF0561BD79E1FABE4A59993C57A499AF77AE25FB595394D500387D",
+          "decodedRgbaSha256Installed": "CE85F2A335BF0561BD79E1FABE4A59993C57A499AF77AE25FB595394D500387D"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t4000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t4000ms.png",
+          "sha256": "B67234A01E0A7069CD7504F8411525C0D9C2B78602CD85B6B2D5FE8FC2DB69C7",
+          "bytes": 3698881
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t4000ms.png",
+          "sha256": "B67234A01E0A7069CD7504F8411525C0D9C2B78602CD85B6B2D5FE8FC2DB69C7",
+          "bytes": 3698881
+        },
+        "visualSeconds": 4,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12240,
+          "RenderedVisualTick": 12240,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "1A40C6EAE429697C08134B1AD717B453E66D73ED38B9780856DBE50AE4A51F9B",
+          "decodedRgbaSha256Installed": "1A40C6EAE429697C08134B1AD717B453E66D73ED38B9780856DBE50AE4A51F9B"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t5000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t5000ms.png",
+          "sha256": "E3EF8F0241FCB53B798DDB17FABED412C5E0CBD611533E83E719A0DEA549BFBE",
+          "bytes": 3697431
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t5000ms.png",
+          "sha256": "E3EF8F0241FCB53B798DDB17FABED412C5E0CBD611533E83E719A0DEA549BFBE",
+          "bytes": 3697431
+        },
+        "visualSeconds": 5,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12300,
+          "RenderedVisualTick": 12300,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "9EF3147260E3BBF74B3F75A49CA30D51F42D3421D05B1D498F17BC216E0CB89C",
+          "decodedRgbaSha256Installed": "9EF3147260E3BBF74B3F75A49CA30D51F42D3421D05B1D498F17BC216E0CB89C"
+        }
+      },
+      {
+        "name": "game-7-Dome-Environment-t6000ms.png",
+        "approved": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t6000ms.png",
+          "sha256": "5C7B3D6DB576DBA50EEDBEB25658B96BDF0496D09E90107CD2EA7ADDBE164110",
+          "bytes": 3702713
+        },
+        "installed": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\game-7-Dome-Environment-t6000ms.png",
+          "sha256": "5C7B3D6DB576DBA50EEDBEB25658B96BDF0496D09E90107CD2EA7ADDBE164110",
+          "bytes": 3702713
+        },
+        "visualSeconds": 6,
+        "cameraWorldAndTimeMatch": true,
+        "approvedClientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+        "installedClientSha256": "1D42A4A2620900FFBEC518B959D974ECE74A112290E25B5F83596951DF4B956B",
+        "waterClockMetadata": {
+          "RequestedVisualTick": 12360,
+          "RenderedVisualTick": 12360,
+          "WaterGeometryVersion": 4294972959,
+          "WaterSurfaceIdentity": 4755217,
+          "WaterBuffersIdentity": 61817822,
+          "PublicationCount": 1,
+          "CacheMatchesFirstSample": true
+        },
+        "comparison": {
+          "dimensionsMatch": true,
+          "width": 1920,
+          "height": 1080,
+          "comparedPixels": 2073600,
+          "changedPixels": 0,
+          "pixelIdentical": true,
+          "meanAbsoluteRgbaDifference": 0.0,
+          "maxAbsoluteChannelDifference": 0,
+          "differenceBoundsXyxy": null,
+          "decodedRgbaSha256Reference": "78B0552D516634E37001517D621C6F8942B1F6E868AEE42E8F9F508D1DF3B46C",
+          "decodedRgbaSha256Installed": "78B0552D516634E37001517D621C6F8942B1F6E868AEE42E8F9F508D1DF3B46C"
+        }
+      }
+    ],
+    "actuallyLoadedBanks": [
+      {
+        "name": "common-furniture",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\manifest.json",
+          "sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+          "bytes": 64845
+        },
+        "recordedSha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "common-furniture",
+        "rawPartStyleCount": 16,
+        "rawStyleCount": 8,
+        "semanticVariantCount": 16,
+        "expectedSemanticVariantCount": 16,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\textures\\painted-common-lit-upper-metal.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\textures\\painted-common-lit-upper-metal.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      },
+      {
+        "name": "utility-furniture",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\manifest.json",
+          "sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+          "bytes": 378580
+        },
+        "recordedSha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "utility-furniture",
+        "rawPartStyleCount": 52,
+        "rawStyleCount": 16,
+        "semanticVariantCount": 52,
+        "expectedSemanticVariantCount": 52,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\textures\\painted-utility-final-0.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\textures\\painted-utility-final-0.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      },
+      {
+        "name": "cryopod-damaged",
+        "manifest": {
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\manifest.json",
+          "sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+          "bytes": 142051
+        },
+        "recordedSha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+        "source": "InstalledAssets",
+        "manifestHashMatchesApproved": true,
+        "loadedModelName": "cryopod-damaged",
+        "rawPartStyleCount": 8,
+        "rawStyleCount": 2,
+        "semanticVariantCount": 2,
+        "expectedSemanticVariantCount": 2,
+        "textures": [
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cryopod-painted-blue-recessed-structure.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\textures\\cryopod-painted-blue-recessed-structure.png",
+              "sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B",
+              "bytes": 1956069
+            },
+            "hashMatches": true
+          },
+          {
+            "runtime": {
+              "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cushion-weave.png",
+              "sha256": "F8397959D7D80854037AF99720D1CEB293B52697AF756C2209E476A5A5C278DB",
+              "bytes": 565416
+            },
+            "approved": {
+              "path": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\textures\\cushion-weave.png",
+              "sha256": "F8397959D7D80854037AF99720D1CEB293B52697AF756C2209E476A5A5C278DB",
+              "bytes": 565416
+            },
+            "hashMatches": true
+          }
+        ],
+        "allTexturePathsWithinInstalledBank": true,
+        "allLoadedTexturesMatchApproved": true
+      }
+    ],
+    "paintedMaterialLoads": {
+      "log": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\installed-water-motion\\capture.log",
+        "sha256": "0D7284F607A0F190524EBEA1F98C42CA639CFA08F60A0D83D5AE1D6CB2162F39",
+        "bytes": 43251
+      },
+      "events": [
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-armor-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-rail-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\wall-channel-painted.png",
+          "width": 256,
+          "height": 256,
+          "textureSha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\grass-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\water-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\earth-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\sand-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+        },
+        {
+          "source": "BundledPaint",
+          "path": "C:\\workspace\\TheEnd\\.artifacts\\fixture-complete\\native\\bin\\Debug\\net9.0\\Assets\\sprites\\painted-world-v4\\fungal-painted.png",
+          "width": 1254,
+          "height": 1254,
+          "textureSha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+        }
+      ],
+      "exactlyEightLoadEvents": true,
+      "eightUniquePaths": true,
+      "namesMatchApprovedEight": true,
+      "allActualBytesMatchApproved": true,
+      "allBundledPaint": true,
+      "dimensionsMatchContract": true
+    },
+    "scope": "Seven exact visual instants0..6seconds, raw full-frame pixel comparison against the approved sequence. No interpolation, re-registration, resizing or image edits. Not an FPS, video or wall-clock performance measurement."
+  },
+  "normalInteractiveLaunch": {
+    "coordinatorRecord": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\production-integration\\normal-launch.json",
+      "sha256": "487103E59AC2101AB932D0261D53DFFA9B86B415F6A7783704D641B1FA123C70",
+      "bytes": 314
+    },
+    "scope": "Coordinator launch provenance only; this independent audit did not launch or control the interactive game."
+  },
+  "passed": true,
+  "completedUtc": "2026-09-12T18:18:42.545537+00:00",
+  "summary": {
+    "semanticFurnitureVariants": 70,
+    "runtimeModelFiles": 956,
+    "preservedAssets": 16,
+    "paintedTextureLoadsPerInstalledRun": 8,
+    "sceneImagePairs": 8,
+    "sceneChangedPixels": 0,
+    "waterImagePairs": 7,
+    "waterChangedPixels": 0,
+    "recordedPassedTests": 358,
+    "nativeChecksUseRawUntransformedPixels": true,
+    "noAssetOverrideVariablesInInstalledRuns": true
+  },
+  "limitations": [
+    "Native helper uses actual TheEndGame with camera/input controlled for reproducible captures; no user world or fixture state is edited by this audit.",
+    "The358test result and direct interactive launch are existing coordinator evidence, not rerun here.",
+    "Seven water instants demonstrate equivalence at those times, not continuous motion smoothness,FPS or frame pacing.",
+    "Approved water sequence uses earlier clientF690B05A..., installed proof uses1D42A4A2...; hashes are recorded separately and pixel equality is measured directly.",
+    "Historical rejected floor experiments remain excluded. The ten original installed floor assets are among the preserved hash checks."
+  ]
+}

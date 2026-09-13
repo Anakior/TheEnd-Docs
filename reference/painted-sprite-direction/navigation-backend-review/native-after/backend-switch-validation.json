@@ -1,0 +1,1845 @@
+{
+  "Passed": true,
+  "Error": null,
+  "ClientAssembly": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\TheEnd.Client.dll",
+  "ClientSha256": "F5DF1BFAC16528FF97CA36C1A08ED14D8070EC50A36532164CF2BE5785836EC0",
+  "TheEndBackendEnvironment": null,
+  "CaptureInputSuppressed": true,
+  "SimulationPaused": true,
+  "WorldTick": 12000,
+  "CameraUnchanged": true,
+  "InitialCamera": {
+    "CellSize": 48,
+    "FocusX": 95.5,
+    "FocusY": 89
+  },
+  "AssetsAndGpuTextureInstancesUnchanged": true,
+  "StartupToFirstReadySeconds": 23.7751768,
+  "TotalSeconds": 30.8558818,
+  "PostReadySeconds": 7.080705399999999,
+  "StableReadyFramesBetweenSwitches": 35,
+  "Measurements": [
+    {
+      "Index": 1,
+      "From": "sprite",
+      "To": "vector",
+      "DrawFrames": 43,
+      "UnavailableFrames": 8,
+      "SwitchToFirstReadyMilliseconds": 139.10580000000118,
+      "ObservedUnavailableWindowMilliseconds": 133.23040000000037,
+      "MaximumObservedDrawGapMilliseconds": 32.67580000000089,
+      "Before": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 0,
+            "_installedSource": 0,
+            "_selected": 0,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 0,
+          "VariantCount": 0,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "FirstUnavailable": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": false,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 0,
+            "_selected": 0,
+            "_pending": 114,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 0,
+          "RequestedViewportReady": false,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "FirstReady": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 116
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 0,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "Stable": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "Index": 2,
+      "From": "vector",
+      "To": "sprite",
+      "DrawFrames": 35,
+      "UnavailableFrames": 0,
+      "SwitchToFirstReadyMilliseconds": 12.626400000001013,
+      "ObservedUnavailableWindowMilliseconds": 0,
+      "MaximumObservedDrawGapMilliseconds": 42.16290000000299,
+      "Before": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "FirstUnavailable": null,
+      "FirstReady": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "Stable": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "Index": 3,
+      "From": "sprite",
+      "To": "vector",
+      "DrawFrames": 35,
+      "UnavailableFrames": 0,
+      "SwitchToFirstReadyMilliseconds": 3.9157999999988533,
+      "ObservedUnavailableWindowMilliseconds": 0,
+      "MaximumObservedDrawGapMilliseconds": 30.36330000000089,
+      "Before": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "FirstUnavailable": null,
+      "FirstReady": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "Stable": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "Index": 4,
+      "From": "vector",
+      "To": "sprite",
+      "DrawFrames": 35,
+      "UnavailableFrames": 0,
+      "SwitchToFirstReadyMilliseconds": 15.225499999996828,
+      "ObservedUnavailableWindowMilliseconds": 0,
+      "MaximumObservedDrawGapMilliseconds": 38.15220000000045,
+      "Before": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "FirstUnavailable": null,
+      "FirstReady": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      },
+      "Stable": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    }
+  ],
+  "StaticDeckReferenceChanges": [
+    {
+      "Transition": 0,
+      "Draw": 442,
+      "Ready": true,
+      "SinceSwitchMilliseconds": null,
+      "Revision": 17179956987,
+      "References": {
+        "_deck": 1,
+        "_cells": 2,
+        "_wallLayout": 3,
+        "_foundation": 4,
+        "_decorCoarse": 5,
+        "_structure": 6,
+        "_sasHardware": 7,
+        "_revisionLifecycle": 8,
+        "_visibleStructure": 0
+      }
+    }
+  ],
+  "InitialAssets": {
+    "SpriteBackendId": 9,
+    "SpriteAssetsId": 10,
+    "SpriteAssetsLoaded": true,
+    "OwnedTextureCount": 47,
+    "OwnedTextureIds": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "OwnedTexturesDisposed": 0,
+    "Banks": {
+      "_cryopodModels": {
+        "Id": 65,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 61,
+            "TextureCount": 3,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\hull-paint.png",
+                "Id": 58,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\panel-paint.png",
+                "Id": 59,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\cushion-weave.png",
+                "Id": 60,
+                "Disposed": false
+              }
+            ]
+          },
+          {
+            "RendererId": 64,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cryopod-painted-blue-recessed-structure.png",
+                "Id": 62,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cushion-weave.png",
+                "Id": 63,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_commonFurnitureModels": {
+        "Id": 68,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 67,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\textures\\painted-common-lit-upper-metal.png",
+                "Id": 66,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_utilityFurnitureModels": {
+        "Id": 71,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 70,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\textures\\painted-utility-final-0.png",
+                "Id": 69,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_bedModels": {
+        "Id": 75,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 74,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\approved-painted-slate-metal-v2.png",
+                "Id": 72,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\painted-bedding-textile.png",
+                "Id": 73,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_stationEquipmentModels": {
+        "Id": 78,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 77,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\station-equipment\\textures\\station-equipment-approved-painted-slate-v2.png",
+                "Id": 76,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_elevatorModels": {
+        "Id": 81,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 80,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\elevator\\textures\\elevator-painted-plate.png",
+                "Id": 79,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_serviceLadderModels": {
+        "Id": 85,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 84,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-depth-fade.png",
+                "Id": 82,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-upper-metal.png",
+                "Id": 83,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_doorModels": {
+        "Id": 91,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 90,
+            "TextureCount": 4,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-slate-painted-panels.png",
+                "Id": 86,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-recessed-slate-inserts.png",
+                "Id": 87,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-existing-wall-steel.png",
+                "Id": 88,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-existing-floor-plate.png",
+                "Id": 89,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_sasModels": {
+        "Id": 100,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 99,
+            "TextureCount": 7,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-recessed-slate-inserts.png",
+                "Id": 92,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-channel.png",
+                "Id": 93,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-steel.png",
+                "Id": 94,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-slate-painted-panels.png",
+                "Id": 95,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-continuous-existing-floor-metal.png",
+                "Id": 96,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-edge-paint-and-exposed-wear.png",
+                "Id": 97,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-rail.png",
+                "Id": 98,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_rockModels": {
+        "Id": 105,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 104,
+            "TextureCount": 3,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-warm-grey-mineral.png",
+                "Id": 101,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-newly-fractured-planes.png",
+                "Id": 102,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-shaded-mineral-layers.png",
+                "Id": 103,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_debrisModels": {
+        "Id": 108,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 107,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\debris\\textures\\debris-paint-slate-001.png",
+                "Id": 106,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "FinalAssets": {
+    "SpriteBackendId": 9,
+    "SpriteAssetsId": 10,
+    "SpriteAssetsLoaded": true,
+    "OwnedTextureCount": 47,
+    "OwnedTextureIds": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "OwnedTexturesDisposed": 0,
+    "Banks": {
+      "_cryopodModels": {
+        "Id": 65,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 61,
+            "TextureCount": 3,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\hull-paint.png",
+                "Id": 58,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\panel-paint.png",
+                "Id": 59,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod\\textures\\cushion-weave.png",
+                "Id": 60,
+                "Disposed": false
+              }
+            ]
+          },
+          {
+            "RendererId": 64,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cryopod-painted-blue-recessed-structure.png",
+                "Id": 62,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\cryopod-damaged\\textures\\cushion-weave.png",
+                "Id": 63,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_commonFurnitureModels": {
+        "Id": 68,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 67,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\common-furniture\\textures\\painted-common-lit-upper-metal.png",
+                "Id": 66,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_utilityFurnitureModels": {
+        "Id": 71,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 70,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\utility-furniture\\textures\\painted-utility-final-0.png",
+                "Id": 69,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_bedModels": {
+        "Id": 75,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 74,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\approved-painted-slate-metal-v2.png",
+                "Id": 72,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\bed\\textures\\painted-bedding-textile.png",
+                "Id": 73,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_stationEquipmentModels": {
+        "Id": 78,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 77,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\station-equipment\\textures\\station-equipment-approved-painted-slate-v2.png",
+                "Id": 76,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_elevatorModels": {
+        "Id": 81,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 80,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\elevator\\textures\\elevator-painted-plate.png",
+                "Id": 79,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_serviceLadderModels": {
+        "Id": 85,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 84,
+            "TextureCount": 2,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-depth-fade.png",
+                "Id": 82,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\service-ladder\\textures\\service-ladder-painted-upper-metal.png",
+                "Id": 83,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_doorModels": {
+        "Id": 91,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 90,
+            "TextureCount": 4,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-slate-painted-panels.png",
+                "Id": 86,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-recessed-slate-inserts.png",
+                "Id": 87,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-existing-wall-steel.png",
+                "Id": 88,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\door\\textures\\door-existing-floor-plate.png",
+                "Id": 89,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_sasModels": {
+        "Id": 100,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 99,
+            "TextureCount": 7,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-recessed-slate-inserts.png",
+                "Id": 92,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-channel.png",
+                "Id": 93,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-steel.png",
+                "Id": 94,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-slate-painted-panels.png",
+                "Id": 95,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-continuous-existing-floor-metal.png",
+                "Id": 96,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-edge-paint-and-exposed-wear.png",
+                "Id": 97,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\sas-door\\textures\\sas-a-wall-family-existing-wall-rail.png",
+                "Id": 98,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_rockModels": {
+        "Id": 105,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 104,
+            "TextureCount": 3,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-warm-grey-mineral.png",
+                "Id": 101,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-newly-fractured-planes.png",
+                "Id": 102,
+                "Disposed": false
+              },
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\rock\\textures\\rock-shaded-mineral-layers.png",
+                "Id": 103,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      },
+      "_debrisModels": {
+        "Id": 108,
+        "Loaded": true,
+        "Gpu": [
+          {
+            "RendererId": 107,
+            "TextureCount": 1,
+            "Textures": [
+              {
+                "Path": "C:\\workspace\\TheEnd\\.artifacts\\backend-switch\\native\\bin\\Debug\\net9.0\\Assets\\models\\debris\\textures\\debris-paint-slate-001.png",
+                "Id": 106,
+                "Disposed": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "InstalledManifestHashes": {
+    "bed/manifest.json": "968F52862CEA812F9945BDC299E3F77C45BB37B72F4A4DFEC032B14AFB9CD854",
+    "colonist/manifest.json": "68F29D0F4D38D356E1E969626FBDB5DC1AECFD682F761AF1FA8EE2265081F0A2",
+    "common-furniture/manifest.json": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31",
+    "cryopod/manifest.json": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66",
+    "cryopod-damaged/manifest.json": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9",
+    "debris/manifest.json": "5C2F751980B31C8CC300405494AACED50C67ECABED127E62E087507AD8981E12",
+    "door/manifest.json": "E01AAF98922574EC6EBAABEDC3D17E10FBC4BBF2F0DCAB5660C67E6F1144EA52",
+    "elevator/manifest.json": "EC49BC4BDF1D47830EE6070395E059088C608577BFB50BEC436E5D11D6692DD6",
+    "rock/manifest.json": "307447F39CE8547651DA85214F6DD783DBA7897EDA49DBA643F25FFC460A3514",
+    "sas-door/manifest.json": "B2273F1483BE9000B660481CA8AF1EF2043276AF26DC4BFB8806346A55E1DD87",
+    "service-ladder/manifest.json": "E43268B6617C5E5EEA38CF82DE2CD34C8DB49A701E571C98A043231E63F54D99",
+    "station-equipment/manifest.json": "B2781CDF6597844E284E9B458958CCED4079E157C997A044F2A2CF6EA3F442D5",
+    "utility-furniture/manifest.json": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+  },
+  "Captures": [
+    {
+      "File": "00-sprite-before.png",
+      "Sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "Width": 1920,
+      "Height": 1080,
+      "Camera": {
+        "CellSize": 48,
+        "FocusX": 95.5,
+        "FocusY": 89
+      },
+      "Snapshot": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 0,
+            "_installedSource": 0,
+            "_selected": 0,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 0,
+          "VariantCount": 0,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "File": "01-vector.png",
+      "Sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "Width": 1920,
+      "Height": 1080,
+      "Camera": {
+        "CellSize": 48,
+        "FocusX": 95.5,
+        "FocusY": 89
+      },
+      "Snapshot": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "File": "02-sprite.png",
+      "Sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "Width": 1920,
+      "Height": 1080,
+      "Camera": {
+        "CellSize": 48,
+        "FocusX": 95.5,
+        "FocusY": 89
+      },
+      "Snapshot": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "File": "03-vector.png",
+      "Sha256": "927F23669000A75C1ADDB8863EEE69FAEE1F8A0A91E564C1BF4BD121DCA3CCB8",
+      "Width": 1920,
+      "Height": 1080,
+      "Camera": {
+        "CellSize": 48,
+        "FocusX": 95.5,
+        "FocusY": 89
+      },
+      "Snapshot": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": false,
+        "EffectiveSpriteBackend": false,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 0,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": false,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    },
+    {
+      "File": "04-sprite-after.png",
+      "Sha256": "764178669ABD1822E4106AEC9CBC62D3A08A449D40945B5D834DE8FEA2D8117C",
+      "Width": 1920,
+      "Height": 1080,
+      "Camera": {
+        "CellSize": 48,
+        "FocusX": 95.5,
+        "FocusY": 89
+      },
+      "Snapshot": {
+        "Tick": 12000,
+        "Deck": 0,
+        "InputSpriteBackend": true,
+        "EffectiveSpriteBackend": true,
+        "Ready": true,
+        "StaticDeckRevision": 17179956987,
+        "StaticDeckReferences": {
+          "_deck": 1,
+          "_cells": 2,
+          "_wallLayout": 3,
+          "_foundation": 4,
+          "_decorCoarse": 5,
+          "_structure": 6,
+          "_sasHardware": 7,
+          "_revisionLifecycle": 8,
+          "_visibleStructure": 0
+        },
+        "ExcludedSasHardwareAnchorCount": 8,
+        "LineStructureVersion": 17179873755,
+        "FurnitureRevision": 1,
+        "FurnitureModelCount": 103,
+        "FixturePresentationRevision": 2,
+        "FixtureFrameCache": {
+          "Id": 109,
+          "References": {
+            "_source": 113,
+            "_installedSource": 113,
+            "_selected": 115,
+            "_pending": 0,
+            "_uploading": 0
+          },
+          "NextContentRevision": 1,
+          "VariantCount": 1,
+          "RequestedViewportReady": true,
+          "SpritePresentationCacheId": 110,
+          "SpritePresentationSelected": true,
+          "SpritePresentationCache": {
+            "Id": 110,
+            "References": {
+              "_source": 111,
+              "_installedSource": 111,
+              "_selected": 112,
+              "_pending": 0,
+              "_uploading": 0
+            },
+            "NextContentRevision": 1,
+            "VariantCount": 1,
+            "RequestedViewportReady": true,
+            "SpritePresentationCacheId": 0,
+            "SpritePresentationSelected": false,
+            "SpritePresentationCache": null
+          }
+        },
+        "CryopodRevision": 1
+      }
+    }
+  ],
+  "Limitations": [
+    "Real TheEndGame.Update/Draw readiness observed; no readiness flags, retained buffers or scene frames injected.",
+    "Timing includes the normal rendering/preparation path on this machine; this is a bounded switch proof, not an FPS benchmark.",
+    "Unavailability counts measure Draw callbacks with _deckReadyForInput=false; synchronous work can delay a callback without adding an unavailable frame.",
+    "World simulation is paused and input suppressed; presentation animation clock remains natural.",
+    "Textures retained by unchanged renderer objects were inspected before and after; this does not instrument every filesystem open."
+  ]
+}

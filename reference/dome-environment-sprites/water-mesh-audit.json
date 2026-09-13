@@ -1,0 +1,79 @@
+{
+  "Seed": 12345,
+  "DeckId": 3,
+  "Grid": 256,
+  "WaterCells": 5663,
+  "Pools": 5,
+  "ShorePoints": 1197,
+  "ContourPrepareMs": 160.8436,
+  "SpriteBuildMs": 1100.0254,
+  "BuildAllocatedBytes": 14959216,
+  "Chunks": 132,
+  "Vertices": 98043,
+  "ExactShoreArea": 5792.2346711108985,
+  "SpriteArea": 5792.23467985852,
+  "AreaDifference": 8.747621905058622E-06,
+  "PoolBounds": [
+    {
+      "MinX": 134,
+      "MinY": 22,
+      "MaxX": 136,
+      "MaxY": 26,
+      "Cells": 11
+    },
+    {
+      "MinX": 68,
+      "MinY": 49,
+      "MaxX": 136,
+      "MaxY": 121,
+      "Cells": 3520
+    },
+    {
+      "MinX": 64,
+      "MinY": 149,
+      "MaxX": 124,
+      "MaxY": 193,
+      "Cells": 2119
+    },
+    {
+      "MinX": 58,
+      "MinY": 199,
+      "MaxX": 59,
+      "MaxY": 201,
+      "Cells": 6
+    },
+    {
+      "MinX": 98,
+      "MinY": 227,
+      "MaxX": 100,
+      "MaxY": 229,
+      "Cells": 7
+    }
+  ],
+  "Views": [
+    {
+      "Name": "lake128-100",
+      "X0": 107,
+      "Y0": 88,
+      "X1": 149,
+      "Y1": 112,
+      "Chunks": 21,
+      "Vertices": 14118,
+      "Triangles": 4706,
+      "EstimatedVertexUploadBytes": 338832,
+      "UvUpdateMsPerFrame": 0.5046191666666666
+    },
+    {
+      "Name": "shore111-77",
+      "X0": 90,
+      "Y0": 65,
+      "X1": 132,
+      "Y1": 89,
+      "Chunks": 24,
+      "Vertices": 16926,
+      "Triangles": 5642,
+      "EstimatedVertexUploadBytes": 406224,
+      "UvUpdateMsPerFrame": 0.6609533333333334
+    }
+  ]
+}

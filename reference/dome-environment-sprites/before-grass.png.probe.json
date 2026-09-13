@@ -1,0 +1,11 @@
+{
+  "DeckId": 3,
+  "CentreX": 184,
+  "CentreY": 82,
+  "CameraCellSize": 48,
+  "CameraPanX": -7872,
+  "CameraPanY": -3496,
+  "SourceDoor": null,
+  "SimulationTick": 12416,
+  "Scope": "TheEndGame normal renderer; camera/deck selection only, no staged door state or replacement display frame"
+}

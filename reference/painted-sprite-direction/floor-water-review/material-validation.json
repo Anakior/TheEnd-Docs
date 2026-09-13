@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": 2,
+  "scope": "Current user-selected original floor plus preserved historical measurements for rejected painted floor variants.",
+  "updatedUtc": "2026-09-12T17:35:24.846471+00:00",
+  "currentSelection": {
+    "status": "original_installed_floor_selected_by_user",
+    "userSelection": "L’ancienne dalle du jeu, avant le passage au style peint",
+    "verifiedUtc": "2026-09-12T17:35:24.846471+00:00",
+    "passed": true,
+    "checks": {
+      "allTenFloorProductionSlotsChecked": true,
+      "noFloorAliases": true,
+      "noSameNameExternalFloorCandidates": true,
+      "allTenSelectInstalledOriginals": true,
+      "aliasCount12": true,
+      "aliasKeysUniqueCaseInsensitive": true,
+      "activePhysicalPngCount8": true,
+      "allEightActivePngsByteIdenticalToV3": true,
+      "activeRootContainsOnlyEightReferencedPngs": true,
+      "allSixRejectedFilesPreservedAndInactive": true
+    },
+    "aliasManifest": {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\aliases.json",
+      "sha256": "CF9D2AD4C3644AA17C8F1262FB55C9405E07BFC68F04D0027B6CDB0A243B7B4C",
+      "bytes": 597
+    },
+    "aliases": {
+      "wall-armor-quiet.png": "wall-armor-painted.png",
+      "wall-armor-worn.png": "wall-armor-painted.png",
+      "wall-rail-quiet.png": "wall-rail-painted.png",
+      "wall-rail-worn.png": "wall-rail-painted.png",
+      "wall-channel-quiet.png": "wall-channel-painted.png",
+      "wall-channel-worn.png": "wall-channel-painted.png",
+      "organic-dirt.png": "earth-painted.png",
+      "grass-short-v3.png": "grass-painted.png",
+      "organic-grass.png": "grass-painted.png",
+      "water-surface-v1.png": "water-painted.png",
+      "organic-sand.png": "sand-painted.png",
+      "organic-fungal.png": "fungal-painted.png"
+    },
+    "resolverSource": {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteMaterialResolver.cs",
+      "sha256": "7A27D0FD306D275CA2CDB81192EC64A93C1FAB8CA299D9C5011913C5E2C3EF2D",
+      "bytes": 3668
+    },
+    "resolverContract": "For each production filename, the optional external alias or same-name file is tried only if that file exists. With no floor alias and no same-name root candidate, the installed production path is selected. Subdirectories are not searched.",
+    "resolutionVerificationMethod": "Read-only inspection of exact resolver source and filesystem existence; no runtime launch or resolver test rerun.",
+    "floorResolutions": [
+      {
+        "productionName": "floor-tile-standard-a.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-standard-a.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-a.png",
+          "sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79",
+          "bytes": 20467
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-a.png",
+          "sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79",
+          "bytes": 20467
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-standard-b.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-standard-b.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-b.png",
+          "sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A",
+          "bytes": 20453
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-b.png",
+          "sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A",
+          "bytes": 20453
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-standard-c.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-standard-c.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-c.png",
+          "sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484",
+          "bytes": 20243
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-c.png",
+          "sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484",
+          "bytes": 20243
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-standard-d.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-standard-d.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-d.png",
+          "sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE",
+          "bytes": 20513
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-standard-d.png",
+          "sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE",
+          "bytes": 20513
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-a.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-a.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-a.png",
+          "sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885",
+          "bytes": 20820
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-a.png",
+          "sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885",
+          "bytes": 20820
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-b.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-b.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-b.png",
+          "sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054",
+          "bytes": 22817
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-b.png",
+          "sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054",
+          "bytes": 22817
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-c.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-c.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-c.png",
+          "sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6",
+          "bytes": 22326
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-c.png",
+          "sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6",
+          "bytes": 22326
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-d.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-d.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-d.png",
+          "sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12",
+          "bytes": 21305
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-d.png",
+          "sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12",
+          "bytes": 21305
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-e.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-e.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-e.png",
+          "sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9",
+          "bytes": 23820
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-e.png",
+          "sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9",
+          "bytes": 23820
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      },
+      {
+        "productionName": "floor-tile-aged-f.png",
+        "hasExternalAlias": false,
+        "candidatePath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-tile-aged-f.png",
+        "candidateExists": false,
+        "resolvedSource": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-f.png",
+          "sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7",
+          "bytes": 20817
+        },
+        "resolvedDebugRuntime": {
+          "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets\\sprites\\materials\\floor-tile-aged-f.png",
+          "sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7",
+          "bytes": 20817
+        },
+        "isExternal": false,
+        "runtimeBytesMatchSource": true,
+        "selected": "installed_original"
+      }
+    ],
+    "activePaintedMaterials": [
+      {
+        "name": "earth-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "fungal-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "grass-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "sand-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "wall-armor-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "wall-channel-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "wall-rail-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "identicalBytesToV3": true
+      },
+      {
+        "name": "water-painted.png",
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "identicalBytesToV3": true
+      }
+    ],
+    "rejectedArchive": [
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-a.png",
+          "sha256": "44E588696755329F64723972B3AFF78A4A93522484EF449EC3506E41624CF763",
+          "bytes": 1489172
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      },
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-b.png",
+          "sha256": "9DE36D2194840283D34B37AF7BB91324DCBC2A48567EDF8A96991C9344B6CBE8",
+          "bytes": 1470355
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      },
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-c.png",
+          "sha256": "C93F8BB5B01D9E1B40FEFA58358F1152A627512501A2248471EC49E687B3AAD1",
+          "bytes": 1504958
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      },
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-d.png",
+          "sha256": "DC5F97508243A4274844045513F4F0C88CE15C5C7B447DDE5320E536232AEAB6",
+          "bytes": 1561580
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      },
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+          "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+          "bytes": 1507068
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      },
+      {
+        "file": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+          "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+          "bytes": 1473710
+        },
+        "matchesOriginalMeasuredBytes": true,
+        "absentFromActiveRoot": true,
+        "notTargetedByCurrentAliases": true
+      }
+    ],
+    "nativeQaScope": "Upcoming room captures validate the return to the ten installed original floor variants. No further adoption QA of the rejected V4 floor candidates.",
+    "limitations": [
+      "This verifies selection and exact installed/source bytes, not a fresh native screenshot.",
+      "Water runtime changes are independent and outside this material-selection audit."
+    ]
+  },
+  "historicalStudy": {
+    "schemaVersion": 1,
+    "createdUtc": "2026-09-12T17:31:33.366109+00:00",
+    "scope": "Historical measurements of the rejected six-candidate V4 floor study before its aliases were removed. Paths now point to archived source artifacts; former resolution facts remain explicitly historical.",
+    "passed": true,
+    "passedMeaning": "Historical file integrity at measurement time only. Rejected candidate art is not accepted; consult currentSelection for today’s active configuration.",
+    "checks": {
+      "aliasKeyCount22": true,
+      "aliasKeysUniqueCaseInsensitive": true,
+      "aliasKeysMatchV3ProductionSet": true,
+      "allNamesSimpleRelativePng": true,
+      "allTargetsInsideDirectoryAndExist": true,
+      "uniqueTargetPathCount14": true,
+      "uniqueTargetContentCount14": true,
+      "fourDistinctStandardTargets": true,
+      "twoDistinctAgedTargets": true,
+      "agedMappingAlternatesAB": true,
+      "allSixFloorContentsDistinct": true,
+      "allSixFloors1254Square": true,
+      "allReferencedImagesOpaque": true,
+      "eightOtherPngsByteIdenticalToV3": true,
+      "allDirectoryPngsReferenced": true
+    },
+    "aliasManifest": {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\aliases.json",
+      "sha256": "D3183F0805DFDDFBEAFE04C6579C3B15810FE10CB811BAE49F56AE5B2E7B1903",
+      "bytes": 1189,
+      "recordType": "historical_manifest_fingerprint_before_floor_alias_removal",
+      "currentFileHasChanged": true,
+      "note": "The original22-alias mapping is preserved by historicalStudy.aliases below; this path now contains the current12-alias selection."
+    },
+    "generationProvenance": {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-generation-provenance.json",
+      "sha256": "80A392F468C4B2402CC1B26B8198024B648FB7C3EA488F3CC46217F59544D0F7",
+      "bytes": 11450,
+      "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-generation-provenance.json",
+      "archivedBytesMatchRecordedSha256": true
+    },
+    "aliases": [
+      {
+        "productionName": "floor-tile-standard-a.png",
+        "externalName": "floor-standard-painted-a.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "44E588696755329F64723972B3AFF78A4A93522484EF449EC3506E41624CF763",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-a.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-a.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-standard-b.png",
+        "externalName": "floor-standard-painted-b.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "9DE36D2194840283D34B37AF7BB91324DCBC2A48567EDF8A96991C9344B6CBE8",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-b.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-b.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-standard-c.png",
+        "externalName": "floor-standard-painted-c.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "C93F8BB5B01D9E1B40FEFA58358F1152A627512501A2248471EC49E687B3AAD1",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-c.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-c.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-standard-d.png",
+        "externalName": "floor-standard-painted-d.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "DC5F97508243A4274844045513F4F0C88CE15C5C7B447DDE5320E536232AEAB6",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-d.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-d.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-a.png",
+        "externalName": "floor-aged-painted-a.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-a.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-b.png",
+        "externalName": "floor-aged-painted-b.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-b.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-c.png",
+        "externalName": "floor-aged-painted-a.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-a.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-d.png",
+        "externalName": "floor-aged-painted-b.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-b.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-e.png",
+        "externalName": "floor-aged-painted-a.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-a.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "floor-tile-aged-f.png",
+        "externalName": "floor-aged-painted-b.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-b.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+        "activeInCurrentAliases": false,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-armor-quiet.png",
+        "externalName": "wall-armor-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-armor-worn.png",
+        "externalName": "wall-armor-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-rail-quiet.png",
+        "externalName": "wall-rail-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-rail-worn.png",
+        "externalName": "wall-rail-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-channel-quiet.png",
+        "externalName": "wall-channel-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "wall-channel-worn.png",
+        "externalName": "wall-channel-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "organic-dirt.png",
+        "externalName": "earth-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "grass-short-v3.png",
+        "externalName": "grass-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "organic-grass.png",
+        "externalName": "grass-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "water-surface-v1.png",
+        "externalName": "water-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "organic-sand.png",
+        "externalName": "sand-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      },
+      {
+        "productionName": "organic-fungal.png",
+        "externalName": "fungal-painted.png",
+        "insideOverrideDirectory": true,
+        "exists": true,
+        "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+        "historicalResolvedPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+        "currentArtifactPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+        "activeInCurrentAliases": true,
+        "historicalResolutionOnly": true
+      }
+    ],
+    "physicalImages": [
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            64.2596,
+            52.6842,
+            39.3443
+          ],
+          "meanLuma": 54.182,
+          "lumaStdDev": 5.0052,
+          "lumaP05": 47.404,
+          "lumaP95": 63.6086
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              64.2322,
+              52.6385,
+              39.2857
+            ],
+            "meanLuma": 54.1393,
+            "lumaStdDev": 4.9224,
+            "lumaP05": 47.404,
+            "lumaP95": 63.4642
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+          "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+          "bytes": 1507068,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-a.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            35.7091,
+            41.4632,
+            46.8244
+          ],
+          "meanLuma": 40.627,
+          "lumaStdDev": 9.2168,
+          "lumaP05": 28.5788,
+          "lumaP95": 58.298
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              33.9925,
+              39.955,
+              45.7379
+            ],
+            "meanLuma": 39.1049,
+            "lumaStdDev": 1.8077,
+            "lumaP05": 36.3702,
+            "lumaP95": 42.2298
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+          "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+          "bytes": 1473710,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-b.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            34.796,
+            39.9562,
+            44.7891
+          ],
+          "meanLuma": 39.2081,
+          "lumaStdDev": 7.7095,
+          "lumaP05": 26.5788,
+          "lumaP95": 53.3745
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              34.0075,
+              39.4276,
+              44.7132
+            ],
+            "meanLuma": 38.6569,
+            "lumaStdDev": 1.8501,
+            "lumaP05": 36.0854,
+            "lumaP95": 42.0557
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-a.png",
+          "sha256": "44E588696755329F64723972B3AFF78A4A93522484EF449EC3506E41624CF763",
+          "bytes": 1489172,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-a.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            37.3758,
+            43.2494,
+            48.6027
+          ],
+          "meanLuma": 42.3872,
+          "lumaStdDev": 9.3059,
+          "lumaP05": 28.7874,
+          "lumaP95": 58.8006
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.9281,
+              42.0564,
+              47.8739
+            ],
+            "meanLuma": 41.1736,
+            "lumaStdDev": 3.7705,
+            "lumaP05": 37.0854,
+            "lumaP95": 48.949
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-b.png",
+          "sha256": "9DE36D2194840283D34B37AF7BB91324DCBC2A48567EDF8A96991C9344B6CBE8",
+          "bytes": 1470355,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-b.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            36.2144,
+            41.6799,
+            46.8292
+          ],
+          "meanLuma": 40.8897,
+          "lumaStdDev": 8.4985,
+          "lumaP05": 27.7914,
+          "lumaP95": 55.3072
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.4269,
+              41.1744,
+              46.9041
+            ],
+            "meanLuma": 40.3662,
+            "lumaStdDev": 3.1871,
+            "lumaP05": 36.7232,
+            "lumaP95": 47.0894
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-c.png",
+          "sha256": "C93F8BB5B01D9E1B40FEFA58358F1152A627512501A2248471EC49E687B3AAD1",
+          "bytes": 1504958,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-c.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            37.1654,
+            42.9742,
+            48.9682
+          ],
+          "meanLuma": 42.172,
+          "lumaStdDev": 9.5838,
+          "lumaP05": 27.5788,
+          "lumaP95": 59.592
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.973,
+              42.0377,
+              48.5147
+            ],
+            "meanLuma": 41.216,
+            "lumaStdDev": 2.9238,
+            "lumaP05": 38.0854,
+            "lumaP95": 47.0172
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-d.png",
+          "sha256": "DC5F97508243A4274844045513F4F0C88CE15C5C7B447DDE5320E536232AEAB6",
+          "bytes": 1561580,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-d.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            39.0659,
+            45.3814,
+            51.2454
+          ],
+          "meanLuma": 44.4621,
+          "lumaStdDev": 9.5669,
+          "lumaP05": 30.1536,
+          "lumaP95": 61.3072
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              38.3909,
+              45.1297,
+              51.6877
+            ],
+            "meanLuma": 44.1705,
+            "lumaStdDev": 3.0052,
+            "lumaP05": 40.2298,
+            "lumaP95": 50.0172
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            57.2269,
+            43.7559,
+            46.8166
+          ],
+          "meanLuma": 46.8408,
+          "lumaStdDev": 8.9134,
+          "lumaP05": 35.6274,
+          "lumaP95": 64.26
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              57.353,
+              43.8739,
+              46.9865
+            ],
+            "meanLuma": 46.9643,
+            "lumaStdDev": 8.9023,
+            "lumaP05": 35.7008,
+            "lumaP95": 64.3322
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            90.2137,
+            89.1803,
+            49.7466
+          ],
+          "meanLuma": 86.5528,
+          "lumaStdDev": 10.0294,
+          "lumaP05": 72.2644,
+          "lumaP95": 105.1682
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              90.1784,
+              89.3065,
+              49.6377
+            ],
+            "meanLuma": 86.6278,
+            "lumaStdDev": 10.0607,
+            "lumaP05": 72.3366,
+            "lumaP95": 105.2456
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            111.8703,
+            91.5948,
+            67.5881
+          ],
+          "meanLuma": 94.1721,
+          "lumaStdDev": 6.6224,
+          "lumaP05": 85.2384,
+          "lumaP95": 106.796
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              111.88,
+              91.6226,
+              67.6284
+            ],
+            "meanLuma": 94.197,
+            "lumaStdDev": 6.5252,
+            "lumaP05": 85.3788,
+            "lumaP95": 106.5782
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            48.4121,
+            53.2363,
+            57.2946
+          ],
+          "meanLuma": 52.5037,
+          "lumaStdDev": 4.2752,
+          "lumaP05": 46.298,
+          "lumaP95": 60.0854
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              48.2275,
+              52.9907,
+              57.0047
+            ],
+            "meanLuma": 52.2679,
+            "lumaStdDev": 4.2361,
+            "lumaP05": 46.1536,
+            "lumaP95": 59.8688
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            26.771,
+            28.3211,
+            29.5937
+          ],
+          "meanLuma": 28.0834,
+          "lumaStdDev": 3.3765,
+          "lumaP05": 23.4344,
+          "lumaP95": 34.29
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              26.7113,
+              28.2784,
+              29.5385
+            ],
+            "meanLuma": 28.0362,
+            "lumaStdDev": 3.2882,
+            "lumaP05": 23.647,
+            "lumaP95": 33.9278
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            64.5438,
+            65.9701,
+            67.9511
+          ],
+          "meanLuma": 65.8099,
+          "lumaStdDev": 4.3681,
+          "lumaP05": 59.7192,
+          "lumaP95": 73.7874
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              64.5004,
+              65.9239,
+              67.8972
+            ],
+            "meanLuma": 65.7637,
+            "lumaStdDev": 4.2668,
+            "lumaP05": 59.8596,
+            "lumaP95": 73.7192
+          }
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            22.7488,
+            59.6402,
+            67.5592
+          ],
+          "meanLuma": 52.3689,
+          "lumaStdDev": 9.6202,
+          "lumaP05": 44.5618,
+          "lumaP95": 69.0066
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              22.6167,
+              59.4374,
+              67.3648
+            ],
+            "meanLuma": 52.1817,
+            "lumaStdDev": 9.3641,
+            "lumaP05": 44.5618,
+            "lumaP95": 68.3636
+          }
+        }
+      }
+    ],
+    "referenceV3Floor": {
+      "source": {
+        "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\floor-tile-painted-a.png",
+        "sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00",
+        "bytes": 1466303
+      },
+      "originalMode": "RGB",
+      "width": 1254,
+      "height": 1254,
+      "alphaMin": 255,
+      "alphaMax": 255,
+      "whole": {
+        "meanRgb": [
+          35.2488,
+          40.267,
+          45.7266
+        ],
+        "meanLuma": 39.5943,
+        "lumaStdDev": 7.9572,
+        "lumaP05": 25.4384,
+        "lumaP95": 53.2298
+      },
+      "centralFace": {
+        "xyxy": [
+          250,
+          250,
+          1003,
+          1003
+        ],
+        "stats": {
+          "meanRgb": [
+            35.1606,
+            40.3136,
+            46.0483
+          ],
+          "meanLuma": 39.6321,
+          "lumaStdDev": 3.2029,
+          "lumaP05": 35.5106,
+          "lumaP95": 45.3702
+        }
+      }
+    },
+    "floorVariants": [
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-a.png",
+          "sha256": "44E588696755329F64723972B3AFF78A4A93522484EF449EC3506E41624CF763",
+          "bytes": 1489172,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-a.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            37.3758,
+            43.2494,
+            48.6027
+          ],
+          "meanLuma": 42.3872,
+          "lumaStdDev": 9.3059,
+          "lumaP05": 28.7874,
+          "lumaP95": 58.8006
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.9281,
+              42.0564,
+              47.8739
+            ],
+            "meanLuma": 41.1736,
+            "lumaStdDev": 3.7705,
+            "lumaP05": 37.0854,
+            "lumaP95": 48.949
+          }
+        },
+        "group": "standard",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            2.127,
+            2.9824,
+            2.8761
+          ],
+          "wholeMeanLuma": 2.7929,
+          "wholeLumaPercent": 7.054,
+          "centralMeanLuma": 1.5415,
+          "centralLumaPercent": 3.89
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-b.png",
+          "sha256": "9DE36D2194840283D34B37AF7BB91324DCBC2A48567EDF8A96991C9344B6CBE8",
+          "bytes": 1470355,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-b.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            36.2144,
+            41.6799,
+            46.8292
+          ],
+          "meanLuma": 40.8897,
+          "lumaStdDev": 8.4985,
+          "lumaP05": 27.7914,
+          "lumaP95": 55.3072
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.4269,
+              41.1744,
+              46.9041
+            ],
+            "meanLuma": 40.3662,
+            "lumaStdDev": 3.1871,
+            "lumaP05": 36.7232,
+            "lumaP95": 47.0894
+          }
+        },
+        "group": "standard",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            0.9656,
+            1.4129,
+            1.1026
+          ],
+          "wholeMeanLuma": 1.2954,
+          "wholeLumaPercent": 3.272,
+          "centralMeanLuma": 0.7341,
+          "centralLumaPercent": 1.852
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-c.png",
+          "sha256": "C93F8BB5B01D9E1B40FEFA58358F1152A627512501A2248471EC49E687B3AAD1",
+          "bytes": 1504958,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-c.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            37.1654,
+            42.9742,
+            48.9682
+          ],
+          "meanLuma": 42.172,
+          "lumaStdDev": 9.5838,
+          "lumaP05": 27.5788,
+          "lumaP95": 59.592
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              35.973,
+              42.0377,
+              48.5147
+            ],
+            "meanLuma": 41.216,
+            "lumaStdDev": 2.9238,
+            "lumaP05": 38.0854,
+            "lumaP95": 47.0172
+          }
+        },
+        "group": "standard",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            1.9166,
+            2.7072,
+            3.2416
+          ],
+          "wholeMeanLuma": 2.5777,
+          "wholeLumaPercent": 6.51,
+          "centralMeanLuma": 1.5839,
+          "centralLumaPercent": 3.997
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-standard-painted-d.png",
+          "sha256": "DC5F97508243A4274844045513F4F0C88CE15C5C7B447DDE5320E536232AEAB6",
+          "bytes": 1561580,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-standard-painted-d.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            39.0659,
+            45.3814,
+            51.2454
+          ],
+          "meanLuma": 44.4621,
+          "lumaStdDev": 9.5669,
+          "lumaP05": 30.1536,
+          "lumaP95": 61.3072
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              38.3909,
+              45.1297,
+              51.6877
+            ],
+            "meanLuma": 44.1705,
+            "lumaStdDev": 3.0052,
+            "lumaP05": 40.2298,
+            "lumaP95": 50.0172
+          }
+        },
+        "group": "standard",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            3.8171,
+            5.1144,
+            5.5188
+          ],
+          "wholeMeanLuma": 4.8678,
+          "wholeLumaPercent": 12.294,
+          "centralMeanLuma": 4.5384,
+          "centralLumaPercent": 11.451
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-a.png",
+          "sha256": "E0D2601E53D758D3099D41BCE678AB3020EB2DD436430408FA597173F14F838C",
+          "bytes": 1507068,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-a.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            35.7091,
+            41.4632,
+            46.8244
+          ],
+          "meanLuma": 40.627,
+          "lumaStdDev": 9.2168,
+          "lumaP05": 28.5788,
+          "lumaP95": 58.298
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              33.9925,
+              39.955,
+              45.7379
+            ],
+            "meanLuma": 39.1049,
+            "lumaStdDev": 1.8077,
+            "lumaP05": 36.3702,
+            "lumaP95": 42.2298
+          }
+        },
+        "group": "aged",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            0.4603,
+            1.1962,
+            1.0978
+          ],
+          "wholeMeanLuma": 1.0327,
+          "wholeLumaPercent": 2.608,
+          "centralMeanLuma": -0.5272,
+          "centralLumaPercent": -1.33
+        }
+      },
+      {
+        "source": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants\\floor-aged-painted-b.png",
+          "sha256": "5BED8C4D5CE759D133732B427460D06EA1A2609E857E53233940C4ACC5538603",
+          "bytes": 1473710,
+          "originalStudyPath": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\floor-aged-painted-b.png",
+          "archivedBytesMatchRecordedSha256": true
+        },
+        "originalMode": "RGB",
+        "width": 1254,
+        "height": 1254,
+        "alphaMin": 255,
+        "alphaMax": 255,
+        "whole": {
+          "meanRgb": [
+            34.796,
+            39.9562,
+            44.7891
+          ],
+          "meanLuma": 39.2081,
+          "lumaStdDev": 7.7095,
+          "lumaP05": 26.5788,
+          "lumaP95": 53.3745
+        },
+        "centralFace": {
+          "xyxy": [
+            250,
+            250,
+            1003,
+            1003
+          ],
+          "stats": {
+            "meanRgb": [
+              34.0075,
+              39.4276,
+              44.7132
+            ],
+            "meanLuma": 38.6569,
+            "lumaStdDev": 1.8501,
+            "lumaP05": 36.0854,
+            "lumaP95": 42.0557
+          }
+        },
+        "group": "aged",
+        "deltaFromV3": {
+          "wholeMeanRgb": [
+            -0.4528,
+            -0.3108,
+            -0.9375
+          ],
+          "wholeMeanLuma": -0.3862,
+          "wholeLumaPercent": -0.975,
+          "centralMeanLuma": -0.9752,
+          "centralLumaPercent": -2.461
+        }
+      }
+    ],
+    "unchangedOtherMaterials": [
+      {
+        "file": "earth-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\earth-painted.png",
+          "sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7",
+          "bytes": 1734893
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "fungal-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\fungal-painted.png",
+          "sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481",
+          "bytes": 1883498
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "grass-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\grass-painted.png",
+          "sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C",
+          "bytes": 2146955
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "sand-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\sand-painted.png",
+          "sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142",
+          "bytes": 1809781
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "wall-armor-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-armor-painted.png",
+          "sha256": "4235D4396696F43044D2CC1FF16F898E7EE272F311A27A81D46DAC9486597F87",
+          "bytes": 2059508
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "wall-channel-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-channel-painted.png",
+          "sha256": "DEFDD56A3C1AC7E4DB281A779921C6B0723B2D1F8DF3E1D3BA44EC512C0798B6",
+          "bytes": 1851219
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "wall-rail-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\wall-rail-painted.png",
+          "sha256": "CB2A1194FC70DD7E2B8B160A7485765C4C2BE41D60D6C74E7B2207CE6D5D8E30",
+          "bytes": 1801379
+        },
+        "identicalBytes": true
+      },
+      {
+        "file": "water-painted.png",
+        "v3": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v3\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "v4": {
+          "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\water-painted.png",
+          "sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0",
+          "bytes": 1495900
+        },
+        "identicalBytes": true
+      }
+    ],
+    "groupComparisons": {
+      "standard": {
+        "count": 4,
+        "wholeMeanLumaRange": [
+          40.8897,
+          44.4621
+        ],
+        "wholeMaxMinDifference": 3.5724,
+        "wholeMaxMinPercent": 8.737,
+        "centralFaceMeanLumaRange": [
+          40.3662,
+          44.1705
+        ],
+        "centralMaxMinDifference": 3.8043,
+        "centralMaxMinPercent": 9.424
+      },
+      "aged": {
+        "count": 2,
+        "wholeMeanLumaRange": [
+          39.2081,
+          40.627
+        ],
+        "wholeMaxMinDifference": 1.4189,
+        "wholeMaxMinPercent": 3.619,
+        "centralFaceMeanLumaRange": [
+          38.6569,
+          39.1049
+        ],
+        "centralMaxMinDifference": 0.448,
+        "centralMaxMinPercent": 1.159
+      },
+      "allSix": {
+        "count": 6,
+        "wholeMeanLumaRange": [
+          39.2081,
+          44.4621
+        ],
+        "wholeMaxMinDifference": 5.254,
+        "wholeMaxMinPercent": 13.4,
+        "centralFaceMeanLumaRange": [
+          38.6569,
+          44.1705
+        ],
+        "centralMaxMinDifference": 5.5136,
+        "centralMaxMinPercent": 14.263
+      }
+    },
+    "method": {
+      "colour": "PNG encoded RGB values0..255. Luma proxy0.2126R+0.7152G+0.0722B, without sRGB linearization; this is not physical light intensity.",
+      "centralFace": "Each image centre20%..80% in X/Y, integer lower bounds and exclusive upper bounds. This isolates the main plate field from joints and corner fasteners. Exact rectangles are recorded.",
+      "variability": "Population standard deviation and5th/95th percentile within each region; between-tile comparisons use region means.",
+      "reading": "Pillow decode toRGBA and NumPy read-only measurements. No resampling or image writes.",
+      "sha": "SHA256 of original file bytes. All eight preserved images are also compared directly byte for byte.",
+      "runtimeContract": "Four standard slots chosen by stable cell hash,94% prior to fracture overrides; six aged slots use the same hash at6%. V4 maps aged slots alternately to two physical images. Texture loading caches paths but preserves all selection slots."
+    },
+    "checkerboardAssessment": {
+      "status": "study_rejected_by_user_not_for_adoption",
+      "standardDComparedWithABCMeanCentralPercent": 7.947,
+      "observations": [
+        "All six palettes retain blue-grey ordering B>G>R; there is no abrupt warm/cool hue switch.",
+        "StandardD is the brightest candidate, about8% above the mean central face ofA/B/C. A andC are closely matched, B is slightly darker.",
+        "Standard whole-image luma spans40.89..44.46; central-face luma spans40.37..44.17. This can create mild bright accents in the hash distribution, so inspect the actual room before deciding it needs correction.",
+        "The two aged candidates are darker than the standard-group average and close to the V3 reference. Their6% selection rate makes them sparse accents.",
+        "The V4 standard-group average is brighter than V3. This is a material-palette difference and is not evidence of a change in scene lighting.",
+        "No fixed alternation/checkerboard is imposed by these aliases. Any visible pattern depends on the cell hash arrangement, authored brush motifs, joints and final game scale."
+      ],
+      "limits": [
+        "Mean-colour similarity cannot prove absence of repetition or patterned brush silhouettes.",
+        "No perceptual pass/fail threshold is claimed; the8% observation is descriptive, not a calibrated visibility threshold.",
+        "Joint alignment, baked highlight consistency and readability at48px must be checked in the native room capture.",
+        "This report predates native V4/water QA and does not assess the animated water code."
+      ],
+      "historicalAssessmentNote": "These observations were made before the user rejection. They are retained as measurements and audit history, not a request for further adoption QA."
+    },
+    "adoption": {
+      "status": "rejected_by_user",
+      "scope": "All six generated V4 floor candidates",
+      "files": [
+        "floor-standard-painted-a.png",
+        "floor-standard-painted-b.png",
+        "floor-standard-painted-c.png",
+        "floor-standard-painted-d.png",
+        "floor-aged-painted-a.png",
+        "floor-aged-painted-b.png"
+      ],
+      "archiveDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v4\\rejected-floor-variants",
+      "userFeedback": "moins bien qu’avant",
+      "selectedAlternative": "The original installed game floor, before the painted-style conversion.",
+      "installationAuthorized": false,
+      "measurementStatus": "Historical numerical/integrity record retained. No adoption QA remains for these rejected candidates."
+    }
+  }
+}

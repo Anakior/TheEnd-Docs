@@ -1,0 +1,117 @@
+{
+  "Scope": "Standalone native model study; actual production model renderers and lighting, no colony simulation or save mutation.",
+  "Page": "consoles",
+  "ComparePaint": true,
+  "ReferenceLabel": "Forme actuelle",
+  "CandidateLabel": "Relief retravaill\u00E9",
+  "GroupOffset": 0,
+  "RotationQuarterTurns": 2,
+  "Zoom": 1,
+  "Occupied": false,
+  "Width": 1920,
+  "Height": 1080,
+  "Banks": [
+    {
+      "Name": "THEEND_COMMON_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-depth\\manifest.json",
+      "Sha256": "1203886D9A7DC27A6EB1E78A4FB0EE9494A27F692F427A0E557002E42E4717F0"
+    },
+    {
+      "Name": "THEEND_COMMON_FURNITURE_REFERENCE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-detail\\manifest.json",
+      "Sha256": "99BB12E4D8DFD3D5F5F6E660F32C0436A139E7CDDB20D36B2436A79756993A71"
+    },
+    {
+      "Name": "THEEND_UTILITY_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-depth\\manifest.json",
+      "Sha256": "0947525EFB6626997152A15EF5920FF06851B448740BA9A32A56179BF5806D7D"
+    },
+    {
+      "Name": "THEEND_UTILITY_FURNITURE_REFERENCE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-detail\\manifest.json",
+      "Sha256": "DC2C1CA8C8CA48D26D26D5D1AD5F7864F9CA5A1CE0FA39ECBFDA53FDC3DF708A"
+    }
+  ],
+  "Cards": [
+    {
+      "Part": "console-2",
+      "Style": "dalle-sealed",
+      "Row": 0,
+      "Column": 0,
+      "Comparison": "Forme actuelle",
+      "Caption": "Console 2 places \u00B7 Forme actuelle",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-sealed",
+      "Row": 0,
+      "Column": 1,
+      "Comparison": "Relief retravaill\u00E9",
+      "Caption": "Console 2 places \u00B7 Relief retravaill\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "rack-2",
+      "Style": "sealed",
+      "Row": 0,
+      "Column": 2,
+      "Comparison": "Forme actuelle",
+      "Caption": "Rayonnage double \u00B7 Forme actuelle",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "rack-2",
+      "Style": "sealed",
+      "Row": 0,
+      "Column": 3,
+      "Comparison": "Relief retravaill\u00E9",
+      "Caption": "Rayonnage double \u00B7 Relief retravaill\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-sealed",
+      "Row": 1,
+      "Column": 0,
+      "Comparison": "Forme actuelle",
+      "Caption": "Console 2 places \u00B7 Forme actuelle",
+      "GameScale": true,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-sealed",
+      "Row": 1,
+      "Column": 1,
+      "Comparison": "Relief retravaill\u00E9",
+      "Caption": "Console 2 places \u00B7 Relief retravaill\u00E9",
+      "GameScale": true,
+      "Available": true
+    },
+    {
+      "Part": "rack-2",
+      "Style": "sealed",
+      "Row": 1,
+      "Column": 2,
+      "Comparison": "Forme actuelle",
+      "Caption": "Rayonnage double \u00B7 Forme actuelle",
+      "GameScale": true,
+      "Available": true
+    },
+    {
+      "Part": "rack-2",
+      "Style": "sealed",
+      "Row": 1,
+      "Column": 3,
+      "Comparison": "Relief retravaill\u00E9",
+      "Caption": "Rayonnage double \u00B7 Relief retravaill\u00E9",
+      "GameScale": true,
+      "Available": true
+    }
+  ]
+}

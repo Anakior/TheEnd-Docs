@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-12",
+  "rendererTests": {
+    "total": 1483,
+    "executed": 1483,
+    "passed": 1483,
+    "failed": 0,
+    "notExecuted": 0,
+    "report": "environment-motion-lamps.trx"
+  },
+  "clientBuild": {
+    "configuration": "Debug",
+    "errors": 0,
+    "warnings": 0
+  },
+  "nativeProofsInspected": [
+    "grass-short-v3.png",
+    "water-motion-frame.png",
+    "../door-lamp-fixes/after-lamp-light-vertical.png",
+    "../door-lamp-fixes/after-lamp-light-east.png",
+    "../door-lamp-fixes/after-lamp-light-north.png",
+    "../door-lamp-fixes/after-lamp-light-south.png"
+  ],
+  "waterMotion": {
+    "frames": 80,
+    "uniqueWaterCrops": 80,
+    "uniqueDryBankCrops": 1,
+    "firstLastWaterMeanAbsoluteDifference": 8.0587,
+    "cameraStates": 1,
+    "waterVersions": 1,
+    "firstTick": 12420,
+    "lastTick": 12780,
+    "gameDurationSeconds": 6.000011999999998,
+    "wallCaptureDurationSeconds": 5.5615478,
+    "sampleMaxIntervalSeconds": 0.4833342999999992
+  },
+  "grassTexture": {
+    "file": "grass-short-v3.png",
+    "sourceSha256": "A4DF972B8B6318750CD3BE5C74C1597EF65FE64448E9B7F72FC154704FC88FF9",
+    "runtimeSha256": "A4DF972B8B6318750CD3BE5C74C1597EF65FE64448E9B7F72FC154704FC88FF9"
+  },
+  "artisticApproval": "Awaiting user feedback"
+}

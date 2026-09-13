@@ -1,0 +1,83 @@
+{
+  "scope": "Native TheEndGame composite, camera/deck selection only; exact unmodified screenshot crops.",
+  "camera": {
+    "DeckId": 3,
+    "CentreX": 124,
+    "CentreY": 146,
+    "CameraCellSize": 48,
+    "CameraPanX": -4992,
+    "CameraPanY": -6568
+  },
+  "before_recorded_tick": 12414,
+  "after_recorded_tick": 12408,
+  "before_client_sha256": "0FEA6C06A4D2ACE92B7CC6F7B21D7AD3CE72E89B6F138F16A4FF12531FBAE98B",
+  "after_client_sha256": "EFA3599D8121F5C81AC3E9A312F4B50B2977D95C97B77367B4EE8213876CF5CA",
+  "before_image_sha256": "7F0C2FC7CAF1F878AA8776B6659167F6085095D5B91B677962CE38626E1D0E18",
+  "after_image_sha256": "FC8AEDCBC32099E6E9272C6C39E481ADFA781AD24B5C5305F59DC8131EE9A7C3",
+  "after_scope": "Final wall geometry; intermediate floor implementation, preceding the final globally batched floor build.",
+  "unchanged_regions": {
+    "sand_away_from_walls": {
+      "bounds_xyxy": [
+        300,
+        80,
+        950,
+        320
+      ],
+      "pixels": 156000,
+      "changed_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    "grass_away_from_walls": {
+      "bounds_xyxy": [
+        1200,
+        350,
+        1850,
+        850
+      ],
+      "pixels": 325000,
+      "changed_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    "real_passage_between_wall_runs": {
+      "bounds_xyxy": [
+        655,
+        475,
+        760,
+        550
+      ],
+      "pixels": 7875,
+      "changed_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    },
+    "unchanged_wall_top_and_weathering": {
+      "bounds_xyxy": [
+        475,
+        472,
+        628,
+        510
+      ],
+      "pixels": 5814,
+      "changed_pixels": 0,
+      "maximum_channel_difference": 0,
+      "mean_absolute_channel_difference": 0.0
+    }
+  },
+  "crop_bounds_xyxy": {
+    "left_elbow": [
+      240,
+      350,
+      470,
+      545
+    ],
+    "lower_elbow": [
+      975,
+      620,
+      1140,
+      760
+    ]
+  },
+  "water_excluded_from_invariance_check": "Water uses a separate GPU animation change in this revision; its dedicated validation is water-gpu.md."
+}

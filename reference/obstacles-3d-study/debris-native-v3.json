@@ -1,0 +1,34 @@
+{
+  "sourceSha256": "19561aa99c31cb35d26ea378871295c4752a9bec9d9d917a37f23463a909af12",
+  "crop": [
+    865,
+    390,
+    1085,
+    570
+  ],
+  "scale": 2,
+  "resampling": "nearest",
+  "captures": [
+    {
+      "style": "furniture",
+      "capture": "debris-v3-furniture.png",
+      "sha256": "1ecf54ce60afb1ed851f37143e7b8dcb78016f53fb5ae8f73feb18aaa9bae602"
+    },
+    {
+      "style": "console",
+      "capture": "debris-v3-console.png",
+      "sha256": "e9c2c863b4f3ecd2ab541f1af42a5b38ac8a34c3baa8085a577d4fc80849e3dd"
+    },
+    {
+      "style": "rack",
+      "capture": "debris-v3-rack.png",
+      "sha256": "5519127b9ffa826f956a31f8f0c9e8f28ab968f6aaffbf4651058b5bb13e379c"
+    },
+    {
+      "style": "canopy",
+      "capture": "debris-v3-canopy.png",
+      "sha256": "0e07d02078ee2e68225d0eff8c39e8659a1e9fc730ae4fda48061ae3312a900c"
+    }
+  ],
+  "note": "Technical crop only; no separate object scaling or image retouching."
+}

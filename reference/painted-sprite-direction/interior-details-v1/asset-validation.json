@@ -1,0 +1,468 @@
+{
+  "Passed": true,
+  "Date": "2026-09-13T08:36:48.3228481+02:00",
+  "Banks": [
+    {
+      "Bank": "bed",
+      "Source": "C:\\workspace\\TheEnd-Art\\objects\\bed\\bed.blend",
+      "SourceSha256": "6D72142DF0694F21E9F79FF4B8C2AC34C1320DBCAE7211EBD413C2B83CD03E11",
+      "Validated": true,
+      "RuntimeFiles": 46,
+      "Files": [
+        {
+          "Path": "manifest.json",
+          "Bytes": 21625,
+          "Sha256": "1136B4EF3CF926994208E768AA38DBEB724903B6996EB0400997FDCE6CBA2290"
+        },
+        {
+          "Path": "animations\\idle.bin",
+          "Bytes": 64,
+          "Sha256": "5998E9D1DD9BF48AF6AF87A1EF8C7783B818AC8329637ADA08CC5FB329042376"
+        },
+        {
+          "Path": "meshes\\02e0790465e43b99.indices.bin",
+          "Bytes": 18480,
+          "Sha256": "F021FD95CE972397A00B49DB36F9193D2CECB8768426A3A5359BD7331649D419"
+        },
+        {
+          "Path": "meshes\\02e0790465e43b99.vertices.bin",
+          "Bytes": 170976,
+          "Sha256": "E39B54B1CADC8E89A6DE25A26322A1848FE9ED26F82DCD17958B46EF07091F1A"
+        },
+        {
+          "Path": "meshes\\12054e38e8d44869.indices.bin",
+          "Bytes": 17952,
+          "Sha256": "F829B60C2D5AAE7BFB15CEF7ADB49B33C0156C503D936CDA1EE97098050AEB79"
+        },
+        {
+          "Path": "meshes\\12054e38e8d44869.vertices.bin",
+          "Bytes": 165984,
+          "Sha256": "778ACF9FE1C4B356B1E8D696EB036E617570210EDAC467337B942047D88E5377"
+        },
+        {
+          "Path": "meshes\\2115f4eaee5324d6.indices.bin",
+          "Bytes": 8208,
+          "Sha256": "7B2BAD89B92A42A7B09754D66527A016CC50D4BF8E32834D9C2A4851604A84BE"
+        },
+        {
+          "Path": "meshes\\2115f4eaee5324d6.vertices.bin",
+          "Bytes": 30160,
+          "Sha256": "CBD1052044040704163FD64F98CA741214B8C7760C90AE5F8DB4DC3C58590C2C"
+        },
+        {
+          "Path": "meshes\\36d4058ddc77e6eb.indices.bin",
+          "Bytes": 15840,
+          "Sha256": "E5F2FB2CA3F6A84A968EDFDB809D12D8A1360F0344151B8E57ADA319C26B449E"
+        },
+        {
+          "Path": "meshes\\36d4058ddc77e6eb.vertices.bin",
+          "Bytes": 144768,
+          "Sha256": "5A1F854F4E92B3845799C74BEE68E619501BD3648B723DF4DAC7D5EAC8D7E7E8"
+        },
+        {
+          "Path": "meshes\\48bddb03e9739ab8.indices.bin",
+          "Bytes": 19536,
+          "Sha256": "02DEAA84F18E879988967B12A7F1963CD5EB2898E39EA423B4F2A92EB716E596"
+        },
+        {
+          "Path": "meshes\\48bddb03e9739ab8.vertices.bin",
+          "Bytes": 180960,
+          "Sha256": "3F80E07E1AF3E1D9B8CF829B85DD2B84E7DC732ABC17FDACAC8E3135A51E99B7"
+        },
+        {
+          "Path": "meshes\\5492b8048a2ad12d.indices.bin",
+          "Bytes": 20592,
+          "Sha256": "E3C2FBB9BE12515E3B5793140414751132096490D9E2E90B6905E18740802363"
+        },
+        {
+          "Path": "meshes\\5492b8048a2ad12d.vertices.bin",
+          "Bytes": 190944,
+          "Sha256": "178DE2C529F76BC1754C609A0926A3766431C40234CD5923B0F36CBF29F58606"
+        },
+        {
+          "Path": "meshes\\66904d128febd57b.indices.bin",
+          "Bytes": 12144,
+          "Sha256": "653115203D8B59FF3798CD102B5C73DA26435F1500160267229500DAA67C0339"
+        },
+        {
+          "Path": "meshes\\66904d128febd57b.vertices.bin",
+          "Bytes": 109824,
+          "Sha256": "A970D8A694E559208D0F5086F7C1FA632411D6B278388CAF8BDA7E5FEBA3EA0D"
+        },
+        {
+          "Path": "meshes\\7de59f49bfa432a1.indices.bin",
+          "Bytes": 11424,
+          "Sha256": "DA84B2A78875E616B97346B3BE3E6434D007BBEB0DBCA56D7FFDACB690263185"
+        },
+        {
+          "Path": "meshes\\7de59f49bfa432a1.vertices.bin",
+          "Bytes": 39208,
+          "Sha256": "3BE90B1E3B65305099C1D64DFA50A679D280366968D417DFDBFEDB0728943274"
+        },
+        {
+          "Path": "meshes\\89704ac41b6ee76a.indices.bin",
+          "Bytes": 8208,
+          "Sha256": "7B2BAD89B92A42A7B09754D66527A016CC50D4BF8E32834D9C2A4851604A84BE"
+        },
+        {
+          "Path": "meshes\\89704ac41b6ee76a.vertices.bin",
+          "Bytes": 30160,
+          "Sha256": "704436A444F521D996EEBB1DB9A2A07CE48913792EAE0A0C37D271C5ECCCE535"
+        },
+        {
+          "Path": "meshes\\b0680cedb2f5f733.indices.bin",
+          "Bytes": 7056,
+          "Sha256": "D0440D86EAAA707F59B9DB54D1B12F8CA6DBE3F5593978C0BE36F4DCB57EF8C2"
+        },
+        {
+          "Path": "meshes\\b0680cedb2f5f733.vertices.bin",
+          "Bytes": 23088,
+          "Sha256": "E75BDF55653974DC7EC53ECE7A0CEFDBDABCE11810D881E7669A9C2F23115339"
+        },
+        {
+          "Path": "meshes\\b6191ff13532832a.indices.bin",
+          "Bytes": 13728,
+          "Sha256": "00284FD3E520E83073C0905685D81003E81496F47083C37F9E5615B096DC1D7A"
+        },
+        {
+          "Path": "meshes\\b6191ff13532832a.vertices.bin",
+          "Bytes": 124800,
+          "Sha256": "6DD1D0C877123BF21C897C8A6CDB71BF3118AF4B16769E1B5777E85C8ACE57EE"
+        },
+        {
+          "Path": "meshes\\c269c86cd61f1079.indices.bin",
+          "Bytes": 10512,
+          "Sha256": "76C0F87A4B68F88E6FDCDA124BBFAE7BA913B8F0C72E776212DB57028671802E"
+        },
+        {
+          "Path": "meshes\\c269c86cd61f1079.vertices.bin",
+          "Bytes": 35516,
+          "Sha256": "FAE488E930016FB5529ACD616E6031F2CE0E340CDA569A8D25FE42956FAA4022"
+        },
+        {
+          "Path": "meshes\\c7a789ee908678bc.indices.bin",
+          "Bytes": 13200,
+          "Sha256": "C7CD07FCFDF34CC23608FE74B304CC959ED1F63A26459E95349CC3905D8FD3F2"
+        },
+        {
+          "Path": "meshes\\c7a789ee908678bc.vertices.bin",
+          "Bytes": 119808,
+          "Sha256": "ED1E5E9350A1FF83D01535960B5952A3FF2517B5D77826231A3BC4D89EF3D014"
+        },
+        {
+          "Path": "meshes\\ce52f012a7d51750.indices.bin",
+          "Bytes": 23760,
+          "Sha256": "43AE012B2204747BBAFE2B1B5918F591FC1EAE94B14BC2A3B907D9EF008819B0"
+        },
+        {
+          "Path": "meshes\\ce52f012a7d51750.vertices.bin",
+          "Bytes": 220896,
+          "Sha256": "7E7D19B802D114743330C9B5E3C0C57E29446D019C6E4C5F60F6369A171003E7"
+        },
+        {
+          "Path": "meshes\\d1d9654ff37379eb.indices.bin",
+          "Bytes": 7056,
+          "Sha256": "D0440D86EAAA707F59B9DB54D1B12F8CA6DBE3F5593978C0BE36F4DCB57EF8C2"
+        },
+        {
+          "Path": "meshes\\d1d9654ff37379eb.vertices.bin",
+          "Bytes": 23088,
+          "Sha256": "F20ACB15C4D294AFDF9842746A6E8E5719C2EFB3BBC872BFDA0E18F61180A652"
+        },
+        {
+          "Path": "meshes\\d424d1b6e08920cc.indices.bin",
+          "Bytes": 11424,
+          "Sha256": "DA84B2A78875E616B97346B3BE3E6434D007BBEB0DBCA56D7FFDACB690263185"
+        },
+        {
+          "Path": "meshes\\d424d1b6e08920cc.vertices.bin",
+          "Bytes": 39208,
+          "Sha256": "7E81B194DC2923E2D6268194BF726DB513F117C7969F1F8930A02D7D43C59072"
+        },
+        {
+          "Path": "meshes\\de0df4db02b7555c.indices.bin",
+          "Bytes": 17952,
+          "Sha256": "F829B60C2D5AAE7BFB15CEF7ADB49B33C0156C503D936CDA1EE97098050AEB79"
+        },
+        {
+          "Path": "meshes\\de0df4db02b7555c.vertices.bin",
+          "Bytes": 165984,
+          "Sha256": "8EE11CC5D73125D957C3A69ED447ACF6B3938F4BD2D482E2AA90543D7A24EB01"
+        },
+        {
+          "Path": "meshes\\e09beb97b8bdc563.indices.bin",
+          "Bytes": 21120,
+          "Sha256": "77FA42E3FB614F2C70780D0CE55792A64953E5EE09F5B0BA63C05BE734BD2633"
+        },
+        {
+          "Path": "meshes\\e09beb97b8bdc563.vertices.bin",
+          "Bytes": 195936,
+          "Sha256": "1AD1D5A37D25AE3D92671E5D90C61EDD6E40179B47D941D9B1FB3F6130B67FF4"
+        },
+        {
+          "Path": "meshes\\eed6a6355a5c2da2.indices.bin",
+          "Bytes": 10512,
+          "Sha256": "76C0F87A4B68F88E6FDCDA124BBFAE7BA913B8F0C72E776212DB57028671802E"
+        },
+        {
+          "Path": "meshes\\eed6a6355a5c2da2.vertices.bin",
+          "Bytes": 35516,
+          "Sha256": "017F9B41850C0D47F5EE9F4AD5AD2F7DA19C871794F5CA11C2E27C150687D784"
+        },
+        {
+          "Path": "meshes\\ef89606f08ab3399.indices.bin",
+          "Bytes": 21648,
+          "Sha256": "41C5CD87DB14AF9A7D23CE9D65E10BB97B0B276D4549142E0B5351724E8985E9"
+        },
+        {
+          "Path": "meshes\\ef89606f08ab3399.vertices.bin",
+          "Bytes": 200928,
+          "Sha256": "545C5E976215888732C1B051869EEF45C73C2648D9E7B057F783DD5350526CBD"
+        },
+        {
+          "Path": "meshes\\fa2283648868f783.indices.bin",
+          "Bytes": 4944,
+          "Sha256": "73FB8071D3C1D5666ACE2C71A9B1A16CA5C0D9768153E9139381CAE674B3E787"
+        },
+        {
+          "Path": "meshes\\fa2283648868f783.vertices.bin",
+          "Bytes": 18720,
+          "Sha256": "C99EEDCA3E583A3F4A8E38DEE87A41311AD554B0FF02106223B99BCF1C5A83BD"
+        },
+        {
+          "Path": "textures\\approved-painted-slate-metal-v2.png",
+          "Bytes": 1956069,
+          "Sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B"
+        },
+        {
+          "Path": "textures\\painted-bedding-textile.png",
+          "Bytes": 2647545,
+          "Sha256": "725D3428FFB8ADB233DB16DC1201B02DE394F87688F9531BD3F63E27A4B5E26F"
+        }
+      ]
+    },
+    {
+      "Bank": "elevator",
+      "Source": "C:\\workspace\\TheEnd-Art\\objects\\elevator\\elevator.blend",
+      "SourceSha256": "BA7FF35BD57C2E3706F7DE9A6207A75F3BFD6475E2237B167B3519C0B0CC84A8",
+      "Validated": true,
+      "RuntimeFiles": 29,
+      "Files": [
+        {
+          "Path": "manifest.json",
+          "Bytes": 22859,
+          "Sha256": "EC49BC4BDF1D47830EE6070395E059088C608577BFB50BEC436E5D11D6692DD6"
+        },
+        {
+          "Path": "animations\\idle.bin",
+          "Bytes": 64,
+          "Sha256": "5998E9D1DD9BF48AF6AF87A1EF8C7783B818AC8329637ADA08CC5FB329042376"
+        },
+        {
+          "Path": "meshes\\03fafdd7075451c9.indices.bin",
+          "Bytes": 14544,
+          "Sha256": "A9F991E189B03E660CA69282BF9388CA9EEB6D614452395487D655C250515357"
+        },
+        {
+          "Path": "meshes\\03fafdd7075451c9.vertices.bin",
+          "Bytes": 126672,
+          "Sha256": "9D39A3A2A7C315DA63F3331FAACB0261DF3A7297A3B5DC3673DA46C774AE7B6E"
+        },
+        {
+          "Path": "meshes\\20c03982c4e0a0d5.indices.bin",
+          "Bytes": 4824,
+          "Sha256": "149C4805D8C8894365D10C1B26A0338AB32D868C6BCECFAF1E8058897A78794B"
+        },
+        {
+          "Path": "meshes\\20c03982c4e0a0d5.vertices.bin",
+          "Bytes": 44720,
+          "Sha256": "00D027E2F523A0FE324336A365622C29550DC06F03C77E46A806D5CD3087DC7C"
+        },
+        {
+          "Path": "meshes\\26a53538c8c1bad2.indices.bin",
+          "Bytes": 13392,
+          "Sha256": "4AA630BD6A5AFF0DF7EE7607F0337303C581E2765AD21B2510F15D9AB3694A8D"
+        },
+        {
+          "Path": "meshes\\26a53538c8c1bad2.vertices.bin",
+          "Bytes": 118352,
+          "Sha256": "9D841E00317A78951795F70E2CF6CBB23187F9BD4AEBA48300578939238FAD9C"
+        },
+        {
+          "Path": "meshes\\6079544a2418eaa6.indices.bin",
+          "Bytes": 2208,
+          "Sha256": "522C5C5744D4BA856E73FC878A6ADB0D3942C36076BE53F5F3DD2F5A483542DC"
+        },
+        {
+          "Path": "meshes\\6079544a2418eaa6.vertices.bin",
+          "Bytes": 19968,
+          "Sha256": "DD66E1ECD10B64ECF08C441162E2AEA229CFC713010EE441024AEB88FCA9B12C"
+        },
+        {
+          "Path": "meshes\\768d120a228970ab.indices.bin",
+          "Bytes": 12960,
+          "Sha256": "94B43D1DFE3F6280A8FB7E24AA352D9ADC08E0360F01CDBA62CE5603D7DDFA2B"
+        },
+        {
+          "Path": "meshes\\768d120a228970ab.vertices.bin",
+          "Bytes": 114400,
+          "Sha256": "2351EE16D934227C0A01EBAB922F726C356273565851E3E522AC322F668759AB"
+        },
+        {
+          "Path": "meshes\\8532e0018d2a97c7.indices.bin",
+          "Bytes": 4896,
+          "Sha256": "10C2805DF547A060BA5998D04F36C3DBFD870FC561A647B6FB3D58190B3715A7"
+        },
+        {
+          "Path": "meshes\\8532e0018d2a97c7.vertices.bin",
+          "Bytes": 45344,
+          "Sha256": "38AB4362A62FFABA406829234BE4488B83F39F2B16CAEA5CC66A2B5310A338FC"
+        },
+        {
+          "Path": "meshes\\8836edbd9e2f4cb4.indices.bin",
+          "Bytes": 48288,
+          "Sha256": "39717C58AC2A7896445C8CC0E932BA852E9DECD5DF52F511C6ACD9D7AB84CA88"
+        },
+        {
+          "Path": "meshes\\8836edbd9e2f4cb4.vertices.bin",
+          "Bytes": 429312,
+          "Sha256": "5598836365CAD2DD66AD538538CE9B3F00E785A8BDEF253873F2F09B331647E3"
+        },
+        {
+          "Path": "meshes\\93f24e75919042ea.indices.bin",
+          "Bytes": 2208,
+          "Sha256": "522C5C5744D4BA856E73FC878A6ADB0D3942C36076BE53F5F3DD2F5A483542DC"
+        },
+        {
+          "Path": "meshes\\93f24e75919042ea.vertices.bin",
+          "Bytes": 19968,
+          "Sha256": "5CD0FFDA4485DCBF922D318510F9570A956B66B354847E3350D5DBB83CC298E3"
+        },
+        {
+          "Path": "meshes\\9e39736b920fc322.indices.bin",
+          "Bytes": 14976,
+          "Sha256": "12D3006DC935BBD05DB9B3178516AC099012A5AF80BD89763F7373A3069D776E"
+        },
+        {
+          "Path": "meshes\\9e39736b920fc322.vertices.bin",
+          "Bytes": 129792,
+          "Sha256": "696DE22B59FED83F8708B29838CB947831D784334DA73F5A004907AEBA6AEF7A"
+        },
+        {
+          "Path": "meshes\\a9c238209069e2e7.indices.bin",
+          "Bytes": 4416,
+          "Sha256": "5FC455D05557B72DF7B96DB7EC29075587EB9F8DA529191CAD047AE4E91C9E2B"
+        },
+        {
+          "Path": "meshes\\a9c238209069e2e7.vertices.bin",
+          "Bytes": 39936,
+          "Sha256": "7BBB7265DF28F4ED0CD10EF20590075CBB402657055FAE4BE63F5A734E9A1B69"
+        },
+        {
+          "Path": "meshes\\c7974dea463117cc.indices.bin",
+          "Bytes": 1920,
+          "Sha256": "5105B059CF666B5753BE9B657908D87F5A38954E794A9C262EABA22A51E55D54"
+        },
+        {
+          "Path": "meshes\\c7974dea463117cc.vertices.bin",
+          "Bytes": 17472,
+          "Sha256": "0F957A4357A0CE0B77D3E808F5C9B8B4D0969CB17DCF6B38502EA46272A1591B"
+        },
+        {
+          "Path": "meshes\\cb904adfdb63614b.indices.bin",
+          "Bytes": 49896,
+          "Sha256": "44CAD286C8900D5FBD118FC8165F179AF5C6B52B84933D0191BECC98CDCA2C05"
+        },
+        {
+          "Path": "meshes\\cb904adfdb63614b.vertices.bin",
+          "Bytes": 443456,
+          "Sha256": "1C8D0501C7F3A8BB2B7FEBB7E12662FF23FD8E3B0F0CB7F52FC5E38FAD5F6528"
+        },
+        {
+          "Path": "meshes\\e0863f5543c6d665.indices.bin",
+          "Bytes": 1104,
+          "Sha256": "3E5E67DDE14C2D7C1AD12263F5D256B45E67158AE27EF1B08BC52DFFEDE9F5A3"
+        },
+        {
+          "Path": "meshes\\e0863f5543c6d665.vertices.bin",
+          "Bytes": 9984,
+          "Sha256": "375840CA1AF8DED5A48521F6BDC817A8400202D8B1624AC35F652310956B7E98"
+        },
+        {
+          "Path": "textures\\elevator-painted-plate.png",
+          "Bytes": 1956069,
+          "Sha256": "D1754E54EBDF34C66EEB2D4ADBCECA1516A61778AC84BB0FD43526AD6E86442B"
+        }
+      ]
+    }
+  ],
+  "IceSha256": "BF68A9E38A0312778D72C3A31E87609B8216A0669E7E826C891A2DFB77CC175B",
+  "PreservedAssets": [
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-a.png",
+      "Sha256": "FBE0770EA29C2C1D4B5026EF3D029BE86A0F7D16A6A568A6810770029CD87885"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-b.png",
+      "Sha256": "265414C2E46D79D9A5BB82886869744D6579BD9F49C9B27446ECBFD26FD4E054"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-c.png",
+      "Sha256": "919908FF8DB021EBD66CA6A8D998DB5F4F9446C34E5E76FE75DDE6A7555BC4F6"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-d.png",
+      "Sha256": "03703A95329615DBB8650A3309F8FB111CBFA1E1F6A18958C6C51D95C312EB12"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-e.png",
+      "Sha256": "B1C992A5E8FA0A4E11C660BB451B168AB065702B4C74F92A4DDCDB4E734E5AC9"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-aged-f.png",
+      "Sha256": "9CC4A6DE0452600C3826CEE5B74914031E64F7D3F6B810960C5BAF4A6F7601E7"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-a.png",
+      "Sha256": "EB29DAD39B448057B8CA538911C74B6EA8DED646CD207C7BB1C7B899A3B0FA79"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-b.png",
+      "Sha256": "649F2329AA6A8A5A6A75758A313EFE99CB3E96F399A0F140DE4EB1C41D87B47A"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-c.png",
+      "Sha256": "22368AAA5142E2DC39B64B21F825C55FEA4484923599796128F7EAEA9689F484"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\floor-tile-standard-d.png",
+      "Sha256": "F1A796A8ABFD9A223C1087807AB047A86D24490103D178671E1DA24A9F9B6CFE"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\colonist\\manifest.json",
+      "Sha256": "68F29D0F4D38D356E1E969626FBDB5DC1AECFD682F761AF1FA8EE2265081F0A2"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\cryopod\\manifest.json",
+      "Sha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\debris\\manifest.json",
+      "Sha256": "5C2F751980B31C8CC300405494AACED50C67ECABED127E62E087507AD8981E12"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\door\\manifest.json",
+      "Sha256": "E01AAF98922574EC6EBAABEDC3D17E10FBC4BBF2F0DCAB5660C67E6F1144EA52"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\rock\\manifest.json",
+      "Sha256": "307447F39CE8547651DA85214F6DD783DBA7897EDA49DBA643F25FFC460A3514"
+    },
+    {
+      "Path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\models\\sas-door\\manifest.json",
+      "Sha256": "B2273F1483BE9000B660481CA8AF1EF2043276AF26DC4BFB8806346A55E1DD87"
+    }
+  ],
+  "ClientSha256": "7FA4240178BA51A63D13B446AD7FCF09B9283FC6EDC39E4744434A05C4FCA27D",
+  "ShaderSha256": "566DEC43486A157BE07B8F234D3EBF91E450B706BA0F28DB421D20B92514817B"
+}

@@ -1,0 +1,80 @@
+{
+  "scope": "Two actual native study composites, same banks/pose/camera; only occupancy differs.",
+  "states": {
+    "sealed": {
+      "chamber_bounds_xyxy": [
+        214,
+        246,
+        294,
+        432
+      ],
+      "changed_chamber_pixels": 5174,
+      "shell_bounds_xyxy": [
+        204,
+        444,
+        301,
+        480
+      ],
+      "changed_shell_pixels": 0
+    },
+    "open": {
+      "chamber_bounds_xyxy": [
+        684,
+        246,
+        764,
+        432
+      ],
+      "changed_chamber_pixels": 5174,
+      "shell_bounds_xyxy": [
+        674,
+        444,
+        771,
+        480
+      ],
+      "changed_shell_pixels": 0
+    },
+    "stripped": {
+      "chamber_bounds_xyxy": [
+        1154,
+        246,
+        1234,
+        432
+      ],
+      "changed_chamber_pixels": 5130,
+      "shell_bounds_xyxy": [
+        1144,
+        444,
+        1241,
+        480
+      ],
+      "changed_shell_pixels": 0
+    },
+    "collapsed": {
+      "chamber_bounds_xyxy": [
+        1624,
+        246,
+        1704,
+        432
+      ],
+      "changed_chamber_pixels": 4988,
+      "shell_bounds_xyxy": [
+        1614,
+        444,
+        1711,
+        480
+      ],
+      "changed_shell_pixels": 0
+    }
+  },
+  "approved_manifest_and_clips_unchanged": {
+    "manifest.json": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66",
+    "animations/closed.bin": "59160118B6EC92C768DBF108F969DC12D786FA19935201E3A3755EE1A000FF74",
+    "animations/open.bin": "F453A60ED05AB3F92A75C95B1B81F929903CCAEC8750852C3B82D477CD72BAAC"
+  },
+  "client_sha256": "915D1B82BA14DD36D00B6E925566BF8938FC6EA1DED72B6223F4974042EA63DE",
+  "captures": [
+    "cryopods-north-final.png",
+    "cryopods-north-occupied.png",
+    "cryopods-west-occupied.png"
+  ]
+}

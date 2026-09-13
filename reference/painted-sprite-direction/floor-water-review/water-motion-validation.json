@@ -1,0 +1,3044 @@
+{
+  "schemaVersion": 1,
+  "status": "final_sampled_sequence_validated",
+  "createdUtc": "2026-09-12T17:41:25.406270+00:00",
+  "scope": "Read-only validation of seven final native water timeline samples, plus historical disclosure of an earlier UI-contaminated run. No image edits, registrations, renders, tests or builds performed by this audit.",
+  "method": {
+    "coordinates": "Zero-based[x0,y0,x1,y1], upper limits exclusive. All report comparisons use unchanged screenshot pixels at identical screen coordinates.",
+    "pixelDifference": "Mean absolute difference across three encoded8-bit RGB channels; no linear-light conversion.",
+    "proofLimits": "Seven instants one second apart do not measure FPS, frame pacing, continuous motion smoothness or video quality.",
+    "luma": "Colour summaries use0.2126R+0.7152G+0.0722B on encoded PNG RGB0..255; these are display-value proxies, not physical luminance."
+  },
+  "referenceV3": {
+    "image": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\wall-contrast-review\\game-dome\\game-7-Dome-Environment.png",
+      "sha256": "69875C8347CFDF96BB25D52442452DC10FFA42B03DF72E0F239149FD02A31CC8",
+      "bytes": 3615457
+    },
+    "metadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\wall-contrast-review\\game-dome\\native-game-validation.json",
+      "sha256": "B6585BF770571EA19831F925212AD1959C4F9F7D97B3C48373041332BD82CF27",
+      "bytes": 3033
+    },
+    "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E"
+  },
+  "regions": {
+    "water": [
+      100,
+      630,
+      400,
+      750
+    ],
+    "sand": [
+      450,
+      300,
+      900,
+      420
+    ],
+    "grass": [
+      1200,
+      420,
+      1500,
+      690
+    ],
+    "wallTop": [
+      1390,
+      181,
+      1670,
+      227
+    ],
+    "wallSide": [
+      1390,
+      230,
+      1670,
+      245
+    ],
+    "waterNearShore": [
+      100,
+      630,
+      400,
+      675
+    ],
+    "waterDeeper": [
+      300,
+      735,
+      600,
+      770
+    ]
+  },
+  "initialSequence": {
+    "status": "contains_viewport_ui_interference_not_a_seven_frame_fixed_view_proof",
+    "directory": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion",
+    "metadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\native-game-validation.json",
+      "sha256": "924E28419F25D994484AB014FC831807F6911022B526C8511B9069E89FC016D5",
+      "bytes": 7785
+    },
+    "clientSha256": "62EEED2D42A7672AF92841410F630CBFD9BC9C6367150389BC748D842447EF5C",
+    "visualSequenceMetadata": {
+      "StartTick": 12000,
+      "TicksPerSecond": 60,
+      "DurationSeconds": 6,
+      "Samples": 7,
+      "WorldTick": 12000,
+      "Scope": "Seven exact visual times across six seconds; timeline sampling, not wall-clock or FPS measurement."
+    },
+    "comparableVisualSecondsWithoutTransformation": [
+      0,
+      1,
+      6
+    ],
+    "excludedFromFixedViewTemporalConclusions": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "frames": [
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t0000ms.png",
+          "sha256": "55F8B0C11C35D8F0C2C5A4DBC33D027E4BE88507BC88D75E8077B03B1E9F1995",
+          "bytes": 3713096
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t0000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 0,
+          "WaterClock": {
+            "RequestedVisualTick": 12000,
+            "RenderedVisualTick": 12000,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": true,
+        "observedWorldViewportHorizontalShiftPixels": 0,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 30.946157,
+              "maxAbsoluteChannelDifference": 138
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t1000ms.png",
+          "sha256": "E01F64E77020A673B798BD6DAF3DB6BD5F961281EEE771FA9B2BCC2FB1AA37BD",
+          "bytes": 3713935
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t1000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 1,
+          "WaterClock": {
+            "RequestedVisualTick": 12060,
+            "RenderedVisualTick": 12060,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": true,
+        "observedWorldViewportHorizontalShiftPixels": 0,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005833,
+              "meanAbsoluteRgbDifference": 7.322046,
+              "maxAbsoluteChannelDifference": 145
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 30.714574,
+              "maxAbsoluteChannelDifference": 200
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005833,
+              "meanAbsoluteRgbDifference": 7.322046,
+              "maxAbsoluteChannelDifference": 145
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t2000ms.png",
+          "sha256": "BFD29A6C049FFE38A8F357EDA9B2F47510F252049142B9AD104EA76714714785",
+          "bytes": 3743911
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t2000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 2,
+          "WaterClock": {
+            "RequestedVisualTick": 12120,
+            "RenderedVisualTick": 12120,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": false,
+        "observedWorldViewportHorizontalShiftPixels": -186,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.000528,
+              "meanAbsoluteRgbDifference": 16.933796,
+              "maxAbsoluteChannelDifference": 173
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 42.882861,
+              "maxAbsoluteChannelDifference": 217
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.000694,
+              "meanAbsoluteRgbDifference": 17.139028,
+              "maxAbsoluteChannelDifference": 172
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t3000ms.png",
+          "sha256": "9F6CC83F28FE3C01E9815F3E68AB030A0E2692FC900F2C202B1C4FF143B6FD67",
+          "bytes": 3743604
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t3000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 3,
+          "WaterClock": {
+            "RequestedVisualTick": 12180,
+            "RenderedVisualTick": 12180,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": false,
+        "observedWorldViewportHorizontalShiftPixels": -186,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.000306,
+              "meanAbsoluteRgbDifference": 16.506806,
+              "maxAbsoluteChannelDifference": 175
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 42.573833,
+              "maxAbsoluteChannelDifference": 218
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.003611,
+              "meanAbsoluteRgbDifference": 8.655917,
+              "maxAbsoluteChannelDifference": 161
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t4000ms.png",
+          "sha256": "2B0C14F27233A60EB102F9260D84AA78D78066740B274882CE7CA91E6A3718A2",
+          "bytes": 3741567
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t4000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 4,
+          "WaterClock": {
+            "RequestedVisualTick": 12240,
+            "RenderedVisualTick": 12240,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": false,
+        "observedWorldViewportHorizontalShiftPixels": -186,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 5.6e-05,
+              "meanAbsoluteRgbDifference": 15.996185,
+              "maxAbsoluteChannelDifference": 165
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 42.375454,
+              "maxAbsoluteChannelDifference": 210
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.003889,
+              "meanAbsoluteRgbDifference": 8.487269,
+              "maxAbsoluteChannelDifference": 157
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t5000ms.png",
+          "sha256": "946ED2A810F31AF17BF7D627B29061ACBF855535040B78BB3833AB841C9120B7",
+          "bytes": 3734112
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t5000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 5,
+          "WaterClock": {
+            "RequestedVisualTick": 12300,
+            "RenderedVisualTick": 12300,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": false,
+        "observedWorldViewportHorizontalShiftPixels": -186,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.000444,
+              "meanAbsoluteRgbDifference": 16.936435,
+              "maxAbsoluteChannelDifference": 169
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 42.834889,
+              "maxAbsoluteChannelDifference": 215
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.003528,
+              "meanAbsoluteRgbDifference": 8.293806,
+              "maxAbsoluteChannelDifference": 164
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion\\game-7-Dome-Environment-t6000ms.png",
+          "sha256": "5C7B3D6DB576DBA50EEDBEB25658B96BDF0496D09E90107CD2EA7ADDBE164110",
+          "bytes": 3702713
+        },
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t6000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 6,
+          "WaterClock": {
+            "RequestedVisualTick": 12360,
+            "RenderedVisualTick": 12360,
+            "WaterGeometryVersion": 4294972959,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "fixedViewComparableWithFirst": true,
+        "observedWorldViewportHorizontalShiftPixels": 0,
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.008417,
+              "meanAbsoluteRgbDifference": 8.204954,
+              "maxAbsoluteChannelDifference": 150
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 31.036148,
+              "maxAbsoluteChannelDifference": 202
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.000528,
+              "meanAbsoluteRgbDifference": 16.824722,
+              "maxAbsoluteChannelDifference": 174
+            }
+          },
+          "sand": {
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 0.003741,
+              "meanAbsoluteRgbDifference": 13.109191,
+              "maxAbsoluteChannelDifference": 133
+            }
+          },
+          "grass": {
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 0.002704,
+              "meanAbsoluteRgbDifference": 6.986848,
+              "maxAbsoluteChannelDifference": 42
+            }
+          },
+          "wallTop": {
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 0.014829,
+              "meanAbsoluteRgbDifference": 16.929555,
+              "maxAbsoluteChannelDifference": 110
+            }
+          },
+          "wallSide": {
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0
+            },
+            "vsPreviousRawFrame": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 0.036429,
+              "meanAbsoluteRgbDifference": 17.103254,
+              "maxAbsoluteChannelDifference": 90
+            }
+          }
+        }
+      }
+    ],
+    "findings": [
+      "At2,3,4,5seconds the world image is displaced186pixels left. The3-second image visibly contains the PERSONNE panel for Kaelyne. This changes the projected view despite unchanged recorded camera centre.",
+      "Only0,1,6seconds share the same framing as the V3 reference without any coordinate adjustment.",
+      "For0,1,6seconds, all selected dry sand/grass/wall regions are byte-identical to each other and to V3.",
+      "In the water ROI,1second differs from0 by mean absoluteRGB7.322 and6seconds by8.205. This demonstrates change at these instants, not continuity across all seven fixed screen frames.",
+      "The recorded world tick remains12000; visual ticks12000..12360 and retained buffer/surface identities are metadata evidence. They do not override the observed UI-induced framing difference."
+    ],
+    "limits": [
+      "This run must not be described as seven stable-view frames.",
+      "No pixel registration or coordinate compensation is included in reported temporal conclusions.",
+      "Different client binaries fromV3 are explicitly recorded; unchanged dry pixels are measured directly."
+    ]
+  },
+  "finalSequence": {
+    "status": "passed_sampled_motion_and_static_region_checks",
+    "passed": true,
+    "passedMeaning": "Water differs between the seven sampled instants while selected dry regions remain identical at fixed screen coordinates. This is not an FPS, frame-pacing or continuous-video validation.",
+    "directory": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final",
+    "metadata": {
+      "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\native-game-validation.json",
+      "sha256": "6F4D6B187ECE6891E8B8FC089EC1D5C6AB44992D8C3DAFDB634A4933702D74CE",
+      "bytes": 7792
+    },
+    "clientSha256": "F690B05A849F8BD8ECDDAAEFCF6691EB318AAFD8C58CE11BCDCE7A9D047312B6",
+    "visualSequenceMetadata": {
+      "StartTick": 12000,
+      "TicksPerSecond": 60,
+      "DurationSeconds": 6,
+      "Samples": 7,
+      "WorldTick": 12000,
+      "Scope": "Seven exact visual times across six seconds; timeline sampling, not wall-clock or FPS measurement."
+    },
+    "captureInputControl": "Coordinator reports interactive input suppressed only for the native capture helper. Normal game input remains enabled; this audit did not alter source or launch the helper.",
+    "checks": {
+      "sevenImages": true,
+      "all1920x1080": true,
+      "expectedFinalClient": true,
+      "visualSeconds0Through6": true,
+      "worldTickFixed12000": true,
+      "renderedVisualTicksMatchRequested": true,
+      "sameCameraDeckAndCellSize": true,
+      "sameCameraAsV3": true,
+      "surfaceBuffersAndGeometryFixedWithinRun": true,
+      "publicationCountOne": true,
+      "allDryRegionsPixelIdenticalWithinSequence": true,
+      "allDryRegionsPixelIdenticalToV3": true,
+      "allThreeWaterRegionsChangeAtEachAdjacentSample": true,
+      "sevenDistinctWaterRoiPixelArrays": true,
+      "filesUnchangedDuringAudit": true
+    },
+    "frames": [
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t0000ms.png",
+          "sha256": "35C6EF0D36379EE13177CFAF0C203DD902E22D8D3D99F74378A68C619ACF7A6A",
+          "bytes": 3699396
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t0000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 0,
+          "WaterClock": {
+            "RequestedVisualTick": 12000,
+            "RenderedVisualTick": 12000,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                31.0128,
+                74.3653,
+                87.276
+              ],
+              "meanEncodedLuma": 66.0807,
+              "lumaStdDev": 22.4024
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 30.946157,
+              "maxAbsoluteChannelDifference": 138,
+              "rgbRootMeanSquareDifference": 35.601693
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                43.8973,
+                95.509,
+                105.331
+              ],
+              "meanEncodedLuma": 85.2455,
+              "lumaStdDev": 18.2135
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 44.992198,
+              "maxAbsoluteChannelDifference": 138,
+              "rgbRootMeanSquareDifference": 47.591378
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                18.1813,
+                53.2914,
+                69.2693
+              ],
+              "meanEncodedLuma": 46.9806,
+              "lumaStdDev": 9.7279
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 17.382794,
+              "maxAbsoluteChannelDifference": 64,
+              "rgbRootMeanSquareDifference": 19.407043
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t1000ms.png",
+          "sha256": "81C47166277DF680D86ABB417EFBAB7CB6597A82945CC42366C14B191E1DD5B3",
+          "bytes": 3700308
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t1000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 1,
+          "WaterClock": {
+            "RequestedVisualTick": 12060,
+            "RenderedVisualTick": 12060,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                30.7418,
+                73.9565,
+                86.9076
+              ],
+              "meanEncodedLuma": 65.7041,
+              "lumaStdDev": 22.0998
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005833,
+              "changedPixelFraction": 0.994167,
+              "meanAbsoluteRgbDifference": 7.322046,
+              "maxAbsoluteChannelDifference": 145,
+              "rgbRootMeanSquareDifference": 13.668646
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 30.714574,
+              "maxAbsoluteChannelDifference": 200,
+              "rgbRootMeanSquareDifference": 36.424451
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005833,
+              "changedPixelFraction": 0.994167,
+              "meanAbsoluteRgbDifference": 7.322046,
+              "maxAbsoluteChannelDifference": 145,
+              "rgbRootMeanSquareDifference": 13.668646
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                42.7199,
+                93.5569,
+                103.3907
+              ],
+              "meanEncodedLuma": 83.459,
+              "lumaStdDev": 18.0136
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.003111,
+              "changedPixelFraction": 0.996889,
+              "meanAbsoluteRgbDifference": 9.431457,
+              "maxAbsoluteChannelDifference": 145,
+              "rgbRootMeanSquareDifference": 16.707777
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 43.320642,
+              "maxAbsoluteChannelDifference": 200,
+              "rgbRootMeanSquareDifference": 47.195141
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.003111,
+              "changedPixelFraction": 0.996889,
+              "meanAbsoluteRgbDifference": 9.431457,
+              "maxAbsoluteChannelDifference": 145,
+              "rgbRootMeanSquareDifference": 16.707777
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                18.1091,
+                52.9171,
+                68.719
+              ],
+              "meanEncodedLuma": 46.6579,
+              "lumaStdDev": 9.5497
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.012,
+              "changedPixelFraction": 0.988,
+              "meanAbsoluteRgbDifference": 4.624095,
+              "maxAbsoluteChannelDifference": 84,
+              "rgbRootMeanSquareDifference": 7.870554
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 17.185111,
+              "maxAbsoluteChannelDifference": 94,
+              "rgbRootMeanSquareDifference": 19.949644
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.012,
+              "changedPixelFraction": 0.988,
+              "meanAbsoluteRgbDifference": 4.624095,
+              "maxAbsoluteChannelDifference": 84,
+              "rgbRootMeanSquareDifference": 7.870554
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t2000ms.png",
+          "sha256": "E35407B8B15EFA63054C34E8F1F001DA1EDCACB8276615C0FDCB0CF3FC9B7841",
+          "bytes": 3699893
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t2000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 2,
+          "WaterClock": {
+            "RequestedVisualTick": 12120,
+            "RenderedVisualTick": 12120,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                30.6987,
+                73.7871,
+                86.6413
+              ],
+              "meanEncodedLuma": 65.5546,
+              "lumaStdDev": 22.0128
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.004528,
+              "changedPixelFraction": 0.995472,
+              "meanAbsoluteRgbDifference": 8.537204,
+              "maxAbsoluteChannelDifference": 149,
+              "rgbRootMeanSquareDifference": 14.890914
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 30.602009,
+              "maxAbsoluteChannelDifference": 186,
+              "rgbRootMeanSquareDifference": 36.507768
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.006194,
+              "changedPixelFraction": 0.993806,
+              "meanAbsoluteRgbDifference": 7.447565,
+              "maxAbsoluteChannelDifference": 147,
+              "rgbRootMeanSquareDifference": 13.540456
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                43.0152,
+                94.1002,
+                103.9515
+              ],
+              "meanEncodedLuma": 83.9508,
+              "lumaStdDev": 16.6149
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.001333,
+              "changedPixelFraction": 0.998667,
+              "meanAbsoluteRgbDifference": 10.730494,
+              "maxAbsoluteChannelDifference": 149,
+              "rgbRootMeanSquareDifference": 18.57738
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 43.806444,
+              "maxAbsoluteChannelDifference": 186,
+              "rgbRootMeanSquareDifference": 47.628745
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.001704,
+              "changedPixelFraction": 0.998296,
+              "meanAbsoluteRgbDifference": 9.235235,
+              "maxAbsoluteChannelDifference": 147,
+              "rgbRootMeanSquareDifference": 16.115727
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                17.704,
+                52.0943,
+                67.8756
+              ],
+              "meanEncodedLuma": 45.9223,
+              "lumaStdDev": 8.2337
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.013238,
+              "changedPixelFraction": 0.986762,
+              "meanAbsoluteRgbDifference": 5.005206,
+              "maxAbsoluteChannelDifference": 79,
+              "rgbRootMeanSquareDifference": 8.247308
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 16.492063,
+              "maxAbsoluteChannelDifference": 101,
+              "rgbRootMeanSquareDifference": 18.965539
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.009905,
+              "changedPixelFraction": 0.990095,
+              "meanAbsoluteRgbDifference": 4.779333,
+              "maxAbsoluteChannelDifference": 75,
+              "rgbRootMeanSquareDifference": 7.857915
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t3000ms.png",
+          "sha256": "29AA32830476071E2AA8C2D31BE586E15AB91EB80B4F4915232FEBF4B0DCF377",
+          "bytes": 3700274
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t3000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 3,
+          "WaterClock": {
+            "RequestedVisualTick": 12180,
+            "RenderedVisualTick": 12180,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                31.0494,
+                74.463,
+                87.3653
+              ],
+              "meanEncodedLuma": 66.1648,
+              "lumaStdDev": 22.4507
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0115,
+              "changedPixelFraction": 0.9885,
+              "meanAbsoluteRgbDifference": 7.896815,
+              "maxAbsoluteChannelDifference": 144,
+              "rgbRootMeanSquareDifference": 14.929187
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 31.186361,
+              "maxAbsoluteChannelDifference": 197,
+              "rgbRootMeanSquareDifference": 37.160268
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005028,
+              "changedPixelFraction": 0.994972,
+              "meanAbsoluteRgbDifference": 7.53913,
+              "maxAbsoluteChannelDifference": 161,
+              "rgbRootMeanSquareDifference": 14.246644
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                44.2125,
+                96.0532,
+                105.8626
+              ],
+              "meanEncodedLuma": 85.7401,
+              "lumaStdDev": 18.1086
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.003926,
+              "changedPixelFraction": 0.996074,
+              "meanAbsoluteRgbDifference": 10.117086,
+              "maxAbsoluteChannelDifference": 144,
+              "rgbRootMeanSquareDifference": 18.884728
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 45.502025,
+              "maxAbsoluteChannelDifference": 197,
+              "rgbRootMeanSquareDifference": 49.594163
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.002593,
+              "changedPixelFraction": 0.997407,
+              "meanAbsoluteRgbDifference": 9.84516,
+              "maxAbsoluteChannelDifference": 161,
+              "rgbRootMeanSquareDifference": 18.110333
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                17.9301,
+                52.6679,
+                68.6149
+              ],
+              "meanEncodedLuma": 46.434,
+              "lumaStdDev": 9.5057
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.020476,
+              "changedPixelFraction": 0.979524,
+              "meanAbsoluteRgbDifference": 4.760095,
+              "maxAbsoluteChannelDifference": 77,
+              "rgbRootMeanSquareDifference": 8.447133
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 16.991905,
+              "maxAbsoluteChannelDifference": 97,
+              "rgbRootMeanSquareDifference": 19.913386
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.012,
+              "changedPixelFraction": 0.988,
+              "meanAbsoluteRgbDifference": 4.125238,
+              "maxAbsoluteChannelDifference": 65,
+              "rgbRootMeanSquareDifference": 6.609351
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t4000ms.png",
+          "sha256": "B67234A01E0A7069CD7504F8411525C0D9C2B78602CD85B6B2D5FE8FC2DB69C7",
+          "bytes": 3698881
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t4000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 4,
+          "WaterClock": {
+            "RequestedVisualTick": 12240,
+            "RenderedVisualTick": 12240,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                30.9776,
+                74.3461,
+                87.2803
+              ],
+              "meanEncodedLuma": 66.0598,
+              "lumaStdDev": 22.4887
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0065,
+              "changedPixelFraction": 0.9935,
+              "meanAbsoluteRgbDifference": 8.285,
+              "maxAbsoluteChannelDifference": 140,
+              "rgbRootMeanSquareDifference": 14.841647
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 31.081657,
+              "maxAbsoluteChannelDifference": 194,
+              "rgbRootMeanSquareDifference": 37.072038
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.007,
+              "changedPixelFraction": 0.993,
+              "meanAbsoluteRgbDifference": 7.786,
+              "maxAbsoluteChannelDifference": 157,
+              "rgbRootMeanSquareDifference": 14.338531
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                43.4287,
+                94.5936,
+                104.338
+              ],
+              "meanEncodedLuma": 84.4195,
+              "lumaStdDev": 19.059
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.001407,
+              "changedPixelFraction": 0.998593,
+              "meanAbsoluteRgbDifference": 10.436198,
+              "maxAbsoluteChannelDifference": 140,
+              "rgbRootMeanSquareDifference": 18.186726
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 44.274963,
+              "maxAbsoluteChannelDifference": 194,
+              "rgbRootMeanSquareDifference": 48.531349
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.001333,
+              "changedPixelFraction": 0.998667,
+              "meanAbsoluteRgbDifference": 10.614716,
+              "maxAbsoluteChannelDifference": 157,
+              "rgbRootMeanSquareDifference": 18.710487
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                17.9303,
+                52.5608,
+                68.378
+              ],
+              "meanEncodedLuma": 46.3403,
+              "lumaStdDev": 9.32
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.011048,
+              "changedPixelFraction": 0.988952,
+              "meanAbsoluteRgbDifference": 5.346889,
+              "maxAbsoluteChannelDifference": 81,
+              "rgbRootMeanSquareDifference": 8.884517
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 16.911587,
+              "maxAbsoluteChannelDifference": 94,
+              "rgbRootMeanSquareDifference": 19.872435
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.012952,
+              "changedPixelFraction": 0.987048,
+              "meanAbsoluteRgbDifference": 4.358603,
+              "maxAbsoluteChannelDifference": 80,
+              "rgbRootMeanSquareDifference": 7.258033
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t5000ms.png",
+          "sha256": "E3EF8F0241FCB53B798DDB17FABED412C5E0CBD611533E83E719A0DEA549BFBE",
+          "bytes": 3697431
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t5000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 5,
+          "WaterClock": {
+            "RequestedVisualTick": 12300,
+            "RenderedVisualTick": 12300,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                30.7691,
+                73.8373,
+                86.6572
+              ],
+              "meanEncodedLuma": 65.6066,
+              "lumaStdDev": 22.3836
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.003556,
+              "changedPixelFraction": 0.996444,
+              "meanAbsoluteRgbDifference": 8.881667,
+              "maxAbsoluteChannelDifference": 154,
+              "rgbRootMeanSquareDifference": 15.804199
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 30.679028,
+              "maxAbsoluteChannelDifference": 197,
+              "rgbRootMeanSquareDifference": 36.854908
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.005556,
+              "changedPixelFraction": 0.994444,
+              "meanAbsoluteRgbDifference": 7.482241,
+              "maxAbsoluteChannelDifference": 164,
+              "rgbRootMeanSquareDifference": 13.436907
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                42.8851,
+                93.8207,
+                103.6338
+              ],
+              "meanEncodedLuma": 83.7003,
+              "lumaStdDev": 17.2306
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.002444,
+              "changedPixelFraction": 0.997556,
+              "meanAbsoluteRgbDifference": 10.830099,
+              "maxAbsoluteChannelDifference": 154,
+              "rgbRootMeanSquareDifference": 19.318599
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 43.657802,
+              "maxAbsoluteChannelDifference": 197,
+              "rgbRootMeanSquareDifference": 47.677182
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.002222,
+              "changedPixelFraction": 0.997778,
+              "meanAbsoluteRgbDifference": 9.27163,
+              "maxAbsoluteChannelDifference": 164,
+              "rgbRootMeanSquareDifference": 16.405519
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                17.9281,
+                52.4868,
+                68.2624
+              ],
+              "meanEncodedLuma": 46.2786,
+              "lumaStdDev": 9.1935
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.011048,
+              "changedPixelFraction": 0.988952,
+              "meanAbsoluteRgbDifference": 5.518254,
+              "maxAbsoluteChannelDifference": 76,
+              "rgbRootMeanSquareDifference": 9.076002
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 16.790571,
+              "maxAbsoluteChannelDifference": 101,
+              "rgbRootMeanSquareDifference": 19.692899
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.008476,
+              "changedPixelFraction": 0.991524,
+              "meanAbsoluteRgbDifference": 4.740762,
+              "maxAbsoluteChannelDifference": 75,
+              "rgbRootMeanSquareDifference": 7.757835
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\floor-water-review\\game-dome-motion-final\\game-7-Dome-Environment-t6000ms.png",
+          "sha256": "5C7B3D6DB576DBA50EEDBEB25658B96BDF0496D09E90107CD2EA7ADDBE164110",
+          "bytes": 3702713
+        },
+        "width": 1920,
+        "height": 1080,
+        "captureMetadata": {
+          "Name": "game-7-Dome-Environment-t6000ms.png",
+          "Deck": 3,
+          "CentreX": 124,
+          "CentreY": 146,
+          "CameraCellSize": 48,
+          "SimulationTick": 12000,
+          "Kind": "DomeEnvironment",
+          "Condition": null,
+          "Fixture": null,
+          "VisualTimeSeconds": 6,
+          "WaterClock": {
+            "RequestedVisualTick": 12360,
+            "RenderedVisualTick": 12360,
+            "WaterGeometryVersion": 17179874847,
+            "WaterSurfaceIdentity": 4755217,
+            "WaterBuffersIdentity": 61817822,
+            "PublicationCount": 1,
+            "CacheMatchesFirstSample": true
+          },
+          "StableRevision": 1,
+          "ModelCount": 108,
+          "VectorCount": 1
+        },
+        "rawScreenRegionMeasurements": {
+          "water": {
+            "colour": {
+              "meanRgb": [
+                30.9812,
+                74.2799,
+                87.1461
+              ],
+              "meanEncodedLuma": 66.0036,
+              "lumaStdDev": 22.5321
+            },
+            "vsInitial": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.008417,
+              "changedPixelFraction": 0.991583,
+              "meanAbsoluteRgbDifference": 8.204954,
+              "maxAbsoluteChannelDifference": 150,
+              "rgbRootMeanSquareDifference": 15.15543
+            },
+            "vsV3": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 31.036148,
+              "maxAbsoluteChannelDifference": 202,
+              "rgbRootMeanSquareDifference": 37.112083
+            },
+            "vsPrevious": {
+              "pixelCount": 36000,
+              "identicalPixelFraction": 0.006389,
+              "changedPixelFraction": 0.993611,
+              "meanAbsoluteRgbDifference": 7.401806,
+              "maxAbsoluteChannelDifference": 159,
+              "rgbRootMeanSquareDifference": 13.773943
+            }
+          },
+          "sand": {
+            "colour": {
+              "meanRgb": [
+                112.4126,
+                92.0032,
+                67.8455
+              ],
+              "meanEncodedLuma": 94.598,
+              "lumaStdDev": 7.0988
+            },
+            "vsInitial": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 54000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "grass": {
+            "colour": {
+              "meanRgb": [
+                61.4865,
+                65.4639,
+                32.087
+              ],
+              "meanEncodedLuma": 62.2085,
+              "lumaStdDev": 6.9708
+            },
+            "vsInitial": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 81000,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallTop": {
+            "colour": {
+              "meanRgb": [
+                40.5367,
+                43.9077,
+                46.3897
+              ],
+              "meanEncodedLuma": 43.3702,
+              "lumaStdDev": 15.188
+            },
+            "vsInitial": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 12880,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "wallSide": {
+            "colour": {
+              "meanRgb": [
+                21.7731,
+                25.4338,
+                27.6964
+              ],
+              "meanEncodedLuma": 24.8189,
+              "lumaStdDev": 1.4542
+            },
+            "vsInitial": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsV3": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            },
+            "vsPrevious": {
+              "pixelCount": 4200,
+              "identicalPixelFraction": 1.0,
+              "changedPixelFraction": 0.0,
+              "meanAbsoluteRgbDifference": 0.0,
+              "maxAbsoluteChannelDifference": 0,
+              "rgbRootMeanSquareDifference": 0.0
+            }
+          },
+          "waterNearShore": {
+            "colour": {
+              "meanRgb": [
+                44.357,
+                96.2817,
+                106.0564
+              ],
+              "meanEncodedLuma": 85.9482,
+              "lumaStdDev": 17.6927
+            },
+            "vsInitial": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.003407,
+              "changedPixelFraction": 0.996593,
+              "meanAbsoluteRgbDifference": 10.903086,
+              "maxAbsoluteChannelDifference": 150,
+              "rgbRootMeanSquareDifference": 19.306754
+            },
+            "vsV3": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 45.71879,
+              "maxAbsoluteChannelDifference": 202,
+              "rgbRootMeanSquareDifference": 49.7392
+            },
+            "vsPrevious": {
+              "pixelCount": 13500,
+              "identicalPixelFraction": 0.002444,
+              "changedPixelFraction": 0.997556,
+              "meanAbsoluteRgbDifference": 9.361531,
+              "maxAbsoluteChannelDifference": 159,
+              "rgbRootMeanSquareDifference": 17.264397
+            }
+          },
+          "waterDeeper": {
+            "colour": {
+              "meanRgb": [
+                18.0097,
+                52.8836,
+                68.8686
+              ],
+              "meanEncodedLuma": 46.6235,
+              "lumaStdDev": 9.4765
+            },
+            "vsInitial": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.016095,
+              "changedPixelFraction": 0.983905,
+              "meanAbsoluteRgbDifference": 4.826794,
+              "maxAbsoluteChannelDifference": 82,
+              "rgbRootMeanSquareDifference": 8.468031
+            },
+            "vsV3": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.0,
+              "changedPixelFraction": 1.0,
+              "meanAbsoluteRgbDifference": 17.176571,
+              "maxAbsoluteChannelDifference": 110,
+              "rgbRootMeanSquareDifference": 20.073044
+            },
+            "vsPrevious": {
+              "pixelCount": 10500,
+              "identicalPixelFraction": 0.013238,
+              "changedPixelFraction": 0.986762,
+              "meanAbsoluteRgbDifference": 4.533302,
+              "maxAbsoluteChannelDifference": 83,
+              "rgbRootMeanSquareDifference": 7.744005
+            }
+          }
+        }
+      }
+    ],
+    "waterTemporalSummary": {
+      "water": {
+        "adjacentMeanAbsoluteRgbDifferenceRange": [
+          7.322046,
+          7.786
+        ],
+        "adjacentChangedPixelFractionRange": [
+          0.993,
+          0.994972
+        ],
+        "finalVsInitial": {
+          "pixelCount": 36000,
+          "identicalPixelFraction": 0.008417,
+          "changedPixelFraction": 0.991583,
+          "meanAbsoluteRgbDifference": 8.204954,
+          "maxAbsoluteChannelDifference": 150,
+          "rgbRootMeanSquareDifference": 15.15543
+        }
+      },
+      "waterNearShore": {
+        "adjacentMeanAbsoluteRgbDifferenceRange": [
+          9.235235,
+          10.614716
+        ],
+        "adjacentChangedPixelFractionRange": [
+          0.996889,
+          0.998667
+        ],
+        "finalVsInitial": {
+          "pixelCount": 13500,
+          "identicalPixelFraction": 0.003407,
+          "changedPixelFraction": 0.996593,
+          "meanAbsoluteRgbDifference": 10.903086,
+          "maxAbsoluteChannelDifference": 150,
+          "rgbRootMeanSquareDifference": 19.306754
+        }
+      },
+      "waterDeeper": {
+        "adjacentMeanAbsoluteRgbDifferenceRange": [
+          4.125238,
+          4.779333
+        ],
+        "adjacentChangedPixelFractionRange": [
+          0.986762,
+          0.991524
+        ],
+        "finalVsInitial": {
+          "pixelCount": 10500,
+          "identicalPixelFraction": 0.016095,
+          "changedPixelFraction": 0.983905,
+          "meanAbsoluteRgbDifference": 4.826794,
+          "maxAbsoluteChannelDifference": 82,
+          "rgbRootMeanSquareDifference": 8.468031
+        }
+      }
+    },
+    "findings": [
+      "The seven final PNGs share stable framing: every sampled sand,grass,wall-top and wall-side pixel is identical within the sequence and to the V3 reference without alignment or coordinate adjustment.",
+      "The water pixels change between all adjacent timeline samples in all three water ROIs. Seven distinct primary-ROI pixel arrays are observed.",
+      "The actual world tick remains12000 in metadata while the water render clock advances12000..12360. Surface/buffer/geometry identities and publication count remain fixed within this run.",
+      "Visual inspection retains a brighter turquoise band near the bank grading toward darker blue water. The selected dry image regions do not change with this water presentation.",
+      "V3,initial run and final run have different recorded client hashes. Pixel comparisons are direct; no claim is made that all captures used the same binary.",
+      "The earlier run remains historical evidence with its0/1/6-second comparability limit and must not substitute for this final sequence."
+    ],
+    "limits": [
+      "Seven exact instants over six visual seconds, sampled one second apart; no continuous video or intermediate-frame analysis.",
+      "No measurement of FPS,wall-clock speed,frame pacing,GPU time or perceptual smoothness.",
+      "One fixed camera and selected water/dry ROIs only; results do not certify every water body,bank shape or scene state.",
+      "Pixel differences demonstrate temporal change but alone do not identify wave direction or exclude all sub-second flicker.",
+      "The frozen world tick is deliberate for this presentation proof; it is not a simulation progress test.",
+      "Buffer identities/publication counts are helper metadata, not independently instrumented allocations."
+    ]
+  },
+  "updatedUtc": "2026-09-12T17:43:37.687380+00:00"
+}

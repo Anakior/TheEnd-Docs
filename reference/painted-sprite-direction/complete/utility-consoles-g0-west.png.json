@@ -1,0 +1,117 @@
+{
+  "Scope": "Standalone native model study; actual production model renderers and lighting, no colony simulation or save mutation.",
+  "Page": "consoles",
+  "ComparePaint": false,
+  "ReferenceLabel": "Avant",
+  "CandidateLabel": "Peint",
+  "GroupOffset": 0,
+  "RotationQuarterTurns": 1,
+  "Zoom": 1,
+  "Occupied": false,
+  "Width": 1920,
+  "Height": 1080,
+  "Banks": [
+    {
+      "Name": "cryopod",
+      "Manifest": "C:\\workspace\\TheEnd\\TheEnd.Client\\bin\\Debug\\net9.0\\Assets/models/cryopod/manifest.json",
+      "Sha256": "DDA232F5753AFAE6CB8FB1F2A8DF6C7A986A0B63EA065503D4CBA901BA6C7D66"
+    },
+    {
+      "Name": "cryopod-damaged",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged\\manifest.json",
+      "Sha256": "E600EAD6C959BB63EB443808B5B484BB74BAAA163B2D9CD85A804A4FF2E64BDC"
+    },
+    {
+      "Name": "THEEND_COMMON_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture\\manifest.json",
+      "Sha256": "CDA227C1D4DBD30B1EEB99D781E30127C9CE6A7B2B60BAA3CFEE9BE96D96981B"
+    },
+    {
+      "Name": "THEEND_UTILITY_FURNITURE_BANK",
+      "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+      "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+    }
+  ],
+  "Cards": [
+    {
+      "Part": "console-2",
+      "Style": "dalle-sealed",
+      "Row": 0,
+      "Column": 0,
+      "Comparison": null,
+      "Caption": "Intact / ferm\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-open",
+      "Row": 0,
+      "Column": 1,
+      "Comparison": null,
+      "Caption": "Ouvert",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-stripped",
+      "Row": 0,
+      "Column": 2,
+      "Comparison": null,
+      "Caption": "D\u00E9pouill\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-2",
+      "Style": "dalle-collapsed",
+      "Row": 0,
+      "Column": 3,
+      "Comparison": null,
+      "Caption": "Cass\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-3",
+      "Style": "dalle-sealed",
+      "Row": 1,
+      "Column": 0,
+      "Comparison": null,
+      "Caption": "Intact / ferm\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-3",
+      "Style": "dalle-open",
+      "Row": 1,
+      "Column": 1,
+      "Comparison": null,
+      "Caption": "Ouvert",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-3",
+      "Style": "dalle-stripped",
+      "Row": 1,
+      "Column": 2,
+      "Comparison": null,
+      "Caption": "D\u00E9pouill\u00E9",
+      "GameScale": false,
+      "Available": true
+    },
+    {
+      "Part": "console-3",
+      "Style": "dalle-collapsed",
+      "Row": 1,
+      "Column": 3,
+      "Comparison": null,
+      "Caption": "Cass\u00E9",
+      "GameScale": false,
+      "Available": true
+    }
+  ]
+}

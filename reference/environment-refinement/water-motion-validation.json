@@ -1,0 +1,13 @@
+{
+  "frames": 80,
+  "uniqueWaterCrops": 80,
+  "uniqueDryBankCrops": 1,
+  "firstLastWaterMeanAbsoluteDifference": 8.0587,
+  "cameraStates": 1,
+  "waterVersions": 1,
+  "firstTick": 12420,
+  "lastTick": 12780,
+  "gameDurationSeconds": 6.000011999999998,
+  "wallCaptureDurationSeconds": 5.5615478,
+  "sampleMaxIntervalSeconds": 0.4833342999999992
+}

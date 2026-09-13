@@ -1,0 +1,73 @@
+{
+  "Complete": true,
+  "Scope": "Real TheEndGame; only deck/camera are selected. Simulation is unmodified. PNG readback occurs at first playable and settled dome frames only; this is a loading/publication proof, not an FPS benchmark.",
+  "Visits": [
+    {
+      "Index": 0,
+      "DeckId": 0,
+      "StartedSeconds": 17.2209104,
+      "WaterBuildsBefore": 0,
+      "WaterBuildsAfter": 1,
+      "LoadingFrames": 754,
+      "FirstPlayableSeconds": 13.9960399,
+      "WaterReadySeconds": 3.7707106999999986,
+      "FirstPlayableHasWater": true,
+      "PlayableFramesWithoutWater": 0,
+      "WaterGeometryIdentity": 4708139,
+      "SpriteSurfaceIdentity": 61205810,
+      "WaterVersion": 12884902030,
+      "EndTick": 12099
+    },
+    {
+      "Index": 1,
+      "DeckId": 3,
+      "StartedSeconds": 32.6316934,
+      "WaterBuildsBefore": 1,
+      "WaterBuildsAfter": 2,
+      "LoadingFrames": 476,
+      "FirstPlayableSeconds": 10.983886499999997,
+      "WaterReadySeconds": 12.5278985,
+      "FirstPlayableHasWater": false,
+      "PlayableFramesWithoutWater": 2,
+      "WaterGeometryIdentity": 30459421,
+      "SpriteSurfaceIdentity": 60428160,
+      "WaterVersion": 4294972959,
+      "EndTick": 13221
+    },
+    {
+      "Index": 2,
+      "DeckId": 0,
+      "StartedSeconds": 55.6198961,
+      "WaterBuildsBefore": 2,
+      "WaterBuildsAfter": 3,
+      "LoadingFrames": 113,
+      "FirstPlayableSeconds": 2.5686741000000026,
+      "WaterReadySeconds": 2.4285238000000007,
+      "FirstPlayableHasWater": true,
+      "PlayableFramesWithoutWater": 0,
+      "WaterGeometryIdentity": 45604216,
+      "SpriteSurfaceIdentity": 55983899,
+      "WaterVersion": 12884902030,
+      "EndTick": 13484
+    },
+    {
+      "Index": 3,
+      "DeckId": 3,
+      "StartedSeconds": 59.6147801,
+      "WaterBuildsBefore": 3,
+      "WaterBuildsAfter": 4,
+      "LoadingFrames": 534,
+      "FirstPlayableSeconds": 11.552150500000003,
+      "WaterReadySeconds": 13.0168167,
+      "FirstPlayableHasWater": false,
+      "PlayableFramesWithoutWater": 3,
+      "WaterGeometryIdentity": 64577580,
+      "SpriteSurfaceIdentity": 34202181,
+      "WaterVersion": 4294972959,
+      "EndTick": 14631
+    }
+  ],
+  "EveryFirstPlayableHasWater": false,
+  "RevisitReusesContours": false,
+  "RevisitReusesSpriteSurface": false
+}

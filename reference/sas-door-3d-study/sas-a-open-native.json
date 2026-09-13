@@ -1,0 +1,65 @@
+{
+  "Study": "External native sas appearance study; no installation or simulation changes",
+  "SourceBank": "C:\\workspace\\TheEnd-Art\\exports\\sas-door-a\\manifest.json",
+  "Provenance": {
+    "source": {
+      "file": "objects/sas-door/sas-door-a.blend",
+      "sha256": "ac9619d3b8c567571bc7f498e6b259bfa6ac8170c6ef5082ccda94577edc89dc"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "Variant": "faceted",
+  "Mode": "open",
+  "DeckId": 0,
+  "SasId": 1,
+  "Band": "A",
+  "DoorIds": [
+    32,
+    33,
+    34
+  ],
+  "Door": {
+    "AnchorDoorId": 33,
+    "CellX": 119,
+    "CellY": 74,
+    "CentreX": 119.5,
+    "CentreY": 74.5,
+    "Axis": "Vertical",
+    "Span": 3,
+    "Openness": 1
+  },
+  "World": [
+    0,
+    -1.4142135,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    119.5,
+    -105.35891,
+    0,
+    1
+  ],
+  "VisualBounds": {
+    "Left": 118.842,
+    "Top": 71.00687,
+    "Right": 120.158,
+    "Bottom": 77.542,
+    "Width": 1.3159943,
+    "Height": 6.5351334,
+    "TopCenter": {}
+  },
+  "SourceScale": "Native three-cell source; no span multiplier; grid Y projection only",
+  "Replaced": "Selected band only: retained niche/body/hardware and moving leaves",
+  "SimulationUnchanged": true,
+  "Motion": null
+}

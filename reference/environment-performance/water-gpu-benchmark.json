@@ -1,0 +1,63 @@
+{
+  "Scope": "Native MonoGame water material only, real seed12345 deck3 contours, same texture/camera/ticks and accepted CPU Animate formula versus retained GPU shader. CPU submission timing includes draw calls, not total game frame time.",
+  "VisibleChunks": 21,
+  "VisibleVertices": 14118,
+  "Comparisons": [
+    {
+      "Tick": 12000,
+      "ChangedPixels": 178193,
+      "MeanMaxChannelDifference": 0.08605902777777778,
+      "MaxChannelDifference": 3
+    },
+    {
+      "Tick": 12060,
+      "ChangedPixels": 182554,
+      "MeanMaxChannelDifference": 0.08818769290123457,
+      "MaxChannelDifference": 2
+    },
+    {
+      "Tick": 12127,
+      "ChangedPixels": 177151,
+      "MeanMaxChannelDifference": 0.08555362654320987,
+      "MaxChannelDifference": 2
+    }
+  ],
+  "Timings": [
+    {
+      "Pass": 0,
+      "RetainedGpu": false,
+      "SubmissionMsPerFrame": 3.448114166666667,
+      "AllocatedBytesPerFrame": 0
+    },
+    {
+      "Pass": 0,
+      "RetainedGpu": true,
+      "SubmissionMsPerFrame": 0.11075416666666667,
+      "AllocatedBytesPerFrame": 0
+    },
+    {
+      "Pass": 1,
+      "RetainedGpu": false,
+      "SubmissionMsPerFrame": 4.406105833333333,
+      "AllocatedBytesPerFrame": 0
+    },
+    {
+      "Pass": 1,
+      "RetainedGpu": true,
+      "SubmissionMsPerFrame": 0.1820775,
+      "AllocatedBytesPerFrame": 0
+    },
+    {
+      "Pass": 2,
+      "RetainedGpu": false,
+      "SubmissionMsPerFrame": 3.436529166666667,
+      "AllocatedBytesPerFrame": 0
+    },
+    {
+      "Pass": 2,
+      "RetainedGpu": true,
+      "SubmissionMsPerFrame": 0.08208833333333333,
+      "AllocatedBytesPerFrame": 0
+    }
+  ]
+}

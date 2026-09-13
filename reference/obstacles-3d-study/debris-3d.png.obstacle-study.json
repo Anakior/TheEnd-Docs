@@ -1,0 +1,256 @@
+{
+  "Study": "Native obstacle appearance study; no installation, collision or gameplay change",
+  "Feature": "HeavyDebris",
+  "DeckId": 0,
+  "SourceBank": "C:\\workspace\\TheEnd-Art\\exports\\debris-study",
+  "Provenance": {
+    "source": {
+      "file": "objects/debris/debris-study.blend",
+      "sha256": "1adf04f36d1c8ca65c7b0ef78fd1f0aaa7e873b0142e22b1c5e0b4901523224b"
+    },
+    "exporter": {
+      "file": "tools/models/export_model.py",
+      "sha256": "606795693d5c502dc697628de5e02d099564e7586da034f1108fe28bc807017b"
+    }
+  },
+  "VariantOverride": null,
+  "Seed": {
+    "X": 203,
+    "Y": 191
+  },
+  "Grid": {
+    "Width": 256,
+    "Height": 256
+  },
+  "Cells": [
+    {
+      "X": 203,
+      "Y": 191
+    },
+    {
+      "X": 202,
+      "Y": 192
+    },
+    {
+      "X": 203,
+      "Y": 192
+    },
+    {
+      "X": 201,
+      "Y": 193
+    },
+    {
+      "X": 202,
+      "Y": 193
+    },
+    {
+      "X": 203,
+      "Y": 193
+    },
+    {
+      "X": 204,
+      "Y": 193
+    },
+    {
+      "X": 202,
+      "Y": 194
+    },
+    {
+      "X": 203,
+      "Y": 194
+    }
+  ],
+  "Bounds": {
+    "MinX": 201,
+    "MinY": 191,
+    "MaxX": 204,
+    "MaxY": 194,
+    "Width": 4,
+    "Height": 4
+  },
+  "Patches": [
+    {
+      "Variant": "furniture",
+      "NaturalVariant": "furniture",
+      "Rotation": -0.07094681,
+      "Cells": [
+        {
+          "X": 203,
+          "Y": 191
+        },
+        {
+          "X": 202,
+          "Y": 192
+        },
+        {
+          "X": 203,
+          "Y": 192
+        },
+        {
+          "X": 202,
+          "Y": 193
+        },
+        {
+          "X": 203,
+          "Y": 193
+        },
+        {
+          "X": 204,
+          "Y": 193
+        }
+      ],
+      "Bounds": {
+        "MinX": 202,
+        "MinY": 191,
+        "MaxX": 204,
+        "MaxY": 193,
+        "Width": 3,
+        "Height": 3
+      },
+      "ScaleX": 3,
+      "ScaleY": 3,
+      "HeightScale": 1,
+      "PlanarFit": 1,
+      "World": [
+        2.992453,
+        -0.3007494,
+        0,
+        0,
+        0.21266194,
+        4.2319674,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        203.5,
+        -272.2361,
+        0,
+        1
+      ],
+      "VisualBounds": {
+        "Left": 202.11102,
+        "Top": 191.15944,
+        "Right": 204.88898,
+        "Bottom": 193.61101,
+        "Width": 2.777954,
+        "Height": 2.4515686,
+        "TopCenter": {}
+      }
+    },
+    {
+      "Variant": "rack",
+      "NaturalVariant": "rack",
+      "Rotation": -0.11176779,
+      "Cells": [
+        {
+          "X": 201,
+          "Y": 193
+        }
+      ],
+      "Bounds": {
+        "MinX": 201,
+        "MinY": 193,
+        "MaxX": 201,
+        "MaxY": 193,
+        "Width": 1,
+        "Height": 1
+      },
+      "ScaleX": 1,
+      "ScaleY": 1,
+      "HeightScale": 1,
+      "PlanarFit": 0.9834079,
+      "World": [
+        0.9772719,
+        -0.1551175,
+        0,
+        0,
+        0.10968463,
+        1.3820711,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        201.5,
+        -273.65033,
+        0,
+        1
+      ],
+      "VisualBounds": {
+        "Left": 201.0349,
+        "Top": 192.90268,
+        "Right": 201.9651,
+        "Bottom": 193.86101,
+        "Width": 0.9302063,
+        "Height": 0.95832825,
+        "TopCenter": {}
+      }
+    },
+    {
+      "Variant": "rack",
+      "NaturalVariant": "rack",
+      "Rotation": 0.0049983026,
+      "Cells": [
+        {
+          "X": 202,
+          "Y": 194
+        },
+        {
+          "X": 203,
+          "Y": 194
+        }
+      ],
+      "Bounds": {
+        "MinX": 202,
+        "MinY": 194,
+        "MaxX": 203,
+        "MaxY": 194,
+        "Width": 2,
+        "Height": 1
+      },
+      "ScaleX": 2,
+      "ScaleY": 1,
+      "HeightScale": 1,
+      "PlanarFit": 1,
+      "World": [
+        1.999975,
+        0.014137275,
+        0,
+        0,
+        -0.0049982816,
+        1.4141959,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        203,
+        -275.06454,
+        0,
+        1
+      ],
+      "VisualBounds": {
+        "Left": 202.11841,
+        "Top": 193.93927,
+        "Right": 203.88159,
+        "Bottom": 194.8244,
+        "Width": 1.7631836,
+        "Height": 0.88513184,
+        "TopCenter": {}
+      }
+    }
+  ],
+  "Assumptions": {
+    "Selection": "First row-major feature cell; replace its entire cardinal component. Rubble keeps one model; heavy debris uses the existing connected 3x3 partition",
+    "Footprint": "Source nominal XY 1x1. Rubble keeps uniform XY scale from component cell count; heavy debris follows the patch long axis. Irregular occupied cells remain the gameplay footprint",
+    "GroundScale": "Rubble X=Y=1.6*(0.42\u002B0.19*sqrt(component cell count)). HeavyDebris scales source X along the long patch axis, source Y along the short axis, fits the rotated \u002B/-0.46 source envelope using PlanarFit, then applies the stable rotation. The game then stretches grid Y by sqrt(2)",
+    "Variety": "Stable spatial anchor chooses the body variant and turn; heavy debris retains the existing furniture/console/rack/canopy families. VariantOverride only stages an explicit visual comparison",
+    "Height": "Rubble: source Z multiplied by min(2, uniform XY scale). HeavyDebris: source Z unchanged",
+    "Clip": "idle at zero seconds",
+    "SimulationUnchanged": true
+  }
+}

@@ -1,0 +1,1860 @@
+{
+  "schemaVersion": 1,
+  "scope": "Read-only diagnosis of the V2 shared wall paint and apparent loss of relief; provenance and pixel measurements, not a claim of global lighting change.",
+  "createdUtc": "2026-09-12T17:14:25.951854+00:00",
+  "method": {
+    "colourSpace": "Encoded PNG RGB 0..255; luma proxy = 0.2126 R + 0.7152 G + 0.0722 B, without sRGB linearization. These are display-value comparisons, not radiometric luminance or HDR light-buffer measurements.",
+    "standardDeviation": "Population standard deviation of encoded luma within the stated region; this measures local value spread, not a perceptual contrast index.",
+    "coordinates": "Zero-based image coordinates [x0,y0,x1,y1]; right and bottom exclusive.",
+    "textureGain": "Installed armor quiet uses floor(channel*1.11), armor worn floor(channel*1.22), capped255; other four materials gain1. External paint bypasses these gains.",
+    "resize": "External1254-square texture is imported256-square. Report approximates the GPU LinearClamp four-texel bilinear resize in memory at target pixel centers, with output rounding. No image is edited or written; these are not GPU readback values.",
+    "centralBands": "DrawTexturedStrip selects y=floor((256-windowHeight)/2), windowHeight=max(1,floor(widthCells*48)). Relevant widths: armor18, rail2, channel5 pixels. Additional8-pixel band retained for comparison with initial audit.",
+    "nativeMethod": "Read the existing final composite PNGs at exactly the same named coordinates. No build, new rendering, simulation edit or image edit performed by this audit."
+  },
+  "codeSources": [
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteAssets.cs",
+      "sha256": "4DFE1A9F23BDB8BFC8E3F67A7C30C3C53D7B195DB95C02632EC176E37638420B",
+      "bytes": 24166
+    },
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteMaterialResolver.cs",
+      "sha256": "7A27D0FD306D275CA2CDB81192EC64A93C1FAB8CA299D9C5011913C5E2C3EF2D",
+      "bytes": 3668
+    },
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteStructuralMatterSkin.cs",
+      "sha256": "C80DAF8C6730EFDF6DFB6F9E84E7F24865A7301581C31C7DE3425A83E6854A5B",
+      "bytes": 47117
+    },
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\SpriteWallVolume.cs",
+      "sha256": "9BD2A806006389FBA05D3C8EC0E6588A1491A9E9D4D43226AA23CBC736A2BFA3",
+      "bytes": 10432
+    },
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Composition\\GameFrameRenderer.cs",
+      "sha256": "85AFDE8537DFD0F29C1EC02F3CB1C8915BF8B09F520254E0C4584759BD95262C",
+      "bytes": 11267
+    },
+    {
+      "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Renderer\\Models3D\\SkinnedModelRenderer.cs",
+      "sha256": "2BA9E0F060326464C3E7DC45FF62970BEAEBF399C1AD93E43B23CE12FD36521B",
+      "bytes": 15178
+    }
+  ],
+  "installedMaterials": [
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-armor-quiet.png",
+        "sha256": "AFF24F79D2C1C9AEC74772785DED1C747B6D8986B743BCEF59803C8CBCC99B63",
+        "bytes": 95065
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1.11,
+      "sourceStats": {
+        "rgbMean": [
+          42.7947,
+          46.7918,
+          50.2447
+        ],
+        "lumaMean": 46.1913,
+        "lumaStdDev": 4.5116,
+        "lumaP05": 39.4384,
+        "lumaP95": 53.8688,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          46.9822,
+          51.4369,
+          55.2781
+        ],
+        "lumaMean": 50.7672,
+        "lumaStdDev": 5.026,
+        "lumaP05": 43.2258,
+        "lumaP95": 59.6562,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              46.7578,
+              51.3828,
+              55.2227
+            ],
+            "lumaMean": 50.6768,
+            "lumaStdDev": 6.2219,
+            "lumaP05": 41.3662,
+            "lumaP95": 61.3612,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              46.9773,
+              51.5977,
+              55.4398
+            ],
+            "lumaMean": 50.8928,
+            "lumaStdDev": 6.0917,
+            "lumaP05": 42.1536,
+            "lumaP95": 61.4387,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              47.0215,
+              51.623,
+              55.4761
+            ],
+            "lumaMean": 50.9229,
+            "lumaStdDev": 6.2408,
+            "lumaP05": 42.0814,
+            "lumaP95": 61.2005,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              47.089,
+              51.7487,
+              55.6172
+            ],
+            "lumaMean": 51.0373,
+            "lumaStdDev": 5.8649,
+            "lumaP05": 42.298,
+            "lumaP95": 61.0814,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "armor",
+      "relevantBandHeight": 18,
+      "style": "quiet"
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-armor-worn.png",
+        "sha256": "1DBC3EA9E000277EC6FD1540CA04AB8A60AE1E859329ECEF848554697F99838C",
+        "bytes": 104113
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1.22,
+      "sourceStats": {
+        "rgbMean": [
+          40.3354,
+          43.6244,
+          46.3275
+        ],
+        "lumaMean": 43.1203,
+        "lumaStdDev": 5.6593,
+        "lumaP05": 34.651,
+        "lumaP95": 52.3662,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          48.7422,
+          52.7591,
+          56.0579
+        ],
+        "lumaMean": 52.1433,
+        "lumaStdDev": 6.9095,
+        "lumaP05": 41.7152,
+        "lumaP95": 63.2258,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              48.5762,
+              52.7012,
+              56.166
+            ],
+            "lumaMean": 52.0744,
+            "lumaStdDev": 7.2603,
+            "lumaP05": 41.7658,
+            "lumaP95": 64.3002,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              48.1625,
+              52.3016,
+              55.8844
+            ],
+            "lumaMean": 51.6803,
+            "lumaStdDev": 6.9838,
+            "lumaP05": 41.7223,
+            "lumaP95": 63.7195,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              48.0327,
+              52.2378,
+              55.8711
+            ],
+            "lumaMean": 51.6061,
+            "lumaStdDev": 6.9273,
+            "lumaP05": 41.6484,
+            "lumaP95": 63.2727,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              47.8689,
+              52.138,
+              55.7724
+            ],
+            "lumaMean": 51.4928,
+            "lumaStdDev": 6.9126,
+            "lumaP05": 41.0084,
+            "lumaP95": 63.0854,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "armor",
+      "relevantBandHeight": 18,
+      "style": "worn"
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-rail-quiet.png",
+        "sha256": "64B45E3C2A657F198636A82B9812B2234017833E424314D7690E9B6A43D1020A",
+        "bytes": 113975
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          60.3515,
+          64.6221,
+          68.929
+        ],
+        "lumaMean": 64.0252,
+        "lumaStdDev": 6.491,
+        "lumaP05": 54.3662,
+        "lumaP95": 75.0854,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          60.3515,
+          64.6221,
+          68.929
+        ],
+        "lumaMean": 64.0252,
+        "lumaStdDev": 6.491,
+        "lumaP05": 54.3662,
+        "lumaP95": 75.0854,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              61.0977,
+              65.3965,
+              69.6738
+            ],
+            "lumaMean": 64.7914,
+            "lumaStdDev": 7.3419,
+            "lumaP05": 53.2307,
+            "lumaP95": 77.2958,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              61.1812,
+              65.4391,
+              69.7297
+            ],
+            "lumaMean": 64.8436,
+            "lumaStdDev": 7.5979,
+            "lumaP05": 52.864,
+            "lumaP95": 77.8042,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              61.1748,
+              65.4268,
+              69.7188
+            ],
+            "lumaMean": 64.8327,
+            "lumaStdDev": 7.6018,
+            "lumaP05": 52.7485,
+            "lumaP95": 77.7727,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              61.1417,
+              65.3971,
+              69.6938
+            ],
+            "lumaMean": 64.8027,
+            "lumaStdDev": 7.5177,
+            "lumaP05": 53.1763,
+            "lumaP95": 77.4418,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "rail",
+      "relevantBandHeight": 2,
+      "style": "quiet"
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-rail-worn.png",
+        "sha256": "0228CF824C655E5592EE7D0DBBE423386AC34C5749DE8C4F7589B718A86BB369",
+        "bytes": 122523
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          57.8536,
+          59.9185,
+          61.227
+        ],
+        "lumaMean": 59.574,
+        "lumaStdDev": 8.5201,
+        "lumaP05": 46.9318,
+        "lumaP95": 74.3592,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          57.8536,
+          59.9185,
+          61.227
+        ],
+        "lumaMean": 59.574,
+        "lumaStdDev": 8.5201,
+        "lumaP05": 46.9318,
+        "lumaP95": 74.3592,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              58.166,
+              60.623,
+              62.291
+            ],
+            "lumaMean": 60.2211,
+            "lumaStdDev": 10.5762,
+            "lumaP05": 45.9715,
+            "lumaP95": 79.3449,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              58.0711,
+              60.568,
+              62.2945
+            ],
+            "lumaMean": 60.1618,
+            "lumaStdDev": 10.0255,
+            "lumaP05": 46.065,
+            "lumaP95": 77.872,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              57.8452,
+              60.3408,
+              62.061
+            ],
+            "lumaMean": 59.9345,
+            "lumaStdDev": 9.8181,
+            "lumaP05": 45.9318,
+            "lumaP95": 77.2218,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              57.9718,
+              60.4941,
+              62.2131
+            ],
+            "lumaMean": 60.082,
+            "lumaStdDev": 9.7482,
+            "lumaP05": 45.9318,
+            "lumaP95": 77.2661,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "rail",
+      "relevantBandHeight": 2,
+      "style": "worn"
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-channel-quiet.png",
+        "sha256": "DF09A3FE029FBA3AB5F930C84D764A2BE795B446060FE9D01D1B6FFC1D2DB78E",
+        "bytes": 82224
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          27.3504,
+          28.663,
+          30.0306
+        ],
+        "lumaMean": 28.4827,
+        "lumaStdDev": 3.3381,
+        "lumaP05": 23.647,
+        "lumaP95": 34.3622,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          27.3504,
+          28.663,
+          30.0306
+        ],
+        "lumaMean": 28.4827,
+        "lumaStdDev": 3.3381,
+        "lumaP05": 23.647,
+        "lumaP95": 34.3622,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              27.2793,
+              28.668,
+              30.2949
+            ],
+            "lumaMean": 28.4902,
+            "lumaStdDev": 3.4275,
+            "lumaP05": 23.5116,
+            "lumaP95": 34.2749,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              27.2297,
+              28.5945,
+              30.1688
+            ],
+            "lumaMean": 28.418,
+            "lumaStdDev": 3.4448,
+            "lumaP05": 23.0004,
+            "lumaP95": 34.1444,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              27.3047,
+              28.6968,
+              30.2383
+            ],
+            "lumaMean": 28.5121,
+            "lumaStdDev": 3.4812,
+            "lumaP05": 23.1444,
+            "lumaP95": 34.5509,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              27.3336,
+              28.7422,
+              30.2363
+            ],
+            "lumaMean": 28.5506,
+            "lumaStdDev": 3.5432,
+            "lumaP05": 23.004,
+            "lumaP95": 34.647,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "channel",
+      "relevantBandHeight": 5,
+      "style": "quiet"
+    },
+    {
+      "source": {
+        "path": "C:\\workspace\\TheEnd\\TheEnd.Client\\Assets\\sprites\\materials\\wall-channel-worn.png",
+        "sha256": "A28D4A769B408FB6DAAEAEA0A3CB7F4A0A9677DFE530D2BD0D7792D072472E38",
+        "bytes": 97833
+      },
+      "sourceSize": [
+        256,
+        256
+      ],
+      "effectiveGain": 1,
+      "sourceStats": {
+        "rgbMean": [
+          26.4806,
+          27.0027,
+          27.106
+        ],
+        "lumaMean": 26.8992,
+        "lumaStdDev": 5.2896,
+        "lumaP05": 19.4252,
+        "lumaP95": 36.2808,
+        "pixelCount": 65536
+      },
+      "effective256Stats": {
+        "rgbMean": [
+          26.4806,
+          27.0027,
+          27.106
+        ],
+        "lumaMean": 26.8992,
+        "lumaStdDev": 5.2896,
+        "lumaP05": 19.4252,
+        "lumaP95": 36.2808,
+        "pixelCount": 65536
+      },
+      "centralBands": {
+        "2": {
+          "xyxy": [
+            0,
+            127,
+            256,
+            129
+          ],
+          "stats": {
+            "rgbMean": [
+              25.1777,
+              25.7539,
+              25.7773
+            ],
+            "lumaMean": 25.6331,
+            "lumaStdDev": 3.7062,
+            "lumaP05": 20.7874,
+            "lumaP95": 32.4388,
+            "pixelCount": 512
+          }
+        },
+        "5": {
+          "xyxy": [
+            0,
+            125,
+            256,
+            130
+          ],
+          "stats": {
+            "rgbMean": [
+              25.1562,
+              25.7758,
+              25.8047
+            ],
+            "lumaMean": 25.6462,
+            "lumaStdDev": 3.6882,
+            "lumaP05": 20.2848,
+            "lumaP95": 32.2165,
+            "pixelCount": 1280
+          }
+        },
+        "8": {
+          "xyxy": [
+            0,
+            124,
+            256,
+            132
+          ],
+          "stats": {
+            "rgbMean": [
+              25.0913,
+              25.7432,
+              25.7959
+            ],
+            "lumaMean": 25.6084,
+            "lumaStdDev": 3.6031,
+            "lumaP05": 20.0975,
+            "lumaP95": 32.0,
+            "pixelCount": 2048
+          }
+        },
+        "18": {
+          "xyxy": [
+            0,
+            119,
+            256,
+            137
+          ],
+          "stats": {
+            "rgbMean": [
+              25.556,
+              26.1632,
+              26.2658
+            ],
+            "lumaMean": 26.0415,
+            "lumaStdDev": 3.7738,
+            "lumaP05": 20.7874,
+            "lumaP95": 32.786,
+            "pixelCount": 4608
+          }
+        }
+      },
+      "externalPaint": false,
+      "role": "channel",
+      "relevantBandHeight": 5,
+      "style": "worn"
+    }
+  ],
+  "sharedV2Material": {
+    "source": {
+      "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\wall-metal-painted.png",
+      "sha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4",
+      "bytes": 1786665
+    },
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "effectiveGain": 1,
+    "sourceStats": {
+      "rgbMean": [
+        54.1523,
+        54.0631,
+        53.9232
+      ],
+      "lumaMean": 54.072,
+      "lumaStdDev": 3.3022,
+      "lumaP05": 49.0,
+      "lumaP95": 59.9278,
+      "pixelCount": 1572516
+    },
+    "effective256Stats": {
+      "rgbMean": [
+        54.1532,
+        54.0647,
+        53.921
+      ],
+      "lumaMean": 54.0731,
+      "lumaStdDev": 3.0913,
+      "lumaP05": 49.2126,
+      "lumaP95": 59.5748,
+      "pixelCount": 65536
+    },
+    "centralBands": {
+      "2": {
+        "xyxy": [
+          0,
+          127,
+          256,
+          129
+        ],
+        "stats": {
+          "rgbMean": [
+            53.6074,
+            53.4941,
+            53.332
+          ],
+          "lumaMean": 53.5065,
+          "lumaStdDev": 3.3887,
+          "lumaP05": 48.1097,
+          "lumaP95": 59.708,
+          "pixelCount": 512
+        }
+      },
+      "5": {
+        "xyxy": [
+          0,
+          125,
+          256,
+          130
+        ],
+        "stats": {
+          "rgbMean": [
+            53.7539,
+            53.6383,
+            53.4547
+          ],
+          "lumaMean": 53.6496,
+          "lumaStdDev": 3.3129,
+          "lumaP05": 48.2848,
+          "lumaP95": 59.643,
+          "pixelCount": 1280
+        }
+      },
+      "8": {
+        "xyxy": [
+          0,
+          124,
+          256,
+          132
+        ],
+        "stats": {
+          "rgbMean": [
+            53.749,
+            53.6343,
+            53.4492
+          ],
+          "lumaMean": 53.6453,
+          "lumaStdDev": 3.2607,
+          "lumaP05": 48.7152,
+          "lumaP95": 59.1165,
+          "pixelCount": 2048
+        }
+      },
+      "18": {
+        "xyxy": [
+          0,
+          119,
+          256,
+          137
+        ],
+        "stats": {
+          "rgbMean": [
+            53.8526,
+            53.7263,
+            53.5781
+          ],
+          "lumaMean": 53.7425,
+          "lumaStdDev": 3.2329,
+          "lumaP05": 48.9278,
+          "lumaP95": 59.2126,
+          "pixelCount": 4608
+        }
+      }
+    },
+    "externalPaint": true
+  },
+  "v2Aliases": {
+    "path": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2\\aliases.json",
+    "sha256": "A94116D7B5972E1D149923AAB7D757C8A98FA485C87C765F5E25EF7FA08E2743",
+    "bytes": 1171
+  },
+  "domeCaptures": {
+    "installed": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\game-7-Dome-Environment.png",
+        "sha256": "38D5E0746717C83D651BA4DB022296BCD4FE90AA2462DD6425DC658D8234B9E2",
+        "bytes": 4096806
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\native-game-validation.json",
+        "sha256": "A32AF45DBB2CD0E2FFCE482C087DDD30A41401E270EAF63DD5AEE9B360EE4DA0",
+        "bytes": 6721
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-7-Dome-Environment.png",
+        "Deck": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "DomeEnvironment",
+        "Condition": null,
+        "Fixture": null,
+        "StableRevision": 4,
+        "ModelCount": 108,
+        "VectorCount": 1
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": null,
+      "spriteMaterialFiles": null
+    },
+    "v2": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-dome-final-paint\\game-7-Dome-Environment.png",
+        "sha256": "74C716492CF265A4F4ACB69051D3629D0431F1DC0FDF8FF9AA0979C11951131F",
+        "bytes": 3595276
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-dome-final-paint\\native-game-validation.json",
+        "sha256": "27D4372AA7698DF93EB6DFB37D608708440EC47E13594A09068CAA1AC19D2E28",
+        "bytes": 2752
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-7-Dome-Environment.png",
+        "Deck": 3,
+        "CentreX": 124,
+        "CentreY": 146,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "DomeEnvironment",
+        "Condition": null,
+        "Fixture": null,
+        "StableRevision": 1,
+        "ModelCount": 108,
+        "VectorCount": 1
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v2",
+      "spriteMaterialFiles": [
+        {
+          "File": "aliases.json",
+          "Sha256": "A94116D7B5972E1D149923AAB7D757C8A98FA485C87C765F5E25EF7FA08E2743"
+        },
+        {
+          "File": "earth-painted.png",
+          "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "File": "floor-tile-painted-a.png",
+          "Sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00"
+        },
+        {
+          "File": "fungal-painted.png",
+          "Sha256": "2DFAC2650149052538581890D9B2C6EEC331ABF209D37673FC586AA3B49A0481"
+        },
+        {
+          "File": "grass-painted.png",
+          "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "File": "sand-painted.png",
+          "Sha256": "BD09C4952753BDCE5933AC0D49D2309833DD8FDE3714CE673D96454943501142"
+        },
+        {
+          "File": "wall-metal-painted.png",
+          "Sha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4"
+        },
+        {
+          "File": "water-painted.png",
+          "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        }
+      ]
+    }
+  },
+  "domeRegions": [
+    {
+      "name": "wallTopHorizontal",
+      "xyxy": [
+        1390,
+        181,
+        1670,
+        227
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            39.481,
+            42.6359,
+            44.9241
+          ],
+          "lumaMean": 42.1303,
+          "lumaStdDev": 15.4368,
+          "lumaP05": 16.0,
+          "lumaP95": 71.5791,
+          "pixelCount": 12880
+        },
+        "v2": {
+          "rgbMean": [
+            45.351,
+            46.1212,
+            46.3499
+          ],
+          "lumaMean": 45.974,
+          "lumaStdDev": 12.9671,
+          "lumaP05": 32.0,
+          "lumaP95": 73.643,
+          "pixelCount": 12880
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.005901,
+        "meanAbsoluteRgbDifference": 5.590114
+      }
+    },
+    {
+      "name": "wallSideHorizontal",
+      "xyxy": [
+        1390,
+        230,
+        1670,
+        245
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            20.8926,
+            24.2524,
+            26.3705
+          ],
+          "lumaMean": 23.691,
+          "lumaStdDev": 1.7641,
+          "lumaP05": 21.294,
+          "lumaP95": 26.5066,
+          "pixelCount": 4200
+        },
+        "v2": {
+          "rgbMean": [
+            24.2836,
+            25.7586,
+            26.0176
+          ],
+          "lumaMean": 25.4637,
+          "lumaStdDev": 1.3327,
+          "lumaP05": 23.5748,
+          "lumaP95": 27.5748,
+          "pixelCount": 4200
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 2.486825
+      }
+    },
+    {
+      "name": "channelCoreHorizontal",
+      "xyxy": [
+        1400,
+        202,
+        1650,
+        205
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            16.916,
+            17.3227,
+            17.2547
+          ],
+          "lumaMean": 17.2313,
+          "lumaStdDev": 2.2626,
+          "lumaP05": 14.0722,
+          "lumaP95": 21.0772,
+          "pixelCount": 750
+        },
+        "v2": {
+          "rgbMean": [
+            36.1653,
+            36.0813,
+            35.9347
+          ],
+          "lumaMean": 36.0886,
+          "lumaStdDev": 2.1454,
+          "lumaP05": 32.9278,
+          "lumaP95": 39.9278,
+          "pixelCount": 750
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 18.896
+      }
+    },
+    {
+      "name": "upperRailHorizontal",
+      "xyxy": [
+        1400,
+        193,
+        1650,
+        197
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            63.911,
+            68.267,
+            70.048
+          ],
+          "lumaMean": 67.4695,
+          "lumaStdDev": 8.7262,
+          "lumaP05": 53.0814,
+          "lumaP95": 83.29,
+          "pixelCount": 1000
+        },
+        "v2": {
+          "rgbMean": [
+            69.405,
+            70.435,
+            69.215
+          ],
+          "lumaMean": 70.1279,
+          "lumaStdDev": 7.8888,
+          "lumaP05": 56.5026,
+          "lumaP95": 83.643,
+          "pixelCount": 1000
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 4.746333
+      }
+    },
+    {
+      "name": "upperArmorHorizontal",
+      "xyxy": [
+        1400,
+        181,
+        1650,
+        191
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            37.7348,
+            41.484,
+            44.8668
+          ],
+          "lumaMean": 40.9312,
+          "lumaStdDev": 4.4259,
+          "lumaP05": 34.1374,
+          "lumaP95": 47.7232,
+          "pixelCount": 2500
+        },
+        "v2": {
+          "rgbMean": [
+            41.4692,
+            42.3704,
+            43.1948
+          ],
+          "lumaMean": 42.2383,
+          "lumaStdDev": 3.1259,
+          "lumaP05": 37.0722,
+          "lumaP95": 47.5026,
+          "pixelCount": 2500
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 3.882933
+      }
+    },
+    {
+      "name": "wallTopLeft",
+      "xyxy": [
+        490,
+        468,
+        620,
+        514
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            37.7987,
+            40.7716,
+            43.0142
+          ],
+          "lumaMean": 40.3015,
+          "lumaStdDev": 14.717,
+          "lumaP05": 15.7874,
+          "lumaP95": 69.1536,
+          "pixelCount": 5980
+        },
+        "v2": {
+          "rgbMean": [
+            45.1505,
+            45.9114,
+            46.1669
+          ],
+          "lumaMean": 45.7681,
+          "lumaStdDev": 12.531,
+          "lumaP05": 33.0,
+          "lumaP95": 73.643,
+          "pixelCount": 5980
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 6.127035
+      }
+    },
+    {
+      "name": "sandAway",
+      "xyxy": [
+        450,
+        60,
+        900,
+        260
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            88.3723,
+            74.0476,
+            58.5179
+          ],
+          "lumaMean": 75.9718,
+          "lumaStdDev": 8.8314,
+          "lumaP05": 61.8974,
+          "lumaP95": 90.5284,
+          "pixelCount": 90000
+        },
+        "v2": {
+          "rgbMean": [
+            110.7683,
+            90.7184,
+            66.993
+          ],
+          "lumaMean": 93.268,
+          "lumaStdDev": 6.0267,
+          "lumaP05": 85.098,
+          "lumaP95": 103.6556,
+          "pixelCount": 90000
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 16.494144
+      }
+    },
+    {
+      "name": "grassAway",
+      "xyxy": [
+        1340,
+        390,
+        1760,
+        700
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            82.9051,
+            86.197,
+            49.6939
+          ],
+          "lumaMean": 82.8616,
+          "lumaStdDev": 11.6341,
+          "lumaP05": 64.41,
+          "lumaP95": 102.6198,
+          "pixelCount": 130200
+        },
+        "v2": {
+          "rgbMean": [
+            61.7169,
+            65.5749,
+            32.1716
+          ],
+          "lumaMean": 62.343,
+          "lumaStdDev": 6.838,
+          "lumaP05": 52.4902,
+          "lumaP95": 74.7602,
+          "pixelCount": 130200
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 1.5e-05,
+        "meanAbsoluteRgbDifference": 20.112115
+      }
+    },
+    {
+      "name": "uiCharacter",
+      "xyxy": [
+        38,
+        818,
+        101,
+        889
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            72.3454,
+            54.171,
+            35.5898
+          ],
+          "lumaMean": 56.6933,
+          "lumaStdDev": 37.8277,
+          "lumaP05": 15.7742,
+          "lumaP95": 127.6506,
+          "pixelCount": 4473
+        },
+        "v2": {
+          "rgbMean": [
+            72.3454,
+            54.171,
+            35.5898
+          ],
+          "lumaMean": 56.6933,
+          "lumaStdDev": 37.8277,
+          "lumaP05": 15.7742,
+          "lumaP95": 127.6506,
+          "pixelCount": 4473
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      }
+    }
+  ],
+  "interiorCaptures": {
+    "installed": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\game-4-Console-Sealed.png",
+        "sha256": "A51F8FC5E9D0822D8E1581BCEAB831A134147658AABB98E61225EC1AA0F098C5",
+        "bytes": 1992886
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-before-world-paint\\native-game-validation.json",
+        "sha256": "A32AF45DBB2CD0E2FFCE482C087DDD30A41401E270EAF63DD5AEE9B360EE4DA0",
+        "bytes": 6721
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-4-Console-Sealed.png",
+        "Deck": 0,
+        "CentreX": 92.5,
+        "CentreY": 99.5,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "Console",
+        "Condition": "Sealed",
+        "Fixture": {
+          "Kind": 3,
+          "Trim": 2,
+          "CellX": 91,
+          "CellY": 99,
+          "CentreX": 92.5,
+          "CentreY": 99.5,
+          "Width": 3,
+          "Height": 1,
+          "Facing": 2,
+          "Condition": 0,
+          "Seed": 39,
+          "OccupantFirst": " ",
+          "OccupantSecond": " ",
+          "OccupantCorruption": 0,
+          "DefinitionId": "comptoir-service"
+        },
+        "StableRevision": 3,
+        "ModelCount": 83,
+        "VectorCount": 118
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": null,
+      "spriteMaterialFiles": null
+    },
+    "v1Paint": {
+      "image": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-with-world-paint\\game-4-Console-Sealed.png",
+        "sha256": "154B921061BBC1A2E0702A64E0DCD7D610A3BB4F5913D9648822B6AAE434057A",
+        "bytes": 1666080
+      },
+      "size": [
+        1920,
+        1080
+      ],
+      "metadata": {
+        "path": "C:\\workspace\\TheEnd-Docs\\reference\\painted-sprite-direction\\complete\\game-with-world-paint\\native-game-validation.json",
+        "sha256": "F7F7F06E7C11F098D515FA804D5BC6E468F2DD58DF409FEB2FE0855C4F177C82",
+        "bytes": 7605
+      },
+      "clientSha256": "FBAA2C887F44B744A677BED8BE3A5ABF890C82CCF85E25A2B9CB14E897CF8E2E",
+      "capture": {
+        "Name": "game-4-Console-Sealed.png",
+        "Deck": 0,
+        "CentreX": 92.5,
+        "CentreY": 99.5,
+        "CameraCellSize": 48,
+        "SimulationTick": 12000,
+        "Kind": "Console",
+        "Condition": "Sealed",
+        "Fixture": {
+          "Kind": 3,
+          "Trim": 2,
+          "CellX": 91,
+          "CellY": 99,
+          "CentreX": 92.5,
+          "CentreY": 99.5,
+          "Width": 3,
+          "Height": 1,
+          "Facing": 2,
+          "Condition": 0,
+          "Seed": 39,
+          "OccupantFirst": " ",
+          "OccupantSecond": " ",
+          "OccupantCorruption": 0,
+          "DefinitionId": "comptoir-service"
+        },
+        "StableRevision": 3,
+        "ModelCount": 83,
+        "VectorCount": 118
+      },
+      "banks": [
+        {
+          "Variable": "THEEND_COMMON_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\common-furniture-painted\\manifest.json",
+          "Sha256": "F1B960D6ABBAD1F4531BCD5AED28CA58036969AA90619B93B222174358F1EE31"
+        },
+        {
+          "Variable": "THEEND_UTILITY_FURNITURE_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\utility-furniture-complete-painted\\manifest.json",
+          "Sha256": "0A951259F7CAB0304E530E6D1748C34DFA1A15B4F2F239F3B13FDD4010D770D9"
+        },
+        {
+          "Variable": "THEEND_CRYOPOD_DAMAGED_BANK",
+          "Manifest": "C:\\workspace\\TheEnd-Art\\exports\\cryopod-damaged-painted\\manifest.json",
+          "Sha256": "8D0C9E14399970E390AF71B727533FB4B230D3FA7BB3A2F6BD9AA2AB8FAEBEA9"
+        }
+      ],
+      "spriteMaterialsDirectory": "C:\\workspace\\TheEnd-Art\\sprite-render\\painted-world-materials-v1",
+      "spriteMaterialFiles": [
+        {
+          "File": "aliases.json",
+          "Sha256": "9C559FAD0522C7029706E64531916151D85EFD5914E19AB622A2F3964AB5C8F8"
+        },
+        {
+          "File": "earth-painted.png",
+          "Sha256": "BF0572D7361EA3EA62684368F467CAB5666AC41CE3C17BDDA6E5BF9CFFECB0D7"
+        },
+        {
+          "File": "floor-tile-painted-a.png",
+          "Sha256": "52EE32CFA4F0BF1224479315096A5E518C3302C897B6A2B5087D1F0417064B00"
+        },
+        {
+          "File": "grass-painted.png",
+          "Sha256": "325D916177660700A4839D11458D420EB06CC17B19FC94F66A5927B3CED9B39C"
+        },
+        {
+          "File": "wall-metal-painted.png",
+          "Sha256": "F79D0F6D8F0C7B953112A973938421BD6DAF6A43D8D8CF00BC4273E24DDFF7F4"
+        },
+        {
+          "File": "water-painted.png",
+          "Sha256": "A3EA9D03B3DEB1C712A08596CA09CCC4E3C434603061ADE4E84346690F35EFF0"
+        }
+      ]
+    }
+  },
+  "interiorRegions": [
+    {
+      "name": "tableTop",
+      "xyxy": [
+        1135,
+        167,
+        1165,
+        237
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            95.0314,
+            104.7043,
+            99.44
+          ],
+          "lumaMean": 102.2678,
+          "lumaStdDev": 11.9746,
+          "lumaP05": 85.164,
+          "lumaP95": 125.3079,
+          "pixelCount": 2100
+        },
+        "v1Paint": {
+          "rgbMean": [
+            95.0314,
+            104.7043,
+            99.44
+          ],
+          "lumaMean": 102.2678,
+          "lumaStdDev": 11.9746,
+          "lumaP05": 85.164,
+          "lumaP95": 125.3079,
+          "pixelCount": 2100
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 1.0,
+        "meanAbsoluteRgbDifference": 0.0
+      }
+    },
+    {
+      "name": "consoleTop",
+      "xyxy": [
+        930,
+        402,
+        955,
+        414
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            41.39,
+            54.1733,
+            57.25
+          ],
+          "lumaMean": 51.6777,
+          "lumaStdDev": 32.5968,
+          "lumaP05": 24.9502,
+          "lumaP95": 123.803,
+          "pixelCount": 300
+        },
+        "v1Paint": {
+          "rgbMean": [
+            41.39,
+            54.1733,
+            57.2533
+          ],
+          "lumaMean": 51.678,
+          "lumaStdDev": 32.5969,
+          "lumaP05": 24.9502,
+          "lumaP95": 123.803,
+          "pixelCount": 300
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.996667,
+        "meanAbsoluteRgbDifference": 0.001111
+      }
+    },
+    {
+      "name": "lampCore",
+      "xyxy": [
+        413,
+        198,
+        416,
+        214
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            84.9792,
+            55.1042,
+            32.0208
+          ],
+          "lumaMean": 59.789,
+          "lumaStdDev": 21.7202,
+          "lumaP05": 32.6074,
+          "lumaP95": 86.0492,
+          "pixelCount": 48
+        },
+        "v1Paint": {
+          "rgbMean": [
+            85.0208,
+            55.2708,
+            32.0208
+          ],
+          "lumaMean": 59.917,
+          "lumaStdDev": 21.5613,
+          "lumaP05": 32.8577,
+          "lumaP95": 86.0492,
+          "pixelCount": 48
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.833333,
+        "meanAbsoluteRgbDifference": 0.069444
+      }
+    },
+    {
+      "name": "hullMass",
+      "xyxy": [
+        480,
+        170,
+        620,
+        610
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            13.7649,
+            14.4272,
+            15.1625
+          ],
+          "lumaMean": 14.3395,
+          "lumaStdDev": 1.2501,
+          "lumaP05": 12.5533,
+          "lumaP95": 16.7874,
+          "pixelCount": 61600
+        },
+        "v1Paint": {
+          "rgbMean": [
+            27.2541,
+            27.2161,
+            27.1463
+          ],
+          "lumaMean": 27.2192,
+          "lumaStdDev": 1.3318,
+          "lumaP05": 25.0,
+          "lumaP95": 29.2126,
+          "pixelCount": 61600
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 12.753939
+      }
+    },
+    {
+      "name": "standardFloor",
+      "xyxy": [
+        1300,
+        150,
+        1460,
+        245
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            31.3686,
+            35.6327,
+            37.0128
+          ],
+          "lumaMean": 34.8258,
+          "lumaStdDev": 5.9747,
+          "lumaP05": 24.7192,
+          "lumaP95": 44.3662,
+          "pixelCount": 15200
+        },
+        "v1Paint": {
+          "rgbMean": [
+            35.1364,
+            40.0607,
+            45.4191
+          ],
+          "lumaMean": 39.4007,
+          "lumaStdDev": 9.1921,
+          "lumaP05": 22.7914,
+          "lumaP95": 51.945,
+          "pixelCount": 15200
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.000329,
+        "meanAbsoluteRgbDifference": 7.155066
+      }
+    },
+    {
+      "name": "wallInsideArmor",
+      "xyxy": [
+        1200,
+        447,
+        1350,
+        456
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            38.057,
+            41.957,
+            45.1244
+          ],
+          "lumaMean": 41.3566,
+          "lumaStdDev": 4.3912,
+          "lumaP05": 30.9728,
+          "lumaP95": 46.3662,
+          "pixelCount": 1350
+        },
+        "v1Paint": {
+          "rgbMean": [
+            43.163,
+            44.1719,
+            44.9874
+          ],
+          "lumaMean": 44.0162,
+          "lumaStdDev": 4.1136,
+          "lumaP05": 34.8596,
+          "lumaP95": 48.5423,
+          "pixelCount": 1350
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 3.181728
+      }
+    },
+    {
+      "name": "wallCentreChannel",
+      "xyxy": [
+        1200,
+        463,
+        1350,
+        467
+      ],
+      "stats": {
+        "installed": {
+          "rgbMean": [
+            32.1417,
+            34.16,
+            36.3683
+          ],
+          "lumaMean": 33.8903,
+          "lumaStdDev": 13.7297,
+          "lumaP05": 15.8596,
+          "lumaP95": 53.651,
+          "pixelCount": 600
+        },
+        "v1Paint": {
+          "rgbMean": [
+            41.0033,
+            41.1583,
+            41.3417
+          ],
+          "lumaMean": 41.1386,
+          "lumaStdDev": 7.3105,
+          "lumaP05": 30.9278,
+          "lumaP95": 53.004,
+          "pixelCount": 600
+        }
+      },
+      "comparison": {
+        "identicalPixelFraction": 0.0,
+        "meanAbsoluteRgbDifference": 9.821111
+      }
+    }
+  ],
+  "findings": [
+    "Six role/state material inputs resolve to the same neutral grey V2 texture, eliminating the authored rail > armor > channel hierarchy.",
+    "The V2 channel texture is around twice the installed channel value. The native central recess changes from17.23 to36.09 while the rail remains near70, reducing relief.",
+    "The native full wall top becomes slightly brighter, not darker, while its value standard deviation falls. Dark interior structural mass also brightens substantially.",
+    "The same V2 paint has weaker spatial value variation and loses the original subtle blue-grey palette. Resampling reduces texture standard deviation slightly but is not the principal cause.",
+    "Sand becomes lighter and grass darker in the paired dome views. Their separate palette changes affect scene brightness perception.",
+    "Do not raise global lighting to compensate; restore material role values first."
+  ],
+  "recommendedTargetsFinalRgb": {
+    "armor": [
+      48,
+      52,
+      56
+    ],
+    "rail": [
+      60,
+      64,
+      68
+    ],
+    "channel": [
+      27,
+      28,
+      29
+    ]
+  },
+  "limitations": [
+    "No global lighting change is inferred. This is a material/colour contrast audit, not a validation of every scene light or lighting condition.",
+    "The opaque model control region is identical in the matched interior comparison; camera, tick, DLL and furniture banks match. This supports the material explanation but does not measure the light buffer independently.",
+    "Current installed texture hashes are recorded; the original before-capture metadata did not embed production material hashes. External texture hashes can be checked against their capture metadata.",
+    "The initial indoor comparison uses external material V1; its shared wall PNG is byte-identical to V2, while V2 additionally paints sand and fungal ground.",
+    "Quiet and worn now share one PNG per material role. This study restores the three value roles but does not introduce six separately weathered textures.",
+    "Single camera and tick; the selected clean horizontal run does not cover every wall orientation, dynamic light or all damage details.",
+    "Luma figures are encoded RGB proxies. Bilinear import statistics are a CPU approximation; final native PNG measurements include the actual game GPU pipeline."
+  ]
+}

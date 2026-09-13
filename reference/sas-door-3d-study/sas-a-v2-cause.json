@@ -1,0 +1,205 @@
+{
+  "Conclusion": "Spatial depth conflict in overlapping model faces, not capture cadence. Removing only the hidden shell terminal faces removes the large nose flash.",
+  "OriginalSourceSHA256": "ac9619d3b8c567571bc7f498e6b259bfa6ac8170c6ef5082ccda94577edc89dc",
+  "DiagnosticChange": "Four triangles removed from copied export only: original shell end quads X=+/-0.010, Y=-0.420..0.420, Z=0.018..0.484, behind painted mobile nose.",
+  "Removed": [
+    {
+      "Mesh": "body-faceted-faceted-leafleft-0",
+      "TriangleIndices": [
+        26,
+        27
+      ]
+    },
+    {
+      "Mesh": "body-faceted-faceted-leafright-0",
+      "TriangleIndices": [
+        26,
+        27
+      ]
+    }
+  ],
+  "ModifiedFiles": [
+    "manifest.json",
+    "meshes\\834368e887b535a6.indices.bin",
+    "meshes\\a0f3884128b181c0.indices.bin"
+  ],
+  "Unchanged": {
+    "VerticesAnimationsTexturesByteIdentical": true,
+    "WorldMatrixIdentical": true,
+    "MotionTimelineIdentical": true,
+    "SelectedBandAndDoorIdentical": true,
+    "MaterialDefinitionsIdentical": true,
+    "RendererCodeUnchanged": true
+  },
+  "Frames19to22": [
+    {
+      "Frame": 19,
+      "Bank": "original",
+      "ROI": [
+        948,
+        413,
+        972,
+        420
+      ],
+      "MeanRGB": [
+        73.607,
+        81.161,
+        82.577
+      ],
+      "StdRGB": [
+        0.764,
+        0.833,
+        0.929
+      ]
+    },
+    {
+      "Frame": 20,
+      "Bank": "original",
+      "ROI": [
+        948,
+        409,
+        972,
+        416
+      ],
+      "MeanRGB": [
+        73.548,
+        81.161,
+        82.577
+      ],
+      "StdRGB": [
+        0.77,
+        0.902,
+        0.89
+      ]
+    },
+    {
+      "Frame": 21,
+      "Bank": "original",
+      "ROI": [
+        948,
+        405,
+        972,
+        412
+      ],
+      "MeanRGB": [
+        30.28,
+        38.262,
+        42.988
+      ],
+      "StdRGB": [
+        8.034,
+        7.991,
+        7.321
+      ]
+    },
+    {
+      "Frame": 22,
+      "Bank": "original",
+      "ROI": [
+        948,
+        402,
+        972,
+        409
+      ],
+      "MeanRGB": [
+        38.488,
+        46.405,
+        50.482
+      ],
+      "StdRGB": [
+        10.65,
+        10.58,
+        9.719
+      ]
+    },
+    {
+      "Frame": 19,
+      "Bank": "diagnostic",
+      "ROI": [
+        948,
+        413,
+        972,
+        420
+      ],
+      "MeanRGB": [
+        73.607,
+        81.161,
+        82.577
+      ],
+      "StdRGB": [
+        0.764,
+        0.833,
+        0.929
+      ]
+    },
+    {
+      "Frame": 20,
+      "Bank": "diagnostic",
+      "ROI": [
+        948,
+        409,
+        972,
+        416
+      ],
+      "MeanRGB": [
+        73.548,
+        81.161,
+        82.577
+      ],
+      "StdRGB": [
+        0.77,
+        0.902,
+        0.89
+      ]
+    },
+    {
+      "Frame": 21,
+      "Bank": "diagnostic",
+      "ROI": [
+        948,
+        405,
+        972,
+        412
+      ],
+      "MeanRGB": [
+        73.524,
+        81.19,
+        82.571
+      ],
+      "StdRGB": [
+        0.74,
+        0.771,
+        0.87
+      ]
+    },
+    {
+      "Frame": 22,
+      "Bank": "diagnostic",
+      "ROI": [
+        948,
+        402,
+        972,
+        409
+      ],
+      "MeanRGB": [
+        73.554,
+        81.196,
+        82.631
+      ],
+      "StdRGB": [
+        0.829,
+        0.833,
+        0.903
+      ]
+    }
+  ],
+  "CadenceControl": "All 19 matched opening/closing poses produce exactly identical full-frame pixels; closed 0/15/85/119 and open35/64/65 are identical.",
+  "Remaining": "Small mouth-edge teeth remain in the diagnostic bank; other coincident faces require source cleanup. This copied runtime bank is not a candidate asset.",
+  "Evidence": {
+    "Comparison": "nose-causal-comparison-19-22.png",
+    "OriginalFrames": "motion-v2/frames",
+    "DiagnosticFrames": "motion-v2-no-hidden-shell/frames",
+    "CadencePixels": "jitter-pixel-pairs.json",
+    "BankConstructionAudit": "nose-causal-bank-audit.json"
+  }
+}

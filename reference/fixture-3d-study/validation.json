@@ -1,0 +1,56 @@
+{
+  "Date": "2026-09-12",
+  "Status": "First art direction, review pending, external study banks only",
+  "Tests": {
+    "Passed": 1810,
+    "Failed": 0,
+    "Skipped": 0,
+    "Trx": "fixture-model-study.trx"
+  },
+  "Banks": [
+    {
+      "Name": "cryopod-damaged",
+      "Passed": true,
+      "MaximumSkinErrorMetres": 0.0,
+      "Source": {
+        "file": "objects/cryopod/cryopod-damaged.blend",
+        "sha256": "98e97ec06da30e0eb69ba26946100bc89dc680a640944170a0423e7397d40b02"
+      },
+      "ManifestSha256": "E600EAD6C959BB63EB443808B5B484BB74BAAA163B2D9CD85A804A4FF2E64BDC",
+      "MeshCount": 96,
+      "MaterialCount": 13
+    },
+    {
+      "Name": "common-furniture",
+      "Passed": true,
+      "MaximumSkinErrorMetres": 0.0,
+      "Source": {
+        "file": "objects/common-furniture/common-furniture.blend",
+        "sha256": "a3381f08af3b364e09312c829748300e90bcf90ee24a29293ec79d93a67e7851"
+      },
+      "ManifestSha256": "CDA227C1D4DBD30B1EEB99D781E30127C9CE6A7B2B60BAA3CFEE9BE96D96981B",
+      "MeshCount": 82,
+      "MaterialCount": 6
+    },
+    {
+      "Name": "utility-furniture",
+      "Passed": true,
+      "MaximumSkinErrorMetres": 0.0,
+      "Source": {
+        "file": "objects/utility-furniture/utility-furniture.blend",
+        "sha256": "fc8191ac6ba4e030e72470d06a123ce7326adbfd12704b1e9088a5b21ac7753b"
+      },
+      "ManifestSha256": "E68A8541714F3BF9F2D4622F8EA7122E97C7CB813A5E32636A1CAE2724FB1273",
+      "MeshCount": 377,
+      "MaterialCount": 10
+    }
+  ],
+  "GameCaptures": 7,
+  "BenchCaptures": 13,
+  "ProductionDllDuringTests": "8780FD79CB12B26623DFEF2AEA452CCE317625CAE87C98623D517F9C00AA05D7",
+  "FinalClientSha256": "915D1B82BA14DD36D00B6E925566BF8938FC6EA1DED72B6223F4974042EA63DE",
+  "FinalDifference": "Study only: occupied capture flag and ASCII minus footer",
+  "IntactCryopodSourceSha256": "004A7719F65F3CB48C685197DFB48F72DCA191F95314706816091E3069164C40",
+  "InstalledNewBanks": false,
+  "CoreChanged": false
+}
