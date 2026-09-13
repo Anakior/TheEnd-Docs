@@ -1,6 +1,6 @@
 # Accueil, menu de session et premiers ordres
 
-Passe du 13 septembre 2026, intégrée au client ordinaire pour la clôture d’usage de M2.4. La première passe sprite est considérée comme réalisée ; cette livraison ne prononce pas à elle seule la clôture artistique et fonctionnelle de M2.4.
+Passe du 13 septembre 2026, intégrée au client ordinaire et validée par Ludovic (« Ok c'est bon ») après la simplification finale du menu contextuel. **M2.4 est validé et clôturé**, avec sa première passe sprite et son parcours d’usage. Les retouches pourront continuer au fil des essais. M2.5 reste à cadrer et n’est pas démarré.
 
 ## Parcours joueur
 
